@@ -2720,6 +2720,18 @@ class iPhorm
             $this->setDbFields($config['db_fields']);
         }
 
+        if (array_key_exists('send_to_podio', $config)) {
+            $this->setSendToPodio($config['send_to_podio']);
+        }
+
+        if (array_key_exists('podio_app_id', $config)) {
+            $this->setPodioAppId($config['podio_app_id']);
+        }
+
+        if (array_key_exists('podio_app_token', $config)) {
+            $this->setPodioAppToken($config['podio_app_token']);
+        }
+
         if (array_key_exists('dynamic_values', $config)) {
             $this->setDynamicValues($config['dynamic_values']);
         }

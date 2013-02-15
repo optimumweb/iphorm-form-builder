@@ -38,10 +38,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="common.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/common.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="813" column="62" selection-start="28691" selection-end="28691" vertical-scroll-proportion="0.215781">
+            <state line="813" column="62" selection-start="28691" selection-end="28691" vertical-scroll-proportion="-5.5833335">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iPhorm.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/includes/iPhorm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2731" column="36" selection-start="60937" selection-end="60937" vertical-scroll-proportion="0.67058825">
               <folding />
             </state>
           </provider>
@@ -79,11 +88,11 @@
         <option value="$PROJECT_DIR$/admin/includes/elements/time.php" />
         <option value="$PROJECT_DIR$/admin/includes/form-builder.php" />
         <option value="$PROJECT_DIR$/admin/includes/settings.php" />
-        <option value="$PROJECT_DIR$/includes/iPhorm.php" />
         <option value="$PROJECT_DIR$/includes/iPhorm/Element.php" />
         <option value="$PROJECT_DIR$/admin/includes/elements/settings/podio-id.php" />
         <option value="$PROJECT_DIR$/admin/js/iphorm-form-builder.js" />
         <option value="$PROJECT_DIR$/includes/common.php" />
+        <option value="$PROJECT_DIR$/includes/iPhorm.php" />
       </list>
     </option>
   </component>
@@ -264,13 +273,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/includes/elements/html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="65" selection-start="2848" selection-end="2848" vertical-scroll-proportion="0.8937198">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -373,7 +375,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/common.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="813" column="62" selection-start="28691" selection-end="28691" vertical-scroll-proportion="0.215781">
+        <state line="813" column="62" selection-start="28691" selection-end="28691" vertical-scroll-proportion="-5.5833335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/iPhorm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2731" column="36" selection-start="60937" selection-end="60937" vertical-scroll-proportion="0.67058825">
           <folding />
         </state>
       </provider>
