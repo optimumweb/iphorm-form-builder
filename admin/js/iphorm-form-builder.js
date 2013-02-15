@@ -1584,8 +1584,7 @@
 		},
 
         updatePodioId: function (input, element) {
-            var podio_id = $(input).val();
-            element.podio_id = podio_id;
+            $('#ifb_element_'+element.id).val($(input).val());
         },
 
 		updateConditionalRecipientLabels: function (element) {
