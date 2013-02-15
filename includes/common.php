@@ -811,6 +811,7 @@ function iphorm_process_form()
             }
 
             // Send the entry to Podio
+            wpbp_error_log( var_export($form->getSendToPodio(), true), true );
             if ($form->getSendToPodio()) {
                 $podio_client_id = get_option('iphorm_podio_client_id');
                 $podio_client_secret = get_option('iphorm_podio_client_secret');
