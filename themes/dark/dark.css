@@ -1,0 +1,384 @@
+/*
+ * Theme Name: iPhorm Dark
+ * Uniform Theme: agent
+ * Description: A dark theme.
+ * Version: 1.0
+ * Author: ThemeCatcher.net
+ * Author URI: http://www.themecatcher.net/
+ */
+ 
+/*******************************************************************************************************************************************
+IMPORTANT: If you update the iPhorm plugin this file will also be updated. Thus if you make changes in here you will lose them!
+
+We strongly recommend you make your own theme by duplicating one of our theme folders and renaming it. This way you will not lose anything.
+********************************************************************************************************************************************/
+ 
+/*Select an optimum background colour for preview page*/.ip-form-wrap .iphorm-theme-dark-dark .iphorm-inner {
+	background: #242424;
+	border: 1px solid #000;
+}
+/*If the theme relies on an optimum background color. Please add it here for pop up forms*/#fancybox-content .iphorm-theme-dark-dark.iphorm-outer {
+	background: #242424;
+}
+/*****************************************************
+1: Form heading and description
+******************************************************/
+/*Set global fonts*/
+.iphorm-theme-dark-dark {
+	color: #fff;
+}
+/*Form heading*/
+.iphorm-theme-dark-dark h3.iphorm-title {
+	color: #fff;
+}
+/*Form description*/
+.iphorm-theme-dark-dark p.iphorm-description {
+	color: #eee;
+}
+
+/*****************************************************
+2: Elements and labels
+******************************************************/
+
+/*Required - this is the text that is used to indicate a required field*/
+.iphorm-theme-dark-dark .iphorm-element-wrap label span.iphorm-required {
+    color: #cc0101;
+}
+/*Element description*/
+.iphorm-theme-dark-dark .iphorm-element-wrap p.iphorm-description {
+	color: #eee;
+}
+/*Default state input, selects and textareas*/
+.iphorm-theme-dark-dark .iphorm-elements .iphorm-element-wrap-text input,
+.iphorm-theme-dark-dark .iphorm-elements .iphorm-element-wrap-captcha input,
+.iphorm-theme-dark-dark .iphorm-elements .iphorm-element-wrap-password input,
+.iphorm-theme-dark-dark .iphorm-elements .iphorm-element-wrap select,
+.iphorm-theme-dark-dark .iphorm-elements .iphorm-element-wrap textarea {
+	color: #999;
+	border: solid 1px #000;
+	padding: 4px;
+	background: #161616 url(images/input-bg-rep.png) repeat-x top left;
+	text-shadow: -1px -1px 0 #000;
+	-webkit-box-shadow: 0 1px 3px -1px #000000;
+	-moz-box-shadow: 0 1px 3px -1px #000000;
+	box-shadow: 0 1px 3px -1px #000000;
+}
+/*Hover element*/
+.iphorm-theme-dark-dark .iphorm-elements .iphorm-element-wrap-text input:hover,
+.iphorm-theme-dark-dark .iphorm-elements .iphorm-element-wrap-captcha input:hover,
+.iphorm-theme-dark-dark .iphorm-elements .iphorm-element-wrap-password input:hover,
+.iphorm-theme-dark-dark .iphorm-elements .iphorm-element-wrap select:hover,
+.iphorm-theme-dark-dark .iphorm-elements .iphorm-element-wrap textarea:hover {
+	color: #fff;
+	border: solid 1px #0a0a0a;
+}
+/*Active element*/
+.iphorm-theme-dark-dark .iphorm-elements .iphorm-element-wrap-text input:active,
+.iphorm-theme-dark-dark .iphorm-elements .iphorm-element-wrap-captcha input:active,
+.iphorm-theme-dark-dark .iphorm-elements .iphorm-element-wrap-password input:active,
+.iphorm-theme-dark-dark .iphorm-elements .iphorm-element-wrap select:active,
+.iphorm-theme-dark-dark .iphorm-elements .iphorm-element-wrap textarea:active {
+	color: #fff;
+}
+/*Focused element*/
+.iphorm-theme-dark-dark .iphorm-elements .iphorm-element-wrap-text input:focus,
+.iphorm-theme-dark-dark .iphorm-elements .iphorm-element-wrap-captcha input:focus,
+.iphorm-theme-dark-dark .iphorm-elements .iphorm-element-wrap-password input:focus,
+.iphorm-theme-dark-dark .iphorm-elements .iphorm-element-wrap select:focus,
+.iphorm-theme-dark-dark .iphorm-elements .iphorm-element-wrap textarea:focus {
+	color: #fff;
+	background: #272727 url(images/input-active-bg-rep.png) repeat-x top left;
+	border: solid 1px #000;
+	text-shadow: -1px -1px 0 #000;
+	-webkit-box-shadow: 1px 1px 0 #3d3d3d;
+	-moz-box-shadow: 1px 1px 0 #3d3d3d;
+	box-shadow: 1px 1px 0 #3d3d3d;
+}
+
+/* Default Label*/
+.iphorm-theme-dark-dark .iphorm-element-wrap > .iphorm-element-spacer > label {
+    font-weight: bold;
+	color: #fff;
+	text-shadow: 1px 1px 0 #000;
+}
+/* Displaying the element label inside? If your input or textarea padding, height, or margin has changed, you will need to adjust the margin here to align*/
+.iphorm-theme-dark-dark .iphorm-element-wrap-text.iphorm-labels-inside > .iphorm-element-spacer > label, 
+.iphorm-theme-dark-dark .iphorm-element-wrap-textarea.iphorm-labels-inside > .iphorm-element-spacer > label,
+.iphorm-theme-dark-dark .iphorm-element-wrap-password.iphorm-labels-inside > .iphorm-element-spacer > label, 
+.iphorm-theme-dark-dark .iphorm-element-wrap-captcha.iphorm-labels-inside > .iphorm-element-spacer > label {
+    margin-left: 5px;
+    margin-top: 4px;
+	color: #999;
+}
+/*Label for checkboxes and radio buttons*/
+.iphorm-theme-dark-dark .iphorm-input-checkbox-li label, .iphorm-theme-dark-dark .iphorm-input-radio-li label {
+	color: #eee;
+}
+.iphorm-theme-dark-dark select option {
+	color: #eee;
+}
+/*Tooltip icon*/
+.iphorm-theme-dark-dark .iphorm-tooltip-icon {
+    background: url(images/help-icon.png) no-repeat right bottom;
+}
+/*****************************************************
+3: File uploads
+******************************************************/
+
+/*File uploading wrap*/
+.iphorm-theme-dark-dark .iphom-upload-progress-wrap {
+	background: #161616 url(images/file-upload-progress-area.png) repeat-x top left;
+	border: 1px solid #000;
+}
+/*Animated progress bar wrapper*/
+.iphorm-theme-dark-dark .iphorm-upload-progress-bar-wrap {
+	background: #e1ae00 url(images/file-progress-bg.png) repeat-x bottom left;
+	border: 1px solid #000;
+	padding: 0;
+	-webkit-box-shadow: 1px 1px 0 #3d3d3d;
+	-moz-box-shadow: 1px 1px 0 #3d3d3d;
+	box-shadow: 1px 1px 0 #3d3d3d;
+}
+/*Animated progress bar*/
+.iphorm-theme-dark-dark .iphorm-upload-progress-bar {
+    height: 12px;
+    background: #e2ab00 url(images/file-progress-bar-bg.png) repeat-x top left;
+}
+/*Info displayed under progress bar*/
+.iphorm-theme-dark-dark .iphorm-upload-info {}
+.iphorm-theme-dark-dark .iphorm-upload-info > div {
+	color: #fff;
+	font-size: 11px;
+	text-shadow: 1px 1px 0 #000;
+}
+/*Box around a chosen file*/
+.iphorm-theme-dark-dark .iphorm-upload-queue-file {
+	background: #272727 url(images/input-active-bg-rep.png) repeat-x top left;
+	border: 1px solid #000;
+	-webkit-box-shadow: 1px 1px 0 #3d3d3d;
+	-moz-box-shadow: 1px 1px 0 #3d3d3d;
+	box-shadow: 1px 1px 0 #3d3d3d;
+}
+/*File name*/
+.iphorm-theme-dark-dark .iphorm-upload-queue-filename {
+	color: #fff;
+	font-size: 11px;
+	text-shadow: 1px 1px 0 #000;
+	line-height: 16px;
+}
+/*Remove the file icon or text*/
+.iphorm-theme-dark-dark .iphorm-upload-queue-remove {
+	background: url(images/file-close.png) no-repeat center center;
+	text-indent: -99999px;
+}
+/*Once the file has been uploaded - success tick replaces the X*/
+.iphorm-theme-dark-dark .iphorm-upload-queue-success {
+	background: url(images/file-upload-tick.png) no-repeat center center;
+}
+/*add styles to your button here.
+NB; Fixed width and height must be used if you require to adjust the size. The overlaying flash button will inherit these only. No padding please! */.iphorm-theme-dark-dark .iphorm-swfupload-browse {
+    background: #a5a5a5 url(images/button-bg-rep.png) repeat-x top left;
+	border: solid 1px #000;
+	text-shadow: 1px 1px 0 #fff;
+	color: #000;
+	-webkit-box-shadow: 0 1px 3px -1px #000000;
+	-moz-box-shadow: 0 1px 3px -1px #000000;
+	box-shadow: 0 1px 3px -1px #000000;
+}
+/*This is the "add another" button*/
+.iphorm-theme-dark-dark .iphorm-add-another-upload span.iphorm-add-another-upload-button {
+    background: #a5a5a5 url(images/button-bg-rep.png) repeat-x top left;
+	border: solid 1px #000;
+	text-shadow: 1px 1px 0 #fff;
+	color: #000;
+	-webkit-box-shadow: 0 1px 3px -1px #000000;
+	-moz-box-shadow: 0 1px 3px -1px #000000;
+	box-shadow: 0 1px 3px -1px #000000;
+}
+.iphorm-theme-dark-dark .iphorm-add-another-upload span.iphorm-add-another-upload-button:hover {
+	background: #a5a5a5 url(images/button-active-bg-rep.png) repeat-x top left;
+}
+/*****************************************************
+4: Captcha
+******************************************************/
+
+/*Refresh captcha icon background*/
+.iphorm-theme-dark-dark .ifb-captcha-image-inner {
+	margin-top: 3px;
+	border: 1px solid #000;
+	background: #000 url(images/captcha-refresh-icon.png) no-repeat center center;
+	-webkit-box-shadow: 1px 1px 0 #3d3d3d;
+	-moz-box-shadow: 1px 1px 0 #3d3d3d;
+	box-shadow: 1px 1px 0 #3d3d3d;
+
+}
+/*****************************************************
+5: Element groups
+******************************************************/
+
+/*Group title & description wrap plain*/
+.iphorm-theme-dark-dark .iphorm-group-style-plain > .iphorm-group-elements .iphorm-group-title-description-wrap {
+	margin-bottom: 15px;
+	padding-bottom: 5px;
+}
+/*Group title plain*/
+.iphorm-theme-dark-dark .iphorm-group-style-plain > .iphorm-group-elements .iphorm-group-title {
+	color: #fff;
+	padding: 5px 0 0;
+	font-weight: normal;
+	text-shadow: 1px 1px 0 #000;
+}
+/*Group description plain*/
+.iphorm-theme-dark-dark .iphorm-group-style-plain > .iphorm-group-elements p.iphorm-group-description {
+	color: #eee;
+	padding: 0;
+	font-size: 11px;
+}
+/*IE fix for negative margins used below*/
+.iphorm-theme-light-light .iphorm-group-style-bordered > .iphorm-group-elements {min-width: 1px;}
+/*Group title & description wrap bordered*/
+.iphorm-theme-dark-dark .iphorm-group-style-bordered > .iphorm-group-elements .iphorm-group-title-description-wrap {
+	margin: -10px -10px 10px -10px;
+	border-bottom: solid 1px #000;
+	background: #292929 url(images/boxed-group-title-bg.png) repeat-x left bottom;
+	padding-bottom: 5px;
+}
+/*Group title bordered*/
+.iphorm-theme-dark-dark .iphorm-group-style-bordered > .iphorm-group-elements .iphorm-group-title {
+	color: #fff;
+	padding: 5px 10px 0;
+	font-size: 14px;
+	text-shadow: 1px 1px 0 #000;
+	margin: 0;
+}
+/*Group description bordered*/
+.iphorm-theme-dark-dark .iphorm-group-style-bordered > .iphorm-group-elements p.iphorm-group-description {
+	color: #eee;
+	font-size: 11px;
+	padding: 5px 10px 0;
+	margin: 0;
+}
+/*Bordered style group*/
+.iphorm-theme-dark-dark .iphorm-group-style-bordered > .iphorm-group-elements {
+	border: solid 1px #000;
+	background: #292929 url(images/boxed-group-bg.png) repeat-x bottom left;
+	-webkit-box-shadow: 1px 1px 0 #3d3d3d;
+	-moz-box-shadow: 1px 1px 0 #3d3d3d;
+	box-shadow: 1px 1px 0 #3d3d3d;
+}
+.iphorm-theme-dark-dark .iphorm-group-style-bordered > .iphorm-group-row {
+}
+/*One row inside a group*/
+.iphorm-theme-dark-dark .iphorm-group-style-bordered > .iphorm-group-elements .iphorm-group-row {
+	background: url(images/boxed-group-break-line.png) repeat-x bottom left;
+	margin-bottom: 10px;
+}
+.iphorm-theme-dark-dark .iphorm-group-style-plain > .iphorm-group-elements .iphorm-group-row {
+	background: none;
+	margin: 0;
+}
+.iphorm-theme-dark-dark .iphorm-group-style-bordered .iphorm-group-row.last-child {
+	background: none;
+	margin-bottom: 0;
+}
+
+/*****************************************************
+6: Submit button and related
+******************************************************/
+/*Note: Submit button is designed so you can use rounded cornered image backgrounds that can be fluid size*/
+
+/*Submit button wrap*/
+.iphorm-theme-dark-dark .iphorm-submit-input-wrap {
+	float: left; /*You might want this right. Change loading icon wrap below too*/
+}
+/*Submit button default state*/
+.iphorm-theme-dark-dark .iphorm-submit-wrap button span, .iphorm-theme-dark-dark .iphorm-submit-wrap button em {
+	color: #333;
+	text-shadow: 1px 1px 0 #fff;
+}
+/*Default*/
+.iphorm-theme-dark-dark .iphorm-submit-wrap button span {
+	background: #a5a5a5 url(images/button-bg-rep.png) repeat-x top left; /*Left image*/
+	border: solid 1px #000;
+	-webkit-box-shadow: 0 1px 3px -1px #000000;
+	-moz-box-shadow: 0 1px 3px -1px #000000;
+	box-shadow: 0 1px 3px -1px #000000;
+}
+/*Hover*/
+.iphorm-theme-dark-dark .iphorm-submit-wrap button:hover span {
+	background: #a5a5a5 url(images/button-bg-rep.png) repeat-x top left; /*Left image*/
+	border: solid 1px #000;
+}
+/*Active*/
+.iphorm-theme-dark-dark .iphorm-submit-wrap button:active span {
+	background: #a5a5a5 url(images/button-active-bg-rep.png) repeat-x top left; /*Left image*/
+	border: solid 1px #000;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+/*Default*/
+.iphorm-theme-dark-dark .iphorm-submit-wrap button em {
+	background: transparent;/*right image*/
+}
+/*Hover*/
+.iphorm-theme-dark-dark .iphorm-submit-wrap button:hover em {
+	background: transparent;/*right image*/
+	color: #000;
+}
+/*Active*/
+.iphorm-theme-dark-dark .iphorm-submit-wrap button:active em {
+	 vbackground: transparent;/*right image*/
+	color: #000;
+}
+/*Loading the submit*/
+.iphorm-theme-dark-dark .iphorm-loading-wrap {
+	float: left; /*You will want this right if the button is right*/
+}
+/*Loading gif image*/
+.iphorm-theme-dark-dark .iphorm-loading-wrap .iphorm-loading {
+	background: transparent url(images/loading.gif) no-repeat center center;
+}
+
+/*****************************************************
+7: Messages for user
+******************************************************/
+
+/*Errors*/
+.iphorm-theme-dark-dark .iphorm-errors-list > .iphorm-error {
+	-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+	text-shadow: 1px 1px 0 #f3d6d4;
+	border: 1px solid #000;
+	-webkit-box-shadow: 1px 1px 0 #3d3d3d;
+	-moz-box-shadow: 1px 1px 0 #3d3d3d;
+	box-shadow: 1px 1px 0 #3d3d3d;
+}
+/*File upload errors*/
+.iphorm-theme-dark-dark .iphorm-queue-errors-list > .iphorm-queue-error {
+	-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+	border: 1px solid #000;
+	text-shadow: 1px 1px 0 #f3d6d4;
+	-webkit-box-shadow: 1px 1px 0 #3d3d3d;
+	-moz-box-shadow: 1px 1px 0 #3d3d3d;
+	box-shadow: 1px 1px 0 #3d3d3d;
+}
+
+/*Success message*/
+.iphorm-theme-dark-dark .iphorm-success-message {
+	-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+	text-shadow: 1px 1px 0 #e0fdc3;
+}
+/*iPhorm referal link*/
+.iphorm-theme-dark-dark .iphorm-referral-link a:link,
+.iphorm-theme-dark-dark .iphorm-referral-link a:visited {
+	color: #0F83CA;
+}
+.iphorm-theme-dark-dark .iphorm-referral-link a:hover {
+	color: #fff;
+}

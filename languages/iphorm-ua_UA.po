@@ -1,0 +1,6676 @@
+# Copyright (C) 2010 iPhorm Form Builder
+# This file is distributed under the same license as the iPhorm Form Builder package.
+msgid ""
+msgstr ""
+"Project-Id-Version: iPhorm Form Builder 1.3.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/iphorm-form-builder\n"
+"POT-Creation-Date: 2012-02-14 14:25:05+00:00\n"
+"PO-Revision-Date: 2012-02-20 14:03+0200\n"
+"Last-Translator: Protera <admin@voffa.ru>\n"
+"Language-Team: ITpride <admin@itpride.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Ukrainian\n"
+"X-Poedit-Country: UKRAINE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: Plural-Forms: nplurals=2; plural=(n != 1);\\n\n"
+"X-Poedit-KeywordsList: __;_e\n"
+
+#: admin/includes/export.php:5
+#: admin/includes/entries.php:5
+#: admin/includes/forms.php:5
+#: admin/includes/settings.php:5
+#: admin/includes/import.php:5
+#: admin/includes/form-builder.php:5
+#: admin/includes/entry.php:5
+#: admin/includes/help.php:5
+msgid "Report a bug"
+msgstr "Помилки"
+
+#: admin/includes/export.php:6
+#: admin/includes/entries.php:6
+#: admin/includes/forms.php:6
+#: admin/includes/settings.php:6
+#: admin/includes/elements/_save.php:5
+#: admin/includes/import.php:6
+#: admin/includes/form-builder.php:6
+#: admin/includes/entry.php:6
+#: admin/includes/help.php:6
+#: admin/includes/help.php:10
+#: admin/admin.php:268
+#: admin/admin.php:269
+#: admin/admin.php:3129
+msgid "Help"
+msgstr "Допомога"
+
+#: admin/includes/export.php:13
+msgid "Export form"
+msgstr "Експорт форми"
+
+#: admin/includes/export.php:15
+msgid "Export entries"
+msgstr "Експорт форм"
+
+#: admin/includes/export.php:24
+msgid "Export Entries"
+msgstr "Експорт форм"
+
+#: admin/includes/export.php:25
+msgid "Export Form"
+msgstr "Експортувати форму"
+
+#: admin/includes/export.php:38
+#: includes/widget.php:55
+#: includes/widget.php:126
+msgid "Select a form"
+msgstr "Оберіть форму"
+
+#: admin/includes/export.php:41
+msgid "Please select"
+msgstr "Оберіть"
+
+#: admin/includes/export.php:49
+msgid "Choose which fields to export"
+msgstr "Оберіть поля для експорту"
+
+#: admin/includes/export.php:50
+msgid "Tick all"
+msgstr "Обрати всі"
+
+#: admin/includes/export.php:53
+msgid "Date range (optional)"
+msgstr "Інтервал дат (опційно)"
+
+#: admin/includes/export.php:54
+msgid "From"
+msgstr "Від"
+
+#: admin/includes/export.php:56
+msgid "To"
+msgstr "До"
+
+#: admin/includes/export.php:58
+msgid "Click the fields to show a calendar"
+msgstr "Показувати в календарі"
+
+#: admin/includes/export.php:61
+msgid "Download"
+msgstr "Завантажити"
+
+#: admin/includes/export.php:68
+#: admin/includes/export.php:91
+#: admin/includes/forms.php:133
+#: admin/admin.php:1152
+msgid "No forms found, %sclick here to create one%s."
+msgstr "Форм не знайдено, %sстворити%s."
+
+#: admin/includes/export.php:79
+msgid "Select a form to export"
+msgstr "Оберіть форму для експорту"
+
+#: admin/includes/export.php:87
+#: admin/includes/forms.php:105
+#: admin/admin.php:250
+#: admin/admin.php:251
+#: admin/admin.php:3127
+msgid "Export"
+msgstr "Експорт"
+
+#: admin/includes/export.php:97
+msgid "Form export data"
+msgstr "Дані для екпорту"
+
+#: admin/includes/export.php:100
+msgid "Click inside the box to select all text"
+msgstr "Натисніть, щоб виділити увесь текст"
+
+#: admin/includes/export.php:101
+msgid "Copy the text inside the box and paste it into the box on the Quform Import page on another website"
+msgstr "Скопіюйте цей текст та вставьте в поле для імпорту в Quform  на іншому сайті"
+
+#: admin/includes/entries.php:11
+#: admin/includes/entries.php:197
+#: admin/includes/forms.php:53
+#: admin/includes/forms.php:73
+#: admin/includes/forms.php:98
+#: admin/includes/help/_nav-settings.php:7
+#: admin/includes/form-builder.php:44
+#: admin/admin.php:232
+#: admin/admin.php:233
+#: admin/admin.php:3125
+msgid "Entries"
+msgstr "Дані"
+
+#: admin/includes/entries.php:13
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Результат пошуку для запиту  &#8220;%s&#8221;"
+
+#: admin/includes/entries.php:21
+#: admin/includes/form-builder.php:28
+#: admin/admin.php:3123
+msgid "All Forms"
+msgstr "Всі форми"
+
+#: admin/includes/entries.php:24
+#: admin/includes/form-builder.php:31
+msgid "Switch Form"
+msgstr "Переключити форму"
+
+#: admin/includes/entries.php:27
+#: admin/includes/form-builder.php:34
+msgid "Create a new form"
+msgstr "Створити форму"
+
+#: admin/includes/entries.php:39
+msgid "Edit Form"
+msgstr "Редагувати"
+
+#: admin/includes/entries.php:42
+msgid "Edit Table Layout"
+msgstr "Редагувати таблицю"
+
+#: admin/includes/entries.php:55
+#: admin/includes/entries.php:80
+#: admin/includes/forms.php:21
+msgid "All"
+msgstr "Всі"
+
+#: admin/includes/entries.php:57
+msgid "Search results"
+msgstr "Результати пошуку"
+
+#: admin/includes/entries.php:62
+msgid "Search Entries"
+msgstr "Дані пошуку"
+
+#: admin/includes/entries.php:67
+#: admin/includes/entries.php:184
+#: admin/includes/forms.php:30
+#: admin/includes/forms.php:142
+msgid "Bulk Actions"
+msgstr "Масові операції"
+
+#: admin/includes/entries.php:68
+#: admin/includes/entries.php:162
+#: admin/includes/entries.php:185
+msgid "Mark as read"
+msgstr "Відзначити як прочитане"
+
+#: admin/includes/entries.php:69
+#: admin/includes/entries.php:164
+#: admin/includes/entries.php:186
+msgid "Mark as unread"
+msgstr "Відзначити як непрочитане"
+
+#: admin/includes/entries.php:70
+#: admin/includes/entries.php:166
+#: admin/includes/entries.php:187
+#: admin/includes/forms.php:33
+#: admin/includes/forms.php:106
+#: admin/includes/forms.php:145
+#: admin/includes/elements/_actions.php:4
+#: admin/includes/elements/settings/global-style.php:5
+#: admin/includes/elements/settings/style.php:5
+#: admin/includes/elements/settings/validators/email.php:5
+#: admin/includes/elements/settings/validators/greater-than.php:5
+#: admin/includes/elements/settings/validators/alpha-numeric.php:5
+#: admin/includes/elements/settings/validators/length.php:5
+#: admin/includes/elements/settings/validators/digits.php:5
+#: admin/includes/elements/settings/validators/identical.php:5
+#: admin/includes/elements/settings/validators/less-than.php:5
+#: admin/includes/elements/settings/validators/alpha.php:5
+#: admin/includes/elements/settings/validators/regex.php:5
+#: admin/includes/elements/settings/filters/alpha-numeric.php:5
+#: admin/includes/elements/settings/filters/strip-tags.php:5
+#: admin/includes/elements/settings/filters/digits.php:5
+#: admin/includes/elements/settings/filters/trim.php:3
+#: admin/includes/elements/settings/filters/alpha.php:5
+#: admin/includes/elements/settings/filters/regex.php:5
+msgid "Delete"
+msgstr "Видалити"
+
+#: admin/includes/entries.php:72
+#: admin/includes/entries.php:189
+#: admin/includes/forms.php:35
+#: admin/includes/forms.php:147
+msgid "Apply"
+msgstr "Застосувати"
+
+#: admin/includes/entries.php:82
+msgid "per page"
+msgstr "на сторінці"
+
+#: admin/includes/entries.php:135
+#: admin/includes/entries.php:160
+msgid "View this entry"
+msgstr "Подивитися запис"
+
+#: admin/includes/entries.php:160
+msgid "View"
+msgstr "Перегляд"
+
+#: admin/includes/entries.php:166
+msgid "Delete this entry"
+msgstr "Видалити запис"
+
+#: admin/includes/entries.php:175
+msgid "No entries found."
+msgstr "Нема даних."
+
+#: admin/includes/entries.php:198
+msgid "I couldn't find any forms, do you want to %screate one%s?"
+msgstr "Я не можу знайти жодної форми, %sстворити першу%s?"
+
+#: admin/includes/forms.php:10
+#: admin/admin.php:214
+#: admin/admin.php:215
+msgid "Forms"
+msgstr "Форми"
+
+#: admin/includes/forms.php:10
+msgid "Add New"
+msgstr "Створити"
+
+#: admin/includes/forms.php:22
+#: admin/includes/forms.php:56
+#: admin/includes/forms.php:76
+#: admin/includes/form-builder.php:267
+msgid "Active"
+msgstr "Активна"
+
+#: admin/includes/forms.php:23
+msgid "Inactive"
+msgstr "Вимкнена"
+
+#: admin/includes/forms.php:31
+#: admin/includes/forms.php:102
+#: admin/includes/forms.php:143
+msgid "Activate"
+msgstr "Ввімкнути"
+
+#: admin/includes/forms.php:32
+#: admin/includes/forms.php:100
+#: admin/includes/forms.php:144
+msgid "Deactivate"
+msgstr "Вимкнути"
+
+#: admin/includes/forms.php:47
+#: admin/includes/forms.php:67
+msgid "ID"
+msgstr "ID"
+
+#: admin/includes/forms.php:50
+#: admin/includes/forms.php:70
+#: admin/includes/elements/groupstart.php:39
+#: admin/includes/form-builder.php:239
+msgid "Name"
+msgstr "Ім'я"
+
+#: admin/includes/forms.php:96
+#: includes/form.php:347
+msgid "Edit this form"
+msgstr "Редагувати форму"
+
+#: admin/includes/forms.php:96
+msgid "Edit"
+msgstr "Редагувати"
+
+#: admin/includes/forms.php:97
+msgid "Preview this form"
+msgstr "Перегляд форми"
+
+#: admin/includes/forms.php:97
+#: admin/includes/form-builder.php:139
+#: admin/includes/form-builder.php:1327
+#: admin/includes/preview.php:5
+msgid "Preview"
+msgstr "Перегляд"
+
+#: admin/includes/forms.php:98
+msgid "View submitted form entries"
+msgstr "Дивитися надіслані дані цієї форми"
+
+#: admin/includes/forms.php:100
+msgid "Deactivate this form"
+msgstr "Вимкнути форму"
+
+#: admin/includes/forms.php:102
+msgid "Activate this form"
+msgstr "Ввімкнути форму"
+
+#: admin/includes/forms.php:104
+msgid "Duplicate this form"
+msgstr "Копіювати форму"
+
+#: admin/includes/forms.php:104
+msgid "Duplicate"
+msgstr "Копія"
+
+#: admin/includes/forms.php:105
+msgid "Export this form"
+msgstr "Експорт форми"
+
+#: admin/includes/forms.php:106
+msgid "Delete this form"
+msgstr "Видалити форму"
+
+#: admin/includes/forms.php:114
+msgid "%d unread"
+msgstr "%d непрочитаних"
+
+#: admin/includes/forms.php:117
+msgid "%d entry"
+msgid_plural "%d entries"
+msgstr[0] "%d запис"
+msgstr[1] "%d записів"
+
+#: admin/includes/forms.php:124
+msgid "Yes"
+msgstr "Так"
+
+#: admin/includes/forms.php:126
+msgid "No"
+msgstr "Ні"
+
+#: admin/includes/settings.php:10
+#: admin/includes/elements/select.php:39
+#: admin/includes/elements/email.php:26
+#: admin/includes/elements/radio.php:43
+#: admin/includes/elements/file.php:25
+#: admin/includes/elements/time.php:57
+#: admin/includes/elements/checkbox.php:43
+#: admin/includes/elements/_actions.php:3
+#: admin/includes/elements/hidden.php:23
+#: admin/includes/elements/groupstart.php:27
+#: admin/includes/elements/captcha.php:51
+#: admin/includes/elements/date.php:76
+#: admin/includes/elements/settings/validators/email.php:4
+#: admin/includes/elements/settings/validators/greater-than.php:4
+#: admin/includes/elements/settings/validators/greater-than.php:10
+#: admin/includes/elements/settings/validators/alpha-numeric.php:4
+#: admin/includes/elements/settings/validators/alpha-numeric.php:10
+#: admin/includes/elements/settings/validators/length.php:4
+#: admin/includes/elements/settings/validators/length.php:10
+#: admin/includes/elements/settings/validators/digits.php:4
+#: admin/includes/elements/settings/validators/digits.php:10
+#: admin/includes/elements/settings/validators/identical.php:4
+#: admin/includes/elements/settings/validators/identical.php:10
+#: admin/includes/elements/settings/validators/less-than.php:4
+#: admin/includes/elements/settings/validators/less-than.php:10
+#: admin/includes/elements/settings/validators/alpha.php:4
+#: admin/includes/elements/settings/validators/alpha.php:10
+#: admin/includes/elements/settings/validators/regex.php:4
+#: admin/includes/elements/settings/validators/regex.php:10
+#: admin/includes/elements/settings/filters/alpha-numeric.php:4
+#: admin/includes/elements/settings/filters/strip-tags.php:4
+#: admin/includes/elements/settings/filters/digits.php:4
+#: admin/includes/elements/settings/filters/alpha.php:4
+#: admin/includes/elements/settings/filters/regex.php:4
+#: admin/includes/elements/html.php:17
+#: admin/includes/elements/recaptcha.php:33
+#: admin/includes/elements/text.php:26
+#: admin/includes/elements/password.php:26
+#: admin/includes/elements/textarea.php:26
+#: admin/includes/form-builder.php:155
+#: admin/includes/help.php:19
+#: admin/admin.php:259
+#: admin/admin.php:260
+#: admin/admin.php:3128
+msgid "Settings"
+msgstr "Параметри"
+
+#: admin/includes/settings.php:38
+msgid "Settings saved."
+msgstr "Параметри збережено."
+
+#: admin/includes/settings.php:42
+msgid "Product license"
+msgstr "Ліцензія продукту"
+
+#: admin/includes/settings.php:43
+msgid ""
+"A valid license key entitles you to support and enables automatic upgrades. %3$sA\n"
+"        license key may only be used for one installation of WordPress at a time%4$s, if you have previously verified a license key\n"
+"        for another website, and use it again here, the Quform plugin will become unlicensed on the other website. Please enter your\n"
+"        CodeCanyon Quform license key, you can find your key by following the instructions on %1$sthis page%2$s."
+msgstr ""
+"Ліцензійний ключ дозволить Вам отримати доступ до допомоги та включить автоматичне оновлення. %3$s\n"
+"        Один ключ може бути використаний тільки для однієї установки WordPress %4$s, Якщо Ви ввели ключ на  \n"
+"        іншому вебсайті і використовуєте його знову на цьому сайті, плагін стане неліцензійним на попередньому сайті. Будь ласка введіть \n"
+"        CodeCanyon ключ для Quform, Ви знайдете його на  %1$s цій сторінці %2$s."
+
+#: admin/includes/settings.php:49
+msgid "License status"
+msgstr "Статус ліцензії"
+
+#: admin/includes/settings.php:52
+msgid "Valid license key"
+msgstr "Правильний ключ ліцензії"
+
+#: admin/includes/settings.php:53
+msgid "Unlicensed product"
+msgstr "Неліцензійна версія"
+
+#: admin/includes/settings.php:57
+msgid "Enter license key"
+msgstr "Введіть ключ ліцензії"
+
+#: admin/includes/settings.php:58
+msgid "Verify"
+msgstr "Перевірити"
+
+#: admin/includes/settings.php:63
+msgid "reCAPTCHA settings"
+msgstr "Установки reCAPTCHA"
+
+#: admin/includes/settings.php:64
+msgid ""
+"In order to use the reCAPTCHA element in your form you must %ssign up%s\n"
+"        for a free account to get your set of API keys. Once you have your public and private key, enter them below."
+msgstr ""
+"Якщо Ви використовуєте reCAPTCHA ви повинні %sзареєструвати%s\n"
+"        безкоштовний акаунт для отримання API ключів. Також Ви повинні ввести свої public і private ключі в форму нижче."
+
+#: admin/includes/settings.php:69
+msgid "reCAPTCHA public key"
+msgstr "reCAPTCHA public key"
+
+#: admin/includes/settings.php:73
+msgid "reCAPTCHA private key"
+msgstr "reCAPTCHA private key"
+
+#: admin/includes/settings.php:77
+#: admin/includes/form-builder.php:1086
+msgid "Email sending settings"
+msgstr "Установки для пошти"
+
+#: admin/includes/settings.php:78
+msgid ""
+"The settings here will determine the default email sending settings for all your forms\n"
+"        you can also override these settings for each form at Form Builder &rarr; Settings &rarr; Email."
+msgstr ""
+"Ці установки визначають спосіб відправки пошти за замовчуванням для всіх форм\n"
+"        Ви можете змінити ці налаштування для кожної форми окремо в пункті Конструктор &rarr; Параметри &rarr; Відправлення."
+
+#: admin/includes/settings.php:86
+#: admin/includes/form-builder.php:1090
+msgid "Email sending method"
+msgstr "Метод відправки"
+
+#: admin/includes/settings.php:89
+msgid "PHP mail() (default)"
+msgstr "PHP mail() (за замовчуванням)"
+
+#: admin/includes/settings.php:90
+#: admin/includes/form-builder.php:1095
+msgid "SMTP"
+msgstr "SMTP"
+
+#: admin/includes/settings.php:95
+#: admin/includes/form-builder.php:1102
+msgid "SMTP host"
+msgstr "SMTP host"
+
+#: admin/includes/settings.php:101
+#: admin/includes/form-builder.php:1109
+msgid "SMTP port"
+msgstr "SMTP port"
+
+#: admin/includes/settings.php:107
+#: admin/includes/form-builder.php:1116
+msgid "SMTP encryption"
+msgstr "SMTP encryption"
+
+#: admin/includes/settings.php:110
+#: admin/includes/form-builder.php:434
+#: admin/includes/form-builder.php:1119
+msgid "None"
+msgstr "Ні"
+
+#: admin/includes/settings.php:111
+#: admin/includes/form-builder.php:1120
+msgid "TLS"
+msgstr "TLS"
+
+#: admin/includes/settings.php:112
+#: admin/includes/form-builder.php:1121
+msgid "SSL"
+msgstr "SSL"
+
+#: admin/includes/settings.php:117
+#: admin/includes/form-builder.php:1127
+msgid "SMTP username"
+msgstr "SMTP логін"
+
+#: admin/includes/settings.php:123
+#: admin/includes/form-builder.php:1134
+msgid "SMTP password"
+msgstr "SMTP пароль"
+
+#: admin/includes/settings.php:129
+#: admin/includes/settings.php:132
+msgid "Update active themes cache"
+msgstr "Оновити кеш стилів"
+
+#: admin/includes/settings.php:130
+msgid ""
+"If you have added or removed a form from the database directly, e.g. via phpMyAdmin then you should tick\n"
+"        the box below and Save Changes to make sure the correct themes are being loaded for all your active forms."
+msgstr ""
+"Якщо Ви додали або видалили форму з бази вручну, наприклад за допомогою phpMyAdmin, Ви повинні зазначити \n"
+"        чекбокс нижче і зберегти налаштування, щоб завантажувати коректні налаштування тем для інших форм."
+
+#: admin/includes/settings.php:134
+msgid "Disable script output"
+msgstr "Вимкнути скрипт"
+
+#: admin/includes/settings.php:135
+msgid ""
+"You may be having conficts with some other plugins or themes using the same or conflicting\n"
+"        JavaScript plugins. You can disable the output of the scripts used by the Quform plugin below by ticking the boxes below. This will\n"
+"        disable both the CSS and JavaScript for the plugin."
+msgstr ""
+"У разі конфліктів з іншими плагінами або темами або\n"
+"        JavaScript бібліотеками. Ви можете відключити завантаження аналогічних скриптів в Quform  за допомогою чекбоксів нижче. Це\n"
+"        відключить і CSS, і JavaScript для плагіна."
+
+#: admin/includes/settings.php:138
+msgid "Disable Fancybox output"
+msgstr "Вимкнути Fancybox "
+
+#: admin/includes/settings.php:139
+msgid "Disable qTip2 output"
+msgstr "Вимкнути qTip2"
+
+#: admin/includes/settings.php:140
+msgid "Disable Infield Labels output"
+msgstr "Вимкнути показ міток всередині полів форми"
+
+#: admin/includes/settings.php:141
+msgid "Disable Smooth Scroll output"
+msgstr "Вимкнути скрипт Smooth Scroll"
+
+#: admin/includes/settings.php:142
+msgid "Disable jQuery UI output"
+msgstr "Вимкнути jQuery UI"
+
+#: admin/includes/settings.php:144
+msgid "Enable lightbox script (Fancybox)"
+msgstr "Включити lightbox скрипт (Fancybox)"
+
+#: admin/includes/settings.php:145
+msgid ""
+"This option is enabled automatically when you add a form\n"
+"        in a popup to a post / page or when you add a Quform Popup widget. If this does not happen for some reason\n"
+"        you can tick this option to manually enable the Fancybox script. If you have disabled Fancybox output in the above settings\n"
+"        the script output will still be disabled."
+msgstr ""
+"Ця установка включається автоматично, коли Ви додаєте \n"
+"        форму у спливаюче вікно або при створенні спливаючого віджету Quform. Якщо спливаюче вікно не працює,\n"
+"        Ви можете вручну включити скрипт Fancybox. Якщо Ви вимкнули цей скрипт в настройках вище,\n"
+"        скрипт все одно не буде завантажуватися."
+
+#: admin/includes/settings.php:149
+msgid "Enable Fancybox"
+msgstr "Включити Fancybox"
+
+#: admin/includes/settings.php:151
+msgid "Server compatibility"
+msgstr ""
+
+#: admin/includes/settings.php:158
+msgid "PHP Version"
+msgstr ""
+
+#: admin/includes/settings.php:161
+msgid "The plugin requires PHP version 5 or later."
+msgstr ""
+
+#: admin/includes/settings.php:169
+msgid "MySQL Version"
+msgstr "Версія MySQL"
+
+#: admin/includes/settings.php:172
+msgid "The plugin requires MySQL version 5 or later."
+msgstr "Плагін потребує  версію MySQL 5+."
+
+#: admin/includes/settings.php:179
+msgid "WordPress Version"
+msgstr "Версія WordPress"
+
+#: admin/includes/settings.php:182
+msgid "The plugin requires WordPress version 3.1 or later."
+msgstr "Плагін потребує версію WordPress 3.1 +."
+
+#: admin/includes/settings.php:188
+msgid "GD Image Library"
+msgstr "GD image library"
+
+#: admin/includes/settings.php:189
+msgid "Available"
+msgstr "Доступно"
+
+#: admin/includes/settings.php:189
+msgid "Unavailable"
+msgstr "Недоступно"
+
+#: admin/includes/settings.php:191
+msgid "The plugin requires the GD image library for the CAPTCHA element, please ask your host to install it."
+msgstr "Плагін потребує бібліотеку GD image library для роботі КАПЧІ, спитайте про неї у свого хостера"
+
+#: admin/includes/settings.php:198
+msgid "Temporary Directory"
+msgstr "Тимчасова папка"
+
+#: admin/includes/settings.php:201
+msgid "The plugin requires a writeable temporary directory for file uploading. You can set a custom temporary directory path in your wp-config.php file by using the code %1$sdefine(\"WP_TEMP_DIR\", \"/path/to/tmp/dir\");%2$s"
+msgstr "Плагін потребую тимчасової папки для зберігання файлів, Ви можете встановити таку за допомогою правки файлу wp-config.php, додайте у ньго таку строку  %1$sdefine(\"WP_TEMP_DIR\", \"/path/to/tmp/dir\");%2$s"
+
+#: admin/includes/help/elements.php:9
+#: admin/includes/help/_nav-elements.php:3
+#: admin/includes/form-builder.php:115
+msgid "Single Line Text"
+msgstr "Рядок"
+
+#: admin/includes/help/elements.php:10
+#: admin/includes/help/_nav-elements.php:4
+#: admin/includes/form-builder.php:116
+msgid "Paragraph Text"
+msgstr "Параграф"
+
+#: admin/includes/help/elements.php:11
+#: admin/includes/help/_nav-elements.php:5
+#: admin/includes/form-builder.php:117
+msgid "Email Address"
+msgstr "Email адреса"
+
+#: admin/includes/help/elements.php:12
+#: admin/includes/help/_nav-elements.php:6
+#: admin/includes/elements/radio.php:93
+#: admin/includes/elements/checkbox.php:93
+#: admin/includes/form-builder.php:118
+msgid "Dropdown Menu"
+msgstr "Випадаючий список"
+
+#: admin/includes/help/elements.php:13
+#: admin/includes/help/_nav-elements.php:7
+#: admin/includes/elements/select.php:88
+#: admin/includes/elements/radio.php:94
+#: admin/includes/form-builder.php:119
+msgid "Checkboxes"
+msgstr "Чекбокс"
+
+#: admin/includes/help/elements.php:14
+#: admin/includes/help/_nav-elements.php:8
+#: admin/includes/elements/select.php:87
+#: admin/includes/elements/checkbox.php:92
+#: admin/includes/form-builder.php:120
+msgid "Multiple Choice"
+msgstr "Радіо кнопки"
+
+#: admin/includes/help/elements.php:15
+#: admin/includes/help/_nav-elements.php:9
+#: admin/includes/form-builder.php:121
+msgid "CAPTCHA"
+msgstr "КАПЧА"
+
+#: admin/includes/help/elements.php:16
+#: admin/includes/help/_nav-elements.php:10
+#: admin/includes/form-builder.php:122
+msgid "Group"
+msgstr "Група"
+
+#: admin/includes/help/elements.php:17
+#: admin/includes/help/_nav-elements.php:11
+#: admin/includes/form-builder.php:127
+msgid "File Upload"
+msgstr "Файл"
+
+#: admin/includes/help/elements.php:18
+#: admin/includes/help/_nav-elements.php:12
+#: admin/includes/form-builder.php:128
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
+#: admin/includes/help/elements.php:19
+#: admin/includes/help/_nav-elements.php:13
+#: admin/includes/elements/html.php:24
+#: admin/includes/form-builder.php:129
+#: admin/includes/form-builder.php:967
+#: admin/includes/form-builder.php:1045
+msgid "HTML"
+msgstr "HTML"
+
+#: admin/includes/help/elements.php:20
+#: admin/includes/help/_nav-elements.php:14
+#: admin/includes/elements/date.php:6
+#: admin/includes/form-builder.php:130
+#: admin/includes/form-builder.php:1161
+#: admin/includes/entry.php:23
+#: admin/admin.php:2911
+msgid "Date"
+msgstr "Дата"
+
+#: admin/includes/help/elements.php:21
+#: admin/includes/help/_nav-elements.php:15
+#: admin/includes/elements/time.php:5
+#: admin/includes/form-builder.php:131
+msgid "Time"
+msgstr "Врем'я"
+
+#: admin/includes/help/elements.php:22
+#: admin/includes/help/_nav-elements.php:16
+#: admin/includes/form-builder.php:132
+msgid "Hidden"
+msgstr "Приховане поле"
+
+#: admin/includes/help/elements.php:23
+#: admin/includes/help/_nav-elements.php:17
+#: admin/includes/elements/password.php:5
+#: admin/includes/form-builder.php:133
+#: admin/includes/form-builder.php:1280
+msgid "Password"
+msgstr "Пароль"
+
+#: admin/includes/help/settings.php:9
+msgid "Global plugin settings"
+msgstr "Глобальні налаштування"
+
+#: admin/includes/help/settings.php:10
+msgid "General settings"
+msgstr "Основні налаштування"
+
+#: admin/includes/help/settings.php:11
+msgid "Style settings"
+msgstr "Налаштування стилів"
+
+#: admin/includes/help/settings.php:12
+msgid "Email settings"
+msgstr "Налаштування Email"
+
+#: admin/includes/help/settings.php:13
+msgid "Entries settings"
+msgstr "Налаштування записів"
+
+#: admin/includes/help/settings.php:14
+msgid "Database settings"
+msgstr "Налаштування БД"
+
+#: admin/includes/help/_nav-basic.php:3
+msgid "Creating a form"
+msgstr "Створення форми"
+
+#: admin/includes/help/_nav-basic.php:4
+msgid "Adding an element"
+msgstr "Додати елемент"
+
+#: admin/includes/help/_nav-basic.php:5
+msgid "Configuring an element"
+msgstr "Налаштувати елемент"
+
+#: admin/includes/help/_nav-basic.php:6
+msgid "Moving an element"
+msgstr "Перемістити елемент"
+
+#: admin/includes/help/_nav-basic.php:7
+msgid "Deleting an element"
+msgstr "Видалити елемент"
+
+#: admin/includes/help/_nav-basic.php:8
+msgid "Adding the form to your website"
+msgstr "Додати форму на сайт"
+
+#: admin/includes/help/_nav-basic.php:9
+msgid "Activating a form"
+msgstr "Включити форму"
+
+#: admin/includes/help/_nav-basic.php:10
+msgid "Deactivating a form"
+msgstr "Вимкнути форму"
+
+#: admin/includes/help/_nav-basic.php:11
+msgid "Deleting a form"
+msgstr "Видалити форму"
+
+#: admin/includes/help/_nav-basic.php:12
+msgid "Viewing entries"
+msgstr "Перегляд записів"
+
+#: admin/includes/help/_nav-basic.php:13
+msgid "Viewing an entry"
+msgstr "Перегляд запису"
+
+#: admin/includes/help/_nav-basic.php:14
+msgid "Deleting an entry"
+msgstr "Видалити запис"
+
+#: admin/includes/help/_nav-settings.php:3
+msgid "Global"
+msgstr "Глобальні"
+
+#: admin/includes/help/_nav-settings.php:4
+#: admin/includes/form-builder.php:225
+msgid "General"
+msgstr "Основні"
+
+#: admin/includes/help/_nav-settings.php:5
+#: admin/includes/form-builder.php:226
+#: admin/includes/form-builder.php:423
+#: admin/includes/form-builder.php:701
+msgid "Style"
+msgstr "Стиль"
+
+#: admin/includes/help/_nav-settings.php:6
+#: admin/includes/elements/settings/validators.php:67
+#: admin/includes/form-builder.php:227
+msgid "Email"
+msgstr "Email"
+
+#: admin/includes/help/_nav-settings.php:8
+#: admin/includes/form-builder.php:229
+msgid "Database"
+msgstr "База даних"
+
+#: admin/includes/elements/select.php:5
+#: admin/includes/elements/radio.php:5
+#: admin/includes/elements/checkbox.php:5
+#: admin/includes/elements/hidden.php:5
+#: admin/includes/elements/text.php:5
+#: admin/includes/elements/textarea.php:5
+msgid "Untitled"
+msgstr "Без заголовка"
+
+#: admin/includes/elements/select.php:11
+#: admin/includes/elements/radio.php:12
+#: admin/includes/elements/checkbox.php:12
+#: admin/admin.php:372
+msgid "Option 1"
+msgstr "Варіант 1"
+
+#: admin/includes/elements/select.php:12
+#: admin/includes/elements/radio.php:13
+#: admin/includes/elements/checkbox.php:13
+#: admin/admin.php:373
+msgid "Option 2"
+msgstr "Варіант 2"
+
+#: admin/includes/elements/select.php:13
+#: admin/includes/elements/radio.php:14
+#: admin/includes/elements/checkbox.php:14
+#: admin/admin.php:374
+msgid "Option 3"
+msgstr "Варіант 3"
+
+#: admin/includes/elements/select.php:40
+#: admin/includes/elements/email.php:27
+#: admin/includes/elements/radio.php:44
+#: admin/includes/elements/file.php:26
+#: admin/includes/elements/time.php:58
+#: admin/includes/elements/checkbox.php:44
+#: admin/includes/elements/groupstart.php:28
+#: admin/includes/elements/captcha.php:52
+#: admin/includes/elements/date.php:77
+#: admin/includes/elements/recaptcha.php:34
+#: admin/includes/elements/text.php:27
+#: admin/includes/elements/password.php:27
+#: admin/includes/elements/textarea.php:27
+msgid "Optional"
+msgstr "Додатково"
+
+#: admin/includes/elements/select.php:41
+#: admin/includes/elements/email.php:28
+#: admin/includes/elements/radio.php:45
+#: admin/includes/elements/file.php:27
+#: admin/includes/elements/time.php:59
+#: admin/includes/elements/checkbox.php:45
+#: admin/includes/elements/groupstart.php:29
+#: admin/includes/elements/captcha.php:53
+#: admin/includes/elements/date.php:78
+#: admin/includes/elements/recaptcha.php:35
+#: admin/includes/elements/text.php:28
+#: admin/includes/elements/password.php:28
+#: admin/includes/elements/textarea.php:28
+msgid "Advanced"
+msgstr "Просунуті"
+
+#: admin/includes/elements/select.php:79
+#: admin/includes/elements/radio.php:85
+#: admin/includes/elements/checkbox.php:84
+msgid ""
+"You can convert an element to a different type, see the dropdown menu for the available\n"
+"                                    choices. Most of your settings will also be converted."
+msgstr ""
+"Ви можете перетворити один елемент в інший, дивіться в спадному списку доступні \n"
+"                                    варіанти. Більшість налаштувань скопіюється."
+
+#: admin/includes/elements/select.php:82
+#: admin/includes/elements/radio.php:88
+#: admin/includes/elements/checkbox.php:87
+msgid "Convert element"
+msgstr "Перетворити елемент"
+
+#: admin/includes/elements/select.php:86
+#: admin/includes/elements/radio.php:92
+#: admin/includes/elements/checkbox.php:91
+#: admin/includes/form-builder.php:319
+msgid "Please select..."
+msgstr "Оберіть ..."
+
+#: admin/includes/elements/email.php:5
+#: admin/includes/form-builder.php:993
+#: admin/includes/form-builder.php:1071
+msgid "Email address"
+msgstr "Email адреса"
+
+#: admin/includes/elements/radio.php:34
+#: admin/includes/elements/checkbox.php:34
+msgid "Only the first 5 options are shown here."
+msgstr "Тільки перші 5 налаштувань показані."
+
+#: admin/includes/elements/file.php:5
+msgid "File upload"
+msgstr "Завантаження файлу"
+
+#: admin/includes/elements/file.php:6
+msgid "Maximum size 10MB"
+msgstr "Максимальний розмір 10 MB"
+
+#: admin/includes/elements/file.php:49
+msgid "Enable Flash uploader"
+msgstr "Включити флеш завантажувач"
+
+#: admin/includes/elements/file.php:52
+msgid ""
+"Enables the Flash file uploader which shows the progress of file uploads. For users\n"
+"                            with Flash disabled it will degrade to a standard file upload field. %sSee the help for more information%s."
+msgstr ""
+"Включає флеш завантажувач, який показує процес завантаження файлу. для користувачів \n"
+"                          з вимкненим флешем буде використаний стандартний завантажувач.%sПодробиці в довідці%s."
+
+#: admin/includes/elements/file.php:58
+msgid "Allow multiple file uploads"
+msgstr "Дозволити завантаження декількох файлів"
+
+#: admin/includes/elements/file.php:61
+msgid "Enables you to show more than one upload field, so that the user can upload more files."
+msgstr "Дозволяє ввімкнути більше одного поля завантаження файлів, для мультизавантаження."
+
+#: admin/includes/elements/file.php:68
+msgid ""
+"If you are using the Flash uploader the user will only ever see one field, but they will be able\n"
+"                                to queue as many files as they want."
+msgstr ""
+"Якщо ви використовуєте флеш завантажувач, користувач побачить тільки одне поле, але зможе\n"
+"                                додати стільки полів, скільки потрібно."
+
+#: admin/includes/elements/file.php:71
+msgid "Number of file upload fields to show"
+msgstr "Скільки полів для завантаження відображати"
+
+#: admin/includes/elements/file.php:78
+msgid ""
+"This will not appear if you are using the Flash uploader, as the user can queue as many files\n"
+"                                as they want."
+msgstr ""
+"Відображається, якщо включений флеш завантажувач, користувач може додати стільки полів,\n"
+"                                скільки йому потрібно."
+
+#: admin/includes/elements/file.php:81
+msgid "Allow the user to add more upload fields"
+msgstr "Дозволити користувачеві додавати поля для завантаження файлів"
+
+#: admin/includes/elements/file.php:84
+msgid "If checked, a link appears allowing the user to add more upload fields if they want to upload more files"
+msgstr "Якщо включено, користувач побачить посилання для додавання полів завантаження файлів"
+
+#: admin/includes/elements/file.php:89
+msgid "Add another upload link text"
+msgstr "Інший текст для посилання"
+
+#: admin/includes/elements/file.php:92
+msgid "Override the default text on the link to add other upload which is \"Upload another\""
+msgstr "Текст для поля завантаження файлів. За замовчуванням -  \"Завантажити ще\""
+
+#: admin/includes/elements/file.php:97
+msgid "Allowed file extensions"
+msgstr "Дозволені типи файлів"
+
+#: admin/includes/elements/file.php:100
+msgid "Enter the file extension excluding the dots and separated by commas e.g. jpg, jpeg, png, gif"
+msgstr "Введіть розширення файлів без крапки, наприклад jpg, jpeg, png, gif"
+
+#: admin/includes/elements/file.php:105
+msgid "Maximum allowed file size"
+msgstr "Максимальний розмір файлу"
+
+#: admin/includes/elements/file.php:107
+msgid "MB"
+msgstr "MB"
+
+#: admin/includes/elements/file.php:108
+msgid "Enter the maximum size of a file in MB."
+msgstr "Введіть максимальний розмір файлу в MB."
+
+#: admin/includes/elements/file.php:108
+msgid "Important information"
+msgstr "Важлива інформація"
+
+#: admin/includes/elements/file.php:113
+msgid "Attach uploaded files to the notification email"
+msgstr "Приєднати завантажені файли до листа"
+
+#: admin/includes/elements/file.php:118
+msgid "Save uploaded files to the server"
+msgstr "Зберігати файли на сервері"
+
+#: admin/includes/elements/file.php:126
+#: admin/includes/elements/file.php:173
+#: admin/includes/elements/file.php:175
+#: admin/includes/elements/file.php:177
+#: admin/includes/elements/file.php:181
+#: admin/includes/elements/settings/validators/greater-than.php:38
+#: admin/includes/elements/settings/validators/alpha-numeric.php:39
+#: admin/includes/elements/settings/validators/length.php:51
+#: admin/includes/elements/settings/validators/length.php:66
+#: admin/includes/elements/settings/validators/digits.php:39
+#: admin/includes/elements/settings/validators/identical.php:39
+#: admin/includes/elements/settings/validators/less-than.php:39
+#: admin/includes/elements/settings/validators/alpha.php:39
+#: admin/includes/elements/settings/validators/regex.php:39
+msgid "Placeholders"
+msgstr "Змінні"
+
+#: admin/includes/elements/file.php:127
+msgid "the unique ID of the form"
+msgstr "унікальний ID форми"
+
+#: admin/includes/elements/file.php:128
+msgid "the current year"
+msgstr "поточний рік"
+
+#: admin/includes/elements/file.php:129
+msgid "the current month"
+msgstr "поточний місяць"
+
+#: admin/includes/elements/file.php:130
+msgid "the current day"
+msgstr "поточний день"
+
+#: admin/includes/elements/file.php:131
+msgid "You can enter the placeholder code in your path to display their values."
+msgstr "Вы можете ввести код-пустышку для отображения значений"
+
+#: admin/includes/elements/file.php:134
+msgid "Path to save uploaded files"
+msgstr "Шлях збереження файлів"
+
+#: admin/includes/elements/file.php:138
+msgid "The path to save the files inside the WordPress uploads directory."
+msgstr " Шлях збереження файлів у бібліотеці Wordpress."
+
+#: admin/includes/elements/file.php:144
+msgid "Browse button text"
+msgstr "Текст кнопки \"Обзор\""
+
+#: admin/includes/elements/file.php:148
+msgid ""
+"Override the text for the browse button which is \"%s\", this only applies if you are using\n"
+"                            Uniform or the Flash uploader"
+msgstr ""
+"Перепишіть текст для кнопки \"Обзор\", зараз він -  \"%s\", це працює тільки якщо Ви використовуєте\n"
+"                           Юніформу або флеш завантажувач"
+
+#: admin/includes/elements/file.php:149
+msgid "Browse..."
+msgstr "Обзор..."
+
+#: admin/includes/elements/file.php:155
+msgid "Default text"
+msgstr "Текст за умовчанням"
+
+#: admin/includes/elements/file.php:159
+msgid ""
+"Override the default text for the file input which is \"%s\", this only applies if you are using\n"
+"                            Uniform"
+msgstr ""
+"Перепишіть стандартний текст для поля завантаження файлу, за замовчуванням - \"%s\", працює тільки при використанні\n"
+"                            Юніформи"
+
+#: admin/includes/elements/file.php:160
+#: includes/iPhorm/Element/File.php:319
+msgid "No file selected"
+msgstr "Файл не вибрано"
+
+#: admin/includes/elements/file.php:166
+#: admin/includes/elements/settings/validators/length.php:37
+#: admin/includes/elements/recaptcha.php:89
+msgid "Translate error messages"
+msgstr "Повідомлення про помилку"
+
+#: admin/includes/elements/file.php:173
+#: admin/includes/elements/file.php:175
+#: admin/includes/elements/file.php:177
+#: admin/includes/elements/file.php:181
+msgid "the filename"
+msgstr "назва файлу"
+
+#: admin/includes/elements/file.php:199
+#: admin/includes/elements/settings/validators/email.php:17
+#: admin/includes/elements/settings/validators/greater-than.php:31
+#: admin/includes/elements/settings/validators/alpha-numeric.php:32
+#: admin/includes/elements/settings/validators/length.php:44
+#: admin/includes/elements/settings/validators/digits.php:32
+#: admin/includes/elements/settings/validators/identical.php:32
+#: admin/includes/elements/settings/validators/less-than.php:32
+#: admin/includes/elements/settings/validators/alpha.php:32
+#: admin/includes/elements/settings/validators/regex.php:32
+#: admin/includes/elements/recaptcha.php:111
+msgid "Default"
+msgstr "За замовчуванням"
+
+#: admin/includes/elements/file.php:200
+#: admin/includes/elements/settings/validators/email.php:18
+#: admin/includes/elements/settings/validators/greater-than.php:32
+#: admin/includes/elements/settings/validators/alpha-numeric.php:33
+#: admin/includes/elements/settings/validators/length.php:45
+#: admin/includes/elements/settings/validators/digits.php:33
+#: admin/includes/elements/settings/validators/identical.php:33
+#: admin/includes/elements/settings/validators/less-than.php:33
+#: admin/includes/elements/settings/validators/alpha.php:33
+#: admin/includes/elements/settings/validators/regex.php:33
+#: admin/includes/elements/recaptcha.php:112
+msgid "Translation"
+msgstr "Свій переклад"
+
+#: admin/includes/elements/_save.php:7
+#: admin/includes/form-builder.php:141
+#: admin/includes/form-builder.php:1329
+msgid "Save"
+msgstr "Зберегти"
+
+#: admin/includes/elements/_save.php:8
+#: admin/includes/elements/_actions.php:2
+#: admin/includes/elements/settings/global-style.php:3
+#: admin/includes/elements/settings/style.php:3
+#: admin/includes/elements/settings/validators/email.php:3
+#: admin/includes/elements/settings/validators/greater-than.php:3
+#: admin/includes/elements/settings/validators/alpha-numeric.php:3
+#: admin/includes/elements/settings/validators/length.php:3
+#: admin/includes/elements/settings/validators/digits.php:3
+#: admin/includes/elements/settings/validators/identical.php:3
+#: admin/includes/elements/settings/validators/less-than.php:3
+#: admin/includes/elements/settings/validators/alpha.php:3
+#: admin/includes/elements/settings/validators/regex.php:3
+#: admin/includes/elements/settings/filters/alpha-numeric.php:3
+#: admin/includes/elements/settings/filters/strip-tags.php:3
+#: admin/includes/elements/settings/filters/digits.php:3
+#: admin/includes/elements/settings/filters/alpha.php:3
+#: admin/includes/elements/settings/filters/regex.php:3
+#: admin/admin.php:409
+msgid "Hide"
+msgstr "Приховати"
+
+#: admin/includes/elements/_save.php:9
+msgid "Save & Hide"
+msgstr "Зберегти і приховати"
+
+#: admin/includes/elements/time.php:14
+#: admin/admin.php:401
+#: includes/iPhorm/Element/Time.php:158
+msgctxt "time, morning"
+msgid "am"
+msgstr "am"
+
+#: admin/includes/elements/time.php:15
+#: admin/admin.php:402
+#: includes/iPhorm/Element/Time.php:178
+msgctxt "time, evening"
+msgid "pm"
+msgstr "pm"
+
+#: admin/includes/elements/time.php:81
+msgid "12/24 hour time"
+msgstr "12/24 формат"
+
+#: admin/includes/elements/time.php:84
+msgid "12 hour"
+msgstr "12-й формат"
+
+#: admin/includes/elements/time.php:85
+msgid "24 hour"
+msgstr "24-й формат"
+
+#: admin/includes/elements/time.php:90
+#: admin/includes/elements/hidden.php:43
+#: admin/includes/elements/date.php:137
+#: admin/includes/elements/settings/default-value.php:8
+#: admin/includes/elements/textarea.php:50
+msgid "Default value"
+msgstr "Значення за замовчуванням"
+
+#: admin/includes/elements/time.php:117
+#: admin/includes/elements/date.php:175
+msgid "Updates the default value options with your changes to other settings"
+msgstr "Використати ці налаштування, як налаштування за умовчанням."
+
+#: admin/includes/elements/time.php:117
+#: admin/includes/elements/date.php:175
+msgid "Sync with changes"
+msgstr "Синхронізація змін"
+
+#: admin/includes/elements/time.php:123
+msgid "Determines how many minutes to show per hour. 1 will show all 60 minutes, 5 will show minutes at 5 minute intervals, 10 at 10 minute intervals and so on."
+msgstr "Визначає скільки хвилин показувати в годині. 1 показує всі 60 хв., 5 показує інтервали в п'ять хвилин, 10 - інтервал у десять хвилин."
+
+#: admin/includes/elements/time.php:125
+msgid "Minute granularity"
+msgstr "Інтервали для хвилин"
+
+#: admin/includes/elements/time.php:143
+msgid "Time format"
+msgstr "Формат часу"
+
+#: admin/includes/elements/time.php:150
+msgid "The format of the time when displayed in the notification email and when viewing entries"
+msgstr "Формат часу для відображення у листі і в перегляді відправлених даних"
+
+#: admin/includes/elements/time.php:154
+#: admin/includes/elements/date.php:230
+msgid "Translations"
+msgstr "Свій переклад"
+
+#: admin/includes/elements/time.php:158
+msgid "am"
+msgstr "am"
+
+#: admin/includes/elements/time.php:162
+msgid "pm"
+msgstr "pm"
+
+#: admin/includes/elements/_actions.php:2
+msgid "Hide settings - you will not lose unsaved data!"
+msgstr "Приховати налаштування - обережно,  Ви втратите все незбережені зміни!"
+
+#: admin/includes/elements/_actions.php:4
+msgid "Delete this element"
+msgstr "Видалити елемент"
+
+#: admin/includes/elements/_actions.php:5
+msgid "Click and drag to move this element"
+msgstr "Виберіть і перенесіть елемент"
+
+#: admin/includes/elements/_actions.php:5
+msgid "Move"
+msgstr "Перенести"
+
+#: admin/includes/elements/hidden.php:13
+msgid "(hidden)"
+msgstr "(приховане)"
+
+#: admin/includes/elements/hidden.php:31
+msgid "This label will be shown throughout the form builder, in the notification email and when viewing submitted form entries."
+msgstr "Ця мітка відображається лише в конструкторі, в отриманих листах і при перегляді отриманих даних форми."
+
+#: admin/includes/elements/hidden.php:33
+#: admin/includes/elements/settings/selectors/select.php:4
+#: admin/includes/elements/settings/selectors/time.php:4
+#: admin/includes/elements/settings/selectors/checkbox.php:4
+#: admin/includes/elements/settings/selectors/date.php:4
+#: admin/includes/elements/settings/selectors/recaptcha.php:4
+#: admin/includes/elements/settings/selectors/text.php:4
+#: admin/includes/elements/settings/label.php:2
+#: admin/includes/elements/settings/options-multiple.php:16
+#: admin/includes/elements/settings/styles.php:32
+#: admin/includes/elements/settings/options.php:17
+msgid "Label"
+msgstr "Мітка"
+
+#: admin/includes/elements/hidden.php:40
+msgid ""
+"The default value is the value that the element is given before\n"
+"                                    the user has entered anything"
+msgstr ""
+"Значення за замовчуванням - це значення, яке надається елементу, \n"
+"                                     якщо користувач нічого не ввів."
+
+#: admin/includes/elements/groupstart.php:5
+#: admin/includes/elements/groupend.php:5
+msgid "New"
+msgstr "Нова"
+
+#: admin/includes/elements/groupstart.php:15
+msgid "Start of group: %s"
+msgstr "Початок групи: %s"
+
+#: admin/includes/elements/groupstart.php:37
+msgid "The group name is only shown in the form builder to help you identify groups."
+msgstr "Назва групи відображається тільки в конструкторі форм."
+
+#: admin/includes/elements/groupstart.php:46
+msgid "The title will appear at the top of your group"
+msgstr "Заголовок групи відображається згори"
+
+#: admin/includes/elements/groupstart.php:48
+#: admin/includes/elements/settings/selectors/groupstart.php:4
+#: admin/includes/form-builder.php:249
+msgid "Title"
+msgstr "Заголовок"
+
+#: admin/includes/elements/groupstart.php:63
+msgid ""
+"The number of columns determines the how many elements should be display per row inside the group. After\n"
+"                                this number of elements, further elements will appear on the line below."
+msgstr ""
+"Число колонок визначає кількість елементів, які відобразяться в одному ряду в групі. Нові елементи\n"
+"                                відображатимуться нижче."
+
+#: admin/includes/elements/groupstart.php:66
+msgid "Number of columns"
+msgstr "Кількість колонок"
+
+#: admin/includes/elements/groupstart.php:79
+msgid ""
+"Choose how the columns are aligned. %1$sProportional%2$s - each column is evenly\n"
+"                                spaced. %1$sFloat left%2$s - the columns are compacted left."
+msgstr ""
+"Вирівнювання колонок. %1$sПо ширині%2$s - кожна колонка вирівняна\n"
+"                                по ширині. %1$sПо лівому краю%2$s - колонки вирівняні по лівому краю."
+
+#: admin/includes/elements/groupstart.php:82
+msgid "Column alignment"
+msgstr "Вирівнювання"
+
+#: admin/includes/elements/groupstart.php:85
+msgid "Proportional"
+msgstr "По ширині"
+
+#: admin/includes/elements/groupstart.php:86
+msgid "Float left"
+msgstr "По лівому краю"
+
+#: admin/includes/elements/groupstart.php:94
+msgid ""
+"\"Inherit\" means that the label placement will be inherted from the global\n"
+"                                form settings or if this group is inside another group then the setting will\n"
+"                                be inherited from the parent group."
+msgstr ""
+"\"Успадковувати\" означає, що розміщення міток буде успадковано з глобальних налаштувань\n"
+"                                форм цієї групи або якщо ця група знаходитися всередині іншої групи настройки будуть успадковані\n"
+"                                з батьківської групи."
+
+#: admin/includes/elements/groupstart.php:98
+#: admin/includes/elements/settings/label-placement.php:11
+#: admin/includes/form-builder.php:619
+msgid "Label placement"
+msgstr "Розташування міток"
+
+#: admin/includes/elements/groupstart.php:102
+#: admin/includes/elements/settings/tooltip-type.php:15
+#: admin/includes/elements/settings/tooltip-type.php:32
+#: admin/includes/elements/settings/label-placement.php:15
+msgid "Inherit"
+msgstr "Успадковувати"
+
+#: admin/includes/elements/groupstart.php:103
+#: admin/includes/elements/settings/label-placement.php:16
+#: admin/includes/form-builder.php:622
+msgid "Above"
+msgstr "Згори"
+
+#: admin/includes/elements/groupstart.php:104
+#: admin/includes/elements/settings/label-placement.php:17
+#: admin/includes/form-builder.php:623
+msgid "Left"
+msgstr "Зліва"
+
+#: admin/includes/elements/groupstart.php:105
+#: admin/includes/elements/settings/label-placement.php:18
+#: admin/includes/form-builder.php:624
+msgid "Inside"
+msgstr "Всередині"
+
+#: admin/includes/elements/groupstart.php:107
+msgid "Choose where to display the label relative to the input for the elements in this group. Changes to this setting will only be visible when viewing or previewing the form."
+msgstr "Де відображати мітки для полів з ​​цієї групи елементів. Ці зміни будуть помітні лише під час перегляду форми."
+
+#: admin/includes/elements/groupstart.php:113
+#: admin/includes/elements/settings/label-placement.php:26
+#: admin/includes/form-builder.php:632
+msgid "Specify how wide the labels should be, this only applies when the label placement is left"
+msgstr "Задайте ширину мітки, працює тільки при відображенні зліва"
+
+#: admin/includes/elements/groupstart.php:114
+#: admin/includes/elements/settings/label-placement.php:27
+#: admin/includes/form-builder.php:633
+msgid "Label width"
+msgstr "Ширина мітки"
+
+#: admin/includes/elements/groupstart.php:118
+#: admin/includes/elements/settings/label-placement.php:31
+msgid "The width of the element labels, any valid CSS width is accepted, e.g. %s200px%s"
+msgstr "Ширина мітки, будь-який формат CSS, наприклад  %s200px%s"
+
+#: admin/includes/elements/groupstart.php:124
+msgid "Group style"
+msgstr "Стиль групи"
+
+#: admin/includes/elements/groupstart.php:128
+#: admin/includes/form-builder.php:706
+msgid "Plain"
+msgstr "Звичайний"
+
+#: admin/includes/elements/groupstart.php:129
+msgid "Bordered"
+msgstr "Обведено"
+
+#: admin/includes/elements/groupstart.php:131
+msgid "Plain groups have no additional styling. Bordered groups have a border and padding."
+msgstr "Прості групи не мають додаткових стилів. Групам з бордюром можна задати настройки границі і відступу."
+
+#: admin/includes/elements/groupstart.php:136
+msgid "Border color"
+msgstr "Колір границі"
+
+#: admin/includes/elements/groupstart.php:141
+#: admin/includes/elements/captcha.php:74
+msgid "Background color"
+msgstr "Колір фону"
+
+#: admin/includes/elements/captcha.php:6
+msgid "Type the characters"
+msgstr "Введіть символи"
+
+#: admin/includes/elements/captcha.php:62
+msgid "Number of characters"
+msgstr "Кількість символів"
+
+#: admin/includes/elements/captcha.php:66
+msgid "Width (pixels)"
+msgstr "Ширина (пікселів)"
+
+#: admin/includes/elements/captcha.php:70
+msgid "Height (pixels)"
+msgstr "Висота (пікселів)"
+
+#: admin/includes/elements/captcha.php:80
+msgid "Text color"
+msgstr "Колір тексту"
+
+#: admin/includes/elements/captcha.php:84
+msgid "Font"
+msgstr "Шрифт"
+
+#: admin/includes/elements/captcha.php:105
+#: admin/includes/elements/captcha.php:114
+msgid "The font size for each character will be randomly chosen between the minimum and maximum."
+msgstr "Розмір шрифту для кожного символу буде обраний випадковим чином з мін. / макс. значень."
+
+#: admin/includes/elements/captcha.php:107
+msgid "Minimum font size"
+msgstr "Мінімальний розмір літер"
+
+#: admin/includes/elements/captcha.php:116
+msgid "Maximum font size"
+msgstr "Максимальний розмір літер"
+
+#: admin/includes/elements/captcha.php:122
+#: admin/includes/elements/captcha.php:130
+msgid "The angle for each character will be randomly chosen between the minimum and maximum."
+msgstr "Поворот кожного символу буде обраний випадково з мін. / макс. значень."
+
+#: admin/includes/elements/captcha.php:124
+msgid "Minimum letter rotation (degrees)"
+msgstr "Мінімальний кут повороту (град.)"
+
+#: admin/includes/elements/captcha.php:132
+msgid "Maximum letter rotation (degrees)"
+msgstr "Максимальний кут повороту (град.)"
+
+#: admin/includes/elements/captcha.php:178
+msgid "Error message if invalid"
+msgstr "Повідомлення про помилку"
+
+#: admin/includes/elements/captcha.php:181
+msgid ""
+"Translate or override the error message shown under the field\n"
+"                                when the given solution does not match. The default is \"%s\"."
+msgstr ""
+"Перекласти або змінити повідомлення про помилку\n"
+"                                якщо Ваше повідомлення відрізнятися від стандартного. Стандартне повідомлення: \"%s\"."
+
+#: admin/includes/elements/date.php:19
+#: includes/iPhorm/Element/Date.php:173
+msgctxt "select day of the month"
+msgid "Day"
+msgstr "День"
+
+#: admin/includes/elements/date.php:20
+#: includes/iPhorm/Element/Date.php:193
+msgctxt "select month"
+msgid "Month"
+msgstr "Місяць"
+
+#: admin/includes/elements/date.php:21
+#: includes/iPhorm/Element/Date.php:213
+msgctxt "select year"
+msgid "Year"
+msgstr "Рік"
+
+#: admin/includes/elements/date.php:102
+msgid "Shows the headings for Day, Month and Year as the first options in the dropdown menus."
+msgstr "Показувати заголовки Дня, Місяця та Року як перше значення в списку."
+
+#: admin/includes/elements/date.php:104
+msgid "Show date headings"
+msgstr "Показувати заголовки дати"
+
+#: admin/includes/elements/date.php:112
+msgid "The start year will be the first year in the year dropdown and every from the start year to the end year will be displayed."
+msgstr "Початковий рік буде зазначений як перше значення у списку."
+
+#: admin/includes/elements/date.php:114
+msgid "Start year"
+msgstr "Початковий рік"
+
+#: admin/includes/elements/date.php:117
+#: admin/includes/elements/date.php:128
+msgid "You can use the tag %1$s for the current year or add modifiers to the current year such as %2$s or %3$s."
+msgstr "Ви можете використовувати тег %1$s  для поточного року або додати формулу для зміни року, наприклад %2$s чи %3$s."
+
+#: admin/includes/elements/date.php:123
+msgid "The end year will be the last year in the year dropdown and every year from the start year to the end year will be displayed."
+msgstr "Кінцеве значення року буде показано останнім у списку вибору."
+
+#: admin/includes/elements/date.php:125
+msgid "End year"
+msgstr "Кінцевий рік"
+
+#: admin/includes/elements/date.php:134
+msgid ""
+"The default value is the value that the element is given before\n"
+"                                    the user has changed anything"
+msgstr ""
+"Значення за замовчуванням відображається до тих пір, поки користувач\n"
+"                                   не ввів своє."
+
+#: admin/includes/elements/date.php:180
+msgid "Show JavaScript datepicker"
+msgstr "Показати скрипт вибору дати"
+
+#: admin/includes/elements/date.php:183
+msgid ""
+"If checked, the user can choose the date using the jQuery UI datepicker. To customize\n"
+"                                    the calendar theme and localization, go to the form style settings at Settings &rarr; Style."
+msgstr ""
+"Якщо включено, користувач може вибрати дату, використовуючи jQuery UI datepicker. Для зміни\n"
+"                                    стилю календаря та локалізації, перейдіть до налаштувань стилю форми Параметри &rarr; Стиль."
+
+#: admin/includes/elements/date.php:188
+msgid "Show months as numbers"
+msgstr "Показувати місяць як число"
+
+#: admin/includes/elements/date.php:191
+msgid "Displays the months as numbers instead of text."
+msgstr "Відображати місяць числом замість тексту."
+
+#: admin/includes/elements/date.php:195
+msgid "Field order"
+msgstr "Порядок полів"
+
+#: admin/includes/elements/date.php:198
+msgid "Day / Month (European)"
+msgstr "День / Місяць (Европейске)"
+
+#: admin/includes/elements/date.php:199
+msgid "Month / Day (US)"
+msgstr "Місяць / День (США)"
+
+#: admin/includes/elements/date.php:201
+msgid "Change the ordering of the Day and Month fields."
+msgstr "Змінити порядок полів День / Місяць"
+
+#: admin/includes/elements/date.php:207
+msgid "Error message if invalid date"
+msgstr "Повідомлення про невірну дату"
+
+#: admin/includes/elements/date.php:210
+msgid ""
+"Translate or override the error message shown if the date is not valid. The\n"
+"                                default is \"%s\"."
+msgstr ""
+"Змінити повідомлення про помилку, якщо дата не вірна. стандартне \n"
+"                                повідомлення:   \"%s\"."
+
+#: admin/includes/elements/date.php:219
+msgid "Date format"
+msgstr "Формат дати"
+
+#: admin/includes/elements/date.php:226
+msgid "The format of the date when displayed in the notification email and when viewing entries"
+msgstr "Формат дати в листах і при перегляді збережених записів"
+
+#: admin/includes/elements/date.php:234
+#: admin/admin.php:395
+msgid "Day"
+msgstr "День"
+
+#: admin/includes/elements/date.php:238
+#: admin/admin.php:396
+msgid "Month"
+msgstr "Місяць"
+
+#: admin/includes/elements/date.php:242
+#: admin/admin.php:397
+msgid "Year"
+msgstr "Рік"
+
+#: admin/includes/elements/settings/default-value.php:5
+msgid ""
+"The default value is the value that the element is given before\n"
+"            the user has entered anything"
+msgstr ""
+"Значення за замовчуванням відображається до тих пір, поки користувач\n"
+"            не ввів своє"
+
+#: admin/includes/elements/settings/options-bulk.php:1
+#: admin/admin.php:403
+msgid "Add bulk options"
+msgstr "Завантажити з шаблону"
+
+#: admin/includes/elements/settings/options-bulk.php:3
+msgid "Click a category on the left hand side to insert predefined options. You can edit the options on the right hand side or enter your own options, one per line."
+msgstr "Виберіть потрібну категорію зліва, щоб використати стандартний шаблон. Ви можете правити значення з шаблону у правому вікні або створити власний шаблон."
+
+#: admin/includes/elements/settings/options-bulk.php:10
+msgid "Existing Options"
+msgstr "Шаблони"
+
+#: admin/includes/elements/settings/options-bulk.php:21
+msgid "Overwrite existing options"
+msgstr "Оновити налаштування"
+
+#: admin/includes/elements/settings/options-bulk.php:23
+msgid "Removes any existing options before adding"
+msgstr "Видалити всі налаштування перед додаванням"
+
+#: admin/includes/elements/settings/options-bulk.php:28
+msgid "Add options"
+msgstr "Завантажити"
+
+#: admin/includes/elements/settings/options-bulk.php:29
+msgid "Cancel"
+msgstr "Відмінити"
+
+#: admin/includes/elements/settings/selectors/select.php:1
+#: admin/includes/elements/settings/selectors/time.php:1
+#: admin/includes/elements/settings/selectors/checkbox.php:1
+#: admin/includes/elements/settings/selectors/groupstart.php:1
+#: admin/includes/elements/settings/selectors/date.php:1
+#: admin/includes/elements/settings/selectors/recaptcha.php:1
+#: admin/includes/elements/settings/selectors/text.php:1
+msgid "The unique identifier for this element is %s. You can use the CSS selectors below in your stylesheet to style this element individually."
+msgstr "Унікальний ідентифікатор форми - %s. Ви можете використовувати ці CSS селектори у вашому файлі стилів для налаштування зовнішнього вигляду форми та її елементів."
+
+#: admin/includes/elements/settings/selectors/select.php:2
+#: admin/includes/elements/settings/selectors/time.php:2
+#: admin/includes/elements/settings/selectors/checkbox.php:2
+#: admin/includes/elements/settings/selectors/date.php:2
+#: admin/includes/elements/settings/selectors/recaptcha.php:2
+#: admin/includes/elements/settings/selectors/text.php:2
+#: admin/includes/elements/settings/styles.php:29
+msgid "Outer wrapper"
+msgstr "Зовнішня границя"
+
+#: admin/includes/elements/settings/selectors/select.php:6
+#: admin/includes/elements/settings/selectors/time.php:6
+#: admin/includes/elements/settings/selectors/checkbox.php:8
+#: admin/includes/elements/settings/selectors/date.php:6
+#: admin/includes/elements/settings/selectors/recaptcha.php:6
+#: admin/includes/elements/settings/selectors/text.php:6
+#: admin/includes/elements/settings/styles.php:35
+msgid "Inner wrapper"
+msgstr "Внутрішня границя"
+
+#: admin/includes/elements/settings/selectors/select.php:8
+msgid "Dropdown field"
+msgstr "Випадаючий список"
+
+#: admin/includes/elements/settings/selectors/select.php:10
+#: admin/includes/elements/settings/selectors/time.php:14
+#: admin/includes/elements/settings/selectors/checkbox.php:6
+#: admin/includes/elements/settings/selectors/groupstart.php:6
+#: admin/includes/elements/settings/selectors/date.php:14
+#: admin/includes/elements/settings/selectors/recaptcha.php:8
+#: admin/includes/elements/settings/selectors/text.php:10
+#: admin/includes/elements/settings/description.php:2
+#: admin/includes/elements/settings/styles.php:50
+#: admin/includes/form-builder.php:259
+msgid "Description"
+msgstr "Примітка"
+
+#: admin/includes/elements/settings/selectors/time.php:8
+msgid "Hour field"
+msgstr "Поле \"Час\""
+
+#: admin/includes/elements/settings/selectors/time.php:10
+msgid "Minute field"
+msgstr "Поле \"Хвилина\""
+
+#: admin/includes/elements/settings/selectors/time.php:12
+msgid "am/pm field"
+msgstr "am/pm поле"
+
+#: admin/includes/elements/settings/selectors/checkbox.php:10
+msgid "Option list"
+msgstr "Список значень"
+
+#: admin/includes/elements/settings/selectors/checkbox.php:12
+msgid "Option list item"
+msgstr "Значення зі списку"
+
+#: admin/includes/elements/settings/selectors/checkbox.php:14
+msgid "Option input"
+msgstr "Елемент input"
+
+#: admin/includes/elements/settings/selectors/checkbox.php:16
+#: admin/includes/elements/settings/styles.php:59
+msgid "Option label"
+msgstr "Мітка перемикача"
+
+#: admin/includes/elements/settings/selectors/groupstart.php:2
+#: admin/includes/elements/settings/styles.php:62
+msgid "Group wrapper"
+msgstr "Границя групы"
+
+#: admin/includes/elements/settings/selectors/groupstart.php:8
+#: admin/includes/elements/settings/styles.php:68
+msgid "Group elements wrapper"
+msgstr "Границя елементів в групі"
+
+#: admin/includes/elements/settings/selectors/date.php:8
+msgid "Day field"
+msgstr "Поле \"День\""
+
+#: admin/includes/elements/settings/selectors/date.php:10
+msgid "Month field"
+msgstr "Поле \"Місяць\""
+
+#: admin/includes/elements/settings/selectors/date.php:12
+msgid "Year field"
+msgstr "Поле \"Рік\""
+
+#: admin/includes/elements/settings/selectors/text.php:8
+msgid "Input field"
+msgstr "Поле для вводу"
+
+#: admin/includes/elements/settings/required-message.php:7
+msgid "Error message if required"
+msgstr "Повідомлення при помилку"
+
+#: admin/includes/elements/settings/required-message.php:10
+msgid ""
+"Translate or override the error message shown under the field\n"
+"        when the element is required. The default is \"%s\"."
+msgstr ""
+"Перекласти або змінити повідомлення про помилку, якщо елемент\n"
+"        обов'язковий до заповнення. Стандартне повідомлення \"%s\"."
+
+#: admin/includes/elements/settings/hide-from-email.php:8
+msgid "If checked, the submitted element data will not be shown in the default notification email"
+msgstr "Не показувати дане поле в стандартному оповіщенні на Email"
+
+#: admin/includes/elements/settings/hide-from-email.php:10
+msgid "Do not show in the email"
+msgstr "Не показувати в листі"
+
+#: admin/includes/elements/settings/prevent-duplicates.php:8
+msgid "Prevents the form being submitted if a form has previously been submitted with the same value"
+msgstr "Заборонити відправку форми, якщо попередня була відправлена з такими ж даними"
+
+#: admin/includes/elements/settings/prevent-duplicates.php:10
+msgid "Prevent duplicates"
+msgstr "Заборонити дублікати"
+
+#: admin/includes/elements/settings/prevent-duplicates.php:19
+msgid "Error message if duplicate found"
+msgstr "Повідомлення при помилку, якщо знайдений дублікат"
+
+#: admin/includes/elements/settings/prevent-duplicates.php:25
+msgid ""
+"Translate or override the error message shown under a field when a\n"
+"            duplicate value is found. The default is \"%s\"."
+msgstr ""
+"Ваш текст повідомлення про помилку, якщо в елементі\n"
+"        дублюється значення. Стандартне повідомлення \"%s\"."
+
+#: admin/includes/elements/settings/global-style.php:4
+#: admin/includes/elements/settings/style.php:4
+msgid "Edit CSS"
+msgstr "Редагувати CSS"
+
+#: admin/includes/elements/settings/global-style.php:4
+#: admin/includes/elements/settings/global-style.php:12
+#: admin/includes/elements/settings/style.php:4
+#: admin/includes/elements/settings/style.php:12
+msgid "CSS"
+msgstr "CSS"
+
+#: admin/includes/elements/settings/global-style.php:5
+#: admin/includes/elements/settings/style.php:5
+msgid "Delete this style"
+msgstr "Видалити стиль"
+
+#: admin/includes/elements/settings/style.php:3
+msgid "Hide CSS settings"
+msgstr "Сховати налаштування CSS"
+
+#: admin/includes/elements/settings/save-to-database.php:8
+msgid "If checked, the submitted element data will be saved to the database and shown when viewing an entry"
+msgstr "Якщо включено, дані з цього елемента буде збережено в базу і вони будуть доступні для перегляду в записах"
+
+#: admin/includes/elements/settings/save-to-database.php:10
+msgid "Save value to the database"
+msgstr "Зберегти значення в базу"
+
+#: admin/includes/elements/settings/conditional-logic.php:7
+msgid "Enable conditional logic"
+msgstr "Увімкнути перевірку умов"
+
+#: admin/includes/elements/settings/conditional-logic.php:14
+msgid "Enables you to create rules to show or hide this group depending on the values of other fields"
+msgstr "Дозволяє Вам створити правила для приховування або відображення поля або групи полів на підставі введених даних в інших полях"
+
+#: admin/includes/elements/settings/conditional-logic.php:16
+msgid "Enables you to create rules to show or hide this field depending on the values of other fields"
+msgstr "Дозволяє Вам створити правила для приховування або відображення поля або групи полів на підставі введених даних в інших полях"
+
+#: admin/includes/elements/settings/conditional-logic.php:29
+msgid "Logic rules"
+msgstr "Правила"
+
+#: admin/includes/elements/settings/admin-label.php:8
+msgid "The admin label will be shown throughout the form builder, in the notification email and when viewing submitted form entries."
+msgstr "Мітка адміна показується тільки в конструкторі форм, в листах і отриманих даних з форм."
+
+#: admin/includes/elements/settings/admin-label.php:10
+msgid "Admin label"
+msgstr "Мітка адміна"
+
+#: admin/includes/elements/settings/display-options.php:8
+msgid ""
+"You can have your options all on the same line or have one option\n"
+"            per line using this setting."
+msgstr ""
+"Ви можете ввести список опцій в одну лінію або\n"
+"             по одній в рядку, використовуючи це поле."
+
+#: admin/includes/elements/settings/display-options.php:11
+msgid "Options layout"
+msgstr "Список опцій"
+
+#: admin/includes/elements/settings/display-options.php:15
+msgid "One option per line"
+msgstr "Одна опція на рядок"
+
+#: admin/includes/elements/settings/display-options.php:16
+msgid "Inline"
+msgstr "В лінію"
+
+#: admin/includes/elements/settings/dynamic-default-value.php:8
+msgid ""
+"Allows the default value of the field to be set dynamically via a\n"
+"            URL parameter, shortcode attribute or filter hook."
+msgstr ""
+"Дозволяє задати динамічне значення по замовчуванню на підставі даних у \n"
+"            URL, аттрибута в шорткоде або хуков у фільтрі."
+
+#: admin/includes/elements/settings/dynamic-default-value.php:11
+msgid "Dynamic default value"
+msgstr "Динамічне значення за замовчуванням"
+
+#: admin/includes/elements/settings/dynamic-default-value.php:19
+msgid ""
+"This is the name of the parameter that you will use to set the default.\n"
+"            For example, in the URL you can set the value using %s?parameter_name=my_value%s."
+msgstr ""
+"Назва параметра, який буде містити значення за замовчуванням.\n"
+"            Наприклад, у Вашому URL посиланню Ви будете використовувати параметр зі значенням %s?parameter_name=my_value%s."
+
+#: admin/includes/elements/settings/dynamic-default-value.php:22
+msgid "Parameter name"
+msgstr "Ім'я параметра"
+
+#: admin/includes/elements/settings/required.php:4
+msgid "If checked, the user must fill out this field"
+msgstr "Якщо включено, користувач повинен заповнити поле"
+
+#: admin/includes/elements/settings/required.php:6
+msgid "Required"
+msgstr "Обов'язкове"
+
+#: admin/includes/elements/settings/selectors.php:4
+msgid "You can use these selectors in your CSS stylesheet to style this element individually."
+msgstr "Ви можете використовувати ці селектори в своєму файлі стилів для налаштування виду елементів."
+
+#: admin/includes/elements/settings/selectors.php:6
+msgid "CSS selectors"
+msgstr "CSS селектори"
+
+#: admin/includes/elements/settings/selectors.php:44
+msgid "Please save the form to see the CSS selectors."
+msgstr "Збережіть форму, щоб подивитися властивості CSS"
+
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:6
+msgid "Insert variable..."
+msgstr "Додати змінну..."
+
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:7
+#: admin/admin.php:381
+msgid "User IP address"
+msgstr "IP адреса користувача"
+
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:8
+#: admin/admin.php:382
+msgid "Form post/page ID"
+msgstr "ID запису / сторінки для форми"
+
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:9
+#: admin/admin.php:383
+msgid "Form post/page title"
+msgstr "Заголовок запису / сторінки форми"
+
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:10
+#: admin/includes/form-builder.php:1170
+#: admin/includes/entry.php:35
+#: admin/admin.php:384
+#: admin/admin.php:2913
+msgid "Form URL"
+msgstr "Посилання на форму"
+
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:11
+#: admin/admin.php:385
+msgid "User display name"
+msgstr "Ім'я користувача"
+
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:12
+#: admin/admin.php:386
+msgid "User email"
+msgstr "Email користувача"
+
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:13
+msgid "User login"
+msgstr "Логін користувача"
+
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:14
+#: admin/includes/form-builder.php:1175
+#: admin/includes/entry.php:43
+#: admin/admin.php:388
+#: admin/admin.php:2914
+msgid "Referring URL"
+msgstr "Реферальне посилання"
+
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:15
+#: admin/admin.php:389
+msgid "Date (select a format)"
+msgstr "Дата (виберіть формат)"
+
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:20
+#: admin/admin.php:390
+msgid "Time (select a format)"
+msgstr "Час (виберіть формат)"
+
+#: admin/includes/elements/settings/clear-default-value.php:6
+msgid "Clear default value on focus"
+msgstr "Очищати стандартне значення при виборі"
+
+#: admin/includes/elements/settings/clear-default-value.php:9
+msgid "If checked, the default value will be removed when the user clicks on the field."
+msgstr "Якщо включено, значення за замовчуванням буде видалено при виборі цьго поля користувачем."
+
+#: admin/includes/elements/settings/clear-default-value.php:14
+msgid "Show default value on blur if empty"
+msgstr "Показувати значення за замовчуванням, якщо поле пусте"
+
+#: admin/includes/elements/settings/clear-default-value.php:17
+msgid ""
+"If checked, when the user clicks off the field and leaves it empty, the default\n"
+"         value will show again."
+msgstr ""
+"Якщо включено, значення за замовчуванням знову з'явиться в полі, якщо користувач\n"
+"         нічого не ввів."
+
+#: admin/includes/elements/settings/tooltip.php:8
+msgid ""
+"The tooltip text will appear next to your element in a tooltip when the user hovers\n"
+"            it with their mouse. You can customize the look of tooltips by going to %1$sSettings &rarr; Style &rarr; Tooltips%2$s"
+msgstr ""
+"Текст підказки відображається, якщо користувач наводить на елемент\n"
+"            курсор миші. Ви можете налаштувати відображення підказок у меню%1$sПараметри &rarr; Стиль &rarr; Підказки%2$s"
+
+#: admin/includes/elements/settings/tooltip.php:11
+msgid "Tooltip text"
+msgstr "Текст підказки"
+
+#: admin/includes/elements/settings/tooltip.php:16
+msgid ""
+"Note: For this element type the tooltip will only show if the tooltip type is set to\n"
+"%1$sHelp icon%2$s in the %1$sOptional%2$s settings tab, or in the global tooltip settings at %1$sSettings &rarr; Style &rarr; Tooltips%2$s."
+msgstr ""
+"Примітка: Підказки для цього елемента відображаються тільки якщо встановлено параметр\n"
+"%1$sІконка допомоги%2$s у %1$sПараметрах елемента%2$s, або в глобальних налаштуваннях форми -  %1$sПараметри &rarr; Стиль &rarr; Підказки%2$s."
+
+#: admin/includes/elements/settings/tooltip-type.php:7
+msgid ""
+"If set to %1$sInherit%2$s, the setting will be inherited from the global\n"
+"form settings. If set to %1$sField%2$s, the tooltip will show when the user interacts with\n"
+"        the field. If set to %1$sHelp icon%2$s, the tooltip will be shown when the user interacts with a help icon."
+msgstr ""
+"Якщо вибрано %1$sУспадкувати%2$s, налаштування будуть скопійовані з глобальних\n"
+"налаштувань форми. Якщо вибрано %1$sПоле%2$s, підказка буде показана при взаємодії користувача \n"
+"       з полем. Якщо вибрано %1$sІконка допомоги%2$s, підказка буде показана при натисканні на іконку допомоги."
+
+#: admin/includes/elements/settings/tooltip-type.php:10
+msgid "Tooltip trigger"
+msgstr "Тип підказок"
+
+#: admin/includes/elements/settings/tooltip-type.php:16
+#: admin/includes/form-builder.php:670
+msgid "Field"
+msgstr "Поле"
+
+#: admin/includes/elements/settings/tooltip-type.php:18
+#: admin/includes/form-builder.php:671
+msgid "Help icon"
+msgstr "Іконка допомоги"
+
+#: admin/includes/elements/settings/tooltip-type.php:21
+#: admin/includes/form-builder.php:673
+msgid "Choose what the user will be interacting with to show the tooltip."
+msgstr "Виберіть джерело підказки користувачам (саме поле або іконка допомоги біля нього)"
+
+#: admin/includes/elements/settings/tooltip-type.php:26
+msgid ""
+"If set to %1$sInherit%2$s, the setting will be inherited from the global\n"
+"form settings."
+msgstr ""
+"Якщо вибрано %1$sУспадкувати%2$s, налаштування будуть скопійовані з глобальних\n"
+"налаштуваннь форми."
+
+#: admin/includes/elements/settings/tooltip-type.php:28
+msgid "Tooltip event"
+msgstr "Подія для підказки"
+
+#: admin/includes/elements/settings/tooltip-type.php:33
+#: admin/includes/form-builder.php:683
+msgid "Hover"
+msgstr "При наведенні"
+
+#: admin/includes/elements/settings/tooltip-type.php:34
+#: admin/includes/form-builder.php:684
+msgid "Click"
+msgstr "Клік"
+
+#: admin/includes/elements/settings/tooltip-type.php:36
+#: admin/includes/form-builder.php:686
+msgid "Choose the event that will trigger the tooltip to show."
+msgstr "Виберіть подію для відображення підказок."
+
+#: admin/includes/elements/settings/options-multiple.php:8
+#: admin/includes/elements/settings/options.php:8
+msgid "These are the choices that the user will be able to choose from."
+msgstr "Це список для вибору користувача"
+
+#: admin/includes/elements/settings/options-multiple.php:10
+#: admin/includes/elements/settings/options.php:10
+msgid "The %sCustomize values%s setting allows you to have a different value being submitted, than the value that is displayed to the user."
+msgstr "%sДозволити%s  введення різних значень для відправки в листі і для відображення користувачеві."
+
+#: admin/includes/elements/settings/options-multiple.php:12
+#: admin/includes/elements/settings/options.php:12
+msgid "Options"
+msgstr "Параметри"
+
+#: admin/includes/elements/settings/options-multiple.php:17
+#: admin/includes/elements/settings/validators/identical.php:20
+#: admin/includes/elements/settings/options.php:18
+#: admin/includes/form-builder.php:1314
+msgid "Value"
+msgstr "Значення"
+
+#: admin/includes/elements/settings/options-multiple.php:26
+#: admin/includes/elements/settings/options.php:27
+msgid "Customize values"
+msgstr "Задати значення"
+
+#: admin/includes/elements/settings/label-placement.php:8
+msgid ""
+"\"Inherit\" means that the label placement will be inherted from the global\n"
+"            form settings or parent group."
+msgstr ""
+"\"Успадкувати\" означає, що розташування міток копіюється з глобальних налаштувань\n"
+"            форм або групи елементів."
+
+#: admin/includes/elements/settings/label-placement.php:20
+msgid "Choose where to display the label relative to the input. Changes to this setting will only be visible when viewing or previewing the form."
+msgstr "Де відображати мітки для полів з ​​цієї групи елементів. Ці зміни будуть помітні лише під час перегляду форми."
+
+#: admin/includes/elements/settings/styles.php:9
+msgid ""
+"Once you have added a style, enter the CSS styles one per line, with each line ending in\n"
+"            a semi-colon. %sClick here%s for an example."
+msgstr ""
+"Після додавання стилів, введіть кожне правило CSS з нового рядка, не забувайте розділяти їх\n"
+"            крапкою з комою. %sПодивитись%s приклад."
+
+#: admin/includes/elements/settings/styles.php:12
+msgid "CSS styles"
+msgstr "CSS стилі"
+
+#: admin/includes/elements/settings/styles.php:22
+msgid "No styles."
+msgstr "Нема стилів"
+
+#: admin/includes/elements/settings/styles.php:26
+#: admin/includes/form-builder.php:852
+msgid "Add a style"
+msgstr "Додати стиль CSS"
+
+#: admin/includes/elements/settings/styles.php:38
+msgid "Text input"
+msgstr "Поле для вводу"
+
+#: admin/includes/elements/settings/styles.php:41
+msgid "Textarea input"
+msgstr "Параграф"
+
+#: admin/includes/elements/settings/styles.php:44
+#: admin/admin.php:860
+msgid "Dropdown menu"
+msgstr "Випадаючий список"
+
+#: admin/includes/elements/settings/styles.php:47
+msgid "Group description"
+msgstr "Примітка групи"
+
+#: admin/includes/elements/settings/styles.php:53
+msgid "The wrapper around all of the options"
+msgstr "Границя навколо всіх елементів"
+
+#: admin/includes/elements/settings/styles.php:53
+#: admin/includes/form-builder.php:868
+msgid "Options outer wrapper"
+msgstr "Зовнішня границя перемикачів"
+
+#: admin/includes/elements/settings/styles.php:56
+msgid "The wrapper around each option"
+msgstr "Границя навколо кожного елемента"
+
+#: admin/includes/elements/settings/styles.php:56
+msgid "Option wrapper"
+msgstr "Границя елемента"
+
+#: admin/includes/elements/settings/styles.php:59
+msgid "The label of each option"
+msgstr "Мітка для кожного перемикача"
+
+#: admin/includes/elements/settings/styles.php:65
+msgid "Group title"
+msgstr "Заголовок групи"
+
+#: admin/includes/elements/settings/styles.php:71
+#: admin/admin.php:887
+#: admin/admin.php:987
+msgid "Date day dropdown"
+msgstr "День (випадаючий список)"
+
+#: admin/includes/elements/settings/styles.php:74
+#: admin/admin.php:890
+#: admin/admin.php:990
+msgid "Date month dropdown"
+msgstr "Місяць (випадаючий список)"
+
+#: admin/includes/elements/settings/styles.php:77
+#: admin/admin.php:893
+#: admin/admin.php:993
+msgid "Date year dropdown"
+msgstr "Рік (випадаючий список)"
+
+#: admin/includes/elements/settings/styles.php:80
+#: admin/admin.php:896
+#: admin/admin.php:996
+msgid "Time hour dropdown"
+msgstr "Час (випадаючий список)"
+
+#: admin/includes/elements/settings/styles.php:83
+#: admin/admin.php:899
+#: admin/admin.php:999
+msgid "Time minute dropdown"
+msgstr "Хвилини (випадаючий список)"
+
+#: admin/includes/elements/settings/styles.php:86
+#: admin/admin.php:902
+#: admin/admin.php:1002
+msgid "Time am/pm dropdown"
+msgstr "Час у форматі am / pm"
+
+#: admin/includes/elements/settings/validators/email.php:3
+#: admin/includes/elements/settings/validators/greater-than.php:3
+#: admin/includes/elements/settings/validators/alpha-numeric.php:3
+#: admin/includes/elements/settings/validators/length.php:3
+#: admin/includes/elements/settings/validators/digits.php:3
+#: admin/includes/elements/settings/validators/identical.php:3
+#: admin/includes/elements/settings/validators/less-than.php:3
+#: admin/includes/elements/settings/validators/alpha.php:3
+#: admin/includes/elements/settings/validators/regex.php:3
+msgid "Hide validator settings"
+msgstr "Приховати налаштування валідатора"
+
+#: admin/includes/elements/settings/validators/email.php:5
+#: admin/includes/elements/settings/validators/greater-than.php:5
+#: admin/includes/elements/settings/validators/alpha-numeric.php:5
+#: admin/includes/elements/settings/validators/length.php:5
+#: admin/includes/elements/settings/validators/digits.php:5
+#: admin/includes/elements/settings/validators/identical.php:5
+#: admin/includes/elements/settings/validators/less-than.php:5
+#: admin/includes/elements/settings/validators/alpha.php:5
+#: admin/includes/elements/settings/validators/regex.php:5
+msgid "Delete this validator"
+msgstr "Видалити валідатор"
+
+#: admin/includes/elements/settings/validators/email.php:7
+msgctxt "the name of the email address validator"
+msgid "Email Address"
+msgstr "Email адреса"
+
+#: admin/includes/elements/settings/validators/email.php:10
+#: admin/includes/elements/settings/validators/greater-than.php:24
+#: admin/includes/elements/settings/validators/alpha-numeric.php:25
+#: admin/includes/elements/settings/validators/digits.php:25
+#: admin/includes/elements/settings/validators/identical.php:25
+#: admin/includes/elements/settings/validators/less-than.php:25
+#: admin/includes/elements/settings/validators/alpha.php:25
+#: admin/includes/elements/settings/validators/regex.php:25
+msgid "Translate error message"
+msgstr "Свій переклад повідомлень про помилку"
+
+#: admin/includes/elements/settings/validators/greater-than.php:7
+msgctxt "the name of the greater than validator which validates that the value is greater than a number"
+msgid "Greater Than"
+msgstr "Більше ніж"
+
+#: admin/includes/elements/settings/validators/greater-than.php:17
+msgid "The submitted value must be numerically greater than the minimum, if not the error message shown below will be displayed to the user"
+msgstr "Користувач може відправити тільки таке значення, яке більше зазначеного Вами."
+
+#: admin/includes/elements/settings/validators/greater-than.php:20
+msgid "Minimum"
+msgstr "Минімум"
+
+#: admin/includes/elements/settings/validators/greater-than.php:39
+#: admin/includes/elements/settings/validators/alpha-numeric.php:40
+#: admin/includes/elements/settings/validators/length.php:52
+#: admin/includes/elements/settings/validators/length.php:67
+#: admin/includes/elements/settings/validators/digits.php:40
+#: admin/includes/elements/settings/validators/identical.php:40
+#: admin/includes/elements/settings/validators/less-than.php:40
+#: admin/includes/elements/settings/validators/alpha.php:40
+#: admin/includes/elements/settings/validators/regex.php:40
+msgid "the submitted value"
+msgstr "введене значення"
+
+#: admin/includes/elements/settings/validators/greater-than.php:40
+msgid "the minimum allowed value"
+msgstr "мінімальне значення"
+
+#: admin/includes/elements/settings/validators/greater-than.php:41
+#: admin/includes/elements/settings/validators/alpha-numeric.php:41
+#: admin/includes/elements/settings/validators/length.php:55
+#: admin/includes/elements/settings/validators/length.php:70
+#: admin/includes/elements/settings/validators/digits.php:41
+#: admin/includes/elements/settings/validators/identical.php:42
+#: admin/includes/elements/settings/validators/less-than.php:42
+#: admin/includes/elements/settings/validators/alpha.php:41
+#: admin/includes/elements/settings/validators/regex.php:41
+msgid "You can enter the placeholder code in your custom message to display their values."
+msgstr "Ви можете використовувати цей код для показу введених значень користувачеві."
+
+#: admin/includes/elements/settings/validators/alpha-numeric.php:7
+msgctxt "the name of the alphanumeric validator which validates that the value contains only alphanumeric characters"
+msgid "Alpha Numeric"
+msgstr "Букви і цифри"
+
+#: admin/includes/elements/settings/validators/alpha-numeric.php:17
+#: admin/includes/elements/settings/validators/digits.php:17
+#: admin/includes/elements/settings/validators/alpha.php:17
+msgid "If checked, any spaces or tabs are allowed"
+msgstr "Якщо включено, то пробіли і табуляція - дозволені"
+
+#: admin/includes/elements/settings/validators/alpha-numeric.php:20
+#: admin/includes/elements/settings/validators/digits.php:20
+#: admin/includes/elements/settings/validators/alpha.php:20
+#: admin/includes/elements/settings/filters/alpha-numeric.php:19
+#: admin/includes/elements/settings/filters/digits.php:19
+#: admin/includes/elements/settings/filters/alpha.php:19
+msgid "Allow whitespace"
+msgstr "Дозволити пробіли"
+
+#: admin/includes/elements/settings/validators/length.php:7
+msgctxt "the name of the length validator which validates that the value is of a certain length"
+msgid "Length"
+msgstr "Довжина"
+
+#: admin/includes/elements/settings/validators/length.php:17
+msgid "The length of the submitted value must be greater than or equal to the minimum, if not the error message shown below will be displayed to the user"
+msgstr "Довжина введеного значення має бути більше або дорівнювати мінімальній, інакше буде відображатися повідомлення про помилку"
+
+#: admin/includes/elements/settings/validators/length.php:20
+msgid "Minimum length"
+msgstr "Мінімальна довжина"
+
+#: admin/includes/elements/settings/validators/length.php:29
+msgid "The length of the submitted value must be less than or equal to the maximum, if not the error message shown below will be displayed to the user"
+msgstr "Довжина введеного значення має бути менше або дорівнювати максімуальному, в іншому випадку буде відображено повідомлення про помилку"
+
+#: admin/includes/elements/settings/validators/length.php:32
+msgid "Maximum length"
+msgstr "Максимальна довжина"
+
+#: admin/includes/elements/settings/validators/length.php:53
+msgid "the minumum allowed length"
+msgstr "мінімально можлива довжина"
+
+#: admin/includes/elements/settings/validators/length.php:54
+#: admin/includes/elements/settings/validators/length.php:69
+msgid "the length of the submitted value"
+msgstr "довжина введеного значення"
+
+#: admin/includes/elements/settings/validators/length.php:68
+msgid "the maximum allowed length"
+msgstr "максимально можлива довжина"
+
+#: admin/includes/elements/settings/validators/digits.php:7
+msgctxt "the name of the digits validator which validates that the value contains only digits"
+msgid "Digits"
+msgstr "Цифри"
+
+#: admin/includes/elements/settings/validators/identical.php:7
+msgctxt "the name of the identical validator which validates that the value is identical to a value"
+msgid "Identical"
+msgstr "Дорівнює"
+
+#: admin/includes/elements/settings/validators/identical.php:17
+msgid "The token that the submitted value must be equal to, if not the error message shown below will be displayed to the user"
+msgstr "Користувач може відправити тільки те значення, яке дорівнює вказаному Вами."
+
+#: admin/includes/elements/settings/validators/identical.php:41
+msgid "the token"
+msgstr "маркер"
+
+#: admin/includes/elements/settings/validators/less-than.php:7
+msgctxt "the name of the less than validator which validates that the value is less than a number"
+msgid "Less Than"
+msgstr "Менше ніж"
+
+#: admin/includes/elements/settings/validators/less-than.php:17
+msgid "The submitted value must be numerically less than this value, or the error message shown below will be displayed to the user"
+msgstr "Користувач може відправити тільки те значення, яке менше зазначеного Вами."
+
+#: admin/includes/elements/settings/validators/less-than.php:20
+msgid "Maximum"
+msgstr "Максимум"
+
+#: admin/includes/elements/settings/validators/less-than.php:41
+msgid "the maximum allowed value"
+msgstr "максимальне значення"
+
+#: admin/includes/elements/settings/validators/alpha.php:7
+msgctxt "the name of the alpha validator which validates that the value contains only alphabet characters"
+msgid "Alpha"
+msgstr "Букви"
+
+#: admin/includes/elements/settings/validators/regex.php:7
+msgctxt "the name of the regex validator which validates by regular expression"
+msgid "Regex"
+msgstr "Regex"
+
+#: admin/includes/elements/settings/validators/regex.php:17
+msgid "The submitted value must match this regular expression, or the error message shown below will be displayed to the user"
+msgstr "Введене значення має дотримуватися регулярному виразу, інакше користувач отримає повідомлення про помилку"
+
+#: admin/includes/elements/settings/validators/regex.php:20
+#: admin/includes/elements/settings/filters/regex.php:19
+msgid "Pattern"
+msgstr "Маска"
+
+#: admin/includes/elements/settings/filters.php:9
+msgid "Filters allow you to strip various characters from the submitted form data"
+msgstr "Фільтри дозволяють видаляти різні символи з відправлених даних"
+
+#: admin/includes/elements/settings/filters.php:11
+msgid "Filters"
+msgstr "Фільтри"
+
+#: admin/includes/elements/settings/filters.php:42
+msgid "No filters."
+msgstr "Немає фільтрів."
+
+#: admin/includes/elements/settings/filters.php:46
+msgid "Add a filter"
+msgstr "Додати фільтр"
+
+#: admin/includes/elements/settings/filters.php:49
+msgid "Removes any non-alphabet characters"
+msgstr "Видалити все крім літер"
+
+#: admin/includes/elements/settings/filters.php:49
+#: admin/includes/elements/settings/validators.php:58
+msgid "Alpha"
+msgstr "Букви"
+
+#: admin/includes/elements/settings/filters.php:52
+msgid "Removes any non-alphabet characters and non-digits"
+msgstr "Видалити все крім цифр і букв"
+
+#: admin/includes/elements/settings/filters.php:52
+#: admin/includes/elements/settings/validators.php:61
+msgid "Alpha Numeric"
+msgstr "Букви та цифри"
+
+#: admin/includes/elements/settings/filters.php:55
+msgid "Removes any non-digits"
+msgstr "Видалити все крім цифр"
+
+#: admin/includes/elements/settings/filters.php:55
+#: admin/includes/elements/settings/validators.php:64
+msgid "Digits"
+msgstr "Цифри"
+
+#: admin/includes/elements/settings/filters.php:58
+msgid "Removes any HTML tags"
+msgstr "Видалити будь-який HTML"
+
+#: admin/includes/elements/settings/filters.php:58
+msgid "Strip Tags"
+msgstr "Видаляє HTML і PHP теги "
+
+#: admin/includes/elements/settings/filters.php:61
+msgid "Removes white space from the start and end"
+msgstr "Видалити пробіли на початку і наприкінці"
+
+#: admin/includes/elements/settings/filters.php:61
+msgid "Trim"
+msgstr "Обрізати"
+
+#: admin/includes/elements/settings/filters.php:64
+msgid "Removes characters matching the given regular expression"
+msgstr "Видалити символи відповідно до цього регулярного виразу"
+
+#: admin/includes/elements/settings/filters.php:64
+#: admin/includes/elements/settings/validators.php:82
+msgid "Regex"
+msgstr "Regex"
+
+#: admin/includes/elements/settings/validators.php:9
+msgid "Validators checks whether the data entered by the user is valid"
+msgstr "Валідатор перевіряє введені користувачем значення"
+
+#: admin/includes/elements/settings/validators.php:11
+msgid "Validators"
+msgstr "Валідатори"
+
+#: admin/includes/elements/settings/validators.php:51
+msgid "No validators."
+msgstr "Немає валідації"
+
+#: admin/includes/elements/settings/validators.php:55
+msgid "Add a validator"
+msgstr "Додати валідатор"
+
+#: admin/includes/elements/settings/validators.php:58
+msgid "Checks that the value contains only alphabet characters"
+msgstr "Перевірити, чи містить значення тільки літери"
+
+#: admin/includes/elements/settings/validators.php:61
+msgid "Checks that the value contains only alphabet or digit characters"
+msgstr "Перевірити, чи містить значення тільки цифри або букви"
+
+#: admin/includes/elements/settings/validators.php:64
+msgid "Checks that the value contains only digits"
+msgstr "Перевірити, чи містить значення тільки цифри"
+
+#: admin/includes/elements/settings/validators.php:67
+msgid "Checks that the value is a valid email address"
+msgstr "Перевірити, чи є значення правильною адресою email"
+
+#: admin/includes/elements/settings/validators.php:70
+msgid "Checks that the value is numerically greater than the given minimum"
+msgstr "Перевірити, чи більше значення, ніж зазначений мінімум"
+
+#: admin/includes/elements/settings/validators.php:70
+msgid "Greater Than"
+msgstr "Більше ніж"
+
+#: admin/includes/elements/settings/validators.php:73
+msgid "Checks that the value is identical to the given token"
+msgstr "Перевірити, чи дорівнює значення вказаному Вами"
+
+#: admin/includes/elements/settings/validators.php:73
+msgid "Identical"
+msgstr "Дорівнює"
+
+#: admin/includes/elements/settings/validators.php:76
+msgid "Checks that the value is numerically less than the given maximum"
+msgstr "Перевірити, чи менше значення, ніж зазначений максимум"
+
+#: admin/includes/elements/settings/validators.php:76
+msgid "Less Than"
+msgstr "Менше ніж"
+
+#: admin/includes/elements/settings/validators.php:79
+msgid "Checks that the length of the value is between the given maximum and minimum"
+msgstr "Перевірити, чи потрапляє довжина рядка в проміжок між заданими значеннями"
+
+#: admin/includes/elements/settings/validators.php:79
+msgid "Length"
+msgstr "Довжина"
+
+#: admin/includes/elements/settings/validators.php:82
+msgid "Checks that the value matches the given regular expression"
+msgstr "Перевірити, чи співпадає значення з даним регулярним виразом"
+
+#: admin/includes/elements/settings/options.php:16
+msgid "Clear default option"
+msgstr "Очистити стандартні опції"
+
+#: admin/includes/elements/settings/filters/alpha-numeric.php:3
+#: admin/includes/elements/settings/filters/strip-tags.php:3
+#: admin/includes/elements/settings/filters/digits.php:3
+#: admin/includes/elements/settings/filters/alpha.php:3
+#: admin/includes/elements/settings/filters/regex.php:3
+msgid "Hide filter settings"
+msgstr "Сховати налаштування фільтра"
+
+#: admin/includes/elements/settings/filters/alpha-numeric.php:5
+#: admin/includes/elements/settings/filters/strip-tags.php:5
+#: admin/includes/elements/settings/filters/digits.php:5
+#: admin/includes/elements/settings/filters/trim.php:3
+#: admin/includes/elements/settings/filters/alpha.php:5
+#: admin/includes/elements/settings/filters/regex.php:5
+msgid "Delete this filter"
+msgstr "Видалити фільтр"
+
+#: admin/includes/elements/settings/filters/alpha-numeric.php:7
+msgctxt "the name of alphanumeric filter which filters out non-alphanumeric characters"
+msgid "Alpha Numeric"
+msgstr "Букви і цифри"
+
+#: admin/includes/elements/settings/filters/alpha-numeric.php:16
+#: admin/includes/elements/settings/filters/digits.php:16
+#: admin/includes/elements/settings/filters/alpha.php:16
+msgid "If checked, any spaces or tabs will not be stripped"
+msgstr "Якщо зазначено, всі пробіли і символи табуляції не будуть видалятися"
+
+#: admin/includes/elements/settings/filters/strip-tags.php:7
+msgctxt "the name of strip tags filter which filters out HTML tags"
+msgid "Strip Tags"
+msgstr "Видалення тегів"
+
+#: admin/includes/elements/settings/filters/strip-tags.php:16
+msgid "Enter allowable tags, one after the other, for example:"
+msgstr "Введіть дозволені теги, один за іншим, наприклад:"
+
+#: admin/includes/elements/settings/filters/strip-tags.php:20
+msgid "Allowable tags"
+msgstr "Дозволені теги"
+
+#: admin/includes/elements/settings/filters/digits.php:7
+msgctxt "the name of digits filter which filters out non-digit characters"
+msgid "Digits"
+msgstr "Цифри"
+
+#: admin/includes/elements/settings/filters/trim.php:5
+msgctxt "the name of trim filter which filters out white space from the start and end"
+msgid "Trim"
+msgstr "Обрізати"
+
+#: admin/includes/elements/settings/filters/alpha.php:7
+msgctxt "the name of alphabet filter which filters out non-alphabet characters"
+msgid "Alpha"
+msgstr "Букви"
+
+#: admin/includes/elements/settings/filters/regex.php:7
+msgctxt "the name of regex filter which filters out characters by regular expression"
+msgid "Regex"
+msgstr "Regex"
+
+#: admin/includes/elements/settings/filters/regex.php:16
+msgid "Any text matching this regular expression pattern will be stripped"
+msgstr "Будь-який текст, що збігається з правилом буде видалений"
+
+#: admin/includes/elements/html.php:10
+msgid "This block of HTML is only visible when viewing or previewing the form."
+msgstr "Цей блок HTML буде видно тільки при перегляді форми."
+
+#: admin/includes/elements/html.php:30
+msgid "Enable element wrapper"
+msgstr "Обробляти як елемент форми"
+
+#: admin/includes/elements/html.php:34
+msgid ""
+"Allows this block of HTML to behave like an normal form element - it will\n"
+"                                    allow conditional logic to be applied to it and if it's inside a group it will behave like other elements."
+msgstr ""
+"Дозволити цьому блоку HTML вести себе як елемент форми - блок буде\n"
+"                                    дотримувати умови, які Ви застосуєте і вести себе як частина групи елементів, якщо Ви додаєте його в групу."
+
+#: admin/includes/elements/recaptcha.php:6
+msgid "Type the words"
+msgstr "Введіть текст КАПЧІ"
+
+#: admin/includes/elements/recaptcha.php:16
+msgid "You must enter your reCAPTCHA API keys on the %sQuform settings page%s to use this element."
+msgstr "Ви повинні ввести ключі для reCAPTCHA API на сторінці %sпараметрів Quform %s, щоб використовувати цей елемент"
+
+#: admin/includes/elements/recaptcha.php:43
+#: admin/includes/form-builder.php:429
+#: admin/includes/form-builder.php:461
+#: admin/includes/form-builder.php:496
+msgid "Theme"
+msgstr "Тема"
+
+#: admin/includes/elements/recaptcha.php:56
+msgid "English"
+msgstr "Англійська"
+
+#: admin/includes/elements/recaptcha.php:57
+msgid "Dutch"
+msgstr "Датська"
+
+#: admin/includes/elements/recaptcha.php:58
+msgid "French"
+msgstr "Французька"
+
+#: admin/includes/elements/recaptcha.php:59
+msgid "German"
+msgstr "Німецька"
+
+#: admin/includes/elements/recaptcha.php:60
+msgid "Portuguese"
+msgstr "Португальська"
+
+#: admin/includes/elements/recaptcha.php:61
+msgid "Russian"
+msgstr "Російська"
+
+#: admin/includes/elements/recaptcha.php:62
+msgid "Spanish"
+msgstr "Іспанська"
+
+#: admin/includes/elements/recaptcha.php:63
+msgid "Turkish"
+msgstr "Турецька"
+
+#: admin/includes/elements/recaptcha.php:67
+msgid "Language"
+msgstr "Мова"
+
+#: admin/includes/elements/groupend.php:12
+msgid "End of group: %s"
+msgstr "Кінець групи: %s"
+
+#: admin/includes/elements/textarea.php:47
+msgid ""
+"The default value is the value that the element is given before\n"
+"\t\t\t\t\t\t            the user has entered anything"
+msgstr ""
+"Значення поля за замовчуванням\n"
+"\t\t\t\t\t\t           поки користувач не ввів інші дані"
+
+#: admin/includes/import.php:10
+msgid "Import form"
+msgstr "Імпорт форми"
+
+#: admin/includes/import.php:24
+msgid "Import form data"
+msgstr "Імпорт даних форми"
+
+#: admin/includes/import.php:25
+msgid ""
+"Paste in the data generated from the Quform export page into the box below to import a form.\n"
+"    \t\tBear in mind that the email address set to receive emails will be set to the value that\n"
+"    \t\tit was in the website that the export was taken from. You can change this value after you\n"
+"    \t\timport by going to %1$sSettings &rarr; Email%2$s in the form builder."
+msgstr ""
+"Введіть дані, які Ви експортували з Quform раніше у поле для імпорту нижче.\n"
+"    \t\tПам'ятайте, що адреса одержувача буде встановлений така,\n"
+"    \t\tякою Ви її встановлювали на сайті, звідки експортовані дані. Ви можете змінити одержувача\n"
+"    \t\tпісля імпорту на сторінці Конструктор форм &rarr; Параметри &rarr; Відправка"
+
+#: admin/includes/import.php:32
+#: admin/admin.php:241
+#: admin/admin.php:242
+#: admin/admin.php:3126
+msgid "Import"
+msgstr "Імпорт"
+
+#: admin/includes/form-builder.php:11
+msgid "New form"
+msgstr "Нова форма"
+
+#: admin/includes/form-builder.php:12
+#: admin/admin.php:223
+#: admin/admin.php:224
+#: admin/admin.php:3124
+msgid "Form Builder"
+msgstr "Конструктор форм"
+
+#: admin/includes/form-builder.php:17
+msgid "The WordPress uploads directory is not writable, it will not be possible to save files uploaded via your forms. %sPermanently hide this message%s"
+msgstr "Папка завантажень Wordpress не доступна для запису, неможливо зберегти файли, які прикріпили до форм.  %sНе показувати це повідомлення%s"
+
+#: admin/includes/form-builder.php:22
+#: admin/includes/help.php:108
+msgid "You are using an unlicensed version. Please %senter your license key%s or %spurchase a license key%s."
+msgstr "Ви використовуєте неліцензійну версію. Будь ласка, %sвведіть код ліцензії%s або спочатку %sсплатіть за нього%s, зоб отримати свій код."
+
+#: admin/includes/form-builder.php:45
+msgid "Add to website"
+msgstr "Додати на сайт"
+
+#: admin/includes/form-builder.php:46
+msgid "Reload"
+msgstr "Оновити"
+
+#: admin/includes/form-builder.php:55
+msgid "You can now add the form to any post, page or widget."
+msgstr "Ви можете тепер додати форму в будь-який запис, сторінку або віджет."
+
+#: admin/includes/form-builder.php:57
+msgid "Add your form to a post or page"
+msgstr "Додати форму до запису або сторінки"
+
+#: admin/includes/form-builder.php:59
+msgid ""
+"Add or edit the page you want to show the form on. If you look above\n"
+"                    the visual editor you should see a Quform icon above it, as shown below."
+msgstr ""
+"Додайте або змініть сторінку, на якій Ви хочете показати форму. Вище\n"
+"                    візуального редактора, Ви побачите кнопку Quform."
+
+#: admin/includes/form-builder.php:62
+msgid ""
+"Click the Quform icon and a popup should appear, select the form from\n"
+"                    the list and click the Insert form button. The shortcode for this form should now appear\n"
+"                    inside your text editor. Alternatively, you can copy and paste one of the shortcodes below into your\n"
+"                    post or page content."
+msgstr ""
+"Клікніть іконку Quform для виклику меню, виберіть форму зі\n"
+"                    списку і натисніть Вставити. Шорткод повинен додатися у вікно редактора\n"
+"                    запису"
+
+#: admin/includes/form-builder.php:66
+#: admin/includes/form-builder.php:81
+msgid "Standard form"
+msgstr "Стандартна форма"
+
+#: admin/includes/form-builder.php:68
+#: admin/includes/form-builder.php:83
+msgid "Popup form"
+msgstr "Форма у вспливаючому вікні"
+
+#: admin/includes/form-builder.php:69
+#: admin/includes/form-builder.php:84
+#: admin/admin.php:1172
+msgid "Change this to the text or HTML that will trigger the popup"
+msgstr "Змінити на текст або HTML для перемикання спливаючого вікна"
+
+#: admin/includes/form-builder.php:71
+msgid "Add your form as a widget"
+msgstr "Додати форму у вигляді віджета."
+
+#: admin/includes/form-builder.php:73
+msgid ""
+"To add the form as a widget into a widget enabled area, go to the Appearance &rarr; Widgets\n"
+"                    in the WordPress navigation. Find the widget with the title \"Quform\" (or \"Quform Popup\" for a popup form) and simply\n"
+"                    drag it to your widget enabled area. Select one of the forms from the dropdown menu\n"
+"                    and click Save."
+msgstr ""
+"Щоб додати форму у вигляді віджета, перейдіть в Зовнішній вигляд &rarr; Віджети\n"
+"                    в меню Wordpress. Найдіть віджет  \"Quform\" та просто\n"
+"                    перетягніть його в зону віджетів. Виберіть форму зі списку\n"
+"                    и натисніть кнопку зберегти."
+
+#: admin/includes/form-builder.php:78
+msgid "Add your form to a theme PHP file"
+msgstr "Додайте форму в PHP файл Вашої теми"
+
+#: admin/includes/form-builder.php:80
+msgid "To add this form to one of your theme PHP files, use one of the PHP snippets below."
+msgstr "Для цього, використовуйте PHP код нижче. "
+
+#: admin/includes/form-builder.php:92
+msgid "Please enter a name for your new form"
+msgstr "Введіть назву форми"
+
+#: admin/includes/form-builder.php:95
+msgid "OK"
+msgstr "OK"
+
+#: admin/includes/form-builder.php:97
+msgid "e.g. Contact form"
+msgstr "наприклад, Контакт"
+
+#: admin/includes/form-builder.php:110
+msgid "Popular"
+msgstr "Популярні"
+
+#: admin/includes/form-builder.php:111
+msgid "More"
+msgstr "Ще"
+
+#: admin/includes/form-builder.php:154
+msgid "Edit your form"
+msgstr "Редагувати"
+
+#: admin/includes/form-builder.php:154
+#: admin/includes/entry.php:27
+#: admin/includes/dashboard.php:3
+msgid "Form"
+msgstr "Форма"
+
+#: admin/includes/form-builder.php:155
+msgid "Global form settings"
+msgstr "Глобальні налаштування"
+
+#: admin/includes/form-builder.php:162
+msgid "drop an element here"
+msgstr "перетягніть елемент сюди"
+
+#: admin/includes/form-builder.php:163
+msgid "(or just click it)"
+msgstr "(або просто клікніть по ньому)"
+
+#: admin/includes/form-builder.php:225
+msgid "Common settings"
+msgstr "Загальні настройки"
+
+#: admin/includes/form-builder.php:226
+msgid "What the form will look like"
+msgstr "Установки вигляду форми"
+
+#: admin/includes/form-builder.php:227
+msgid "Where the data is sent and how it's displayed"
+msgstr "Куди надсилати дані та налаштування їх виду"
+
+#: admin/includes/form-builder.php:228
+msgid "Set up saving submitted form entries"
+msgstr "Установки для відправлених даних форми"
+
+#: admin/includes/form-builder.php:228
+msgctxt "saved submitted form entries"
+msgid "Entries"
+msgstr "Записи"
+
+#: admin/includes/form-builder.php:229
+msgid "Save form data to a custom database"
+msgstr "Зберігати дані в іншу базу"
+
+#: admin/includes/form-builder.php:234
+msgid "Form information"
+msgstr "Інформація про форму"
+
+#: admin/includes/form-builder.php:238
+msgid "This is your form name within WordPress, it will not appear on your website"
+msgstr "Це ім'я Вашої форми, воно не відображається на сайті"
+
+#: admin/includes/form-builder.php:242
+msgid "Give the form a name"
+msgstr "Вкажіть ім'я форми"
+
+#: admin/includes/form-builder.php:248
+msgid "The heading that will show above the form on your website"
+msgstr "Заголовок форми (відображається на сайті)"
+
+#: admin/includes/form-builder.php:252
+msgid "Title to display above the form"
+msgstr "Заголовок форми (показується на сайті)"
+
+#: admin/includes/form-builder.php:258
+msgid "The description that will show below the form title."
+msgstr "Примітка відображається під заголовком форми."
+
+#: admin/includes/form-builder.php:262
+msgid "Description to display above the form"
+msgstr "Примітка відображається над формою."
+
+#: admin/includes/form-builder.php:270
+msgid "Inactive forms will not appear on your website"
+msgstr "Неактивні форми не відображаються на сайті"
+
+#: admin/includes/form-builder.php:274
+msgid "Successful submit options"
+msgstr "Опції успішно додані"
+
+#: admin/includes/form-builder.php:278
+msgid "On successful submit"
+msgstr "При успішній відправці"
+
+#: admin/includes/form-builder.php:281
+msgid "Display a message"
+msgstr "Показати повідомлення"
+
+#: admin/includes/form-builder.php:282
+msgid "Redirect to another page"
+msgstr "Редирект на іншу сторінку"
+
+#: admin/includes/form-builder.php:286
+msgid "Your message has been sent, thanks."
+msgstr "Ваше повідомлення було надіслано, дякуємо."
+
+#: admin/includes/form-builder.php:288
+msgid "Message"
+msgstr "Повідомлення"
+
+#: admin/includes/form-builder.php:290
+msgid "Add more data to your message by inserting a variable tag"
+msgstr "Додати дані в лист, використовуючи ці змінні"
+
+#: admin/includes/form-builder.php:292
+msgid "Message to display when the form is successfully submitted. You can enter HTML to format the message."
+msgstr "Повідомлення при успішну відправку форми, можна використовувати HTML"
+
+#: admin/includes/form-builder.php:297
+msgid "Message position"
+msgstr "Позиція повідомлення"
+
+#: admin/includes/form-builder.php:300
+msgid "Above the form"
+msgstr "Над формою"
+
+#: admin/includes/form-builder.php:301
+msgid "Below the form"
+msgstr "Під формою "
+
+#: admin/includes/form-builder.php:307
+msgid "Message timeout"
+msgstr "Час відображення"
+
+#: admin/includes/form-builder.php:310
+msgid "The success message will fade out and disappear after this number of seconds. Set to 0 to disable the timeout."
+msgstr "Повідомлення буде приховано через дану кількість секунд. Для виключення встановіть 0."
+
+#: admin/includes/form-builder.php:316
+msgid "Redirect to"
+msgstr "Перенаправити"
+
+#: admin/includes/form-builder.php:320
+msgid "Page"
+msgstr "Страниця"
+
+#: admin/includes/form-builder.php:321
+msgid "Post"
+msgstr "Запис"
+
+#: admin/includes/form-builder.php:322
+msgid "URL"
+msgstr "URL"
+
+#: admin/includes/form-builder.php:337
+msgid "When the form is successfully submitted you can redirect the user to post, page or URL."
+msgstr "Після успішної відправки форми перенаправити користувача на іншу сторінку або URL."
+
+#: admin/includes/form-builder.php:341
+msgid "More options"
+msgstr "Більше налаштувань"
+
+#: admin/includes/form-builder.php:346
+msgid "What would you like your form submit button to say? E.g. Submit, Go, Get in touch ... etc"
+msgstr "Вкажіть назву кнопки \"Надіслати\"? Наприклад, Відправити, Вперед, Контакт ... і др."
+
+#: admin/includes/form-builder.php:347
+msgid "Submit button text"
+msgstr "Текст кнопки відправки"
+
+#: admin/includes/form-builder.php:350
+msgid "Override the default text of the submit button which is \"%s\""
+msgstr "Перепишіть стандартний текст кнопки \"Надіслати\", зараз -  \"%s\""
+
+#: admin/includes/form-builder.php:350
+msgid "Send"
+msgstr "Надіслати"
+
+#: admin/includes/form-builder.php:355
+msgid "Use Ajax"
+msgstr "Використовувати Ajax"
+
+#: admin/includes/form-builder.php:358
+msgid "When enabled, the form will submit without reloading the page. If disabled, it will also disable the Flash file uploader."
+msgstr "Якщо включено, форма буде відправлена ​​без перезавантаження сторінки. Якщо вимкнено, завантажувач флеш також не буде працювати."
+
+#: admin/includes/form-builder.php:363
+msgid "Enable honeypot CAPTCHA"
+msgstr "Включити CAPTCHA"
+
+#: admin/includes/form-builder.php:366
+msgid "A hidden anti-spam measure that requires no user interaction"
+msgstr "Увімкнути захист від спаму."
+
+#: admin/includes/form-builder.php:371
+msgid "Conditional logic animation"
+msgstr "Анімація при виконанні правил"
+
+#: admin/includes/form-builder.php:374
+msgid ""
+"If enabled the fields that are hidden or shown via conditional logic will be\n"
+"                                                animated instead of hidden or shown instantly."
+msgstr ""
+"Якщо включено, приховані поля будуть ховатися і відображатися \n"
+"                                                    з анімацією."
+
+#: admin/includes/form-builder.php:380
+msgid "Re-center Fancybox after conditional logic"
+msgstr "Відцентрувати Fancybox після використяння правил (показу прихованих полів) "
+
+#: admin/includes/form-builder.php:383
+msgid "If enabled, when conditional logic causes the Fancybox popup to change size it will center the popup."
+msgstr "Якщо ввімкнено, то при відображенні схованих полів форми спливаюче вікно автоматично відцентрується "
+
+#: admin/includes/form-builder.php:387
+msgid "Make money and support Quform!"
+msgstr "Зароби з Quform!"
+
+#: admin/includes/form-builder.php:392
+msgid "Display a referral link"
+msgstr "Відображати реферальне посилання"
+
+#: admin/includes/form-builder.php:396
+msgid "Displays a Quform referral link under your form, with the text you specify below"
+msgstr "Відображає реферальне посилання на Quform під формою із зазначеним текстом"
+
+#: admin/includes/form-builder.php:399
+msgid "Powered by Quform"
+msgstr "Powered by Quform"
+
+#: admin/includes/form-builder.php:402
+msgid "This is the text that will link to Quform, it's displayed under your form."
+msgstr "Цей текст для реф. посилання на Quform буде показаний під формою."
+
+#: admin/includes/form-builder.php:403
+msgid "Referral link text"
+msgstr "Текст реферального посилання"
+
+#: admin/includes/form-builder.php:411
+msgid "ThemeForest / CodeCanyon username"
+msgstr "Ваш логін на ThemeForest / CodeCanyon"
+
+#: admin/includes/form-builder.php:414
+msgid ""
+"Enter your ThemeForest or CodeCanyon username and you will receive 30% of the first deposit or purchase amount from any referrals\n"
+"                                                when users click on your referral link."
+msgstr ""
+"Введіть свій логін на ThemeForest або CodeCanyon і Ви отримаєте 30% з першого продажу або депозиту в системі будь-якого рефералу,\n"
+"                                                якщо користувач клацне по посиланню."
+
+#: admin/includes/form-builder.php:415
+#: admin/admin.php:399
+#: admin/admin.php:1196
+msgid "More information"
+msgstr "Детальніше"
+
+#: admin/includes/form-builder.php:428
+msgid "Themes define the look of your form. You can add your own themes, see the Help for more information."
+msgstr "Тема визначає стиль Вашої форми. Ви можете додати свою тему, дивіться Довідку для подробиць."
+
+#: admin/includes/form-builder.php:440
+msgid "No themes found"
+msgstr "Тем не знайдено"
+
+#: admin/includes/form-builder.php:446
+msgid "Uniform"
+msgstr "Юніформа"
+
+#: admin/includes/form-builder.php:451
+msgid "Uniform makes form inputs look consistent in all browsers."
+msgstr "Юніформа відображає всі поля однаково у всіх браузерах."
+
+#: admin/includes/form-builder.php:452
+msgid "Use Uniform"
+msgstr "Включити Юніформу."
+
+#: admin/includes/form-builder.php:466
+msgid " (by %s)"
+msgstr " (%s)"
+
+#: admin/includes/form-builder.php:490
+msgid "Datepicker"
+msgstr "Календар"
+
+#: admin/includes/form-builder.php:495
+msgid "The theme chosen here will apply to all datepicker elements in your form."
+msgstr "Дана тема відображення календаря буде використана на всіх аналогічних елементах у формі."
+
+#: admin/includes/form-builder.php:531
+msgid "Choose the theme of the datepicker, %ssee examples of each theme%s."
+msgstr "Виберіть стиль календаря, %sподивитися приклади%s."
+
+#: admin/includes/form-builder.php:537
+msgid ""
+"The datepicker will be translated into the language you choose\n"
+"                                                and the date settings will be appropriate for your region."
+msgstr ""
+"Календар буде переведений на мову, яку Ви обрали,\n"
+"                                                і налаштування дати будуть підставлені, відповідно до Вашого регіону."
+
+#: admin/includes/form-builder.php:539
+msgid "Locale"
+msgstr "Локалізація"
+
+#: admin/includes/form-builder.php:611
+msgid "Choose the calendar localization"
+msgstr "Виберіть локалізацію календаря"
+
+#: admin/includes/form-builder.php:615
+msgid "Labels"
+msgstr "Мітки"
+
+#: admin/includes/form-builder.php:626
+msgid "Choose where to display the label relative to the input"
+msgstr "Виберіть місце відображення міток"
+
+#: admin/includes/form-builder.php:637
+msgid "The width of the labels, any valid CSS width is accepted, e.g. %s200px%s"
+msgstr "Ширина мітки, будь-який формат CSS, наприклад %s200px%s"
+
+#: admin/includes/form-builder.php:640
+msgid "(required)"
+msgstr "(обов'язково)"
+
+#: admin/includes/form-builder.php:642
+msgid "Required indicator text"
+msgstr "Повідомлення для обов'язкових полів"
+
+#: admin/includes/form-builder.php:648
+msgid "Tooltips"
+msgstr "Підказки"
+
+#: admin/includes/form-builder.php:653
+msgid "What's a tooltip? You're looking at one."
+msgstr "Ви бачите одну з підказок зараз."
+
+#: admin/includes/form-builder.php:654
+msgid "Enable tooltips"
+msgstr "Увімкнути підказки"
+
+#: admin/includes/form-builder.php:658
+msgid "If enabled, when the user hovers over an element with tooltip text set, a tooltip will appear."
+msgstr "Якщо включені, то при наведенні курсору на елемент, з'являтиметься підказка."
+
+#: admin/includes/form-builder.php:664
+msgid ""
+"If set to %1$sField%2$s, the tooltip will show when the user interacts with\n"
+"                                                the field. If set to %1$sHelp icon%2$s, the tooltip will be shown when the user interacts with a help icon."
+msgstr ""
+"Якщо вибрано %1$sПоле%2$s,підказка відобразитися, коли користувач працює з даними\n"
+"                                                в полі. Якщо вибрано %1$sІконка допомоги%2$s, підказка відобразитися тільки при натисканні на іконку допомоги."
+
+#: admin/includes/form-builder.php:666
+msgid "Trigger"
+msgstr "Джерело"
+
+#: admin/includes/form-builder.php:679
+msgid "Event"
+msgstr "Подія"
+
+#: admin/includes/form-builder.php:690
+msgid "Tooltip style"
+msgstr "Стиль підказок"
+
+#: admin/includes/form-builder.php:696
+msgid "Hover me for preview"
+msgstr "Наведіть для перегляду"
+
+#: admin/includes/form-builder.php:705
+msgid "Cream"
+msgstr "Кремовий"
+
+#: admin/includes/form-builder.php:707
+msgid "Light"
+msgstr "Світлий"
+
+#: admin/includes/form-builder.php:708
+msgid "Dark"
+msgstr "Темний"
+
+#: admin/includes/form-builder.php:709
+msgid "Red"
+msgstr "Червоний"
+
+#: admin/includes/form-builder.php:710
+msgid "Green"
+msgstr "Зелений"
+
+#: admin/includes/form-builder.php:711
+msgid "Blue"
+msgstr "Блакитний"
+
+#: admin/includes/form-builder.php:714
+msgid "YouTube"
+msgstr "YouTube"
+
+#: admin/includes/form-builder.php:715
+msgid "jTools"
+msgstr "jTools"
+
+#: admin/includes/form-builder.php:716
+msgid "Cluetip"
+msgstr "Cluetip"
+
+#: admin/includes/form-builder.php:717
+msgid "Tipped"
+msgstr "Tipped"
+
+#: admin/includes/form-builder.php:718
+msgid "Tipsy"
+msgstr "Tipsy"
+
+#: admin/includes/form-builder.php:720
+#: admin/includes/form-builder.php:725
+msgid "Custom class"
+msgstr "Свій клас"
+
+#: admin/includes/form-builder.php:732
+msgid "Tip position"
+msgstr "Позиція підказки"
+
+#: admin/includes/form-builder.php:735
+#: admin/includes/form-builder.php:756
+msgid "left center"
+msgstr "зліва по центру"
+
+#: admin/includes/form-builder.php:736
+#: admin/includes/form-builder.php:757
+msgid "left top"
+msgstr "лівий верхній кут"
+
+#: admin/includes/form-builder.php:737
+#: admin/includes/form-builder.php:758
+msgid "top left"
+msgstr "зверху зліва"
+
+#: admin/includes/form-builder.php:738
+#: admin/includes/form-builder.php:759
+msgid "top center"
+msgstr "зверху по центру"
+
+#: admin/includes/form-builder.php:739
+#: admin/includes/form-builder.php:760
+msgid "top right"
+msgstr "зверху праворуч"
+
+#: admin/includes/form-builder.php:740
+#: admin/includes/form-builder.php:761
+msgid "right top"
+msgstr "правий верхній кут"
+
+#: admin/includes/form-builder.php:741
+#: admin/includes/form-builder.php:762
+msgid "right center"
+msgstr "праворуч по центру"
+
+#: admin/includes/form-builder.php:742
+#: admin/includes/form-builder.php:763
+msgid "right bottom"
+msgstr "праворуч знизу"
+
+#: admin/includes/form-builder.php:743
+#: admin/includes/form-builder.php:764
+msgid "bottom right"
+msgstr "правий нижній кут"
+
+#: admin/includes/form-builder.php:744
+#: admin/includes/form-builder.php:765
+msgid "bottom center"
+msgstr "внизу по центру"
+
+#: admin/includes/form-builder.php:745
+#: admin/includes/form-builder.php:766
+msgid "bottom left"
+msgstr "лівий нижній кут"
+
+#: admin/includes/form-builder.php:746
+#: admin/includes/form-builder.php:767
+msgid "left bottom"
+msgstr "зліва внизу"
+
+#: admin/includes/form-builder.php:747
+#: admin/includes/form-builder.php:768
+msgid "center"
+msgstr "по центру"
+
+#: admin/includes/form-builder.php:753
+msgid "Position on input"
+msgstr "Позиція на елементі"
+
+#: admin/includes/form-builder.php:774
+msgid "CSS3 Shadow"
+msgstr "CSS3 Тінь"
+
+#: admin/includes/form-builder.php:781
+msgid "CSS3 Rounded Corners"
+msgstr "CSS3 Закруглені кути"
+
+#: admin/includes/form-builder.php:787
+msgid "The CSS3 effects may not work with some styles and may only be visible in modern browsers."
+msgstr "Ефекти CSS3 можуть не працювати в деяких браузерах."
+
+#: admin/includes/form-builder.php:791
+msgid "Global styling"
+msgstr "Глобальні налаштування стилю"
+
+#: admin/includes/form-builder.php:796
+msgid "Element background color"
+msgstr "Колір фону елемента"
+
+#: admin/includes/form-builder.php:805
+msgid "Element border color"
+msgstr "Колір границі елементу"
+
+#: admin/includes/form-builder.php:814
+msgid "Element text color"
+msgstr "Колір тексту"
+
+#: admin/includes/form-builder.php:823
+msgid "Label text color"
+msgstr "Колір мітки"
+
+#: admin/includes/form-builder.php:833
+msgid ""
+"Styles entered here will apply to all form elements, you can override these for\n"
+"                                                    each element inside the element settings. Once you have added a style, enter the CSS styles one per line, with each line ending in\n"
+"                                                    a semi-colon. %sClick here%s for an example."
+msgstr ""
+"Задані тут стилі будуть застосовуватись для усіх форм, ви можете змінити їх\n"
+"                                                    для кожного елемента в його налаштуваннях. Введіть стилі CSS по одному в рядку і не забудьте про крапку з комою в кінці. \n"
+"                                                    %sПодивитися приклад%s"
+
+#: admin/includes/form-builder.php:837
+msgid "Global CSS Styles"
+msgstr "Глобальні стилі CSS"
+
+#: admin/includes/form-builder.php:847
+msgid "No global styles."
+msgstr "Глобальні стилі не задані"
+
+#: admin/includes/form-builder.php:855
+msgid "The outer wrapper of the form"
+msgstr "Зовнішня границя форми"
+
+#: admin/includes/form-builder.php:855
+msgid "Form outer wrapper"
+msgstr "Зовнішня границя форми"
+
+#: admin/includes/form-builder.php:856
+msgid "The inner wrapper of the form"
+msgstr "Внутрішня границя форми"
+
+#: admin/includes/form-builder.php:856
+msgid "Form inner wrapper"
+msgstr "Внутрішня границя форми"
+
+#: admin/includes/form-builder.php:857
+msgid "The message shown when the form is successfully submitted"
+msgstr "Повідомлення при успішну відправку форми"
+
+#: admin/includes/form-builder.php:857
+#: admin/admin.php:945
+msgid "Success message"
+msgstr "Повідомлення при відправці"
+
+#: admin/includes/form-builder.php:858
+msgid "The form title"
+msgstr "Заголовок форми"
+
+#: admin/includes/form-builder.php:858
+#: admin/admin.php:948
+msgid "Form title"
+msgstr "Заголовок форми"
+
+#: admin/includes/form-builder.php:859
+msgid "The form description"
+msgstr "Примітка форми"
+
+#: admin/includes/form-builder.php:859
+#: admin/admin.php:951
+msgid "Form description"
+msgstr "Примітка форми"
+
+#: admin/includes/form-builder.php:860
+msgid "The wrapper surrounding all elements in the form"
+msgstr "Границя навколо елементів форми"
+
+#: admin/includes/form-builder.php:860
+msgid "Form elements wrapper"
+msgstr "Границя навколо елементів форми"
+
+#: admin/includes/form-builder.php:861
+msgid "The outer wrapper of each element"
+msgstr "Зовнішня границя кожного елемента"
+
+#: admin/includes/form-builder.php:861
+msgid "Element outer wrapper"
+msgstr "Зовнішня границя елемента"
+
+#: admin/includes/form-builder.php:862
+msgid "The label of each element"
+msgstr "Мітка кожного елемента"
+
+#: admin/includes/form-builder.php:862
+#: admin/admin.php:960
+msgid "Element label"
+msgstr "Мітка елемента"
+
+#: admin/includes/form-builder.php:863
+msgid "The inner wrapper of each element"
+msgstr "Внутрішня границя навколо кожного елемента"
+
+#: admin/includes/form-builder.php:863
+msgid "Element inner wrapper"
+msgstr "Внутрішня границя елементів"
+
+#: admin/includes/form-builder.php:864
+msgid "The description of each element"
+msgstr "Примітка кожного елемента"
+
+#: admin/includes/form-builder.php:864
+#: admin/admin.php:984
+msgid "Element description"
+msgstr "Примітка елемента"
+
+#: admin/includes/form-builder.php:865
+msgid "The input field of Single Line Text, Email, Password and CAPTCHA elements"
+msgstr "Поле для вводу (Рядок, Email, Пароль або Капча)"
+
+#: admin/includes/form-builder.php:865
+#: admin/admin.php:966
+msgid "Text input elements"
+msgstr "Текстові поля форми"
+
+#: admin/includes/form-builder.php:866
+msgid "The textarea field of Paragraph Text elements"
+msgstr "Текстовий блок (Параграф)"
+
+#: admin/includes/form-builder.php:866
+msgid "Paragraph Text elements"
+msgstr "Елементи типу Параграф"
+
+#: admin/includes/form-builder.php:867
+msgid "The select field of Dropdown Menu elements"
+msgstr "Випадаючий список"
+
+#: admin/includes/form-builder.php:867
+#: admin/admin.php:972
+msgid "Dropdown Menu elements"
+msgstr "Елементи Випадаючий список"
+
+#: admin/includes/form-builder.php:868
+msgid "The wrapper around all of the options of Multiple Choice and Checkbox elements"
+msgstr "Границя навколо кожного перемикача або прапорця у чекбокса"
+
+#: admin/includes/form-builder.php:869
+msgid "The wrapper around each option of Multiple Choice and Checkbox elements"
+msgstr "Границя навколо кожного перемикача в чекбокс елементах"
+
+#: admin/includes/form-builder.php:869
+msgid "Option wrappers"
+msgstr "Границя елемента"
+
+#: admin/includes/form-builder.php:870
+msgid "The label of each option of Multiple Choice and Checkbox elements"
+msgstr "Мітки кожного перемикача в чекбокс елементах"
+
+#: admin/includes/form-builder.php:870
+msgid "Option labels"
+msgstr "Мітки параметрів"
+
+#: admin/includes/form-builder.php:871
+msgid "Each of the dropdown menus of the Date element"
+msgstr "Кожен пункт списку, що випадає в елементі Дата"
+
+#: admin/includes/form-builder.php:871
+msgid "Date dropdowns"
+msgstr "Дата (випадаючий список)"
+
+#: admin/includes/form-builder.php:872
+msgid "Each of the dropdown menus of the Time element"
+msgstr "Кожен пункт списку елемента Час"
+
+#: admin/includes/form-builder.php:872
+msgid "Time dropdowns"
+msgstr "Час (випадаючий список)"
+
+#: admin/includes/form-builder.php:873
+msgid "The outer wrapper of the submit button"
+msgstr "Зовнішня границя кнопки Надіслати"
+
+#: admin/includes/form-builder.php:873
+#: admin/admin.php:1005
+msgid "Submit button outer wrapper"
+msgstr "Зовнішня границя кнопки Надіслати"
+
+#: admin/includes/form-builder.php:874
+msgid "The inner wrapper of the submit button"
+msgstr "Внутрішня границя кнопки Надіслати"
+
+#: admin/includes/form-builder.php:874
+#: admin/admin.php:1008
+msgid "Submit button inner wrapper"
+msgstr "Внутрішня границя кнопки Надіслати"
+
+#: admin/includes/form-builder.php:875
+msgid "The submit button"
+msgstr "Текст кнопки Надіслати"
+
+#: admin/includes/form-builder.php:875
+#: admin/admin.php:1011
+msgid "Submit button"
+msgstr "Кнопка Надіслати"
+
+#: admin/includes/form-builder.php:876
+msgid "The span tag inside the submit button"
+msgstr "Тег span в кнопці Надіслати"
+
+#: admin/includes/form-builder.php:876
+#: admin/admin.php:1014
+msgid "Submit button inside span"
+msgstr "Тег span в кнопці Надіслати"
+
+#: admin/includes/form-builder.php:877
+msgid "The em tag inside the submit button"
+msgstr "Тег em в кнопці Відправити"
+
+#: admin/includes/form-builder.php:877
+#: admin/admin.php:1017
+msgid "Submit button inside em"
+msgstr "Тег em в кнопці Відправити"
+
+#: admin/includes/form-builder.php:885
+msgid "Notification email settings"
+msgstr "Установки листів"
+
+#: admin/includes/form-builder.php:889
+msgid "Send form data via email"
+msgstr "Надіслати дані форми поштою"
+
+#: admin/includes/form-builder.php:892
+msgid "If checked, when the user submits the form the submitted form data will be sent in an email to the recipients specified below."
+msgstr "Якщо вибрано, відправлені дані будуть надіслані на пошту, зазначену нижче."
+
+#: admin/includes/form-builder.php:899
+msgid "Add email address(es) which the submitted form data will be sent to."
+msgstr "Додайте адресу (и), на які будуть відправлятися дані з форм."
+
+#: admin/includes/form-builder.php:901
+msgid "Recipients"
+msgstr "Одержувачі"
+
+#: admin/includes/form-builder.php:915
+msgid "Send the form data to different email addresses depending on the submitted form values."
+msgstr "Надіслати дані форми на іншу адресу в залежності від введених значень."
+
+#: admin/includes/form-builder.php:917
+msgid "Conditional recipients"
+msgstr "Одержувачі з умовою"
+
+#: admin/includes/form-builder.php:920
+msgid "Add a new rule"
+msgstr "Додати правило"
+
+#: admin/includes/form-builder.php:921
+msgid "The form must have at least one Dropdown Menu or Multiple Choice element to use this feature."
+msgstr "Форма повинна містити хоча б одне меню, що випадає або множинний вибір для включення цієї настройки."
+
+#: admin/includes/form-builder.php:924
+msgid "Active rules"
+msgstr "Активні правила"
+
+#: admin/includes/form-builder.php:926
+msgid "If the active conditional rules result in no recipients for the email then the recipients specified in the section above will be used."
+msgstr "Якщо дані не відповідають жодному з правил - відправити їх на адресу зазначену тут."
+
+#: admin/includes/form-builder.php:933
+msgid "\"Reply-To\" address"
+msgstr "\"Адреса для відповіді \""
+
+#: admin/includes/form-builder.php:938
+#: admin/includes/form-builder.php:1024
+#: admin/includes/form-builder.php:1079
+msgid "The form must have at least one Email Address element to use this feature."
+msgstr "Форма повинна містити хоча б одне поле Email для включення цієї настройки."
+
+#: admin/includes/form-builder.php:940
+msgid "When you compose a reply to the notification email, it will be addressed to the email address submitted in this field."
+msgstr "При складанні повідомлення користувачу про отримання його даних, воно буде адресуватися на Ваш ящик вказаний в цьому елементі."
+
+#: admin/includes/form-builder.php:943
+msgid "Message from your website"
+msgstr "Повідомлення від Вашого сайту"
+
+#: admin/includes/form-builder.php:945
+#: admin/includes/form-builder.php:1031
+msgid "Email subject"
+msgstr "Тема листа"
+
+#: admin/includes/form-builder.php:947
+#: admin/includes/form-builder.php:969
+#: admin/includes/form-builder.php:1033
+#: admin/includes/form-builder.php:1047
+msgid "Add more data to your email by inserting a variable tag"
+msgstr "Додати дані в лист, використовуючи ці змінні"
+
+#: admin/includes/form-builder.php:952
+msgid "Customize email content"
+msgstr "Редагувати тіло листа"
+
+#: admin/includes/form-builder.php:955
+msgid "Tick to customize the email content. By default all submitted form data is sent, you can see an example by submitting the form."
+msgstr "Натисніть, щоб коригувати структуру листа. Ви можете обрати та настроїти вид даних, які надсилає ця форма на Ваш email"
+
+#: admin/includes/form-builder.php:961
+#: admin/includes/form-builder.php:1039
+msgid "Email content"
+msgstr "Зміст листа"
+
+#: admin/includes/form-builder.php:964
+#: admin/includes/form-builder.php:1042
+msgid "Email format"
+msgstr "Формат листа"
+
+#: admin/includes/form-builder.php:966
+#: admin/includes/form-builder.php:1044
+msgid "Plain text"
+msgstr "Простий текст"
+
+#: admin/includes/form-builder.php:980
+msgid "This is the email address that recipient(s) will see as the sender of the email."
+msgstr "Адреса email, який побачить одержувач листа від Вашого імені"
+
+#: admin/includes/form-builder.php:981
+#: admin/includes/form-builder.php:1059
+msgid "\"From\" address"
+msgstr "Email адреса \"Від\""
+
+#: admin/includes/form-builder.php:986
+#: admin/includes/form-builder.php:1064
+msgid "Static email address"
+msgstr "Статична адреса Email"
+
+#: admin/includes/form-builder.php:987
+#: admin/includes/form-builder.php:1065
+msgid "Submitted email address"
+msgstr "Введена адреса Email"
+
+#: admin/includes/form-builder.php:994
+#: admin/includes/form-builder.php:1072
+msgid "Name (optional)"
+msgstr "Ім'я (опційно):"
+
+#: admin/includes/form-builder.php:1001
+msgid "The form must have at least one Email element to use this feature."
+msgstr "Форма повинна містити хоча б одне поле Email для включення цієї настройки."
+
+#: admin/includes/form-builder.php:1002
+msgid ""
+"The From address of the notification email will be set to the email address submitted in this field.\n"
+"                                                    %sImportant information%s."
+msgstr ""
+"Адреса email, від імені якого буде надіслано повідомлення.\n"
+"                                                    %sВажлива інформація%s."
+
+#: admin/includes/form-builder.php:1008
+msgid "Autoreply email settings (optional)"
+msgstr "Автовідповідач (опційно)"
+
+#: admin/includes/form-builder.php:1012
+msgid "Send autoreply email"
+msgstr "Надіслати автоматичний відповідь"
+
+#: admin/includes/form-builder.php:1015
+msgid "If checked, when the user submits the form an autoreply email will be sent to them"
+msgstr "Надіслати автоматичний відповідь користувачеві"
+
+#: admin/includes/form-builder.php:1020
+msgid "Recipient element"
+msgstr "Одержувач"
+
+#: admin/includes/form-builder.php:1026
+msgid "The autoreply email will be sent to the email address submitted in this field."
+msgstr "Автоматична відповідь буде відправлена на адресу, вказану в цьому елементі."
+
+#: admin/includes/form-builder.php:1058
+msgid "This is the email address that recipient will see as the sender of the email."
+msgstr "Адреса email, яку побачить одержувач листа."
+
+#: admin/includes/form-builder.php:1080
+msgid ""
+"The From address of the autoreply email will be set to the email address submitted in this field.\n"
+"                                                    %sImportant information%s."
+msgstr ""
+"Введіть email для автоматичного відповіді.\n"
+"                                                    %sВажлива інформація%s."
+
+#: admin/includes/form-builder.php:1093
+msgid "Use global setting"
+msgstr "Використовувати глобальні настройки"
+
+#: admin/includes/form-builder.php:1094
+msgid "PHP mail()"
+msgstr "PHP mail()"
+
+#: admin/includes/form-builder.php:1097
+msgid "The global setting can be configured at iPhorm &rarr; Settings on the WordPress menu."
+msgstr "Глобальні налаштування можуть бути змінені на сторінці &rarr; Параметри плагіна"
+
+#: admin/includes/form-builder.php:1144
+msgid "Entry settings"
+msgstr "Налаштування запису"
+
+#: admin/includes/form-builder.php:1148
+msgid "Save submitted form data"
+msgstr "Зберігати відправлені дані"
+
+#: admin/includes/form-builder.php:1151
+msgid ""
+"If checked, the submitted form data will be saved to your database and you will be able\n"
+"                                                    to view submitted entries within the WordPress admin."
+msgstr ""
+"Якщо прапорець установлено, представлені дані форми будуть збережені в базі даних, \n"
+"                                                    і ви зможете їх передивитись."
+
+#: admin/includes/form-builder.php:1180
+msgid "Post / Page ID"
+msgstr "ID Запису / Сторінки"
+
+#: admin/includes/form-builder.php:1185
+msgid "Post / Page Title"
+msgstr "Заголовок Записи / Сторінки"
+
+#: admin/includes/form-builder.php:1190
+msgid "User WP display name"
+msgstr "Ім'я користувача WP"
+
+#: admin/includes/form-builder.php:1195
+msgid "User WP login"
+msgstr "Логін користувача WP"
+
+#: admin/includes/form-builder.php:1200
+msgid "User WP email"
+msgstr "Email користувача WP"
+
+#: admin/includes/form-builder.php:1208
+msgid "Customize what is shown in the table when viewing the list of entries for the form. Drag and drop the elements into the desired columns."
+msgstr "Змінити відображення даних у таблиці записів для форм. Перетягніть елементи в потрібні колонки."
+
+#: admin/includes/form-builder.php:1209
+msgid "List of entries table layout"
+msgstr "Список записів у таблиці"
+
+#: admin/includes/form-builder.php:1214
+msgid "Active columns"
+msgstr "Активні колонки"
+
+#: admin/includes/form-builder.php:1215
+msgid "Inactive columns"
+msgstr "Неактивні колонки"
+
+#: admin/includes/form-builder.php:1234
+msgid ""
+"Customize how the listing table of entries appears for this form. This only\n"
+"                                                    applies to the list of entries, all entry information will be displayed when viewing an individual entry."
+msgstr ""
+"Змінити відображення в таблиці списку записів для цієї форми. Дана дія\n"
+"                                                    застосовується до списку записів, вся інформація буде показана при індивідуальному перегляді."
+
+#: admin/includes/form-builder.php:1241
+msgid ""
+"This section enables you to save form data to a custom database.\n"
+"                                        This is not related to the saving of submitted entries, you can do both at the same time.\n"
+"                                        You can use this functionality to save submitted form data to the table of another\n"
+"                                        plugin for example."
+msgstr ""
+"Дана опція включає можливість збереження в іншу БД.\n"
+"                                        Це не вплине на стандартне збереження записів, Ви можете використовувати обидва варіанти одночасно.\n"
+"                                        Ви можете використовувати цю опцію для збереження даних в іншу таблицю,\n"
+"                                        наприклад, таблицю будь-якого іншого  плагіна."
+
+#: admin/includes/form-builder.php:1245
+msgid ""
+"This tool will not create the database table or fields for you - they should already exist. You can\n"
+"                                        then choose to save a form value using the button below, just enter the name of the database field you would like to\n"
+"                                        save to and choose your value from the dropdown menu."
+msgstr ""
+"Цей інструмент не створює бази чи таблиці в них - вони повинні вже існувати. Ви можете\n"
+"                                        вибрати поля форми, які потрібно зберегти. Просто введіть ім'я поля в БД, в яке\n"
+"                                        ви хочете зберігати дані і дайте йому значення з форми."
+
+#: admin/includes/form-builder.php:1251
+msgid "Custom database settings (MySQL)"
+msgstr "Користувальницькі налаштування бази даних (MySQL)"
+
+#: admin/includes/form-builder.php:1255
+msgid "Use WordPress database"
+msgstr "Використовувати базу даних WordPress"
+
+#: admin/includes/form-builder.php:1258
+msgid ""
+"If checked, the data will be inserted into a table you specify below,\n"
+"                                                inside the WordPress database. Un-tick to specify your own database credentials"
+msgstr ""
+"Якщо включено, дані будуть зберігатися в таблицю, яку Ви обрали нижче, \n"
+"                                               в базі WordPress. Зніміть галочку, щоб визначити свої налаштування"
+
+#: admin/includes/form-builder.php:1264
+msgid "Host"
+msgstr "Host"
+
+#: admin/includes/form-builder.php:1267
+msgid "Usually localhost"
+msgstr "Зазвичай  localhost"
+
+#: admin/includes/form-builder.php:1272
+msgid "Username"
+msgstr "Логін"
+
+#: admin/includes/form-builder.php:1275
+msgid "The user must have permission to insert data to the database"
+msgstr "У Вас повинні бути права на управління БД"
+
+#: admin/includes/form-builder.php:1287
+msgid "Database name"
+msgstr "Ім'я БД"
+
+#: admin/includes/form-builder.php:1294
+msgid "Database table"
+msgstr "Таблиця БД"
+
+#: admin/includes/form-builder.php:1297
+msgid "The name of the database table to insert the data into"
+msgstr "Назва таблиці в БД для збереження даних"
+
+#: admin/includes/form-builder.php:1301
+msgid "What to save"
+msgstr "Що зберігати"
+
+#: admin/includes/form-builder.php:1307
+msgid "Save another form value"
+msgstr "Зберегти змінну"
+
+#: admin/includes/form-builder.php:1313
+msgid "Database field"
+msgstr "Поле в БД"
+
+#: admin/includes/form-builder.php:1318
+msgid "You are not currently saving any submitted form values."
+msgstr "Ви не зберігаєте дані форм на даний момент."
+
+#: admin/includes/form-builder.php:1334
+msgid "Top"
+msgstr "Угору"
+
+#: admin/includes/form-builder.php:1348
+msgid "The form with that ID does not exist, %sgo back to the form list%s."
+msgstr "Форма з цим ID не існує, %sповерніться до списку форм%s."
+
+#: admin/includes/preview.php:33
+msgid ""
+"The preview does not include your WordPress theme CSS\n"
+"    so it may look different when viewed on a page on your website."
+msgstr ""
+"Це нефункціональний попередній перегляд форми, який не включає стилі CSS вашої теми сайту,\n"
+"    тому на сайті форма може виглядати інакше."
+
+#: admin/includes/preview.php:35
+msgid "Refresh"
+msgstr "Оновити"
+
+#: admin/includes/preview.php:37
+msgid "Loading form preview..."
+msgstr "Завантажуємо попередній перегляд форми ..."
+
+#: admin/includes/preview.php:40
+msgid "Sorry, there was a problem"
+msgstr "Вибачте, виникла проблема"
+
+#: admin/includes/preview.php:41
+msgid ""
+"The form preview could not be loaded, this could be due to one\n"
+"        of the reasons below."
+msgstr ""
+"Передпроглядання не працює, це може бути пов'язано з деякими проблемами,\n"
+"        зазначеними нижче."
+
+#: admin/includes/preview.php:44
+msgid "The preview requires the form builder page to be open"
+msgstr "Передпроглядання вимагає відкритої сторінки конструктора форм"
+
+#: admin/includes/preview.php:45
+msgid "The form has been deleted"
+msgstr "Форма була видалена"
+
+#: admin/includes/preview.php:47
+msgid "Please address these issues and load the preview again."
+msgstr "Виправте ці проблеми і завантажте попередній ще раз."
+
+#: admin/includes/entry.php:10
+msgid "View entry"
+msgstr "Перегляд запису"
+
+#: admin/includes/entry.php:14
+msgid "Back to entries list"
+msgstr "Повернутися до списку записів"
+
+#: admin/includes/entry.php:20
+msgid "Additional information"
+msgstr "Додаткова інформація"
+
+#: admin/includes/entry.php:31
+#: admin/admin.php:2910
+msgid "Entry ID"
+msgstr "ID запису"
+
+#: admin/includes/entry.php:51
+#: admin/admin.php:2912
+msgid "IP address"
+msgstr "IP-адреса"
+
+#: admin/includes/entry.php:55
+#: admin/admin.php:2915
+msgid "Post / page ID"
+msgstr "ID записи / сторінки"
+
+#: admin/includes/entry.php:59
+#: admin/admin.php:2916
+msgid "Post / page title"
+msgstr "Заголовок запису / сторінки"
+
+#: admin/includes/entry.php:63
+#: admin/admin.php:2917
+msgid "User WordPress display name"
+msgstr "Ім'я користувача WordPress"
+
+#: admin/includes/entry.php:67
+#: admin/admin.php:2918
+msgid "User WordPress email"
+msgstr "Email користувача WordPress"
+
+#: admin/includes/entry.php:75
+#: admin/admin.php:2919
+msgid "User WordPress login"
+msgstr "Логін користувача WordPress"
+
+#: admin/includes/entry.php:82
+msgid "Submitted form data"
+msgstr "Отримані дані"
+
+#: admin/includes/entry.php:103
+msgid "Sorry, I couldn't find that entry. Perhaps it was deleted?"
+msgstr "Вибачте, я не можу знайти цей запис. Може форма видалена?"
+
+#: admin/includes/help.php:17
+msgid "Basics"
+msgstr "Базові"
+
+#: admin/includes/help.php:18
+msgid "Elements"
+msgstr "Елементи"
+
+#: admin/includes/help.php:20
+msgid "Frequently asked questions"
+msgstr "Часті питання"
+
+#: admin/includes/help.php:20
+msgid "FAQ"
+msgstr "FAQ"
+
+#: admin/includes/help.php:109
+msgid "Help is not available in the unlicensed version."
+msgstr "Допомога не доступна в неліцензійній версії"
+
+#: admin/includes/dashboard.php:4
+msgid "Unread"
+msgstr "Непрочитані"
+
+#: admin/includes/dashboard.php:12
+msgid "View entries"
+msgstr "Перегляд записів"
+
+#: admin/admin.php:203
+#: admin/admin.php:204
+#: admin/admin.php:2194
+msgid "Quform"
+msgstr "Quform"
+
+#: admin/admin.php:339
+msgid "Are you sure you want to delete this form? All saved settings, elements and entries for this form will be lost and this cannot be undone."
+msgstr "Ви впевнені, що хочете видалити цю форму? Всі налаштування і елементи будуть безповоротньо втрачені."
+
+#: admin/admin.php:340
+msgid "Are you sure you want to delete these forms? All saved settings, elements and entries for these forms will be lost and this cannot be undone."
+msgstr "Ви впевнені, що хочете видалити ці форми? Всі налаштування і елементи будуть безповоротньо втрачені."
+
+#: admin/admin.php:341
+msgid "Are you sure you want to delete this entry? All data for this entry will be lost and this cannot be undone."
+msgstr "Ви впевнені, що хочете видалити цей запис? Всі налаштування і елементи будуть безповоротньо втрачені."
+
+#: admin/admin.php:342
+msgid "Are you sure you want to delete these entries? All data for these entries will be lost and this cannot be undone."
+msgstr "Ви впевнені, що хочете видалити ці записи? Всі налаштування і елементи будуть безповоротньо втрачені."
+
+#: admin/admin.php:344
+#: admin/admin.php:2224
+msgid "An error occurred verifying the license key, please try again"
+msgstr "Виникла помилка при перевірці ліцензії, спробуйте ще раз"
+
+#: admin/admin.php:345
+msgid "Please wait, verification in progress"
+msgstr "Зачекайте, йде перевірка"
+
+#: admin/admin.php:347
+msgid "An error occurred, please try again"
+msgstr "Виникла помилка при перевірці ліцензії, спробуйте ще раз"
+
+#: admin/admin.php:367
+#: admin/admin.php:637
+msgid "Error adding the element"
+msgstr "Помилка при додаванні елемента"
+
+#: admin/admin.php:368
+msgid "Are you sure you want to delete this element? Any associated entry data for this element will also be deleted."
+msgstr "Ви впевнені, що хочете видалити цей запис? Всі налаштування і елементи будуть безповоротньо втрачені."
+
+#: admin/admin.php:369
+msgid "Are you sure you want to convert this element? Most of your settings will be copied over, however you may lose some settings that are not shared between the element types."
+msgstr "Ви впевнені, що хочете перетворити цей елемент? Деякі установки можуть не скопіюватися в новий елемент"
+
+#: admin/admin.php:370
+msgid "Error saving the form"
+msgstr "Помилка збереження форми"
+
+#: admin/admin.php:371
+msgid "Element deleted"
+msgstr "Елемент видалено"
+
+#: admin/admin.php:375
+msgid "There must be at least one option"
+msgstr "Потрібен хоча б один варіант"
+
+#: admin/admin.php:376
+#: admin/admin.php:690
+msgid "Error adding the filter"
+msgstr "Помилка при додаванні фільтра"
+
+#: admin/admin.php:377
+#: admin/admin.php:752
+msgid "Error adding the validator"
+msgstr "Помилка при додаванні валідатора"
+
+#: admin/admin.php:378
+msgid "Error adding the style"
+msgstr "Помилка при додаванні стилю"
+
+#: admin/admin.php:379
+msgctxt "variable piece of data"
+msgid "Insert variable..."
+msgstr "Вибрати ..."
+
+#: admin/admin.php:380
+msgid "Submitted form value"
+msgstr "Дані відправленої форми"
+
+#: admin/admin.php:387
+msgctxt "username"
+msgid "User login"
+msgstr "Логін користувача"
+
+#: admin/admin.php:391
+msgid "Send to"
+msgstr "Одержувач"
+
+#: admin/admin.php:392
+msgctxt "conditional"
+msgid "if"
+msgstr "якщо"
+
+#: admin/admin.php:393
+msgid "is equal to"
+msgstr "дорівнює"
+
+#: admin/admin.php:394
+msgid "is not equal to"
+msgstr "не дорівнює"
+
+#: admin/admin.php:398
+msgid "This is an example tooltip!"
+msgstr "Це приклад підказки!"
+
+#: admin/admin.php:400
+msgctxt "delete"
+msgid "Remove"
+msgstr "Видалити"
+
+#: admin/admin.php:405
+msgid "The form must have at least one Dropdown Menu, Checkboxes or Multiple Choice element to use this feature."
+msgstr "Форма повинна містити хоча б одне меню, що випадає або множинний вибір для включення цієї настройки."
+
+#: admin/admin.php:406
+msgid "this group if"
+msgstr "ця група якщо"
+
+#: admin/admin.php:407
+msgid "this field if"
+msgstr "це поле якщо"
+
+#: admin/admin.php:408
+msgid "Show"
+msgstr "Показати"
+
+#: admin/admin.php:410
+msgid "all"
+msgstr "всі"
+
+#: admin/admin.php:411
+msgid "any"
+msgstr "будь-яке"
+
+#: admin/admin.php:412
+msgid "of these rules match:"
+msgstr "з цих правил дотримано:"
+
+#: admin/admin.php:413
+msgid "is"
+msgstr "є"
+
+#: admin/admin.php:414
+msgid "is not"
+msgstr "не є"
+
+#: admin/admin.php:541
+msgid "%sForm saved%s"
+msgstr "%sФорма збережена%s"
+
+#: admin/admin.php:541
+msgid "%sAdd to website%s"
+msgstr "%sДодати на сайт%s"
+
+#: admin/admin.php:543
+msgid "Form saved"
+msgstr "Форма збережена"
+
+#: admin/admin.php:579
+msgid "%sElement added%s %sSettings%s"
+msgstr "%sЕлемент доданий%s %sНалаштувати%s"
+
+#: admin/admin.php:605
+msgid "%sElement added%s"
+msgstr "%sЕлемент додано%s"
+
+#: admin/admin.php:605
+msgid "The maximum file upload size has been set to 10MB, you can change this value in the element configuration. %sSee the help for more information%s."
+msgstr "Максимальний розмір файлу для завантаження - 10Mb, Ви можете змінити цей розмір в налаштуваннях елемента. %sЧитайте довідку для подробиць%s."
+
+#: admin/admin.php:845
+msgctxt "outermost wrapping HTML element"
+msgid "Outer wrapper"
+msgstr "Зовнішня границя"
+
+#: admin/admin.php:848
+msgctxt "form element label to be styled"
+msgid "Label"
+msgstr "Мітка"
+
+#: admin/admin.php:851
+msgctxt "innermost wrapping HTML element"
+msgid "Inner wrapper"
+msgstr "Внутрішня границя"
+
+#: admin/admin.php:854
+msgctxt "the HTML form element input/textarea/select etc"
+msgid "Text input"
+msgstr "Поле для вводу"
+
+#: admin/admin.php:857
+msgctxt "the HTML form element textarea"
+msgid "Textarea input"
+msgstr "Текстове поле"
+
+#: admin/admin.php:863
+msgctxt "element group description"
+msgid "Group description"
+msgstr "Примітка групи"
+
+#: admin/admin.php:866
+msgctxt "element description"
+msgid "Description"
+msgstr "Примітка"
+
+#: admin/admin.php:869
+msgctxt "the wrapper around all of the options"
+msgid "Options outer wrapper"
+msgstr "Зовнішня границя форми"
+
+#: admin/admin.php:872
+msgctxt "the wrapper around each option"
+msgid "Option wrapper"
+msgstr "Зовнішня границя"
+
+#: admin/admin.php:875
+msgctxt "the label of each option"
+msgid "Option label"
+msgstr "Мітка перемикача"
+
+#: admin/admin.php:878
+msgctxt "form element group"
+msgid "Group"
+msgstr "Група"
+
+#: admin/admin.php:881
+msgctxt "form element group title"
+msgid "Group title"
+msgstr "Заголовок групи"
+
+#: admin/admin.php:884
+msgctxt "the HTML wrapper around the elements in the group"
+msgid "Group elements wrapper"
+msgstr "Границя контейнера групи"
+
+#: admin/admin.php:939
+msgctxt "the outermost HTML wrapper around the form"
+msgid "Form outer wrapper"
+msgstr "Зовнішня границя форми"
+
+#: admin/admin.php:942
+msgctxt "the inner HTML wrapper around the form"
+msgid "Form inner wrapper"
+msgstr "Внутрішня границя форми"
+
+#: admin/admin.php:954
+msgctxt "the HTML wrapper around the form elements"
+msgid "Form elements wrapper"
+msgstr "Границя групи елементів"
+
+#: admin/admin.php:957
+msgctxt "outermost wrapping HTML element around an element"
+msgid "Element outer wrapper"
+msgstr "Зовнішня границя елемента"
+
+#: admin/admin.php:963
+msgctxt "the inner HTML wrapper around the element"
+msgid "Element inner wrapper"
+msgstr "Внутрішня границя елемента"
+
+#: admin/admin.php:969
+msgid "Paragraph text elements"
+msgstr "Параграф "
+
+#: admin/admin.php:975
+msgctxt "the wrapper around the list of options for multi elements e.g. checkbox, radio"
+msgid "Options outer wrapper"
+msgstr "Зовнішня границя форми"
+
+#: admin/admin.php:978
+msgctxt "the wrapper around each option for multi elements e.g. checkbox, radio"
+msgid "Option wrappers"
+msgstr "Границя  елемента"
+
+#: admin/admin.php:981
+msgctxt "the label each option for multi elements e.g. checkbox, radio"
+msgid "Option labels"
+msgstr "Мітки перемикачів"
+
+#: admin/admin.php:1123
+#: admin/admin.php:1137
+msgid "Insert a form"
+msgstr "Вставити форму"
+
+#: admin/admin.php:1123
+msgid "Insert Quform"
+msgstr "Вставити форму Quform"
+
+#: admin/admin.php:1139
+msgid "Select the form you want to insert from the dropdown menu and click Insert."
+msgstr "Виберіть форму в випадаючому списку, яку ви хочете додати на сторінку."
+
+#: admin/admin.php:1142
+msgid "inactive"
+msgstr "виключене"
+
+#: admin/admin.php:1147
+msgid "Display the form in a popup (using Fancybox)"
+msgstr "Показати форму у спливаючому вікні (використовуючи Fancybox)"
+
+#: admin/admin.php:1150
+msgid "Insert"
+msgstr "Вставити"
+
+#: admin/admin.php:1366
+#: admin/admin.php:1417
+msgid "Form deleted"
+msgid_plural "%d forms deleted"
+msgstr[0] "Форма видалена"
+msgstr[1] "Форми видалені"
+
+#: admin/admin.php:1376
+#: admin/admin.php:1422
+msgid "Form activated"
+msgid_plural "%d forms activated"
+msgstr[0] "%d включена"
+msgstr[1] "%d включені"
+
+#: admin/admin.php:1386
+#: admin/admin.php:1427
+msgid "Form deactivated"
+msgid_plural "%d forms deactivated"
+msgstr[0] "%d вимкнена"
+msgstr[1] "%d вимкнені"
+
+#: admin/admin.php:1396
+msgid "duplicate"
+msgstr "дублікат"
+
+#: admin/admin.php:1402
+msgid "Form duplicated, %sedit the form%s"
+msgstr "Форма скопійована, %sредагувати%s"
+
+#: admin/admin.php:1452
+msgid "Sorry, the form preview could not be loaded."
+msgstr "Вибачте, попередній перегляд недоступний"
+
+#: admin/admin.php:1713
+msgid "Form imported successfully, %sedit the form%s"
+msgstr "Форма імпортована, %sредагувати%s"
+
+#: admin/admin.php:1718
+msgid "Invalid import data"
+msgstr "Невірний формат даних імпорту"
+
+#: admin/admin.php:1838
+msgid "Entry deleted"
+msgid_plural "%d entries deleted"
+msgstr[0] "Запис видалено"
+msgstr[1] "%d записів видалено"
+
+#: admin/admin.php:1969
+msgid "1 item"
+msgid_plural "%s items"
+msgstr[0] "1 елемент"
+msgstr[1] "%s елементів"
+
+#: admin/admin.php:1983
+msgid "Go to the first page"
+msgstr "Перша сторінка"
+
+#: admin/admin.php:1990
+msgid "Go to the previous page"
+msgstr "Попередня сторінка"
+
+#: admin/admin.php:1999
+msgid "Current page"
+msgstr "Поточна сторінка"
+
+#: admin/admin.php:2006
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr "%1$s з %2$s"
+
+#: admin/admin.php:2010
+msgid "Go to the next page"
+msgstr "Наступна сторінка"
+
+#: admin/admin.php:2017
+msgid "Go to the last page"
+msgstr "Остання сторінка"
+
+#: admin/admin.php:2208
+msgid "Form information will appear here when you create a form."
+msgstr "Тут буде відображатися інформація, коли Ви створите форму"
+
+#: admin/admin.php:2245
+msgid "License key successfully verified"
+msgstr "Ліцензія успішна перевірена"
+
+#: admin/admin.php:2250
+#: admin/admin.php:2345
+msgid "Invalid license key"
+msgstr "Невірний ключ"
+
+#: admin/admin.php:2255
+msgid "Licence key verification will be available shortly, please try again later"
+msgstr "Перевірка ліцензій незабаром запрацює, спробуйте пізніше"
+
+#: admin/admin.php:2529
+msgid "Countries"
+msgstr "Країни"
+
+#: admin/admin.php:2530
+msgid "U.S. States"
+msgstr "U.S. States"
+
+#: admin/admin.php:2531
+msgid "Canadian Provinces"
+msgstr "Canadian Provinces"
+
+#: admin/admin.php:2532
+msgid "UK Counties"
+msgstr "UK Counties"
+
+#: admin/admin.php:2533
+msgid "German States"
+msgstr "German States"
+
+#: admin/admin.php:2533
+msgid "Baden-Wurttemberg"
+msgstr "Baden-Wurttemberg"
+
+#: admin/admin.php:2533
+msgid "Bavaria"
+msgstr "Bavaria"
+
+#: admin/admin.php:2533
+msgid "Berlin"
+msgstr "Berlin"
+
+#: admin/admin.php:2533
+msgid "Brandenburg"
+msgstr "Brandenburg"
+
+#: admin/admin.php:2533
+msgid "Bremen"
+msgstr "Bremen"
+
+#: admin/admin.php:2533
+msgid "Hamburg"
+msgstr "Hamburg"
+
+#: admin/admin.php:2533
+msgid "Hesse"
+msgstr "Hesse"
+
+#: admin/admin.php:2533
+msgid "Mecklenburg-West Pomerania"
+msgstr "Mecklenburg-West Pomerania"
+
+#: admin/admin.php:2533
+msgid "Lower Saxony"
+msgstr "Lower Saxony"
+
+#: admin/admin.php:2533
+msgid "North Rhine-Westphalia"
+msgstr "North Rhine-Westphalia"
+
+#: admin/admin.php:2533
+msgid "Rhineland-Palatinate"
+msgstr "Rhineland-Palatinate"
+
+#: admin/admin.php:2533
+msgid "Saarland"
+msgstr "Saarland"
+
+#: admin/admin.php:2533
+msgid "Saxony"
+msgstr "Saxony"
+
+#: admin/admin.php:2533
+msgid "Saxony-Anhalt"
+msgstr "Saxony-Anhalt"
+
+#: admin/admin.php:2533
+msgid "Schleswig-Holstein"
+msgstr "Schleswig-Holstein"
+
+#: admin/admin.php:2533
+msgid "Thuringia"
+msgstr "Thuringia"
+
+#: admin/admin.php:2534
+msgid "Dutch Provinces"
+msgstr "Dutch Provinces"
+
+#: admin/admin.php:2534
+msgid "Drente"
+msgstr "Drente"
+
+#: admin/admin.php:2534
+msgid "Flevoland"
+msgstr "Flevoland"
+
+#: admin/admin.php:2534
+msgid "Friesland"
+msgstr "Friesland"
+
+#: admin/admin.php:2534
+msgid "Gelderland"
+msgstr "Gelderland"
+
+#: admin/admin.php:2534
+msgid "Groningen"
+msgstr "Groningen"
+
+#: admin/admin.php:2534
+msgid "Limburg"
+msgstr "Limburg"
+
+#: admin/admin.php:2534
+msgid "North-Brabant"
+msgstr "North-Brabant"
+
+#: admin/admin.php:2534
+msgid "North-Holland"
+msgstr "North-Holland"
+
+#: admin/admin.php:2534
+msgid "Overijssel"
+msgstr "Overijssel"
+
+#: admin/admin.php:2534
+msgid "South-Holland"
+msgstr "South-Holland"
+
+#: admin/admin.php:2534
+msgid "Utrecht"
+msgstr "Utrecht"
+
+#: admin/admin.php:2534
+msgid "Zeeland"
+msgstr "Зеландія"
+
+#: admin/admin.php:2535
+msgid "Continents"
+msgstr "Континенты"
+
+#: admin/admin.php:2535
+msgid "Africa"
+msgstr "Афріка"
+
+#: admin/admin.php:2535
+#: admin/admin.php:2553
+msgid "Antarctica"
+msgstr "Антарктида"
+
+#: admin/admin.php:2535
+msgid "Asia"
+msgstr "Азія"
+
+#: admin/admin.php:2535
+#: admin/admin.php:2553
+msgid "Australia"
+msgstr "Австралія"
+
+#: admin/admin.php:2535
+msgid "Europe"
+msgstr "Європа"
+
+#: admin/admin.php:2535
+msgid "North America"
+msgstr "Північна Америка"
+
+#: admin/admin.php:2535
+msgid "South America"
+msgstr "Південна Америка"
+
+#: admin/admin.php:2536
+msgid "Gender"
+msgstr "Стать"
+
+#: admin/admin.php:2536
+msgid "Male"
+msgstr "Чоловіча"
+
+#: admin/admin.php:2536
+msgid "Female"
+msgstr "Жіноча"
+
+#: admin/admin.php:2537
+msgid "Age"
+msgstr "Вік"
+
+#: admin/admin.php:2537
+msgid "Under 18"
+msgstr "Неповнолітній"
+
+#: admin/admin.php:2537
+msgid "18-24"
+msgstr "18-24"
+
+#: admin/admin.php:2537
+msgid "25-34"
+msgstr "25-34"
+
+#: admin/admin.php:2537
+msgid "35-44"
+msgstr "35-44"
+
+#: admin/admin.php:2537
+msgid "45-54"
+msgstr "45-54"
+
+#: admin/admin.php:2537
+msgid "55-64"
+msgstr "55-64"
+
+#: admin/admin.php:2537
+msgid "65 or over"
+msgstr "65 або більше"
+
+#: admin/admin.php:2538
+msgid "Marital Status"
+msgstr "Сімейний стан"
+
+#: admin/admin.php:2538
+msgid "Single"
+msgstr "Не одружений (не заміжня)"
+
+#: admin/admin.php:2538
+msgid "Married"
+msgstr "Одружений / Заміжня"
+
+#: admin/admin.php:2538
+msgid "Divorced"
+msgstr "Розлучений (а)"
+
+#: admin/admin.php:2538
+msgid "Widowed"
+msgstr "Вдова / Вдівець"
+
+#: admin/admin.php:2539
+msgid "Income"
+msgstr "Вхідні"
+
+#: admin/admin.php:2539
+msgid "Under $20,000"
+msgstr "Більше $20,000"
+
+#: admin/admin.php:2539
+msgid "$20,000 - $30,000"
+msgstr "$20,000 - $30,000"
+
+#: admin/admin.php:2539
+msgid "$30,000 - $40,000"
+msgstr "$30,000 - $40,000"
+
+#: admin/admin.php:2539
+msgid "$40,000 - $50,000"
+msgstr "$40,000 - $50,000"
+
+#: admin/admin.php:2539
+msgid "$50,000 - $75,000"
+msgstr "$50,000 - $75,000"
+
+#: admin/admin.php:2539
+msgid "$75,000 - $100,000"
+msgstr "$75,000 - $100,000"
+
+#: admin/admin.php:2539
+msgid "$100,000 - $150,000"
+msgstr "$100,000 - $150,000"
+
+#: admin/admin.php:2539
+msgid "$150,000 or more"
+msgstr "$150,000 чи більше"
+
+#: admin/admin.php:2540
+msgid "Days"
+msgstr "Дні"
+
+#: admin/admin.php:2540
+msgid "Monday"
+msgstr "Понеділок"
+
+#: admin/admin.php:2540
+msgid "Tuesday"
+msgstr "Вівторок"
+
+#: admin/admin.php:2540
+msgid "Wednesday"
+msgstr "Середа"
+
+#: admin/admin.php:2540
+msgid "Thursday"
+msgstr "Четвер"
+
+#: admin/admin.php:2540
+msgid "Friday"
+msgstr "П'ятниця"
+
+#: admin/admin.php:2540
+msgid "Saturday"
+msgstr "Субота"
+
+#: admin/admin.php:2540
+msgid "Sunday"
+msgstr "Неділя"
+
+#: admin/admin.php:2541
+msgid "Months"
+msgstr "Місяці"
+
+#: admin/admin.php:2553
+msgid "Afghanistan"
+msgstr "Афганістан"
+
+#: admin/admin.php:2553
+msgid "Albania"
+msgstr "Албанія"
+
+#: admin/admin.php:2553
+msgid "Algeria"
+msgstr "Алжир"
+
+#: admin/admin.php:2553
+msgid "American Samoa"
+msgstr "Американське Самоа"
+
+#: admin/admin.php:2553
+msgid "Andorra"
+msgstr "Андорра"
+
+#: admin/admin.php:2553
+msgid "Angola"
+msgstr "Ангола"
+
+#: admin/admin.php:2553
+msgid "Anguilla"
+msgstr "Ангілья"
+
+#: admin/admin.php:2553
+msgid "Antigua And Barbuda"
+msgstr "Антигуа і Барбуда"
+
+#: admin/admin.php:2553
+msgid "Argentina"
+msgstr "Аргентина"
+
+#: admin/admin.php:2553
+msgid "Armenia"
+msgstr "Вірменія"
+
+#: admin/admin.php:2553
+msgid "Aruba"
+msgstr "Аруба"
+
+#: admin/admin.php:2553
+msgid "Austria"
+msgstr "Австрія"
+
+#: admin/admin.php:2553
+msgid "Azerbaijan"
+msgstr "Азербайджан"
+
+#: admin/admin.php:2553
+msgid "Bahamas"
+msgstr "Багамські острови"
+
+#: admin/admin.php:2553
+msgid "Bahrain"
+msgstr "Бахрейн"
+
+#: admin/admin.php:2553
+msgid "Bangladesh"
+msgstr "Бангладеш"
+
+#: admin/admin.php:2553
+msgid "Barbados"
+msgstr "Барбадос"
+
+#: admin/admin.php:2553
+msgid "Belarus"
+msgstr "Білорусь"
+
+#: admin/admin.php:2553
+msgid "Belgium"
+msgstr "Бельгія"
+
+#: admin/admin.php:2554
+msgid "Belize"
+msgstr "Беліз"
+
+#: admin/admin.php:2554
+msgid "Benin"
+msgstr "Бенін"
+
+#: admin/admin.php:2554
+msgid "Bermuda"
+msgstr "Бермудські острови"
+
+#: admin/admin.php:2554
+msgid "Bhutan"
+msgstr "Бутан"
+
+#: admin/admin.php:2554
+msgid "Bolivia"
+msgstr "Болівія"
+
+#: admin/admin.php:2554
+msgid "Bosnia And Herzegovina"
+msgstr "Боснія і Герцеговина"
+
+#: admin/admin.php:2554
+msgid "Botswana"
+msgstr "Ботсвана"
+
+#: admin/admin.php:2554
+msgid "Bouvet Island"
+msgstr "Буве Ісландії"
+
+#: admin/admin.php:2554
+msgid "Brazil"
+msgstr "Бразилія"
+
+#: admin/admin.php:2554
+msgid "British Indian Ocean Territory"
+msgstr "Британська територія Індійського океану"
+
+#: admin/admin.php:2554
+msgid "Brunei Darussalam"
+msgstr "Бруней-Даруссалам"
+
+#: admin/admin.php:2554
+msgid "Bulgaria"
+msgstr "Болгарія"
+
+#: admin/admin.php:2554
+msgid "Burkina Faso"
+msgstr "Буркіна-Фасо"
+
+#: admin/admin.php:2554
+msgid "Burundi"
+msgstr "Бурунді"
+
+#: admin/admin.php:2554
+msgid "Cambodia"
+msgstr "Камбоджа"
+
+#: admin/admin.php:2554
+msgid "Cameroon"
+msgstr "Камерун"
+
+#: admin/admin.php:2554
+msgid "Canada"
+msgstr "Канада"
+
+#: admin/admin.php:2554
+msgid "Cape Verde"
+msgstr "Кабо-Верде"
+
+#: admin/admin.php:2554
+msgid "Cayman Islands"
+msgstr "Кайманові острови"
+
+#: admin/admin.php:2554
+msgid "Central African Republic"
+msgstr "Центрально-Африканська Республіка"
+
+#: admin/admin.php:2554
+msgid "Chad"
+msgstr "Чад"
+
+#: admin/admin.php:2555
+msgid "Chile"
+msgstr "Чилі"
+
+#: admin/admin.php:2555
+msgid "China"
+msgstr "Китай"
+
+#: admin/admin.php:2555
+msgid "Christmas Island"
+msgstr "Острів Різдва"
+
+#: admin/admin.php:2555
+msgid "Cocos (Keeling) Islands"
+msgstr "Кокосові (Кілінг) острови"
+
+#: admin/admin.php:2555
+msgid "Colombia"
+msgstr "Колумбія"
+
+#: admin/admin.php:2555
+msgid "Comoros"
+msgstr "Коморські острови"
+
+#: admin/admin.php:2555
+msgid "Congo"
+msgstr "Конго"
+
+#: admin/admin.php:2555
+msgid "Congo, The Democratic Republic Of The"
+msgstr "Конго, Демократична Республіка"
+
+#: admin/admin.php:2555
+msgid "Cook Islands"
+msgstr "Острови Кука"
+
+#: admin/admin.php:2555
+msgid "Costa Rica"
+msgstr "Коста-Ріка"
+
+#: admin/admin.php:2555
+msgid "Cote D'Ivoire"
+msgstr "Кот-д'Івуар"
+
+#: admin/admin.php:2555
+msgid "Croatia (Local Name: Hrvatska)"
+msgstr "Хорватія "
+
+#: admin/admin.php:2555
+msgid "Cuba"
+msgstr "Куба"
+
+#: admin/admin.php:2555
+msgid "Cyprus"
+msgstr "Кіпр"
+
+#: admin/admin.php:2555
+msgid "Czech Republic"
+msgstr "Чеська республіка"
+
+#: admin/admin.php:2555
+msgid "Denmark"
+msgstr "Данія"
+
+#: admin/admin.php:2555
+msgid "Djibouti"
+msgstr "Джібуті"
+
+#: admin/admin.php:2555
+msgid "Dominica"
+msgstr "Домініка"
+
+#: admin/admin.php:2555
+msgid "Dominican Republic"
+msgstr "Домініканська Республіка"
+
+#: admin/admin.php:2555
+msgid "East Timor"
+msgstr "Східний Тимор"
+
+#: admin/admin.php:2555
+msgid "Ecuador"
+msgstr "Еквадор"
+
+#: admin/admin.php:2556
+msgid "Egypt"
+msgstr "Єгипет"
+
+#: admin/admin.php:2556
+msgid "El Salvador"
+msgstr "Сальвадор"
+
+#: admin/admin.php:2556
+msgid "Equatorial Guinea"
+msgstr "Екваторіальна Гвінея"
+
+#: admin/admin.php:2556
+msgid "Eritrea"
+msgstr "Еритрея"
+
+#: admin/admin.php:2556
+msgid "Estonia"
+msgstr "Естонія"
+
+#: admin/admin.php:2556
+msgid "Ethiopia"
+msgstr "Ефіопія"
+
+#: admin/admin.php:2556
+msgid "Falkland Islands (Malvinas)"
+msgstr "Фолкледндські острови"
+
+#: admin/admin.php:2556
+msgid "Faroe Islands"
+msgstr "Фарерські острови"
+
+#: admin/admin.php:2556
+msgid "Fiji"
+msgstr "Фіджі"
+
+#: admin/admin.php:2556
+msgid "Finland"
+msgstr "Фінляндія"
+
+#: admin/admin.php:2556
+msgid "France"
+msgstr "Франція"
+
+#: admin/admin.php:2556
+msgid "France, Metropolitan"
+msgstr "Франція, метрополітан"
+
+#: admin/admin.php:2556
+msgid "French Guiana"
+msgstr "Французька Гвіана"
+
+#: admin/admin.php:2556
+msgid "French Polynesia"
+msgstr "Французька Полінезія"
+
+#: admin/admin.php:2556
+msgid "French Southern Territories"
+msgstr "Французькі Південні території"
+
+#: admin/admin.php:2556
+msgid "Gabon"
+msgstr "Габон"
+
+#: admin/admin.php:2556
+msgid "Gambia"
+msgstr "Гамбія"
+
+#: admin/admin.php:2556
+#: admin/admin.php:2576
+msgid "Georgia"
+msgstr "Грузія"
+
+#: admin/admin.php:2556
+msgid "Germany"
+msgstr "Німеччина"
+
+#: admin/admin.php:2556
+msgid "Ghana"
+msgstr "Гана"
+
+#: admin/admin.php:2556
+msgid "Gibraltar"
+msgstr "Гібралтар"
+
+#: admin/admin.php:2557
+msgid "Greece"
+msgstr "Греція"
+
+#: admin/admin.php:2557
+msgid "Greenland"
+msgstr "Гренландія"
+
+#: admin/admin.php:2557
+msgid "Grenada"
+msgstr "Гренада"
+
+#: admin/admin.php:2557
+msgid "Guadeloupe"
+msgstr "Гваделупа"
+
+#: admin/admin.php:2557
+msgid "Guam"
+msgstr "Гуам"
+
+#: admin/admin.php:2557
+msgid "Guatemala"
+msgstr "Гватемала"
+
+#: admin/admin.php:2557
+msgid "Guinea"
+msgstr "Гвінея"
+
+#: admin/admin.php:2557
+msgid "Guinea-Bissau"
+msgstr "Гвінея-Бісау"
+
+#: admin/admin.php:2557
+msgid "Guyana"
+msgstr "Гайана"
+
+#: admin/admin.php:2557
+msgid "Haiti"
+msgstr "Гаїті"
+
+#: admin/admin.php:2557
+msgid "Heard And Mc Donald Islands"
+msgstr "Херд і Mc Donald Острови"
+
+#: admin/admin.php:2557
+msgid "Holy See (Vatican City State)"
+msgstr "Святий Престол (Держава-місто Ватикан)"
+
+#: admin/admin.php:2557
+msgid "Honduras"
+msgstr "Гондурас"
+
+#: admin/admin.php:2557
+msgid "Hong Kong"
+msgstr "Гонконг"
+
+#: admin/admin.php:2557
+msgid "Hungary"
+msgstr "Угорщина"
+
+#: admin/admin.php:2557
+msgid "Iceland"
+msgstr "Ісландія"
+
+#: admin/admin.php:2557
+msgid "India"
+msgstr "Індія"
+
+#: admin/admin.php:2557
+msgid "Indonesia"
+msgstr "Індонезія"
+
+#: admin/admin.php:2557
+msgid "Iran (Islamic Republic Of)"
+msgstr "Іран"
+
+#: admin/admin.php:2557
+msgid "Iraq"
+msgstr "Ірак"
+
+#: admin/admin.php:2557
+msgid "Ireland"
+msgstr "Ірландія"
+
+#: admin/admin.php:2558
+msgid "Israel"
+msgstr "Ізраїль"
+
+#: admin/admin.php:2558
+msgid "Italy"
+msgstr "Італія"
+
+#: admin/admin.php:2558
+msgid "Jamaica"
+msgstr "Ямайка"
+
+#: admin/admin.php:2558
+msgid "Japan"
+msgstr "Японія"
+
+#: admin/admin.php:2558
+msgid "Jordan"
+msgstr "Йорданія"
+
+#: admin/admin.php:2558
+msgid "Kazakhstan"
+msgstr "Казахстан"
+
+#: admin/admin.php:2558
+msgid "Kenya"
+msgstr "Кенія"
+
+#: admin/admin.php:2558
+msgid "Kiribati"
+msgstr "Кірібаті"
+
+#: admin/admin.php:2558
+msgid "Korea, Democratic People's Republic Of"
+msgstr "Корейська Народно-Демократична Республіка"
+
+#: admin/admin.php:2558
+msgid "Korea, Republic Of"
+msgstr "Північна Корея"
+
+#: admin/admin.php:2558
+msgid "Kuwait"
+msgstr "Кувейт"
+
+#: admin/admin.php:2558
+msgid "Kyrgyzstan"
+msgstr "Киргизія"
+
+#: admin/admin.php:2558
+msgid "Lao People's Democratic Republic"
+msgstr "Лаоська Народно-Демократична Республіка"
+
+#: admin/admin.php:2558
+msgid "Latvia"
+msgstr "Латвія"
+
+#: admin/admin.php:2558
+msgid "Lebanon"
+msgstr "Ліван"
+
+#: admin/admin.php:2558
+msgid "Lesotho"
+msgstr "Лесото"
+
+#: admin/admin.php:2558
+msgid "Liberia"
+msgstr "Ліберія"
+
+#: admin/admin.php:2558
+msgid "Libyan Arab Jamahiriya"
+msgstr "Лівійської Арабської Джамагирії"
+
+#: admin/admin.php:2558
+msgid "Liechtenstein"
+msgstr "Ліхтенштейн"
+
+#: admin/admin.php:2558
+msgid "Lithuania"
+msgstr "Литва"
+
+#: admin/admin.php:2558
+msgid "Luxembourg"
+msgstr "Люксембург"
+
+#: admin/admin.php:2559
+msgid "Macau"
+msgstr "Макао"
+
+#: admin/admin.php:2559
+msgid "Macedonia, Former Yugoslav Republic Of"
+msgstr "Македонія"
+
+#: admin/admin.php:2559
+msgid "Madagascar"
+msgstr "Мадагаскар"
+
+#: admin/admin.php:2559
+msgid "Malawi"
+msgstr "Малаві"
+
+#: admin/admin.php:2559
+msgid "Malaysia"
+msgstr "Малайзія"
+
+#: admin/admin.php:2559
+msgid "Maldives"
+msgstr "Мальдіви"
+
+#: admin/admin.php:2559
+msgid "Mali"
+msgstr "Малі"
+
+#: admin/admin.php:2559
+msgid "Malta"
+msgstr "Мальта"
+
+#: admin/admin.php:2559
+msgid "Marshall Islands"
+msgstr "Маршаллові острови"
+
+#: admin/admin.php:2559
+msgid "Martinique"
+msgstr "Мартініка"
+
+#: admin/admin.php:2559
+msgid "Mauritania"
+msgstr "Мавританія"
+
+#: admin/admin.php:2559
+msgid "Mauritius"
+msgstr "Маврикій"
+
+#: admin/admin.php:2559
+msgid "Mayotte"
+msgstr "Майотта"
+
+#: admin/admin.php:2559
+msgid "Mexico"
+msgstr "Мексика"
+
+#: admin/admin.php:2559
+msgid "Micronesia, Federated States Of"
+msgstr "Мікронезія"
+
+#: admin/admin.php:2559
+msgid "Moldova, Republic Of"
+msgstr "Молдова"
+
+#: admin/admin.php:2559
+msgid "Monaco"
+msgstr "Монако"
+
+#: admin/admin.php:2559
+msgid "Mongolia"
+msgstr "Монголія"
+
+#: admin/admin.php:2559
+msgid "Montserrat"
+msgstr "Монтсеррат"
+
+#: admin/admin.php:2559
+msgid "Morocco"
+msgstr "Морокко"
+
+#: admin/admin.php:2559
+msgid "Mozambique"
+msgstr "Мозамбік"
+
+#: admin/admin.php:2560
+msgid "Myanmar"
+msgstr "М'янма"
+
+#: admin/admin.php:2560
+msgid "Namibia"
+msgstr "Намібія"
+
+#: admin/admin.php:2560
+msgid "Nauru"
+msgstr "Науру"
+
+#: admin/admin.php:2560
+msgid "Nepal"
+msgstr "Непал"
+
+#: admin/admin.php:2560
+msgid "Netherlands"
+msgstr "Нідерланди"
+
+#: admin/admin.php:2560
+msgid "Netherlands Antilles"
+msgstr "Нідерландські Антильські острови"
+
+#: admin/admin.php:2560
+msgid "New Caledonia"
+msgstr "Нова Каледонія"
+
+#: admin/admin.php:2560
+msgid "New Zealand"
+msgstr "Нова Зеландія"
+
+#: admin/admin.php:2560
+msgid "Nicaragua"
+msgstr "Нікарагуа"
+
+#: admin/admin.php:2560
+msgid "Niger"
+msgstr "Нігер"
+
+#: admin/admin.php:2560
+msgid "Nigeria"
+msgstr "Нігерія"
+
+#: admin/admin.php:2560
+msgid "Niue"
+msgstr "Ніуе"
+
+#: admin/admin.php:2560
+msgid "Norfolk Island"
+msgstr "Острів Норфолк"
+
+#: admin/admin.php:2560
+msgid "Northern Mariana Islands"
+msgstr "Острови Північної Маріани"
+
+#: admin/admin.php:2560
+msgid "Norway"
+msgstr "Норвегія"
+
+#: admin/admin.php:2560
+msgid "Oman"
+msgstr "Оман"
+
+#: admin/admin.php:2560
+msgid "Pakistan"
+msgstr "Пакистан"
+
+#: admin/admin.php:2560
+msgid "Palau"
+msgstr "Палау"
+
+#: admin/admin.php:2560
+msgid "Panama"
+msgstr "Панама"
+
+#: admin/admin.php:2560
+msgid "Papua New Guinea"
+msgstr "Папуа-Нова Гвінея"
+
+#: admin/admin.php:2560
+msgid "Paraguay"
+msgstr "Парагвай"
+
+#: admin/admin.php:2561
+msgid "Peru"
+msgstr "Перу"
+
+#: admin/admin.php:2561
+msgid "Philippines"
+msgstr "Філіппіни"
+
+#: admin/admin.php:2561
+msgid "Pitcairn"
+msgstr "Піткерн"
+
+#: admin/admin.php:2561
+msgid "Poland"
+msgstr "Польща"
+
+#: admin/admin.php:2561
+msgid "Portugal"
+msgstr "Португалія"
+
+#: admin/admin.php:2561
+msgid "Puerto Rico"
+msgstr "Пуерто-Ріко"
+
+#: admin/admin.php:2561
+msgid "Qatar"
+msgstr "Катар"
+
+#: admin/admin.php:2561
+msgid "Reunion"
+msgstr "Реюньйон"
+
+#: admin/admin.php:2561
+msgid "Romania"
+msgstr "Румунія"
+
+#: admin/admin.php:2561
+msgid "Russian Federation"
+msgstr "Російська Федерація"
+
+#: admin/admin.php:2561
+msgid "Rwanda"
+msgstr "Руанда"
+
+#: admin/admin.php:2561
+msgid "Saint Kitts And Nevis"
+msgstr "Сент-Кітс і Невіс"
+
+#: admin/admin.php:2561
+msgid "Saint Lucia"
+msgstr "Свята Люція"
+
+#: admin/admin.php:2561
+msgid "Saint Vincent And The Grenadines"
+msgstr "Сент-Вінсент і Гренадіни"
+
+#: admin/admin.php:2561
+msgid "Samoa"
+msgstr "Самоа"
+
+#: admin/admin.php:2561
+msgid "San Marino"
+msgstr "Сан-Маріно"
+
+#: admin/admin.php:2561
+msgid "Sao Tome And Principe"
+msgstr "Сан-Томе і Прінсіпі"
+
+#: admin/admin.php:2561
+msgid "Saudi Arabia"
+msgstr "Саудівська Аравія"
+
+#: admin/admin.php:2561
+msgid "Senegal"
+msgstr "Сенегал"
+
+#: admin/admin.php:2561
+msgid "Seychelles"
+msgstr "Сейшельські острови"
+
+#: admin/admin.php:2561
+msgid "Sierra Leone"
+msgstr "Сьєрра-Леоне"
+
+#: admin/admin.php:2562
+msgid "Singapore"
+msgstr "Сінгапур"
+
+#: admin/admin.php:2562
+msgid "Slovakia (Slovak Republic)"
+msgstr "Словаччина (Словацька Республіка)"
+
+#: admin/admin.php:2562
+msgid "Slovenia"
+msgstr "Словенія"
+
+#: admin/admin.php:2562
+msgid "Solomon Islands"
+msgstr "Соломонові Острови"
+
+#: admin/admin.php:2562
+msgid "Somalia"
+msgstr "Сомалі"
+
+#: admin/admin.php:2562
+msgid "South Africa"
+msgstr "ПАР"
+
+#: admin/admin.php:2562
+msgid "South Georgia, South Sandwich Islands"
+msgstr "Південна Джорджія, Південних Сандвічевих островів"
+
+#: admin/admin.php:2562
+msgid "Spain"
+msgstr "Іспанія"
+
+#: admin/admin.php:2562
+msgid "Sri Lanka"
+msgstr "Шрі Ланка"
+
+#: admin/admin.php:2562
+msgid "St. Helena"
+msgstr "острів Святої Єлени"
+
+#: admin/admin.php:2562
+msgid "St. Pierre And Miquelon"
+msgstr "Святий П'єр і Мікелон"
+
+#: admin/admin.php:2562
+msgid "Sudan"
+msgstr "Судан"
+
+#: admin/admin.php:2562
+msgid "Suriname"
+msgstr "Сурінам"
+
+#: admin/admin.php:2562
+msgid "Svalbard And Jan Mayen Islands"
+msgstr "Шпіцберген і Ян-Майєн"
+
+#: admin/admin.php:2562
+msgid "Swaziland"
+msgstr "Свазіленд"
+
+#: admin/admin.php:2562
+msgid "Sweden"
+msgstr "Швеція"
+
+#: admin/admin.php:2562
+msgid "Switzerland"
+msgstr "Швейцарія"
+
+#: admin/admin.php:2562
+msgid "Syrian Arab Republic"
+msgstr "Сирійської Арабської Республіки"
+
+#: admin/admin.php:2562
+msgid "Taiwan"
+msgstr "Тайвань"
+
+#: admin/admin.php:2562
+msgid "Tajikistan"
+msgstr "Таджикистан"
+
+#: admin/admin.php:2562
+msgid "Tanzania, United Republic Of"
+msgstr "Танзанія, Об'єднана Республіка"
+
+#: admin/admin.php:2563
+msgid "Thailand"
+msgstr "Таїланд"
+
+#: admin/admin.php:2563
+msgid "Togo"
+msgstr "Того"
+
+#: admin/admin.php:2563
+msgid "Tokelau"
+msgstr "Токелау"
+
+#: admin/admin.php:2563
+msgid "Tonga"
+msgstr "Тонга"
+
+#: admin/admin.php:2563
+msgid "Trinidad And Tobago"
+msgstr "Тринідад і Тобаго"
+
+#: admin/admin.php:2563
+msgid "Tunisia"
+msgstr "Туніс"
+
+#: admin/admin.php:2563
+msgid "Turkey"
+msgstr "Туреччина"
+
+#: admin/admin.php:2563
+msgid "Turkmenistan"
+msgstr "Туркменістан"
+
+#: admin/admin.php:2563
+msgid "Turks And Caicos Islands"
+msgstr "Острови Теркс і Кайкос"
+
+#: admin/admin.php:2563
+msgid "Tuvalu"
+msgstr "Тувалу"
+
+#: admin/admin.php:2563
+msgid "Uganda"
+msgstr "Уганда"
+
+#: admin/admin.php:2563
+msgid "Ukraine"
+msgstr "Україна"
+
+#: admin/admin.php:2563
+msgid "United Arab Emirates"
+msgstr "Об'єднані Арабські Емірати"
+
+#: admin/admin.php:2563
+msgid "United Kingdom"
+msgstr "Британія"
+
+#: admin/admin.php:2563
+msgid "United States"
+msgstr "Сполучені Штати"
+
+#: admin/admin.php:2563
+msgid "United States Minor Outlying Islands"
+msgstr "Сполучені Штати Америки Зовнішні малі острови"
+
+#: admin/admin.php:2563
+msgid "Uruguay"
+msgstr "Уругвай"
+
+#: admin/admin.php:2563
+msgid "Uzbekistan"
+msgstr "Узбекистан"
+
+#: admin/admin.php:2563
+msgid "Vanuatu"
+msgstr "Вануату"
+
+#: admin/admin.php:2563
+msgid "Venezuela"
+msgstr "Венесуела"
+
+#: admin/admin.php:2563
+msgid "Vietnam"
+msgstr "В'єтнам"
+
+#: admin/admin.php:2564
+msgid "Virgin Islands (British)"
+msgstr "Віргінські острови (Британські)"
+
+#: admin/admin.php:2564
+msgid "Virgin Islands (U.S.)"
+msgstr "Віргінські острови (США)"
+
+#: admin/admin.php:2564
+msgid "Wallis And Futuna Islands"
+msgstr "Уолліс і Футуна"
+
+#: admin/admin.php:2564
+msgid "Western Sahara"
+msgstr "Західна Сахара"
+
+#: admin/admin.php:2564
+msgid "Yemen"
+msgstr "Ємен"
+
+#: admin/admin.php:2564
+msgid "Yugoslavia"
+msgstr "Югославія"
+
+#: admin/admin.php:2564
+msgid "Zambia"
+msgstr "Замбія"
+
+#: admin/admin.php:2564
+msgid "Zimbabwe"
+msgstr "Зімбабве"
+
+#: admin/admin.php:2576
+msgid "Alabama"
+msgstr "Alabama"
+
+#: admin/admin.php:2576
+msgid "Alaska"
+msgstr "Alaska"
+
+#: admin/admin.php:2576
+msgid "Arizona"
+msgstr "Arizona"
+
+#: admin/admin.php:2576
+msgid "Arkansas"
+msgstr "Arkansas"
+
+#: admin/admin.php:2576
+msgid "California"
+msgstr "California"
+
+#: admin/admin.php:2576
+msgid "Colorado"
+msgstr "Colorado"
+
+#: admin/admin.php:2576
+msgid "Connecticut"
+msgstr "Connecticut"
+
+#: admin/admin.php:2576
+msgid "Delaware"
+msgstr "Delaware"
+
+#: admin/admin.php:2576
+msgid "District Of Columbia"
+msgstr "District Of Columbia"
+
+#: admin/admin.php:2576
+msgid "Florida"
+msgstr "Florida"
+
+#: admin/admin.php:2576
+msgid "Hawaii"
+msgstr "Hawaii"
+
+#: admin/admin.php:2576
+msgid "Idaho"
+msgstr "Idaho"
+
+#: admin/admin.php:2577
+msgid "Illinois"
+msgstr "Illinois"
+
+#: admin/admin.php:2577
+msgid "Indiana"
+msgstr "Indiana"
+
+#: admin/admin.php:2577
+msgid "Iowa"
+msgstr "Iowa"
+
+#: admin/admin.php:2577
+msgid "Kansas"
+msgstr "Kansas"
+
+#: admin/admin.php:2577
+msgid "Kentucky"
+msgstr "Kentucky"
+
+#: admin/admin.php:2577
+msgid "Louisiana"
+msgstr "Louisiana"
+
+#: admin/admin.php:2577
+msgid "Maine"
+msgstr "Maine"
+
+#: admin/admin.php:2577
+msgid "Maryland"
+msgstr "Maryland"
+
+#: admin/admin.php:2577
+msgid "Massachusetts"
+msgstr "Massachusetts"
+
+#: admin/admin.php:2577
+msgid "Michigan"
+msgstr "Michigan"
+
+#: admin/admin.php:2577
+msgid "Minnesota"
+msgstr "Minnesota"
+
+#: admin/admin.php:2577
+msgid "Mississippi"
+msgstr "Mississippi"
+
+#: admin/admin.php:2577
+msgid "Missouri"
+msgstr "Missouri"
+
+#: admin/admin.php:2577
+msgid "Montana"
+msgstr "Montana"
+
+#: admin/admin.php:2578
+msgid "Nebraska"
+msgstr "Nebraska"
+
+#: admin/admin.php:2578
+msgid "Nevada"
+msgstr "Nevada"
+
+#: admin/admin.php:2578
+msgid "New Hampshire"
+msgstr "New Hampshire"
+
+#: admin/admin.php:2578
+msgid "New Jersey"
+msgstr "New Jersey"
+
+#: admin/admin.php:2578
+msgid "New Mexico"
+msgstr "New Mexico"
+
+#: admin/admin.php:2578
+msgid "New York"
+msgstr "New York"
+
+#: admin/admin.php:2578
+msgid "North Carolina"
+msgstr "North Carolina"
+
+#: admin/admin.php:2578
+msgid "North Dakota"
+msgstr "North Dakota"
+
+#: admin/admin.php:2578
+msgid "Ohio"
+msgstr "Ohio"
+
+#: admin/admin.php:2578
+msgid "Oklahoma"
+msgstr "Oklahoma"
+
+#: admin/admin.php:2578
+msgid "Oregon"
+msgstr "Oregon"
+
+#: admin/admin.php:2578
+msgid "Pennsylvania"
+msgstr "Pennsylvania"
+
+#: admin/admin.php:2578
+msgid "Rhode Island"
+msgstr "Rhode Island"
+
+#: admin/admin.php:2579
+msgid "South Carolina"
+msgstr "South Carolina"
+
+#: admin/admin.php:2579
+msgid "South Dakota"
+msgstr "South Dakota"
+
+#: admin/admin.php:2579
+msgid "Tennessee"
+msgstr "Tennessee"
+
+#: admin/admin.php:2579
+msgid "Texas"
+msgstr "Texas"
+
+#: admin/admin.php:2579
+msgid "Utah"
+msgstr "Utah"
+
+#: admin/admin.php:2579
+msgid "Vermont"
+msgstr "Vermont"
+
+#: admin/admin.php:2579
+msgid "Virginia"
+msgstr "Virginia"
+
+#: admin/admin.php:2579
+msgid "Washington"
+msgstr "Washington"
+
+#: admin/admin.php:2579
+msgid "West Virginia"
+msgstr "West Virginia"
+
+#: admin/admin.php:2579
+msgid "Wisconsin"
+msgstr "Wisconsin"
+
+#: admin/admin.php:2579
+msgid "Wyoming"
+msgstr "Wyoming"
+
+#: admin/admin.php:2591
+msgid "Alberta"
+msgstr "Alberta"
+
+#: admin/admin.php:2591
+msgid "British Columbia"
+msgstr "British Columbia"
+
+#: admin/admin.php:2591
+msgid "Manitoba"
+msgstr "Manitoba"
+
+#: admin/admin.php:2591
+msgid "New Brunswick"
+msgstr "New Brunswick"
+
+#: admin/admin.php:2592
+msgid "Newfoundland & Labrador"
+msgstr "Newfoundland & Labrador"
+
+#: admin/admin.php:2592
+msgid "Northwest Territories"
+msgstr "Northwest Territories"
+
+#: admin/admin.php:2592
+msgid "Nova Scotia"
+msgstr "Nova Scotia"
+
+#: admin/admin.php:2592
+msgid "Nunavut"
+msgstr "Nunavut"
+
+#: admin/admin.php:2592
+msgid "Ontario"
+msgstr "Ontario"
+
+#: admin/admin.php:2592
+msgid "Prince Edward Island"
+msgstr "Prince Edward Island"
+
+#: admin/admin.php:2592
+msgid "Quebec"
+msgstr "Quebec"
+
+#: admin/admin.php:2592
+msgid "Saskatchewan"
+msgstr "Saskatchewan"
+
+#: admin/admin.php:2592
+msgid "Yukon"
+msgstr "Yukon"
+
+#: admin/admin.php:2604
+msgid "Aberdeenshire"
+msgstr "Aberdeenshire"
+
+#: admin/admin.php:2605
+msgid "Anglesey/Sir Fon"
+msgstr "Anglesey/Sir Fon"
+
+#: admin/admin.php:2606
+msgid "Angus/Forfarshire"
+msgstr "Angus/Forfarshire"
+
+#: admin/admin.php:2607
+msgid "Argyllshire"
+msgstr "Argyllshire"
+
+#: admin/admin.php:2608
+msgid "Ayrshire"
+msgstr "Ayrshire"
+
+#: admin/admin.php:2609
+msgid "Banffshire"
+msgstr "Banffshire"
+
+#: admin/admin.php:2610
+msgid "Bedfordshire"
+msgstr "Bedfordshire"
+
+#: admin/admin.php:2611
+msgid "Berkshire"
+msgstr "Berkshire"
+
+#: admin/admin.php:2612
+msgid "Berwickshire"
+msgstr "Berwickshire"
+
+#: admin/admin.php:2613
+msgid "Brecknockshire/Sir Frycheiniog"
+msgstr "Brecknockshire/Sir Frycheiniog"
+
+#: admin/admin.php:2614
+msgid "Buckinghamshire"
+msgstr "Buckinghamshire"
+
+#: admin/admin.php:2615
+msgid "Buteshire"
+msgstr "Buteshire"
+
+#: admin/admin.php:2616
+msgid "Caernarfonshire/Sir Gaernarfon"
+msgstr "Caernarfonshire/Sir Gaernarfon"
+
+#: admin/admin.php:2617
+msgid "Caithness"
+msgstr "Caithness"
+
+#: admin/admin.php:2618
+msgid "Cambridgeshire"
+msgstr "Cambridgeshire"
+
+#: admin/admin.php:2619
+msgid "Cardiganshire/Ceredigion"
+msgstr "Cardiganshire/Ceredigion"
+
+#: admin/admin.php:2620
+msgid "Carmarthenshire/Sir Gaerfyrddin"
+msgstr "Carmarthenshire/Sir Gaerfyrddin"
+
+#: admin/admin.php:2621
+msgid "Cheshire"
+msgstr "Cheshire"
+
+#: admin/admin.php:2622
+msgid "Clackmannanshire"
+msgstr "Clackmannanshire"
+
+#: admin/admin.php:2623
+msgid "Cornwall"
+msgstr "Cornwall"
+
+#: admin/admin.php:2624
+msgid "County Antrim"
+msgstr "County Antrim"
+
+#: admin/admin.php:2625
+msgid "County Armagh"
+msgstr "County Armagh"
+
+#: admin/admin.php:2626
+msgid "County Down"
+msgstr "County Down"
+
+#: admin/admin.php:2627
+msgid "County Fermanagh"
+msgstr "County Fermanagh"
+
+#: admin/admin.php:2628
+msgid "County Londonderry/Derry"
+msgstr "County Londonderry/Derry"
+
+#: admin/admin.php:2629
+msgid "County Tyrone"
+msgstr "County Tyrone"
+
+#: admin/admin.php:2630
+msgid "Cromartyshire"
+msgstr "Cromartyshire"
+
+#: admin/admin.php:2631
+msgid "Cumberland"
+msgstr "Cumberland"
+
+#: admin/admin.php:2632
+msgid "Denbighshire/Sir Ddinbych"
+msgstr "Denbighshire/Sir Ddinbych"
+
+#: admin/admin.php:2633
+msgid "Derbyshire"
+msgstr "Derbyshire"
+
+#: admin/admin.php:2634
+msgid "Devon"
+msgstr "Devon"
+
+#: admin/admin.php:2635
+msgid "Dorset"
+msgstr "Dorset"
+
+#: admin/admin.php:2636
+msgid "Dumfriesshire"
+msgstr "Dumfriesshire"
+
+#: admin/admin.php:2637
+msgid "Dunbartonshire/Dumbartonshire"
+msgstr "Dunbartonshire/Dumbartonshire"
+
+#: admin/admin.php:2638
+msgid "Durham"
+msgstr "Durham"
+
+#: admin/admin.php:2639
+msgid "East Lothian/Haddingtonshire"
+msgstr "East Lothian/Haddingtonshire"
+
+#: admin/admin.php:2640
+msgid "East Yorkshire"
+msgstr "East Yorkshire"
+
+#: admin/admin.php:2641
+msgid "Essex"
+msgstr "Essex"
+
+#: admin/admin.php:2642
+msgid "Fife"
+msgstr "Fife"
+
+#: admin/admin.php:2643
+msgid "Flintshire/Sir Fflint"
+msgstr "Flintshire/Sir Fflint"
+
+#: admin/admin.php:2644
+msgid "Glamorgan/Morgannwg"
+msgstr "Glamorgan/Morgannwg"
+
+#: admin/admin.php:2645
+msgid "Gloucestershire"
+msgstr "Gloucestershire"
+
+#: admin/admin.php:2646
+msgid "Hampshire"
+msgstr "Hampshire"
+
+#: admin/admin.php:2647
+msgid "Herefordshire"
+msgstr "Herefordshire"
+
+#: admin/admin.php:2648
+msgid "Hertfordshire"
+msgstr "Hertfordshire"
+
+#: admin/admin.php:2649
+msgid "Huntingdonshire"
+msgstr "Huntingdonshire"
+
+#: admin/admin.php:2650
+msgid "Inverness-shire"
+msgstr "Inverness-shire"
+
+#: admin/admin.php:2651
+msgid "Kent"
+msgstr "Kent"
+
+#: admin/admin.php:2652
+msgid "Kincardineshire"
+msgstr "Kincardineshire"
+
+#: admin/admin.php:2653
+msgid "Kinross-shire"
+msgstr "Kinross-shire"
+
+#: admin/admin.php:2654
+msgid "Kirkcudbrightshire"
+msgstr "Kirkcudbrightshire"
+
+#: admin/admin.php:2655
+msgid "Lanarkshire"
+msgstr "Lanarkshire"
+
+#: admin/admin.php:2656
+msgid "Lancashire"
+msgstr "Lancashire"
+
+#: admin/admin.php:2657
+msgid "Leicestershire"
+msgstr "Leicestershire"
+
+#: admin/admin.php:2658
+msgid "Lincolnshire"
+msgstr "Lincolnshire"
+
+#: admin/admin.php:2659
+msgid "Merioneth/Meirionnydd"
+msgstr "Merioneth/Meirionnydd"
+
+#: admin/admin.php:2660
+msgid "Middlesex"
+msgstr "Middlesex"
+
+#: admin/admin.php:2661
+msgid "Midlothian/Edinburghshire"
+msgstr "Midlothian/Edinburghshire"
+
+#: admin/admin.php:2662
+msgid "Monmouthshire/Sir Fynwy"
+msgstr "Monmouthshire/Sir Fynwy"
+
+#: admin/admin.php:2663
+msgid "Montgomeryshire/Sir Drefaldwyn"
+msgstr "Montgomeryshire/Sir Drefaldwyn"
+
+#: admin/admin.php:2664
+msgid "Morayshire"
+msgstr "Morayshire"
+
+#: admin/admin.php:2665
+msgid "Nairnshire"
+msgstr "Nairnshire"
+
+#: admin/admin.php:2666
+msgid "Norfolk"
+msgstr "Norfolk"
+
+#: admin/admin.php:2667
+msgid "North Yorkshire"
+msgstr "North Yorkshire"
+
+#: admin/admin.php:2668
+msgid "Northamptonshire"
+msgstr "Northamptonshire"
+
+#: admin/admin.php:2669
+msgid "Northumberland"
+msgstr "Northumberland"
+
+#: admin/admin.php:2670
+msgid "Nottinghamshire"
+msgstr "Nottinghamshire"
+
+#: admin/admin.php:2671
+msgid "Orkney"
+msgstr "Orkney"
+
+#: admin/admin.php:2672
+msgid "Oxfordshire"
+msgstr "Oxfordshire"
+
+#: admin/admin.php:2673
+msgid "Peeblesshire"
+msgstr "Peeblesshire"
+
+#: admin/admin.php:2674
+msgid "Pembrokeshire/Sir Benfro"
+msgstr "Pembrokeshire/Sir Benfro"
+
+#: admin/admin.php:2675
+msgid "Perthshire"
+msgstr "Perthshire"
+
+#: admin/admin.php:2676
+msgid "Radnorshire/Sir Faesyfed"
+msgstr "Radnorshire/Sir Faesyfed"
+
+#: admin/admin.php:2677
+msgid "Renfrewshire"
+msgstr "Renfrewshire"
+
+#: admin/admin.php:2678
+msgid "Ross-shire"
+msgstr "Ross-shire"
+
+#: admin/admin.php:2679
+msgid "Roxburghshire"
+msgstr "Roxburghshire"
+
+#: admin/admin.php:2680
+msgid "Rutland"
+msgstr "Rutland"
+
+#: admin/admin.php:2681
+msgid "Selkirkshire"
+msgstr "Selkirkshire"
+
+#: admin/admin.php:2682
+msgid "Shetland"
+msgstr "Shetland"
+
+#: admin/admin.php:2683
+msgid "Shropshire"
+msgstr "Shropshire"
+
+#: admin/admin.php:2684
+msgid "Somerset"
+msgstr "Somerset"
+
+#: admin/admin.php:2685
+msgid "Staffordshire"
+msgstr "Staffordshire"
+
+#: admin/admin.php:2686
+msgid "Stirlingshire"
+msgstr "Stirlingshire"
+
+#: admin/admin.php:2687
+msgid "Suffolk"
+msgstr "Suffolk"
+
+#: admin/admin.php:2688
+msgid "Surrey"
+msgstr "Surrey"
+
+#: admin/admin.php:2689
+msgid "Sussex"
+msgstr "Sussex"
+
+#: admin/admin.php:2690
+msgid "Sutherland"
+msgstr "Sutherland"
+
+#: admin/admin.php:2691
+msgid "Warwickshire"
+msgstr "Warwickshire"
+
+#: admin/admin.php:2692
+msgid "West Lothian/Linlithgowshire"
+msgstr "West Lothian/Linlithgowshire"
+
+#: admin/admin.php:2693
+msgid "West Yorkshire"
+msgstr "West Yorkshire"
+
+#: admin/admin.php:2694
+msgid "Westmorland"
+msgstr "Westmorland"
+
+#: admin/admin.php:2695
+msgid "Wigtownshire"
+msgstr "Wigtownshire"
+
+#: admin/admin.php:2696
+msgid "Wiltshire"
+msgstr "Wiltshire"
+
+#: admin/admin.php:2697
+msgid "Worcestershire"
+msgstr "Worcestershire"
+
+#: includes/iPhorm.php:849
+msgctxt "submit the form"
+msgid "Send"
+msgstr "Надіслати"
+
+#: includes/common.php:271
+msgid "January"
+msgstr "Січень"
+
+#: includes/common.php:272
+msgid "February"
+msgstr "Лютий"
+
+#: includes/common.php:273
+msgid "March"
+msgstr "Березень"
+
+#: includes/common.php:274
+msgid "April"
+msgstr "Квітень"
+
+#: includes/common.php:275
+msgid "May"
+msgstr "Травень"
+
+#: includes/common.php:276
+msgid "June"
+msgstr "Червень"
+
+#: includes/common.php:277
+msgid "July"
+msgstr "Липень"
+
+#: includes/common.php:278
+msgid "August"
+msgstr "Серпень"
+
+#: includes/common.php:279
+msgid "September"
+msgstr "Вересень"
+
+#: includes/common.php:280
+msgid "October"
+msgstr "Жовтень"
+
+#: includes/common.php:281
+msgid "November"
+msgstr "Листопад"
+
+#: includes/common.php:282
+msgid "December"
+msgstr "Грудень"
+
+#: includes/common.php:435
+msgid "An error occurred submitting the form"
+msgstr "Виникла помилка при відправці форми"
+
+#: includes/common.php:438
+msgid "You have attempted to queue too many files"
+msgstr "Ви збираєтеся завантажити занадто багато файлів"
+
+#: includes/common.php:439
+msgid "This file exceeds the maximum upload size"
+msgstr "Розмір файлу перевищує максимально дозволений"
+
+#: includes/common.php:440
+msgid "This file is empty"
+msgstr "Файл пустий"
+
+#: includes/common.php:441
+msgid "This file type is not allowed"
+msgstr "Заборонений тип файлу"
+
+#: includes/common.php:442
+msgid "Unknown queue error, please try again later"
+msgstr "Невідома помилка в запиті, спробуйте ще раз"
+
+#: includes/common.php:443
+msgid "Upload error"
+msgstr "Помилка завантаження"
+
+#: includes/common.php:444
+msgid "Upload failed"
+msgstr "Завантаження не вдалося"
+
+#: includes/common.php:445
+msgid "Server IO error"
+msgstr "Помилка вводу-виводу"
+
+#: includes/common.php:446
+msgid "Security error"
+msgstr "Помилка захисту"
+
+#: includes/common.php:447
+msgid "Upload limit exceeded"
+msgstr "Перевищено ліміт завантаження"
+
+#: includes/common.php:448
+msgid "Validation failed"
+msgstr "Помилка валідації"
+
+#: includes/common.php:449
+msgid "Upload stopped"
+msgstr "Завантаження зупинено"
+
+#: includes/common.php:450
+#: includes/iPhorm/Validator/FileUpload.php:67
+msgid "Unknown upload error"
+msgstr "Невідома помилка"
+
+#: includes/common.php:452
+msgid "The form cannot be submitted in the preview"
+msgstr "Не можна надіслати форму під час попереднього перегляду"
+
+#: includes/widget.php:11
+msgid "Display one of your created forms"
+msgstr "Показати одну із створених форм"
+
+#: includes/widget.php:51
+#: includes/widget.php:122
+msgid "Title (optional)"
+msgstr "Заголовок (опціонно)"
+
+#: includes/widget.php:64
+#: includes/widget.php:144
+msgid "You have not created a form yet, %sclick here to create one%s."
+msgstr "Ви не створили жодної форми, %натисніть щоб почати%s."
+
+#: includes/widget.php:80
+msgid "Display one of your created forms in a popup (lightbox)"
+msgstr "Показувати форму у спливаючому вікні (lightbox)"
+
+#: includes/widget.php:135
+msgid "Text or HTML to trigger the popup"
+msgstr "Текст або HTML для спливаючого вікна"
+
+#: includes/widget.php:139
+msgid "Fancybox options (advanced)"
+msgstr "Fancybox параметри (просунуті)"
+
+#: includes/widget.php:141
+msgid "Enter any Fancybox options as a JSON formatted string, %sexample%s."
+msgstr "Введите настройки Fancybox в виде строки формата JSON , %приклад%s."
+
+#: includes/elements/file.php:8
+msgid "Allowed Files"
+msgstr "Дозволені типи файлів"
+
+#: includes/elements/file.php:15
+msgid "All Files"
+msgstr "Всі файли"
+
+#: includes/elements/file.php:38
+msgid "Upload another"
+msgstr "Завантажити інший"
+
+#: includes/elements/honeypot.php:2
+msgid "This field should be left blank"
+msgstr "Це поле повинно бути порожнім"
+
+#: includes/elements/recaptcha.php:24
+msgid "To use reCAPTCHA you must enter your API keys in the iPhorm settings page."
+msgstr "Для використання сервісу reCAPTCHA Ви повинні ввести свій API-ключ"
+
+#: includes/form.php:309
+msgid "Please wait..."
+msgstr "Зачекайте, будь ласка..."
+
+#: includes/form.php:314
+msgid "Powered by Quform (unlicensed)"
+msgstr "Powered by Quform (unlicensed)"
+
+#: includes/iPhorm/Validator/Date.php:22
+msgid "This is not a valid date"
+msgstr "Не вірно вказана дата"
+
+#: includes/iPhorm/Validator/Required.php:22
+#: includes/iPhorm/Validator/FileUpload.php:59
+msgid "This field is required"
+msgstr "Дане поле обов'язково"
+
+#: includes/iPhorm/Validator/Captcha.php:22
+msgid "The value does not match"
+msgstr "Значення не збігаються"
+
+#: includes/iPhorm/Validator/Duplicate.php:29
+msgid "This value is a duplicate of a previously submitted form"
+msgstr "Дане значення вже надіслано"
+
+#: includes/iPhorm/Validator/Length.php:35
+msgid "Invalid type given, value should be a string"
+msgstr "Ви задали невірний тип, значення має бути рядком"
+
+#: includes/iPhorm/Validator/Length.php:36
+msgid "Value must be at least %2$s characters long"
+msgstr "Значення має бути довшим, ніж %2$s "
+
+#: includes/iPhorm/Validator/Length.php:37
+msgid "Value must be less than %2$s characters long"
+msgstr "Значення має бути коротшим, ніж %2$s "
+
+#: includes/iPhorm/Validator/Digits.php:28
+msgid "Only digits are allowed"
+msgstr "Дозволені тільки цифри"
+
+#: includes/iPhorm/Validator/AlphaNumeric.php:28
+msgid "Only alphanumeric characters are allowed"
+msgstr "Дозволені тільки букви і цифри"
+
+#: includes/iPhorm/Validator/Recaptcha.php:30
+msgid "Invalid reCAPTCHA private key"
+msgstr "Невірний API-ключ для reCAPTCHA"
+
+#: includes/iPhorm/Validator/Recaptcha.php:31
+msgid "The challenge parameter of the verify script was incorrect"
+msgstr "Помилка в параметрі скрипта"
+
+#: includes/iPhorm/Validator/Recaptcha.php:32
+msgid "The CAPTCHA solution was incorrect"
+msgstr "Капча введена не вірно"
+
+#: includes/iPhorm/Validator/Recaptcha.php:33
+msgid "reCAPTCHA server not reachable"
+msgstr "Сервер reCAPTCHA не відповідає"
+
+#: includes/iPhorm/Validator/Regex.php:28
+msgid "Invalid value given"
+msgstr "Помилка в значенні"
+
+#: includes/iPhorm/Validator/Alpha.php:28
+msgid "Only alphabet characters are allowed"
+msgstr "Дозволені тільки літери"
+
+#: includes/iPhorm/Validator/FileUpload.php:53
+msgid "File '%s' is not an uploaded file"
+msgstr "Файл '%s' не завантажен"
+
+#: includes/iPhorm/Validator/FileUpload.php:54
+msgid "File is not an uploaded file"
+msgstr "Файл не завантажений"
+
+#: includes/iPhorm/Validator/FileUpload.php:55
+msgid "'%s' exceeds the maximum allowed file size"
+msgstr "Файл '%s' перевищує максимальний розмір завантаження"
+
+#: includes/iPhorm/Validator/FileUpload.php:56
+msgid "File exceeds the maximum allowed file size"
+msgstr "Файл перевищує максимальний розмір завантаження"
+
+#: includes/iPhorm/Validator/FileUpload.php:57
+msgid "File type of '%s' is not allowed"
+msgstr "Тип файлу '%s' заборонений"
+
+#: includes/iPhorm/Validator/FileUpload.php:58
+msgid "File type is not allowed"
+msgstr "Недозволений тип файлу"
+
+#: includes/iPhorm/Validator/FileUpload.php:60
+msgid "At least one file is required"
+msgstr "Потрібен мінімум один файл"
+
+#: includes/iPhorm/Validator/FileUpload.php:61
+msgid "'%s' was only partially uploaded"
+msgstr "Файл '%s' був завантажений частково"
+
+#: includes/iPhorm/Validator/FileUpload.php:62
+msgid "File was only partially uploaded"
+msgstr "Файл завантажений частково"
+
+#: includes/iPhorm/Validator/FileUpload.php:63
+msgid "No file was uploaded"
+msgstr "Файл не завантажено"
+
+#: includes/iPhorm/Validator/FileUpload.php:64
+msgid "Missing a temporary folder"
+msgstr "Не знайдена тимчасова папка"
+
+#: includes/iPhorm/Validator/FileUpload.php:65
+msgid "Failed to write file to disk"
+msgstr "Помилка запису"
+
+#: includes/iPhorm/Validator/FileUpload.php:66
+msgid "File upload stopped by extension"
+msgstr "Завантаження зупинено через заборонене розширення"
+
+#: includes/iPhorm/Validator/Email.php:24
+msgid "Invalid email address"
+msgstr "Невірна Email адреса "
+
+#: includes/iPhorm/Validator/Identical.php:28
+msgid "Value does not match"
+msgstr "Значення не збігаються"
+
+#: includes/iPhorm/Validator/LessThan.php:28
+msgid "'%1$s' is not less than '%2$s'"
+msgstr "'%1$s' не меньше ніж '%2$s'"
+
+#: includes/iPhorm/Validator/GreaterThan.php:28
+msgid "'%1$s' is not greater than '%2$s'"
+msgstr "'%1$s' не більше ніж  '%2$s'"
+
+#: includes/iPhorm/Element/File.php:299
+msgctxt "for a file to upload"
+msgid "Browse..."
+msgstr "Обзор..."
+
+#. Plugin Name of the plugin/theme
+msgid "Quform Form Builder"
+msgstr "Quform Form Builder"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.quform.com/"
+msgstr "http://www.quform.com/"
+
+#. Description of the plugin/theme
+msgid "The Quform form builder makes it easy to build forms in WordPress. Previously known as iPhorm."
+msgstr "Конструктор форм Quform легко створює форми у WordPress."
+
+#. Author of the plugin/theme
+msgid "ThemeCatcher"
+msgstr "ThemeCatcher"
+
+#. Author URI of the plugin/theme
+msgid "http://www.themecatcher.net/"
+msgstr "http://www.themecatcher.net/"
+
+#~ msgid "iPhorm"
+#~ msgstr "iPhorm"
+
+#~ msgid "Date range"
+#~ msgstr "Проміжок часу"
+
+#~ msgid ""
+#~ "Alternatively, you can copy and paste the shortcode below into your\n"
+#~ "                    post or page content."
+#~ msgstr ""
+#~ "Інший спосіб, Ви можете скопіювати і вставити цей шорткод нижче у\n"
+#~ "                   зміст запису або сторінки."
+
+#~ msgid "Insert iPhorm"
+#~ msgstr "Вставити iPhorm"
+
+#~ msgid "http://www.themecatcher.net/iphorm-form-builder"
+#~ msgstr "http://www.themecatcher.net/iphorm-form-builder"

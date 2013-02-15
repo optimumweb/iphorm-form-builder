@@ -1,0 +1,114 @@
+/* Clearfix code */
+.clearfix:before,
+.clearfix:after {
+  content: "\0020";    
+  display: block;    
+  height: 0;    
+  overflow: hidden; 
+}
+.clearfix:after {clear: both;}
+.clearfix {zoom: 1;} /* IE < 8 */
+
+html, body {
+	background: #F9F9F9 url(../images/preview-bg.png) repeat-x left top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	height: 100%;
+	margin: 0;
+	color: #292929;
+	line-height: 140%;
+}
+.ip-outside {
+	padding: 20px;
+}
+.ip-header {
+	background: #eff9f9 url(../images/info-message-bg.png) repeat-x left bottom;
+	border: 1px solid #97d4d4;
+	padding: 5px 10px 5px 40px;
+	position: relative;
+	line-height: 21px;
+	margin: 0 auto;
+	width: 850px;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius:5px;
+}
+.ifb-info-message-icon {
+	background: transparent url(../images/info-icon.png) no-repeat left top;
+	width: 23px;
+	height: 23px;
+	float: left;
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 7px;
+	margin-top: -11px;
+}
+.ip-header a.iphorm-refresh-preview-window {
+	color: #0F83CA;
+	text-decoration: none;
+	padding-right: 10px;
+	padding-left: 20px;
+	display: inline-block;
+	line-height: 16px;
+	background: transparent url(../images/refresh-icon-preview.png) no-repeat left center;
+}
+.ip-header a.iphorm-refresh-preview-window:hover {
+	color: #292929;
+}
+.ip-loading {
+	height: 100px;
+    background: transparent url(../images/loading1.gif) no-repeat center center;
+	text-indent: -9999px;
+	margin: 20px;
+}
+.ip-form-wrap {
+	margin: 0 20px;
+}
+.iphorm-outer {
+	width: 900px;
+	padding: 0;
+	margin: 20px auto;
+}
+.iphorm-inner, .ip-sorry {
+	padding: 20px;
+	border: 1px solid #eee;
+	background: #fff;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius:5px;
+}
+.ip-sorry {
+    margin: 0 auto;
+    width: 350px;
+    display: none;
+	margin-top: 20px;
+	width: 860px;
+}
+.ip-sorry h3 {
+    font-size: 21px;
+	font-weight: normal;
+	margin: 5px 0;
+	padding-left: 60px;
+	padding-top: 15px;
+	height: 30px;
+	line-height: 30px;
+	background: transparent url(../images/warning-message-icon.png) no-repeat left center;
+}
+.ip-sorry ul li {
+    list-style: disc;
+	line-height: 20px;
+	font-weight: bold;
+}
+.iphorm-edit-form-wrap {
+	text-align: right;
+	padding-right: 10px;
+}
+.iphorm-edit-form-wrap a {
+	color: #0F83CA;
+	font-size: 11px;
+	text-decoration: none;
+}
+.iphorm-edit-form-wrap a:hover {
+	color: #393939;
+}

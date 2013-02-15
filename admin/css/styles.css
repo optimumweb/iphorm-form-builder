@@ -1,0 +1,2849 @@
+/* Clearfix code */
+.clearfix:before,
+.clearfix:after {
+  content: "\0020";    
+  display: block;    
+  height: 0;    
+  overflow: hidden; 
+}
+.clearfix:after {clear: both;}
+.clearfix {zoom: 1;} /* IE < 8 */
+
+.iphorm-list-table #id {
+    width: 40px;
+}
+.iphorm-list-table #active {
+    width: 15%;
+}
+.iphorm-list-table #date_added {
+    width: 15%;
+}
+input.middle:focus, select.middle:focus, textarea.middle:focus {
+    outline-width: 0;
+}
+input:focus, select:focus, textarea:focus {
+    outline: none;
+}
+/* Main layout  */
+#wpbody-content {
+    min-width: 888px;
+}
+.ifb-left-col {
+    width: 680px;
+    float: left;
+    position: relative;
+}
+
+.ifb-right-col {
+    float: right;
+    width: 164px;
+    padding: 0 7px 0 18px;
+}
+.ifb-right-col .ifb-buttons {
+    width: 156px;
+}
+span.ifb-required {
+    color: #CC0000;
+    font-size: 10px;
+}
+.ifb-wrap-outer {
+    background: url(../images/border-line.png) repeat-x left 13px;
+    width: 100%;
+    margin: auto;
+    -webkit-box-shadow: inset 0px 0px 20px 20px #ffffff;
+    -moz-box-shadow: inset 0px 0px 20px 20px #ffffff;
+    box-shadow: inset 0px 0px 20px 20px #ffffff;
+}
+.ifb-wrap {
+    width: 880px; 
+    margin: 0 auto;
+    display: none;
+}
+
+/* Top title elements */
+#icon-iphorm {
+    background-image: url(../images/form-icon.png);
+}
+h2.ifb-main-title {
+    font-size: 18px;
+	font-family: 'Myriad Pro', Arial, Helvetica, sans-serif;
+	line-height: 25px;
+}
+h2.ifb-main-title .ifb-iphorm-title {
+    font-weight: bold;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid #E3E3E3;
+    color: #666;
+    font-size: 24px;
+	font-style: italic;
+}
+/*main nav*/
+.iphorm-global-nav-wrap {
+    padding: 0;
+    background: #f8f8f8 url(../images/button-light.png) repeat-x left top;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    height: 30px;
+    margin-bottom: 2px;
+    -webkit-box-shadow: 0 1px 0 0 #f8f8f8;
+    -moz-box-shadow: 0 1px 0 0 #f8f8f8;
+    box-shadow: 0 1px 0 0 #f8f8f8;
+}
+.iphorm-global-nav-ul {
+	margin:0;
+	padding:0;
+	float: left;
+	width: auto;
+	height: 30px;
+}
+.iphorm-global-nav-ul > li {
+	margin:0;
+	padding:0;
+	list-style: none;
+	float: left;
+	display: inline;
+}
+.iphorm-global-nav-ul > li > a, a#iphorm-form-switcher-trigger {
+    background: url(../images/iphorm-main-nav-bg.png) repeat-x left top;
+    color: #aaa;
+    padding: 0;
+    text-decoration: none;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+	font-size: 12px;
+    border-right: solid 1px #E3E3E3;
+    border-left: solid 1px #fff;
+    text-shadow: 1px 1px 0 #fff;
+}
+.iphorm-global-nav-ul > li > a:hover, a#iphorm-form-switcher-trigger:hover,
+.iphorm-global-nav-ul > li > a.current
+{
+    color: #0F83CA;
+    background: url(../images/iphorm-main-nav-bg-hover.png) repeat-x left top;
+}
+.iphorm-global-nav-ul > li > a span.ifb-no-arrow  {
+    padding: 3px 15px;
+    display: block;
+    height: 24px;
+    line-height: 24px;
+	cursor: pointer;
+}
+.iphorm-global-nav-ul > li a#iphorm-add-to-website span.ifb-arrow-down {
+    background: url(../images/small-down-icon.png) no-repeat 10px center;
+    cursor: pointer;
+    padding: 3px 22px 3px 35px;
+	cursor: pointer;
+}
+.iphorm-global-nav-ul > li a span.ifb-arrow-left {
+    background: url(../images/small-back-icon.png) no-repeat 8px 3px;
+    cursor: pointer;
+    padding: 3px 20px 3px 30px;
+	cursor: pointer;
+}
+.iphorm-global-nav-ul > li > a:first-child {
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 3px;
+	-webkit-border-radius: 3px 0px 0px 3px;
+	border-radius: 3px 0px 0px 3px;
+}
+a.button.add-new-h2 {
+    padding-left: 28px;
+    width: 70px;
+    background: #ffb300 url(../images/button-orange.png) repeat-x left top;
+    border: 1px solid #daa600;
+    color: #303030;
+    text-shadow: 1px 1px #ffdd40;
+	height: 17px;
+	line-height: 17px;
+	display: inline-block;
+	text-align: center;
+	margin: 0 3px;
+	-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+a.button.add-new-h2:hover {
+    background: #ffb300 url(../images/button-orange-hover.png) repeat-x left bottom;
+}
+a.button.add-new-h2 span.ifb-add-icon {
+    width: 26px;
+    background: url(../images/add-icon-for-orange-button.png) repeat-x left top;
+    height: 23px;
+    position: absolute;
+    left: 0;
+    top: 0;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 3px;
+	-webkit-border-radius: 3px 0px 0px 3px;
+	border-radius: 3px 0px 0px 3px;
+}
+.ifb-iphorm-title-forms {
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid #E3E3E3;
+}
+
+
+/*main sub nav*/
+.iphorm-global-sub-nav-wrap {
+    padding: 0;
+    background: #fff url(../images/main-sub-nav-bg.png) repeat-x left top;
+    border: 1px solid #e3e3e3;
+    margin-top: 4px;
+    height: 24px;
+	padding-left: 1px;
+    margin-bottom: 2px;
+    -webkit-box-shadow: 0 1px 0 0 #fefefe;
+    -moz-box-shadow: 0 1px 0 0 #fefefe;
+    box-shadow: 0 1px 0 0 #fefefe;
+}
+.iphorm-global-sub-nav-ul {
+	margin:0;
+	padding:0;
+	float: left;
+	width: auto;
+	height: 24px;
+}
+.iphorm-global-sub-nav-ul > li {
+	margin:0;
+	padding:0;
+	list-style: none;
+	float: left;
+	display: inline;
+}
+.iphorm-global-sub-nav-ul > li a {
+	float: left;
+	padding: 3px 10px;
+	height: 18px;
+	line-height: 18px;
+	text-decoration: none;
+	color: #bbb;
+	font-size: 11px;
+	background: #fefefe ;
+	border-right: 1px solid #e3e3e3;
+	text-shadow: 1px 1px 0 #fff;
+}
+.iphorm-global-sub-nav-ul > li a:hover, .iphorm-global-sub-nav-ul > li a.current {
+	color: #0F83CA;
+	background: #f8f8f8 url(../images/main-sub-nav-button.png) repeat-x left top;
+	border-right: 1px solid #e3e3e3;
+}
+
+/* Form switcher*/
+.iphorm-form-switcher {
+    float: left;
+    position: relative;
+	z-index: 26;
+}
+.iphorm-form-switcher-list {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    z-index: 26;
+    background: #f7f7f7;
+    border: 5px solid #888;
+    padding: 10px;
+    width: 332px;
+    padding-right:0;
+    padding-bottom: 5px;
+    -webkit-box-shadow: 0px 2px 10px -5px #333;
+    -moz-box-shadow: 0px 2px 10px -5px #333;
+    box-shadow: 0px 2px 10px -5px #333;
+}
+.iphorm-form-switcher-list ul {
+	margin: 0;
+}
+.iphorm-form-switcher-list li {
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: inline-block;
+    list-style: none;
+    width: 165px;
+    height: 30px;
+}
+
+.iphorm-form-switcher-list li a {
+    width: 130px;
+    padding: 10px 5px;
+    margin: 0 10px 5px 0;
+    background: #e5e5e5 url(../images/button-grey.png) repeat-x left top;
+    padding: 3px 12px;
+    border: 1px solid #b3b3b3;
+    text-decoration: none;
+    color: #828282;
+    line-height: 17px;
+    height: 17px;
+    text-shadow: 1px 1px #f9f9f9;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    float: left;
+	font-size: 12px;
+	text-overflow: ellipsis;
+}
+.iphorm-form-switcher-list li a:hover {color: #0f83ca;}
+.iphorm-form-switcher-list li a span.ifb-fade-overflow {
+    background: transparent url(../images/text-overflow-image.png) repeat-x left top;
+    width: 26px;
+    height: 23px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.iphorm-form-switcher-list li.iphorm-create-new a {
+    padding-left: 32px;
+    width: 110px;
+    background: #ffb300 url(../images/button-orange.png) repeat-x left top;
+    border: 1px solid #daa600;
+    color: #303030;
+    text-shadow: 1px 1px #ffdd40;
+	text-overflow: ellipsis;
+	min-width: 110px;
+}
+.iphorm-form-switcher-list li.iphorm-create-new a:hover {
+	position: absolute; width: auto; z-index: 10;
+}
+.iphorm-form-switcher-list li.iphorm-create-new a:hover {
+    background: #ffb300 url(../images/button-orange-hover.png) repeat-x left bottom;
+}
+.iphorm-form-switcher-list li.iphorm-create-new a span.ifb-add-icon {
+    width: 26px;
+    background: url(../images/add-icon-for-orange-button.png) repeat-x left top;
+    height: 23px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.iphorm-form-switcher a#iphorm-form-switcher-trigger span.ifb-arrow-down {
+    background: url(../images/small-down-icon.png) no-repeat 10px center;
+    cursor: pointer;
+    padding: 3px 22px 3px 35px;
+}
+.iphorm-form-switcher a#iphorm-form-switcher-trigger.ifb-form-switcher-open, a.ifb-add-to-website-open span.ifb-arrow-down, a.iphorm-global-nav-active > span {
+    color: #0f83ca;
+}
+.iphorm-current-form {
+    float: right;
+    padding: 3px 15px;
+    line-height: 24px;
+    color: #bbb;
+    font-size: 10px;
+}
+.iphorm-current-form .ifb-update-form-name {
+    font-weight: bold;
+    font-size: 11px;
+    color: #0f83ca;
+    padding-right: 3px;
+	float: left;
+}
+.ifb-current-form-id-wrap {
+	font-weight: bold;
+    font-size: 11px;
+    color: #A5A5A5;
+    float: left;
+}
+.iphorm-current-form  .ifb-update-form-name input {
+	border: 1px solid #eee;
+	float: left;
+	height: 15px;
+	line-height: 15px;
+	padding: 0 5px;
+	margin-top: -1px;
+	font-weight: bold;
+    font-size: 11px;
+    color: #0f83ca;
+}
+#iphorm-add-to-website {
+    cursor: pointer;    
+}
+.ifb-new-form .ifb-hide-if-new-form {
+    display: none;
+}
+.ifb-show-if-new-form {
+    display: none;  
+}
+.ifb-new-form .ifb-show-if-new-form {
+    display: block;
+}
+/* Copy info top right */
+.iphorm-top-right {
+    float: right;
+	display: inline;
+	width: 330px;
+	margin-right: 5px;
+}
+.iphorm-information {
+    float: right;
+    padding: 2px 10px;
+    text-align: right;
+    font-size: 10px;
+    color: #C7C7C7;
+    height: 18px;
+    line-height: 18px;
+	background: #FCFCFC;
+	border: 1px solid #F6F6F6;
+	border-top: none;
+	text-shadow: 1px 1px 0 #fff;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-radius: 0px 0px 5px 5px;
+	border-radius: 0px 0px 5px 5px;
+}
+.iphorm-information a {
+    color:#C7C7C7;
+    text-decoration: none;
+}
+.iphorm-information span {
+    border-right: 1px solid #E3E3E3;
+    padding: 0 5px;
+}
+.iphorm-information span:last-child {
+    border-right: none;
+    padding-right: 0;
+}
+.iphorm-information a:hover {
+    color: #0F83CA;
+}
+/* Some global things */
+.ifb-invisible { 
+	visibility: hidden; 
+}
+.ifb-small-add-button {
+    font-size: 15px;
+    cursor: pointer;
+}
+.ifb-bold {
+    font-weight: bold;
+}
+.ifb-float-left {
+    float: left;
+}
+ifb-float-right {
+    float: right;
+}
+.ifb-add-button {
+    cursor: pointer;
+    background: url(../images/add.png) left top no-repeat;
+    padding: 3px 10px;
+}
+.ifb-conditional-heading {
+    font-weight: bold;    
+}
+#ifb optgroup > option {
+    margin-left: 15px;
+    font-family: sans-serif;
+	font-size: 12px;
+}
+h3.ifb-sub-head {
+	background: #f8f8f8 url(../images/button-light.png) repeat-x left top;
+    border: 1px solid #ddd;
+    margin: 15px 0;
+    font-size: 13px;
+    font-weight: bold;
+    color: #0f83ca;
+    padding: 5px 10px;
+    display: block;
+    text-shadow: 1px 1px 0 #fff;
+	position: relative;
+}
+h3.ifb-sub-head span {
+	display: block;
+}
+h3.ifb-export-sub-head {
+    margin: 15px 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: #0f83ca;
+    padding: 5px 0;
+    display: block;
+    text-shadow: 1px 1px 0 #fff;
+    position: relative;
+}
+/* Main tables */
+.ifb-form-table, .iphorm-entry-table {
+    border-collapse:collapse;
+    margin-top:.5em;
+    width:100%;
+}
+.ifb-form-table pre, .iphorm-entry-table pre {
+    background: #fff;
+}
+.ifb-form-table h4, .iphorm-entry-table h4 {
+    margin-bottom: 2px;
+}
+.ifb-settings-open .ifb-form-table {
+    margin-top: 0;
+}
+.ifb-form-table td {
+    margin-bottom:9px;
+    padding:8px 10px;
+    line-height:20px;
+    font-size:12px;
+    border: 1px solid #F0F0F0;
+}
+.ifb-settings-open .ifb-form-table td {
+    border-top: none;
+    border-right: none;
+}
+.ifb-form-table th {
+    vertical-align:top;
+    text-align:left;
+    padding:10px;
+    width: 150px;
+    border: 1px solid #F0F0F0;
+}
+.ifb-element-settings-inner .ifb-form-table th, .ifb-element-settings-inner .ifb-form-table td {
+    border:1px solid #D3D3D3;
+}
+.ifb-element-settings-inner .ifb-form-table td {
+    border-right: none;
+}
+.ifb-element-settings-inner .ifb-form-table tr:first-child th, .ifb-element-settings-inner .ifb-form-table tr:first-child td {
+    border-top: none;
+}
+.ifb-element-settings-inner .ifb-form-table tr:last-child th, .ifb-element-settings-inner .ifb-form-table tr:last-child td {
+    border-bottom: none;
+}
+.ifb-settings-open .ifb-form-table th {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.ifb-subform-table th, .ifb-subform-table td {
+    border: none;
+}
+.ifb-form-table textarea {
+    margin-bottom:6px;
+	width: 100%;
+}
+.ifb-element-description-tr textarea {height: 70px;}
+.ifb-form-table select {min-width: 40px;}
+/* Settings */
+#ifb-elements,
+#ifb-settings,
+#ifb-actions {
+    padding: 10px 0;
+    width: 680px;
+    position: relative;
+}
+/* Sub table - in date translation */
+.ifb-form-subtable {
+	border: 1px solid #D3D3D3;
+	background: #fff;
+}
+.ifb-form-subtable input {
+	width: 300px;
+}
+/* Settings tabs */
+#ifb-tabs {
+    padding-top: 10px;
+    margin-bottom: 10px;    
+}
+#ifb-tabs .ifb-tabs-nav {
+    padding: 10px 0;
+    background: url(../images/border-line.png) repeat-x left 3px;
+    height: 30px;
+	margin: 0;
+}
+#ifb-tabs .ifb-tabs-nav > li {
+    display: inline;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    float: left;
+    list-style: none;
+}
+#ifb-tabs .ifb-tabs-nav > li a { 
+    float: left;
+    margin: 2px 3px 0 0;
+    background: #e5e5e5 url(../images/button-grey.png) repeat-x left top;
+    padding: 3px 12px;
+    border: 1px solid #b3b3b3;
+    text-decoration: none;
+    color: #828282;
+    line-height: 17px;
+    height: 17px;
+    text-shadow: 1px 1px #f9f9f9;
+	font-size: 12px;
+}
+#ifb-tabs .ifb-tabs-nav > li a:hover {
+    color: #0f83ca;
+}
+#ifb-tabs .ifb-tabs-nav > li a:active {
+    background: #e5e5e5 url(../images/button-grey-hover.png) repeat-x left bottom;
+}
+#ifb-tabs .ifb-tabs-nav > li.ifb-current-tab a { 
+    background: #ffb300 url(../images/button-orange.png) repeat-x left top;
+    padding: 5px 12px;
+    margin: 0 4px 0 0;
+    border: 1px solid #daa600;
+    color: #303030;
+    text-shadow: 1px 1px #ffdd40;
+}
+#ifb-tabs .ifb-tabs-nav > li:last-child a {
+    margin-right: 0;
+}
+.ifb-element-settings-html .ifb-element-settings-form-table textarea {height: 250px;}
+/*Tab icons - FORM tab*/
+#ifb-tabs .ifb-tabs-nav > li a#ifb-edit-form-tab {
+    position: relative;
+    padding-left: 35px;
+    font-weight: bold;
+}
+#ifb-tabs .ifb-tabs-nav > li a#ifb-edit-form-tab > span {
+    background: url(../images/edit-form-icon-grey.png) no-repeat left top;
+    width: 23px;
+    height: 23px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#ifb-tabs .ifb-tabs-nav > li.ifb-current-tab a#ifb-edit-form-tab > span {
+    background: url(../images/edit-form-icon-orange.png) no-repeat left top;
+    width: 26px;
+    height: 27px;
+}
+/*Tab icons - SETTINGS tab*/
+#ifb-tabs .ifb-tabs-nav > li a#ifb-settings-tab {
+    position: relative;
+    padding-left: 35px;
+    font-weight: bold;
+}
+#ifb-tabs .ifb-tabs-nav > li a#ifb-settings-tab > span {
+    background: url(../images/form-settings-icon-grey.png) no-repeat left top;
+    width: 23px;
+    height: 23px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#ifb-tabs .ifb-tabs-nav > li.ifb-current-tab a#ifb-settings-tab > span {
+    background: url(../images/form-settings-icon-orange.png) no-repeat left top;
+    width: 26px;
+    height: 27px;
+}
+/* Tabs for element settings */
+#ifb-settings ul.ifb-tabs-nav {
+    -webkit-box-shadow: inset 0px 0px 15px 5px #ffffff;
+    -moz-box-shadow: inset 0px 0px 15px 5px #ffffff;
+    box-shadow: inset 0px 0px 15px 5px #ffffff;
+}
+#ifb-elements-wrap .ifb-tabs-nav {
+    padding: 0;
+	margin: 0;
+    background: none;
+    position: absolute;
+    top: -26px; 
+    right: -1px;
+}
+#ifb-elements-wrap .ifb-tabs-nav > li {
+    background: transparent;
+    float: none;
+}
+#ifb-elements-wrap .ifb-tabs-nav > li a { 
+    background: #f8f8f7 url(../images/button-grey.png) repeat-x left top;
+    border: 1px solid #bbbbbb;
+    border-bottom: none;
+    color: #828282;
+    margin: 3px 0 0 -1px;
+    font-size: 10px;
+    font-weight: normal;
+    padding: 2px 10px 2px 10px;
+    text-shadow: 1px 1px 0px #fcfcfc;
+    height: 17px;
+    line-height: 17px;
+    float: right;
+}
+#ifb-elements-wrap .ifb-tabs-nav > li a:hover { 
+    background: #f8f8f7 url(../images/button-grey-hover.png) repeat-x left bottom;
+    color: #0f83ca;
+}
+#ifb-elements-wrap .ifb-tabs-nav > li.ifb-current-tab a { 
+    background: #0e7dc7 url(../images/button-blue.png) repeat-x left top;
+    border: 1px solid #0069ab;
+    color: #fff;
+    border-bottom: none;
+    margin: 0 0 0 -1px;
+    font-size: 12px;
+    font-weight: bold;
+    text-shadow: -1px -1px 0px #0e80c8;
+    position: relative;
+    height: 15px;
+    line-height: 15px;
+}
+/* Style settings */
+.ifb-settings-sub-head td {
+    padding: 10px 0 0;
+    border: none;
+    margin: 0;
+}
+.ifb-settings-sub-head td > h3 {
+    background: #f8f8f8 url(../images/button-light.png) repeat-x left top;
+    border: 1px solid #ddd;
+    margin: -1px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #0f83ca;
+    padding: 5px 10px;
+    position: relative;
+    display: block;
+    width: 659px;
+    text-shadow: 1px 1px 0 #fff;
+}
+/*Customize input sizes*/
+#success_message_timeout {
+	width: 50px;
+}
+#label_width {
+    width: 90px;	
+}
+#subject, #db_table, #autoreply_subject, #recipients input {
+	width: 290px;
+}
+#ifb-insert-variable {
+	max-width: 130px;
+}
+.ifb-element-settings-inner input[type="text"] {
+	width: 215px;
+}
+.ifb-element-settings-inner input.ifb-small-input {
+	width: 40px;
+}
+.ifb-element-settings-inner input.ifb-smallish-input {
+    width: 70px;
+}
+.ifb-element-settings-inner input.ifb-halfwidth-input {
+    width: 107px;
+}
+.translate-error-messages-table tr th {
+	width: 290px;
+}
+.translate-error-messages-table input[type="text"] {
+	width: 290px;
+}
+input#element_background_colour,
+input#element_border_colour,
+input#element_text_colour,
+input#label_text_colour,
+.ifb-element-settings-inner .ifb-group-background-colour input,
+.ifb-element-settings-inner .ifb-group-border-colour input,
+.ifb-element-settings-inner .ifb-captcha-bg-colour input,
+.ifb-element-settings-inner .ifb-captcha-text-colour input {
+    background: #fff url(../images/color-wheel.png) no-repeat 3px 2px;
+    padding-left: 25px;
+    cursor: pointer;
+    width: 95px;
+}
+
+/* Save / preview Buttons */
+.ifb-buttons a {
+    float: left;
+    margin-right: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+.ifb-buttons a.ifb-blue {margin-right: 0;}
+.ifb-buttons a.ifb-blue span {
+    margin-right: 0;
+    min-width: 51px;
+    height: 17px;
+    line-height: 17px;
+    padding: 5px;
+    display: block;
+    border: 1px solid #0069ab;
+}
+.ifb-buttons a.ifb-blue span.ifb-save {
+    background: #0e7dc7 url(../images/button-blue.png) repeat-x left top;
+    color: #fff;
+    text-shadow: -1px -1px 0px #0e80c8;
+}
+.ifb-buttons a.ifb-blue:hover span.ifb-save {
+    background: #0e7dc7 url(../images/button-blue-hover.png) repeat-x left bottom;
+}
+/* When you click SAVE */
+.ifb-buttons a.ifb-blue span.ifb-saved {
+    background: #292929 url(../images/button-extra-tick.png) repeat-x center center;
+    border: 1px solid #000;
+    display: none;
+}
+.ifb-buttons a.ifb-blue span.ifb-save-failed {
+    background: #292929 url(../images/button-extra-fail.png) repeat-x center center;
+    border: 1px solid #000;
+    display: none;
+}
+.ifb-buttons a.ifb-blue span.ifb-saving {
+    background: #292929 url(../images/side-button-loading.gif) repeat-x center center;
+    border: 1px solid #000;
+    display: none;
+}
+.ifb-buttons a.ifb-orange {
+    background: #ffb300 url(../images/button-orange.png) repeat-x left top;
+    border: 1px solid #daa600;
+    color: #303030;
+}
+.ifb-buttons a.ifb-grey {
+    background: #e5e5e5 url(../images/button-grey.png) repeat-x left top;
+    border: 1px solid #b3b3b3;
+    color: #828282;
+    text-shadow: 1px 1px #f9f9f9;
+    min-width: 66px;
+    height: 17px;
+    line-height: 17px;
+    padding: 5px;
+}
+.ifb-buttons a.ifb-grey:hover {
+    background: #e5e5e5 url(../images/button-grey-hover.png) repeat-x left bottom;
+    color: #0f83ca;
+}
+span.ifb-refresh-default-value {
+     background: #e5e5e5 url(../images/button-grey.png) repeat-x left top;
+    border: 1px solid #b3b3b3;
+    color: #828282;
+    text-shadow: 1px 1px #f9f9f9;
+    min-width: 76px;
+    height: 17px;
+    line-height: 17px;
+    padding: 4px 10px;
+    cursor: pointer;
+}
+span.ifb-refresh-default-value:hover {
+    background: #e5e5e5 url(../images/button-grey-hover.png) repeat-x left bottom;
+    color: #0f83ca;
+}
+.ifb-buttons a#ifb-scroll-top {
+    background: transparent url(../images/go-to-top.png) no-repeat left top;
+    display: block;
+    text-indent: -9999px;
+    float: right;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin: 1px 10px;
+    display: none;
+}
+.ifb-buttons a#ifb-scroll-top:hover {
+    background: transparent url(../images/go-to-top-hover.png) no-repeat left top;
+}
+/* While form elements load */
+div.placeholder {
+    height: 60px;
+    background: #fff url(../images/loading.gif) no-repeat 40px center;
+}
+/* Each element */
+.ifb-element-wrap {
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    min-height: 40px;
+}
+.ifb-element-wrap:hover, .ifb-settings-open {
+    border-bottom: none;
+    border-top: none;
+}
+.ifb-element-settings,
+.ifb-filter-settings,
+.ifb-validator-settings,
+.ifb-style-settings {
+    display: none;
+    position: relative;
+}
+.ifb-element-settings {
+    padding: 3px;
+    border: 1px solid #0069ab;
+    border-top: none;
+    background: #0e81c9 url(../images/gradient-bg.png) repeat-x left bottom;
+}
+
+.ifb-element-settings .ifb-tabs-panel {
+    border: 1px solid #0069ab;
+    background: #f9f9f9 url(../images/active-area-bg.png) repeat left top;
+}
+div.ifb-element-preview {
+    padding: 6px;
+    width: 380px;
+    position: relative;
+    float: left;
+    height: 35px;
+    height: auto;
+    min-height: 35px;
+}
+.ifb-element-preview span.ifb-handle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+}
+/* Element action buttons */
+.ifb-element-actions {
+    float: right;
+    font-size: 11px; 
+    visibility: hidden;
+    padding: 0;
+}
+.ifb-element-actions a {
+    text-decoration: none;
+}
+.ifb-element-actions a:hover {
+    text-decoration: none;
+}
+.ifb-element-wrap:hover .ifb-element-actions, .ifb-settings-open .ifb-element-actions {
+    visibility: visible;
+}
+.ifb-close-link,
+.ifb-filter-close-link,
+.ifb-validator-close-link,
+.ifb-style-close-link  {
+    display: none;
+}
+/* Add element buttons (right col) */
+.ifb-add-element-button {
+    text-align: center;
+    background: #e5e5e5 url(../images/button-grey.png) repeat-x left top;
+    border: 1px solid #b3b3b3;
+    color: #828282;
+    width: 130px;
+    height: 19px;
+    height: auto;
+    min-height: 19px;
+    line-height: 19px;
+    padding: 3px 6px 3px 6px;
+    text-shadow: 1px 1px #f9f9f9;
+    cursor: pointer;
+	font-size: 12px;
+}
+.ifb-add-element-button:hover, .ui-draggable-dragging {
+    background: #ffb300 url(../images/button-orange.png) repeat-x left top;
+    border: 1px solid #daa600;
+    color: #303030;
+    text-shadow: 1px 1px #ffdd40;
+    z-index: 30;
+}
+/* Database active tables */
+#ifb-active-columns, #ifb-inactive-columns { margin: 0;}
+#ifb-active-columns .button, #ifb-inactive-columns .button {
+    text-align: center;
+    background: #e5e5e5 url(../images/button-grey.png) repeat-x left top;
+    border: 1px solid #b3b3b3;
+    color: #828282;
+    height: 15px;
+    height: auto;
+    min-height: 15px;
+    line-height: 19px;
+    padding: 3px 6px 3px 6px;
+    text-shadow: 1px 1px #f9f9f9;
+    cursor: pointer;
+    font-size: 11px;
+}
+#ifb-active-columns .button:hover, #ifb-inactive-columns .button:hover {
+    background: #ffb300 url(../images/button-orange.png) repeat-x left top;
+    border: 1px solid #daa600;
+    color: #303030;
+    text-shadow: 1px 1px #ffdd40;
+    z-index: 15;
+}
+#ifb-active-columns.ui-sortable,
+#ifb-inactive-columns.ui-sortable {
+	height: 200px;
+	height: auto;
+	min-height: 200px;
+}
+/* Before any elements are added */
+#ifb-elements-empty {
+    display: none;
+    padding: 70px 90px 30px 0;
+    line-height: 21px;
+    height: 125px;
+    position: absolute;
+    width: 590px;
+    right: 0;
+    top: 0;
+    text-align: right;
+    background: #fff url(../images/drop-element-from-here.png) no-repeat right center;
+    color: #474747;
+}
+#ifb-elements-empty .ibf-elements-empty-line1 {
+    font-size: 40px;
+    line-height: 50px;
+    display: block;
+    padding-top: 5px;
+    font-family: 'Myriad Pro', Arial, Helvetica, sans-serif;
+	font-style: italic;
+}
+#ifb-elements-empty .ibf-elements-empty-line2 {
+    font-size: 20px;
+    display: block;
+    font-family: 'Myriad Pro', Arial, Helvetica, sans-serif;
+	font-style: italic;
+}
+/* Previewing form elements */
+.ifb-element-preview > label {
+    font-weight: bold;
+}
+.ifb-element-preview .ifb-preview-input {
+    margin-top: 0;
+}
+.ifb-hidden-preview { 
+	margin-left: 3px;
+}
+/*Radio,check boxes and select opptions*/
+ul.ifb-options-list {
+	max-height: 200px;
+	overflow: auto;
+    border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	background: #f8f8f8 url(../images/options-bg.png) repeat-x left top;
+	padding: 10px;
+	margin: 0 -10px;
+}
+li.ifb-option-wrap input.ifb-default-option {
+	width: 12px;
+	padding-left: 3px;
+}
+li.ifb-option-wrap input.ifb-option-label,
+li.ifb-option-wrap input.ifb-option-value {
+	width: 175px;
+}
+.ifb-options-heading {
+    padding-bottom: 3px;
+}
+.ifb-options-heading div {
+    float: left;
+    font-weight: bold;
+    font-size: 11px;
+    font-style: italics;
+}
+.ifb-options-heading-option, .ifb-options-heading-value {
+    width: 180px;
+    padding-top: 2px;
+}
+.ifb-options-heading-option {
+	margin: 0 5px;
+}
+.ifb-element-wrap-checkbox .ifb-options-heading-option {
+    margin-left: 20px;
+}
+
+.ifb-add-option,
+.ifb-remove-option {
+    cursor: pointer;
+}
+.ifb-options-heading-value,
+.ifb-option-value {
+    display: none;
+}
+.ifb-customise-values .ifb-options-heading-value {
+    display: block !important;  
+}
+.ifb-customise-values .ifb-option-value {
+    display: inline !important;  
+}
+.ifb-preview-label span.ifb-required {
+    margin-left: 5px;   
+}
+.ifb-preview-label input {
+    min-width: 100px;
+    border: 1px solid #eee;
+    font-weight: bold;
+}
+.ifb-preview-input textarea {
+	width: 228px;
+	height: 65px;
+}
+.ifb-element-preview-hidden .ifb-preview-label {
+	color: #9E9E9E;
+	font-size: 11px;
+}
+.ifb-element-preview-hidden .ifb-preview-input input {
+	border-color :#EEE;
+}
+/* Hide stuff */
+.ifb-hidden {
+    display: none;
+}
+.ifb-element-optional span.ifb-required {
+    display: none !important;
+}
+.ifb-no-required-text span.ifb-required {
+    display: none !important;
+}
+
+/* Preview options */
+
+/* title and description */
+h2#ifb-title {
+    font-size: 22px;
+    line-height: 22px;
+    padding: 5px 15px;
+}
+p#ifb-description {
+    padding: 3px 15px 15px;
+    color: #9A9A9A;
+    margin: 0;
+}
+p#ifb-description > textarea {
+    width: 100%;
+    height: 30px;
+	border: 1px solid #eee;
+}
+#ifb-title input {
+    font-size: 22px;
+	border: 1px solid #eee;
+}
+.ifb-clear-default-options {
+    float: left;
+}
+/* Preview description */
+.ifb-element-preview .ifb-preview-description {
+    font-size: 11px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-style: italic;
+}
+/*label above*/
+.ifb-label-placement-above .ifb-preview-label {
+    z-index: 10;
+    position: relative;
+}
+/*label above*/
+.ifb-label-placement-left .ifb-preview-label {
+    width: 140px;
+    z-index: 10;
+    position: relative;
+    float: left;
+    padding-right: 10px;
+}
+/*label inside*/
+.ifb-label-placement-inside .ifb-preview-label {
+    z-index: 10;
+    position: relative;
+}
+/*label inside (text, textarea, email, password)*/
+.ifb-label-placement-inside .ifb-element-preview-text .ifb-preview-label,
+.ifb-label-placement-inside .ifb-element-preview-textarea .ifb-preview-label,
+.ifb-label-placement-inside .ifb-element-preview-email .ifb-preview-label,
+.ifb-label-placement-inside .ifb-element-preview-password .ifb-preview-label,
+.ifb-label-placement-inside .ifb-element-preview-captcha .ifb-preview-label {
+    padding: 0;
+    line-height: 16px;
+    left: 13px;
+    top: 16px;
+    position: absolute;
+    color: #999;
+}
+.ifb-label-placement-inside:hover .ifb-element-preview-text .ifb-preview-label, 
+.ifb-settings-open.ifb-label-placement-inside .ifb-element-preview-text .ifb-preview-label,
+.ifb-label-placement-inside:hover .ifb-element-preview-textarea .ifb-preview-label, 
+.ifb-settings-open.ifb-label-placement-inside .ifb-element-preview-textarea .ifb-preview-label,
+.ifb-label-placement-inside:hover .ifb-element-preview-email .ifb-preview-label, 
+.ifb-settings-open.ifb-label-placement-inside .ifb-element-preview-email .ifb-preview-label,
+.ifb-label-placement-inside:hover .ifb-element-preview-password .ifb-preview-label, 
+.ifb-settings-open.ifb-label-placement-inside .ifb-element-preview-password .ifb-preview-label,
+.ifb-label-placement-inside:hover .ifb-element-preview-captcha .ifb-preview-label, 
+.ifb-settings-open.ifb-label-placement-inside .ifb-element-preview-captcha .ifb-preview-label {
+    top: 15px;
+    left: 12px;
+}
+/*input above*/
+.ifb-label-placement-above .ifb-preview-input {
+    padding-top: 5px;
+}
+/*input left*/
+.ifb-label-placement-left .ifb-preview-input,
+.ifb-label-placement-left .ifb-captcha-preview-image-wrap {
+    margin-left: 150px; 
+}
+/*input inside*/
+.ifb-label-placement-inside .ifb-preview-input {
+    position: relative;
+    padding-top: 5px;
+}
+/*input inside (text, textarea, email, password)*/
+.ifb-label-placement-inside .ifb-element-wrap-text .ifb-preview-input,
+.ifb-label-placement-inside .ifb-element-wrap-textarea .ifb-preview-input,
+.ifb-label-placement-inside .ifb-element-wrap-email .ifb-preview-input,
+.ifb-label-placement-inside .ifb-element-wrap-password .ifb-preview-input,
+.ifb-label-placement-inside .ifb-element-wrap-captcha .ifb-preview-input {
+    margin-top: 0;
+}
+/*Radio and check boxes inline*/
+ul.ifb-options-inline > li {
+    display: inline;
+    float: left;
+    margin: 0 15px 5px 0;
+}
+/* Using and viewing element settings */
+.ifb-element-wrap:hover .ifb-element-preview {
+    background: #fff;
+    border: solid 1px #e4e4e4;
+    padding: 5px;
+    overflow: hidden;
+}
+.ifb-settings-open .ifb-element-preview, .ifb-settings-open:hover .ifb-element-preview  {
+    background: #fff;
+    border: dashed 1px #919191;
+    padding: 5px;
+    overflow: hidden;
+}
+/* Sortable drag and drop */
+.ifb-sortable-placeholder {
+    height: 0px;
+    border-bottom: 2px dashed #404040;
+    background: #fff;
+    position: relative;
+    margin-top: 4px;
+}
+.ifb-sortable-placeholder span {
+    background: url(../images/move-here.png) no-repeat left top;
+    display: block;
+    width: 35px;
+    height: 22px;
+    position: absolute;
+    left: -36px;
+    top: 50%;
+    margin-top: -11px;
+    z-index: 10;
+}
+/* extra options pannel */
+.ifb-filter,
+.ifb-validator,
+.ifb-style {
+    background: #f8f8f8 url(../images/button-light.png) repeat-x left top;
+    border: 1px solid #ddd;
+    color: #828282;
+    padding: 7px 10px 0;
+    text-shadow: 1px 1px #f9f9f9;
+    margin-bottom: 5px;
+    width: 465px;
+}
+.ifb-filter-actions,
+.ifb-validator-actions,
+.ifb-style-actions {
+    float: right;
+    min-width: 107px;
+}
+.ifb-filter-actions a.ifb-filter-delete-link, .ifb-style-settings-link a.ifb-filter-delete-link, .ifb-validator-actions a.ifb-filter-delete-link {
+    margin-top: 0;
+}
+.ifb-filter-title,
+.ifb-validator-title,
+.ifb-style-title {
+    font-size: 13px;
+    font-weight: bold;
+    font-style: italic;
+    display: block;
+    padding-bottom: 7px;
+}
+/* Our tool tips */
+.ifb-tooltip {
+    width: 16px;
+    height: 16px;
+    background: url(../images/help.png) right top no-repeat;
+    cursor: pointer;
+    padding: 0 0 6px 6px;
+    float: right;
+}
+.ifb-tooltip:hover {
+    background: url(../images/help-hover.png) right top no-repeat;
+}
+.ifb-tooltip-content {
+    display: none;
+}
+.ui-tooltip {
+    font-size: 13px;
+}
+.ifb-tooltip-title {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.ui-tooltip code {
+    background: transparent;
+}
+.show-if-tooltip-style-previewable td, .show-if-tooltip-style-previewable th, .ifb-subtable-heading th {
+    background: #f8f8f8 url(../images/button-light.png) repeat-x left top;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 13px;
+}
+.show-if-tooltip-style-previewable td input {
+    color: #0f83ca;
+    float: left;
+}
+.ui-tooltip-content a {
+	color: #FFB300;
+	text-decoration: none;
+	font-weight: bold;
+}
+.ui-tooltip-content a:hover {
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+/* Custom input size */
+.iphorm-recaptcha-key-input {
+    width: 325px;
+}
+/*Right col - add elements*/
+.ifb-add-element-wrap {
+    margin-top: 43px;
+}
+.ifb-add-element-ul {
+	margin: 0;
+}
+.ifb-add-element-list ul li {
+    margin-bottom: 5px;
+    position: relative;
+}
+/*Tabs for elements*/
+#ifb-add-element-tabs {
+    padding: 3px;
+    border: 1px solid #daa600;
+    background: #ffb300 url(../images/gradient-bg-orange.png) repeat-x left bottom;
+    position: relative;
+    margin-top: 25px;
+    text-shadow: 1px 1px #ffdd40;
+}
+.ifb-add-element-list {
+    border: 1px solid #daa600;
+    padding: 5px;
+    padding-top: 10px;
+    background: #f9f9f9 url(../images/active-area-bg.png) repeat left top;
+}
+#ifb-add-element-tabs ul.ifb-tabs-nav {
+    margin: 0;
+    padding: 0;
+    height: 24px;
+    position: absolute;
+    top: -24px;
+    left: 0;
+}
+#ifb-add-element-tabs ul.ifb-tabs-nav > li {
+    display: inline;
+    margin: 0;
+    float: left;
+}
+#ifb-add-element-tabs ul.ifb-tabs-nav > li a { 
+    background: #f8f8f7 url(../images/button-grey.png) repeat-x left top;
+    border: 1px solid #bbbbbb;
+    border-bottom: none;
+    color: #828282;
+    margin: 3px 0 0 -1px;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 0px 10px 2px 10px;
+    text-shadow: 1px 1px 0px #fcfcfc;
+    text-decoration: none;
+    float: left;
+    height: 17px;
+    line-height: 17px;
+}
+#ifb-add-element-tabs ul.ifb-tabs-nav > li a:hover { 
+    background: #f8f8f7 url(../images/button-grey-hover.png) repeat-x left bottom;
+    color: #0f83ca;
+}
+#ifb-add-element-tabs ul.ifb-tabs-nav > li.ifb-current-tab a { 
+    background: #ffb300 url(../images/button-orange.png) repeat-x left top;
+    border: 1px solid #daa600;
+    color: #303030;
+    text-shadow: 1px 1px #ffdd40;
+    border-bottom: none;
+    margin: 0 0 0 -1px;
+    padding: 3px 10px 3px 10px;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+    float: left;
+    position: relative;
+}
+/* Inside an element hover */
+.ifb-top-element-wrap {
+    display: block;
+    padding: 10px;
+    margin-top: -1px;
+}
+.ifb-element-wrap:hover .ifb-top-element-wrap {
+    background: #FDFDFD;
+    border-bottom: 1px dashed #E6E6E6;
+    border-top: 1px dashed #E6E6E6;
+}
+.ifb-settings-open .ifb-top-element-wrap, .ifb-settings-open:hover .ifb-top-element-wrap {
+    background: #FDFDFD;
+    border-bottom: 1px solid #0069ab;
+    border-top: 1px solid #E6E6E6;
+}
+.ifb-element-actions a {
+    margin-right: 3px;
+    padding: 5px 13px;
+    text-decoration: none;
+    cursor: pointer;
+    height: 14px;
+    line-height: 14px;
+    float: left;
+    position: relative
+}
+a.ifb-settings-link {
+    background: #0e7dc7 url(../images/button-blue.png) repeat-x left top;
+    border: 1px solid #0069ab;
+    color: #fff;
+    min-width: 60px;
+	max-width: 170px;
+    padding-left: 30px;
+    text-align: center;
+    text-shadow: -1px -1px 0px #0e80c8;
+    font-weight: bold;
+}
+a.ifb-settings-link:hover {
+    background: #0e7dc7 url(../images/button-blue-hover.png) repeat-x left bottom;
+}
+a.ifb-close-link {
+    background: #ffb300 url(../images/button-orange.png) repeat-x left top;
+    border: 1px solid #daa600;
+    color: #303030;
+    min-width: 45px;
+	max-width: 170px;
+    padding-left: 30px;
+    text-align: center;
+    text-shadow: 1px 1px #ffdd40;
+    font-weight: bold;
+}
+a.ifb-close-link:hover {
+    background: #ffb300 url(../images/button-orange-hover.png) repeat-x left bottom;
+}
+a.ifb-close-link span, a.ifb-settings-link span {
+    position: absolute;
+    display: block;
+    height: 26px;
+    width: 19px;
+    left: -1px;
+    top: -1px;
+}
+a.ifb-settings-link span {
+    background: url(../images/button-extra-add-smaller.png) no-repeat left bottom;
+}
+a.ifb-close-link span {
+    background: url(../images/button-extra-minus-smaller.png) no-repeat left bottom;
+}
+a.ifb-move-link {
+    text-indent: -9999px;
+    text-align: left;
+    display: inline-block;
+    line-height: 26px;
+    background: url(../images/button-extra-move.png) no-repeat left bottom;
+    display: block;
+    height: 26px;
+    width: 19px;
+    padding: 0;
+    margin: 0;
+}
+div.ifb-element-preview:hover, p.ifb-recaptcha-empty:hover, a.ifb-move-link, #ifb-inactive-columns div.button:hover, #ifb-active-columns div.button:hover {
+    cursor:hand;
+    cursor:grab;
+    cursor:-moz-grab;
+    cursor:-webkit-grab;
+ }
+.ui-draggable-dragging, .ui-sortable-helper .ifb-handle, .ui-sortable-helper a.ifb-move-link {
+    cursor:grabbing;
+    cursor:-moz-grabbing;
+    cursor:-webkit-grabbing;
+}
+a.ifb-delete-link {
+    text-indent: -9999px;
+    text-align: left;
+    background: url(../images/delete-bg.png) no-repeat left top;
+    width: 25px;
+    height: 26px;
+    padding: 0;
+    display: block;
+}
+a.ifb-delete-link:hover {
+    text-indent: -9999px;
+    text-align: left;
+    background: url(../images/delete-bg-hover.png) no-repeat left top;
+    width: 25px;
+}
+/* Inside more element option */
+span.ifb-small-add-button, span.ifb-add-option {
+    background: url(../images/small-add-round.png) no-repeat left top;
+    display: inline-block;
+    height: 18px;
+    line-height: 10px;
+    width: 18px;
+    text-indent: -9999px;
+    cursor: pointer;
+    overflow: hidden;
+    margin-top: 2px;
+    vertical-align: top;
+}
+span.ifb-small-add-button:hover, span.ifb-add-option:hover {
+    background: url(../images/small-add-round.png) no-repeat left bottom;
+}
+span.ifb-small-delete-button, span.ifb-remove-option {
+    background: url(../images/small-delete-round.png) no-repeat left top;
+    display: inline-block;
+    height: 18px;
+    line-height: 10px;
+    width: 18px;
+    text-indent: -9999px;
+    cursor: pointer;
+    overflow: hidden;
+    margin-top: 2px;
+    vertical-align: top;
+}
+span.ifb-small-delete-button:hover, span.ifb-remove-option:hover {
+    background: url(../images/small-delete-round.png) no-repeat left bottom;
+}
+
+a.ifb-filter-delete-link, a.ifb-validator-delete-link, a.ifb-style-delete-link {
+    background: url(../images/small-delete-round.png) no-repeat left top;
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    text-indent: -9999px;
+    margin-top: 0;
+    margin-left: 8px;
+    float: right;
+}
+a.ifb-filter-delete-link:hover, a.ifb-validator-delete-link:hover, a.ifb-style-delete-link:hover {
+    background: url(../images/small-delete-round.png) no-repeat left bottom;
+}
+a.ifb-filter-settings-link, a.ifb-validator-settings-link, a.ifb-style-settings-link {
+    margin-right: 3px;
+    padding: 3px 8px 3px 12px;
+    text-decoration: none;
+    cursor: pointer;
+    height: 12px;
+    line-height: 12px;
+    position: relative;
+    background: #0e7dc7 url(../images/button-blue.png) repeat-x left top;
+    border: 1px solid #0069ab;
+    color: #fff;
+    min-width: 40px;
+    padding-left: 27px;
+    text-align: center;
+    text-shadow: -1px -1px 0px #0e80c8;
+    float: left;
+	font-size: 11px;
+	font-weight: bold;
+}
+a.ifb-filter-close-link, a.ifb-validator-close-link, a.ifb-style-close-link {
+    margin-right: 3px;
+    padding: 3px 8px 3px 12px;
+    text-decoration: none;
+    cursor: pointer;
+    height: 12px;
+    line-height: 12px;
+    position: relative;
+    background: #ffb300 url(../images/button-orange.png) repeat-x left top;
+    border: 1px solid #daa600;
+    color: #303030;
+    text-shadow: 1px 1px #ffdd40;
+    width: 40px;
+    padding-left: 27px;
+    text-align: center;
+    float: left;
+	font-size: 11px;
+	font-weight: bold;
+}
+a.ifb-filter-close-link  span, a.ifb-filter-settings-link span,
+a.ifb-validator-close-link  span, a.ifb-validator-settings-link span,
+a.ifb-style-close-link  span, a.ifb-style-settings-link span {
+    position: absolute;
+    display: block;
+    height: 20px;
+    width: 19px;
+    left: -1px;
+    top: -1px;
+}
+a.ifb-filter-settings-link span, a.ifb-validator-settings-link span, a.ifb-style-settings-link span {
+    background: url(../images/button-extra-add-mini.png) no-repeat left bottom;
+}
+a.ifb-filter-close-link span, a.ifb-validator-close-link span, a.ifb-style-close-link span {
+    background: url(../images/button-extra-minus-mini.png) no-repeat left bottom;
+}
+.ifb-filter-settings-open .ifb-filter-settings,
+.ifb-validator-settings-open .ifb-validator-settings,
+.ifb-style-settings-open .ifb-style-settings {
+    border: 1px solid #e4e4e4;
+    background: #fff;
+    margin-bottom: 7px;
+    position: relative;
+    width: 463px;
+}
+.ifb-filter .ifb-form-table,
+.ifb-validator .ifb-form-table,
+.ifb-style .ifb-form-table {
+    margin: -1px;
+    width: 465px;
+    position: relative;
+}
+.ifb-filter h3,
+.ifb-validator h3,
+.ifb-style h3,
+.ifb-element-settings h3 {
+    font-size: 13px;
+    font-weight: bold;
+    color: #0f83ca;
+    margin: 0;
+    padding: 5px 10px;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    background: #FCFCFC;
+}
+h3.ifb-translate-h3 {
+	margin-top: -1px;
+}
+.ifb-validator-settings h3 {
+    margin-top:0;
+}
+.ifb-filter h3:first-child,
+.ifb-validator h3:first-child,
+.ifb-style h3:first-child {
+    border-top: none;
+}
+.ifb-filter .ifb-form-table th, .ifb-filter .ifb-form-table td,
+.ifb-validator .ifb-form-table th, .ifb-validator .ifb-form-table td,
+.ifb-style .ifb-form-table th, .ifb-style .ifb-form-table td {
+    border: 1px solid #e4e4e4;
+}
+.ifb-filter-settings-open .ifb-filter-title,
+.ifb-validator-settings-open .ifb-validator-title,
+.ifb-style-settings-open .ifb-style-title {
+    color: #303030;
+}
+.ifb-add-validator-list .button,
+.ifb-add-filter-list .button,
+.ifb-add-style-list .button,
+#ifb-settings-style .button {
+    background: #e5e5e5 url(../images/button-grey.png) repeat-x left top;
+    border: 1px solid #b3b3b3;
+    color: #828282;
+    height: 16px;
+    line-height: 16px;
+    padding: 2px 6px 2px 6px;
+    text-shadow: 1px 1px #f9f9f9;
+    float: left;
+    margin: 3px;
+}
+.ifb-add-validator-list .button:hover,
+.ifb-add-filter-list .button:hover,
+.ifb-add-style-list .button:hover,
+#ifb-settings-style .button:hover {
+    background: #ffb300 url(../images/button-orange.png) repeat-x left top;
+    border: 1px solid #daa600;
+    color: #303030;
+    text-shadow: 1px 1px #ffdd40;
+}
+div.ifb-info-message {
+    background: #eff9f9 url(../images/info-message-bg.png) repeat-x left bottom;
+    border: 1px solid #97d4d4;
+    padding: 5px 10px 5px 40px;
+    position: relative;
+    line-height: 17px;
+    margin: 5px 0;
+    height: 18px;
+    height: auto;
+    min-height: 18px;
+}
+/*Make some info messages fit better*/
+.ifb-settings-database-user-note.ifb-info-message { 
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.ifb-info-message-icon {
+    background: transparent url(../images/info-icon.png) no-repeat left top;
+    width: 23px;
+    height: 23px;
+    float: left;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 7px;
+    margin-top: -11px;
+}
+.ifb-recaptcha-empty {
+    z-index: 10;
+}
+.ifb-recaptcha-empty a {
+    color: #0F83CA;
+    text-decoration: none;
+}
+.ifb-recaptcha-empty a:hover {
+    color: #292929;
+}
+.ifb-style-settings-form-table textarea {
+    width: 380px;
+	height: 150px;
+}
+#ifb-elements-wrap {
+    height: 245px;
+    height: auto;
+    min-height: 245px;
+}
+#ifb-elements-wrap .ifb-add-element-button {
+    display: none !important;
+}
+/* User messages */
+#ifb-message-area {
+    position: absolute;
+    top: 19px;
+    right: 0;
+    width: 310px;
+    z-index: 25;
+}
+.ifb-message {
+    padding: 5px 10px;
+    margin-bottom: 5px;
+	height: 18px;
+	height: auto;
+	min-height: 18px;
+}
+.ifb-message a.iphorm-more-info, .ifb-message a.ifb-message-more, a.ifb-show-first-time-save {
+    background: #373737 url(../images/button-dark.png) repeat-x left top;
+    border: 1px solid #333;
+    color: #fff;
+    text-shadow: -1px -1px 0 #000;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 1px 8px;
+	font-size: 10px;
+	font-weight: bold;
+	margin-right: 20px;
+	float: right;
+	line-height: 14px;
+}
+.ifb-message a.iphorm-more-info:hover, .ifb-message a.ifb-message-more:hover, a.ifb-show-first-time-save:hover {
+    background: #373737 url(../images/button-dark-hover.png) repeat-x left bottom;
+}
+.ifb-close-message {
+    float: right;
+    height: 18px;
+    width: 18px;
+    cursor: pointer;
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 6px;
+}
+.ifb-message-inner {
+	float: left;
+	width: 140px;
+}
+.ifb-message-success {
+    background: #e0ff9d url(../images/success-bg.png) repeat-x left top;
+    border: 1px solid #afda03;
+    color: #303030;
+}
+.ifb-message-success .ifb-close-message {
+    background: url(../images/small-close-round-green.png) no-repeat left top;
+}
+.ifb-message-error {
+    background: #F3CAC7 url(../images/error-bg.png) repeat-x left top;
+    border: 1px solid #df3c3c;
+    text-shadow: 1px 1px 0 #f1bab7;
+}
+.ifb-message-error .ifb-close-message {
+    background: url(../images/small-close-round-red.png) no-repeat left top;
+}
+.ifb-message-more-content {
+    padding: 5px;   
+    margin: 5px 0;
+	clear: both;
+}
+.ifb-message-error .ifb-message-more-content {
+    border: 1px solid #F3EAC9;
+    background-color: #F7EAE9
+}
+/* Users first save message */
+#ifb-first-save-close {
+	position: absolute;
+	right: -15px;
+	top: -15px;
+	background: url(../images/pop-up-box-close.png) no-repeat left top;
+	width: 29px;
+	height: 29px;
+	display: block;
+	text-indent: -99999px;
+	cursor: pointer;
+}
+#ifb-first-save-close:hover {
+	background: url(../images/pop-up-box-close-hover.png) no-repeat left top;
+}
+#ifb-first-save-message {
+    padding: 10px;
+    display: none;
+    margin: 15px 3px;
+	background: #f7f7f7;
+    border: 5px solid #888;
+    -webkit-box-shadow: 0 2px 3px 0 #ddd;
+    -moz-box-shadow: 0 2px 3px 0 #ddd;
+    box-shadow: 0 2px 3px 0 #ddd;
+	position: relative;
+}
+#ifb-first-save-message h2 {
+    background: #f8f8f8 url(../images/button-light.png) repeat-x left top;
+    border: 1px solid #ddd;
+    font-size: 15px;
+    font-weight: normal;
+    color: #0f83ca;
+    padding: 5px 10px;
+    display: block;
+    text-shadow: 1px 1px 0 #fff;
+	margin-top: 0;
+	line-height: 21px;
+}
+#ifb-first-save-message h3 {
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    padding-left: 25px;
+}
+#ifb-first-save-message h3.ifb-show-atw-content:hover {
+    color: #0f83ca;
+}
+#ifb-first-save-message h3.ifb-show-atw-content {
+    background: url(../images/toggle-plus.png) no-repeat left 2px;
+    color: #3A3A3A;
+}
+#ifb-first-save-message .ifb-add-to-website-content-area {
+	padding: 10px;
+	background: #FBFBFB;
+	border: 1px solid #ddd;
+}
+#ifb-first-save-message .ifb-add-to-website-content-area > p {
+	margin-top: 0;
+}
+/* Colour Picker */
+.ifb-colorpicker-wrap {
+    position: relative; 
+}
+.ifb-colorpicker {
+    display: none;
+    position: absolute;
+    left: 200px;
+    top: -110px;
+}
+/*CSS animate*/
+.ifb-buttons span.tick:hover a, .ifb-buttons span.add:hover a, .ifb-element-wrap:hover {
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+/*Give me a shadow*/
+.ifb-tabs-nav > li a, .ifb-element-actions a, .ifb-buttons a, .ifb-add-element-button, .ifb-add-validator-list .button, .ifb-add-filter-list .button, .ifb-add-style-list .button, #ifb-settings-style .button, span.ifb-refresh-default-value, button.iphorm-export-button, button.iphorm-import-button, button.iphorm-export-entries-button, #ifb-active-columns .button, #ifb-inactive-columns .button, .ifb-new-form-name-ok, .entry-search-box-wrap input.button, .iphorm-save-settings input.button-primary, button#verify-purchase-code, div.ifb-button, div.ifb-button-blue, div.ifb-button-grey, .iphorm-form-switcher-list li.iphorm-create-new a:hover {
+    -webkit-box-shadow: 0px 2px 1px -1px #E0E0E0;
+    -moz-box-shadow: 0px 2px 1px -1px #E0E0E0;
+    box-shadow: 0px 2px 1px -1px #E0E0E0;
+}
+/*Bigger shadow*/
+.ifb-element-settings, #ifb-add-element-tabs {
+    -webkit-box-shadow: 0px 2px 2px -1px #dbdbdb;
+    -moz-box-shadow: 0px 2px 2px -1px #dbdbdb;
+    box-shadow: 0px 2px 2px -1px #dbdbdb;
+}
+.ifb-element-settings {display: none;}
+/*No shadow*/
+#ifb-add-element-tabs ul.ifb-tabs-nav > li a, #ifb-tabs .ifb-tabs-nav > li a:hover, .ifb-buttons a:hover, #ifb-tabs .ifb-tabs-nav > li.ifb-current-tab a, .ifb-element-actions a:hover, .ifb-buttons a#ifb-scroll-top, .entry-search-box-wrap input.button:hover, button#verify-purchase-code:hover, div.ifb-button:hover {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+#ifb-elements-wrap .ifb-tabs-nav > li.ifb-current-tab a, #ifb-elements-wrap .ifb-tabs-nav > li a, .ifb-add-element-button:hover, .ifb-add-validator-list .button:hover, .ifb-add-filter-list .button:hover, .ifb-add-style-list .button:hover, #ifb-settings-style .button:hover, span.ifb-refresh-default-value:hover, button.iphorm-export-button:hover, button.iphorm-import-button:hover, button.iphorm-export-entries-button:hover, #ifb-active-columns .button:hover, #ifb-inactive-columns .button:hover, .ifb-new-form-name-ok:hover, .iphorm-save-settings input.button-primary:hover, div.ifb-button-blue:hover, div.ifb-button-grey:hover {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+/*Give me some round corners*/
+.ifb-add-element-button, .ifb-add-validator-list .button, .ifb-add-filter-list .button, .ifb-message, .ifb-add-style-list .button, #ifb-settings-style .button, .ifb-add-db-field-wrap a.button, .ifb-element-settings .ifb-tabs-panel, .ifb-add-element-list, .iphorm-global-nav-wrap, .ifb-buttons, .ifb-settings-open .ifb-element-preview, .ifb-settings-open:hover .ifb-element-preview, #ifb-add-conditional-recipient button, span.ifb-refresh-default-value, button.iphorm-export-button, button.iphorm-import-button, button.iphorm-export-entries-button, #ifb-active-columns .button, #ifb-inactive-columns .button, .entry-search-box-li .entry-search-box-wrap input.button, .entry-search-box-wrap input.button, .ifb-message a.iphorm-more-info, .ifb-message a.ifb-message-more, .iphorm-save-settings input.button-primary, button#verify-purchase-code, a.ifb-show-first-time-save, .iphorm-invalid-licence, .iphorm-valid-licence, div.ifb-button, div.ifb-button-blue, div.ifb-button-grey, .iphorm-global-sub-nav-wrap {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.ifb-show-first-time-save {
+    cursor: pointer;    
+}
+.ifb-buttons {
+    background: #f8f8f8 url(../images/button-light.png) repeat-x left top;
+    border: 1px solid #ddd;
+    padding: 4px 6px;
+    margin-top: 10px;
+    padding-right: 0;
+}
+/* Settings fields sizes */
+#ifb #description {
+    height: 100px;
+}
+#success_redirect_url, #ifb #title {
+    width: 250px;
+}
+#notification_email_content,
+#autoreply_email_content {
+    height: 200px;  
+}
+#success_message {
+	height: 150px;
+}
+.ifb-email-content-options,
+.ifb-success-message-options {
+    text-align: right;  
+}
+.ifb-save-path-input {
+    width: 250px;   
+}
+/* Widths */
+.ifbw50 { width: 50px; }
+.ifbw100 { width: 100px; }
+.ifbw150 { width: 150px; }
+.ifbw200 { width: 200px; }
+.ifbw250 { width: 250px; }
+.ifbw300 { width: 300px; }
+
+.ifb-element-wrap-groupend .ifb-element-actions .ifb-settings-link {
+    display: none;
+}
+.iphorm-path {
+    font-style: italic;
+}
+/*Save, save and close, and close buttons*/
+.ifb-element-settings-inner .ifb-form-table tr.ifb-save-element-tr > td {
+    border-left: none;
+    background: #f8f8f8 url(../images/button-light.png) repeat-x left top;
+    padding: 3px 10px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomright: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    -webkit-border-radius: 0px 0px 3px 3px;
+    border-radius: 0px 0px 3px 3px;
+}
+.ifb-save-element-wrap a {
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    float: right;
+    padding: 2px 10px;
+    font-size: 10px;
+    font-weight: normal;
+    color: #B3B3B3;
+    background: transparent;
+    border: 1px solid transparent;
+    line-height: 14px;
+    height: 14px;
+    display: inline-block;
+    border-right: 1px solid #E5E5E5;
+    margin-left: -1px;
+    position: relative;
+}
+.ifb-save-element-wrap a.ifb-save-element {
+    border-right: 1px solid transparent;
+}
+.ifb-save-element-wrap a.ifb-help-element {
+	float: left;
+	border-right: none;
+}
+.ifb-save-element-wrap a:hover {
+    background: #e5e5e5 url(../images/button-grey.png) repeat-x left top;
+    border: 1px solid #B3B3B3;
+    color: #292929;
+    text-shadow: 1px 1px #f9f9f9;
+    z-index: 15;
+}
+/*Help page*/
+.iphorm-help-wrap {
+    position: relative;
+    height: 840px;
+    height: auto;
+    min-height: 840px;
+	width: 100%;
+	overflow: hidden;
+}
+.iphorm-help-left {
+   float: left;
+   width: 200px;   
+   position: absolute;
+   padding: 20px;
+   left: 0;
+   top: 75px;
+}
+.iphorm-help-right {
+    float: left;
+    min-width: 300px;
+    max-width: 100%;
+    margin-left: 240px;
+    padding: 0 20px;
+    border-left: 1px solid #eee;
+	margin-top: 30px;
+}
+.iphorm-help-left ul li {
+    padding: 0;
+    margin: 0;
+}
+.iphorm-help-left ul li a {
+    padding: 7px 0 15px 10px;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+    background: #fff url(../images/help-menu-top-level.png) no-repeat left 15px;
+    color: #0F83CA;
+}
+.iphorm-help-left ul li a {
+    padding: 3px 20px;
+    font-size: 12px;
+    color: #4F4F4F;
+    background: #fff url(../images/help-menu-sub-level.png) no-repeat left center;
+    padding-right: 0;
+}
+.iphorm-help-left ul li a:hover {
+    color: #4F4F4F;
+    background: #FAFAFA url(../images/help-menu-sub-level-hover.png) no-repeat left center;
+    color: #FFB300;
+}
+.iphorm-help-right a.iphorm-top-link {
+    background: transparent url(../images/help-go-to-top.png) no-repeat center center;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    text-indent: -9999px;
+    padding-right: 10px;
+    position: absolute;
+    top: 6px; 
+    right: 5px;
+}
+.iphorm-help-right h3 {
+    background: #f8f8f8 url(../images/button-light.png) repeat-x left top;
+    border: 1px solid #ddd;
+    margin: 15px 0;
+    font-size: 13px;
+    font-weight: bold;
+    color: #0f83ca;
+    position: relative;
+    display: block;
+    text-shadow: 1px 1px 0 #fff;
+}
+.iphorm-help-right h3 a.iphorm-help-anchor {
+	margin-top: -40px;
+	float: left;
+}
+.iphorm-help-right h3 span {
+	display: block;
+	padding: 5px 10px;
+}
+.iphorm-help-right p {
+	margin: 3px 0 10px 0;
+	color: #5E5E5E;
+}
+.iphorm-help-right h2 {
+    color: #0F83CA;
+	font-size: 21px;
+}
+.iphorm-help-right h4 {
+    color: #393939;
+    margin: 20px 0 6px 0;
+    border-bottom: 1px solid #eee;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 2px 0;
+}
+.iphorm-help-right h5 {
+	color: #0F83CA;
+	font-size: 11px;
+	margin: 10px 0 6px 0;
+	
+}
+.iphorm-help-right h6 {
+	font-size: 12px;
+	margin: 10px 0 6px 0;
+}
+p.iphorm-header7 {
+	font-style: italic;
+	font-size: 12px;
+	margin-bottom: 2px;
+}
+.iphorm-help-right .iphorm-help-options-table {
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+}
+.iphorm-help-right .iphorm-help-options-table tr td {
+	background: #FAFAFA;
+	padding: 4px;
+	border: 1px solid #DDD;
+}
+.iphorm-help-right .iphorm-help-options-table tr th {
+	background: #F1F1F1;
+	padding: 4px;
+	border: 1px solid #DDD;
+}
+.iphorm-help-right pre {
+    padding: 10px; 
+    background: #F4F4F4;
+    border: 1px dashed #CDCDCD;
+    text-shadow: 1px 1px 0 #fff;
+}
+/*Widths override*/
+.ifb-insert-variable {
+    width: 115px;
+}
+#db_fields_headings {
+    width: 334px;
+}
+#db_fields_headings td {
+    width: 50%; 
+    padding: 0;
+    margin: 0;
+    border: medium none;
+    font-size: 13px;
+}
+.ifb-from-address-headings td {
+    padding: 0;
+    margin: 0;
+    border: medium none;
+    font-size: 13px;
+}
+.ifb-from-address-headings td.ifb-from-headings-email {
+	width: 255px;
+}
+.ifb-from-address-headings {
+    width: 450px;	
+}
+#from_email, #autoreply_from_email {
+    width: 250px;	
+}
+#from_name, #autoreply_from_name {
+    width: 200px;   
+}
+.ifb-add-db-field-wrap {
+    margin-top: 11px;
+}
+.iphorm-help-right ul {
+    margin-left: 10px;
+}
+.iphorm-help-right ul li {
+    margin-left: 15px;
+    padding: 2px;
+    list-style: disc;
+}
+.db_field_name, .db_field_value {
+    width: 160px;   
+}
+/*Captcha refresh*/
+.ifb-captcha-preview-image {
+    z-index: 10;
+    cursor: pointer;
+    position: relative;
+}
+
+.ifb-captcha-preview-image-inner {
+    position: relative;
+    float: left;
+    background: url(../images/refresh-icon.png) no-repeat center center;
+}
+.ifb-refresh-captcha-preview-image {
+    z-index: 10;
+    position: absolute;
+    background: url(../images/refresh-icon.png) no-repeat left top;
+    text-indent: -9999px;
+    height: 16px;
+    width: 16px;
+    float: left;
+    display: block;
+    bottom: 50%;
+    left: 50%;
+    cursor: pointer;
+    display: none;
+    margin-left: -8px;
+    margin-top: -8px;
+}
+/*Group element*/
+.ifb-group-end {
+    height: 7px;
+    border-left: 1px solid #dadada;
+    border-right: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+    padding-left: 15px;
+    position: relative;
+    margin-top: 10px;
+    width: 645px;
+}
+.ifb-group-end-text {
+    background: #fff;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: -12px;
+    left: 10px;
+    font-style: italic;
+    height: 15px;
+    font-size: 11px;
+    color: #9E9E9E;
+}
+.ifb-group-start-wrap-user-text {
+    margin-top: 10px;
+}
+.ifb-group-start {
+    height: 7px;
+    border-left: 1px solid #dadada;
+    border-right: 1px solid #dadada;
+    border-top: 1px solid #dadada;
+    padding-left: 15px;
+    position: relative;
+    margin-top: 6px;
+    width: 645px;
+}
+.ifb-group-start-text {
+    background: #fff;
+    padding: 5px 10px;
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    font-style: italic;
+    height: 15px;
+    font-size: 11px;
+    color: #9E9E9E;
+}
+.ifb-group-start-wrap-user-text .ifb-preview-title {
+    font-weight: bold;
+    font-size: 12px;
+}
+.ifb-group-start-wrap-user-text .ifb-preview-description {
+    margin-top: 4px;
+}
+#ifb-top a {
+    cursor: pointer;
+}
+/* BUTTON Browser fixes */
+button, input{ /* IE7 extra spacing fix */
+    width: auto;
+    overflow: visible
+}
+button{border: 1px outset #ccc} /* optional - IE7 fix */
+
+/*Database button and add new rule in settings*/
+.ifb-add-db-field-wrap a.button, #ifb-add-conditional-recipient button {
+    background: #e5e5e5 url(../images/button-grey.png) repeat-x left top;
+    border: 1px solid #b3b3b3;
+    color: #828282;
+    text-shadow: 1px 1px #f9f9f9;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 2px 5px;
+	vertical-align: text-top;
+}
+
+.ifb-add-db-field-wrap a.button:hover, #ifb-add-conditional-recipient button:hover {
+    background: #e5e5e5 url(../images/button-grey-hover.png) repeat-x left bottom;
+    color: #0F83CA;
+}
+.ifb-element-preview-html {
+    font-style: italic;
+    font-size: 11px;
+    color: #9E9E9E;
+}
+
+/*conditional recipients area in settings*/
+.ifb-conditional-heading {
+    color: #0F83CA;
+    font-weight: bold;
+    padding: 2px 5px;
+    background: #f8f8f8 url(../images/button-light.png) repeat-x left top;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+}
+#ifb-conditional-recipient-list li {
+    border-bottom: 1px dashed #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+#ifb-conditional-recipient-list li label {
+    display: block;
+    font-weight: bold;
+}
+#ifb-conditional-recipient-list li input, #ifb-conditional-recipient-list li select {
+    margin-right: 3px;
+}
+/*Tooltips*/
+.ui-tooltip-dark .ui-tooltip-content {
+    line-height: 17px;
+    color: #fff;
+    text-shadow: 1px 1px 0 #333;
+    -webkit-box-shadow: 2px 2px 3px -1px #E2E2E2;
+    -moz-box-shadow: 2px 2px 3px -1px #E2E2E2;
+    box-shadow: 2px 2px 3px -1px #E2E2E2;
+}
+/*Export & Import*/
+.iphorm-export-data textarea,
+.iphorm-import-form textarea {
+    width: 99%;
+    height: 300px;
+	overflow: auto;
+}
+button.iphorm-export-button, button.iphorm-import-button, button.iphorm-export-entries-button {
+    background: #e5e5e5 url(../images/button-grey.png) repeat-x left top;
+    border: 1px solid #b3b3b3;
+    color: #828282;
+    text-shadow: 1px 1px #f9f9f9;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 13px;
+    padding: 4px 12px 5px 12px;
+}
+button.iphorm-import-button {margin-top: 5px;}
+button.iphorm-export-button {margin-left: 10px;}
+button.iphorm-export-button:hover, button.iphorm-import-button:hover, button.iphorm-export-entries-button:hover {
+    background: #e5e5e5 url(../images/button-grey-hover.png) repeat-x left bottom;
+    color: #0F83CA;
+}
+.iphorm-export-form p {line-height: 15px; vertical-align: text-top;}
+
+.iphorm-export-data ul {
+    margin-left: 10px;
+    margin-bottom: 15px;	
+}
+.iphorm-export-data ul li {
+    margin-left: 15px;
+    list-style-type: decimal;	
+}
+.iphorm-export-all-fields label,
+.iphorm-export-single-field {
+	padding: 4px;
+	display: block;
+}
+.iphorm-export-single-field label {display: block;}
+.iphorm-export-single-field:hover {
+	background: #eee;
+}
+.iphorm-export-all-fields label {
+    background: #e5e5e5 url(../images/button-grey.png) repeat-x left top;
+    border: 1px solid #b3b3b3;
+	font-weight: bold;
+	margin-bottom: 2px;
+	display: block;
+}
+.iphorm-export-all-fields label:hover {
+    color: #0f83ca;
+}
+
+.iphorm-export-entries-buttons {
+    margin-top: 20px;	
+}
+
+.iphorm-export-entries-left {
+	padding-bottom: 20px;
+	width: 300px;
+}
+
+#iphorm-export-entries-fields-wrap {
+    display: none;	
+	border-top: 1px solid #eee;
+	margin-top: 20px;
+}
+
+.iphorm-export-entries-date-wrap {
+	border-top: 1px solid #eee;
+	margin-top: 20px;
+}
+
+#export_entries_form_id {
+    float: left;	
+}
+
+.iphorm-export-entries-loading {
+	background: url(../images/default-loading.gif);
+	height: 11px;
+	width: 16px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 7px;
+	display: none;
+}
+
+/*Column sort*/
+.ifb-columnsort-ph {
+    border: 1px dashed #bbb;
+    background: #f7f7f7;
+    height: 22px;
+}
+/*Entries*/
+.ifb-iphorm-title-entries {
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid #E3E3E3;
+}
+.ifb-iphorm-title-form-name {
+    padding-left: 10px;
+    margin-left: 10px;
+    border-left: 1px solid #E3E3E3;
+}
+.iphorm-entry-right {
+    float: right;
+    width: 30%;
+}
+.iphorm-entry-left {
+    float: left;
+    width: 68%;
+}
+.iphorm-entry-table {
+    margin-top: 0;
+}
+.iphorm-entry-right .iphorm-entry-table a,
+.iphorm-entry-left .iphorm-entry-table a { 
+    color: #0f83ca;
+    text-decoration: none;
+}
+.iphorm-entry-right .iphorm-entry-table a:hover,
+.iphorm-entry-left .iphorm-entry-table a:hover { 
+    color: #292929;
+}
+.iphorm-entry-table td {
+    margin-bottom: 9px;
+    padding: 8px 10px;
+    line-height: 20px;
+    font-size: 12px;
+    border: 1px solid #F0F0F0;
+}
+.iphorm-entry-table th {
+	vertical-align: top;
+	text-align: left;
+	padding: 10px;
+	width: 150px;
+	border: 1px solid #F0F0F0;
+}
+.iphorm-entry-right .iphorm-entry-table th {
+    padding: 10px;
+    width: 100px;
+    font-size: 12px;
+}
+h3.iphorm-entry-heading {
+    background: #f8f8f8 url(../images/button-light.png) repeat-x left top;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #0f83ca;
+    padding: 5px 10px;
+    position: relative;
+    display: block;
+    margin-bottom: -1px;
+    text-shadow: 1px 1px 0 #fff;
+}
+/*Entries table*/
+.iphorm-entries-list-table .column-id {
+    width: 65px;
+}
+.iphorm-entries-list-table .iphorm-unread-entry th,
+.iphorm-entries-list-table .iphorm-unread-entry td {
+    background: #fffee8;
+    border-bottom: 1px solid #E1E1E1;
+}
+.iphorm-entries-list-table .iphorm-unread-entry td.iphorm-entry-cell-id {
+    background: #fffee8 url(../images/unread-icon.png) no-repeat 30px 2px;
+}
+.iphorm-entries-list-table .iphorm-unread-entry td.iphorm-entry-cell-date_added {
+	font-weight: bold;
+}
+.iphorm-entries-list-table td.iphorm-entry-cell-id {
+    background: url(../images/read-icon.png) no-repeat 30px 4px;
+    white-space: nowrap;
+}
+a.iphorm-row-title {
+    font-size: 13px;
+    text-shadow: 1px 1px 0 #fff;
+}
+.iphorm-unread-entry .row-actions a {
+    font-weight: normal;
+}
+p.entry-search-box-wrap {
+	padding-top: 10px;
+}
+.entry-search-box-wrap input.button {
+    text-align: center;
+    background: #e5e5e5 url(../images/button-grey.png) repeat-x left top;
+    border: 1px solid #b3b3b3;
+    color: #828282;
+    width: 110px;
+    height: 19px;
+    height: auto;
+    min-height: 19px;
+    line-height: 13px;
+    padding: 3px 6px 3px 6px;
+    text-shadow: 1px 1px #f9f9f9;
+    cursor: pointer;
+}
+.entry-search-box-wrap input.button:hover {
+	 background: #ffb300 url(../images/button-orange.png) repeat-x left top;
+    border: 1px solid #daa600;
+    color: #303030;
+    text-shadow: 1px 1px #ffdd40;
+}
+/*New form name*/
+.ifb-new-form-name-outer {
+    width: 314px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -65px;
+    margin-left: -157px;
+    z-index: 100;
+	background: #f7f7f7;
+    border: 5px solid #888;
+    padding: 10px;
+    -webkit-box-shadow: 0px 2px 10px -5px #333;
+    -moz-box-shadow: 0px 2px 10px -5px #333;
+    box-shadow: 0px 2px 10px -5px #333;
+}
+.ifb-new-form-name-inner h3 {
+	background: #f8f8f8 url(../images/button-light.png) repeat-x left top;
+    border: 1px solid #ddd;
+    font-size: 13px;
+    font-weight: bold;
+    color: #0f83ca;
+    padding: 5px 10px;
+    display: block;
+    text-shadow: 1px 1px 0 #fff;
+	margin-top: 0;
+}
+#ifb-new-form-name-overlay {    
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: transparent url(../images/transparent-bg.png) repeat 0 0;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+.ifb-new-form-name-ok {
+	background: #0e7dc7 url(../images/button-blue.png) repeat-x left top;
+    color: #fff;
+    text-shadow: -1px -1px 0px #0e80c8;
+	border: 1px solid #0069ab;
+	cursor: pointer;
+	width: 50px;
+	padding: 3px 8px;
+	height: 22px;
+	line-height: 21px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+	margin: 0 auto;
+	float: right;
+}
+.ifb-new-form-name-ok:hover {
+	background: #0e7dc7 url(../images/button-blue-hover.png) repeat-x left bottom;
+}
+.ifb-new-form-name-close {
+	position: absolute;
+	right: -15px;
+	top: -15px;
+	background: url(../images/pop-up-box-close.png) no-repeat left top;
+	width: 29px;
+	height: 29px;
+	display: block;
+	text-indent: -99999px;
+	cursor: pointer;
+}
+.ifb-new-form-name-close:hover {
+	background: url(../images/pop-up-box-close-hover.png) no-repeat left top;
+}
+.ifb-new-form-name-inner input.new-form-name {
+	width: 232px;
+	padding: 7px;
+	margin: 0;
+	float: left;
+	line-height: 15px;
+	vertical-align: middle;
+	-webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.ifb-new-form-name-overlay p.description {
+    margin-bottom: 0;	
+}
+.iphorm-forms-num-unread {
+    font-weight: bold;
+}
+.ifb-add-to-website-content-area {
+    display: none;
+}
+.ifb-insert-form-wrap {
+    display: none;
+}
+/*Settings page buttons*/
+.form-table th {font-weight: bold;}
+.iphorm-save-settings input.button-primary {
+    text-align: center;
+    background: #0e7dc7 url(../images/button-blue.png) repeat-x left top;
+    color: #fff;
+    text-shadow: -1px -1px 0px #0e80c8;
+	border: 1px solid #0069ab;
+    width: 110px;
+    height: 19px;
+    height: auto;
+    min-height: 19px;
+    line-height: 13px;
+    padding: 3px 6px 3px 6px;
+    cursor: pointer;
+}
+.iphorm-save-settings input.button-primary:hover {
+	background: #0e7dc7 url(../images/button-blue-hover.png) repeat-x left top;
+	text-shadow: -1px -1px 0px #0e80c8;
+}
+button#verify-purchase-code {
+    text-align: center;
+    background: #e5e5e5 url(../images/button-grey.png) repeat-x left top;
+    border: 1px solid #b3b3b3;
+    color: #828282;
+    width: 70px;
+    height: 19px;
+    height: auto;
+    min-height: 19px;
+    line-height: 13px;
+    padding: 3px 6px 3px 6px;
+    text-shadow: 1px 1px #f9f9f9;
+    cursor: pointer;
+}
+button#verify-purchase-code:hover {
+	 background: #ffb300 url(../images/button-orange.png) repeat-x left top;
+    border: 1px solid #daa600;
+    color: #303030;
+    text-shadow: 1px 1px #ffdd40;
+}
+/*Unlicences product*/
+#purchase_code, #verify-purchase-code {
+	float: left;
+	margin-right: 10px;
+}
+.iphorm-verify-loading {
+	width: 16px;
+	height: 16px;
+	background: url(../images/small-spinner.gif) no-repeat center center;
+	margin-top: 2px;
+	float: left;
+	display: none;
+}
+.iphorm-valid-licence {
+	list-style: none;
+	padding: 3px 10px 3px 25px;
+	margin: 0 0 10px 0;
+	line-height: 16px;
+	background: #d0eda6 url(../images/valid-product-icon.png) no-repeat 3px center;
+	color: #000;
+	font-size: 12px;
+	font-weight: normal;
+	display: inline-block;
+	border: 1px solid #74ab21;
+	float: left;
+	text-shadow: 1px 1px 0 #e5fbc6;
+}
+.iphorm-invalid-licence {
+	list-style: none;
+	padding: 3px 10px 3px 25px;
+	margin: 0 0 10px 0;
+	line-height: 16px;
+	background: #F3CAC7 url(../images/not-valid-product-icon.png) no-repeat 3px center;
+	color: #000;
+	font-size: 12px;
+	font-weight: normal;
+	display: inline-block;
+	border: 1px solid #fa8b83;
+	float: left;
+	text-shadow: 1px 1px 0 #f3d6d4;
+}
+.iphorm-error-message {
+	color: #cc0000;
+	background: url(../images/iphorm-warning.png) no-repeat left center;
+	padding: 5px 30px;
+	font-weight: bold;
+	line-height: 20px;
+	margin-top: 3px;
+}
+.iphorm-success-message {
+	color: #66cc00;
+	background: url(../images/iphorm-success.png) no-repeat left center;
+	padding: 5px 30px;
+	font-weight: bold;
+	line-height: 20px;
+	margin-top: 3px;
+}
+/*Bulk options*/
+.ifb-bulk-options {
+    display: none;
+}
+.bulk-options-wrap {
+	margin-bottom: 15px;
+}
+.ifb-bulk-options-right {
+    float: right;
+    width: 280px;
+}
+.ifb-bulk-options-left {
+    float: left;
+    width: 200px;
+}
+.ifb-bulk-options-right textarea {
+    width: 100%;
+    height: 362px;
+}
+.ifb-options-overflow {
+    color: #d2d2d2;
+    font-size: 10px;
+    margin: 0;
+}
+div.ifb-button {
+	background: #e5e5e5 url(../images/button-grey.png) repeat-x left top;
+    padding: 3px 12px;
+    border: 1px solid #b3b3b3;
+    text-decoration: none;
+    color: #828282;
+    line-height: 16px;
+    height: 16px;
+    text-shadow: 1px 1px #f9f9f9;
+	display: inline-block;
+	float: left;
+	cursor: pointer;
+	margin: 5px 5px 0 0;
+}
+div.ifb-button:hover {
+	background: #ffb300 url(../images/button-orange.png) repeat-x left top;
+    border: 1px solid #daa600;
+    color: #303030;
+    text-shadow: 1px 1px #ffdd40;
+}
+div.ifb-button-blue {
+	background: #0e7dc7 url(../images/button-blue.png) repeat-x left top;
+    border: 1px solid #0069ab;
+    color: #fff;
+    text-shadow: -1px -1px 0px #0e80c8;
+    text-decoration: none;
+    line-height: 16px;
+    height: 16px;
+	display: inline-block;
+	float: left;
+	cursor: pointer;
+	margin: 5px 5px 0 0;
+	 padding: 3px 12px;
+}
+div.ifb-button-blue:hover {
+	background: #0e7dc7 url(../images/button-blue-hover.png) repeat-x left top;
+	text-shadow: -1px -1px 0px #0e80c8;
+}
+div.ifb-button-grey {
+	background: #e5e5e5 url(../images/button-grey.png) repeat-x left top;
+    border: 1px solid #b3b3b3;
+    color: #828282;
+    text-shadow: 1px 1px #f9f9f9;
+    text-decoration: none;
+    line-height: 16px;
+    height: 16px;
+	display: inline-block;
+	float: left;
+	cursor: pointer;
+	margin: 4px 5px 0 0;
+	padding: 2px 12px;	
+}
+.ifb-bulk-options-instructions {font-size: 11px;}
+div.ifb-button-grey:hover {
+	background: #e5e5e5 url(../images/button-grey-hover.png) repeat-x left bottom;
+    color: #0f83ca;
+}
+.ifb-bulk-options-left ul li {
+	display: block;
+	height: 25px;
+	margin: 0;
+}
+.ifb-bulk-options-left ul li div.ifb-button {
+	display: block;
+	height: 16px;
+	font-size: 11px;
+	float: none;
+	margin: 1px 5px 0 0;
+}
+div.ifb-add-bulk-options-button {
+	float: right;
+	margin-right: 0;
+}
+.ifb-customise-values-wrap {
+	float: left;
+	padding-top: 7px;
+}
+.ifb-bulk-options-clear-inner {
+	float: left;
+	width: auto;
+}
+.ifb-bulk-options-clear-inner > label {
+	float: left;
+}
+.ifb-bulk-options-clear-inner > .ifb-tooltip {
+	float: left;
+}
+
+.ifb-notification-from-type-wrap,
+.ifb-autoreply-from-type-wrap {
+	margin-bottom: 10px;
+}
+
+.ifb-logic-top-if,
+.ifb-logic-top-rules-match {
+    font-size: 13px;
+    padding: 0 5px;
+}
+
+.ifb-rules-wrap {
+    margin-top : 5px;
+}
+
+.logic_rule_element {
+    width: 175px;
+}
+
+.logic_rule_value {
+    width: 175px;
+}
+#ifb-top .iphorm-admin-notice-no-form {
+	margin-top: 35px;
+}
+.ifb-bulk-options-left ul {
+	margin: 0;
+}
+.iphorm-server-compat-col2 {
+	width: 250px;
+}
+.iphorm-server-compat-col3 {
+	width: 50px;
+}
+.ifb-compat-error {
+	padding: 3px 10px 3px 25px;
+    margin: 0;
+    line-height: 16px;
+    background: #F3CAC7 url(../images/not-valid-product-icon.png) no-repeat 3px center;
+    color: #000;
+    font-size: 12px;
+    font-weight: normal;
+    display: inline-block;
+    border: 1px solid #fa8b83;
+    float: left;    
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.ifb-radio-option-list > li > label,
+.ifb-checkbox-option-list > li > label {
+	margin-left: 5px;
+}

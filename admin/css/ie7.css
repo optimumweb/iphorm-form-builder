@@ -1,0 +1,19 @@
+a.button.add-new-h2 {margin-bottom: -8px;}
+.ifb-form-table textarea  {width: 95%;}
+.ifb-options-heading-value {
+	margin-left: 10px;
+}
+.ifb-new-form-name-inner input.new-form-name {width: 212px;}
+/*Fix the help button moving the form builder*/
+#contextual-help-link-wrap {
+	position: absolute;
+	right: 20px;
+}
+.iphorm-top-right {
+	margin-right: 60px;
+}
+.ifb-bulk-options-right textarea {height: 342px;}
+
+body.iphorm-overlay-active #wpbody { z-index: 99; }
+
+

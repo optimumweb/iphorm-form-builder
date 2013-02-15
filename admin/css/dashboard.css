@@ -1,0 +1,54 @@
+/*Dashboard widget*/
+#iphorm-dashboard-widget table tr td,
+#iphorm-dashboard-widget table tr td
+{
+	background: #fffee8;
+    border-bottom: 1px solid #E1E1E1;
+}
+#iphorm-dashboard-widget table tr td {
+	background: #fffee8;
+    border-bottom: 1px solid #E1E1E1;
+	padding: 10px;
+	line-height: 13px;
+}
+#iphorm-dashboard-widget table  td.iphorm-db-widget-name {
+	padding-left: 45px;
+}
+#iphorm-dashboard-widget table  td.iphorm-db-widget-name {
+	background: #fffee8 url(../images/unread-icon.png) no-repeat 5px 0;
+	font-weight: bold;
+}
+td.iphorm-db-widget-unread,
+th.iphorm-db-widget-unread-th {
+	text-align: center;
+}
+td.iphorm-db-widget-link {
+	text-align: right;
+}
+td.iphorm-db-widget-unread a {
+	font-size: 15px;
+}
+td.iphorm-db-widget-link a {
+	text-align: center;
+    background: #e5e5e5 url(../images/button-grey.png) repeat-x left top;
+    border: 1px solid #b3b3b3;
+    color: #828282;
+    width: 120px;
+    height: 19px;
+    height: auto;
+    min-height: 19px;
+    line-height: 13px;
+    padding: 3px 6px 3px 6px;
+    text-shadow: 1px 1px #f9f9f9;
+    cursor: pointer;
+	display: inline;
+	-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+td.iphorm-db-widget-link a:hover, td.iphorm-db-widget-link a:active  {
+	background: #ffb300 url(../images/button-orange.png) repeat-x left top;
+    border: 1px solid #daa600;
+    color: #303030;
+    text-shadow: 1px 1px #ffdd40;
+}
