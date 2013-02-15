@@ -436,6 +436,24 @@ class iPhorm
     protected $_dbFields = array();
 
     /**
+     * Send form data to Podio?
+     * @var boolean
+     */
+    protected $_sendToPodio = false;
+
+    /**
+     * Podio App ID
+     * @var string
+     */
+    protected $_podioAppId = null;
+
+    /**
+     * Podio App Token
+     * @var string
+     */
+    protected $_podioAppToken = null;
+
+    /**
      * Has the form been successfully sumitted?
      * @var boolean
      */
@@ -2049,6 +2067,66 @@ class iPhorm
     public function getDbFields()
     {
         return $this->_dbFields;
+    }
+
+    /**
+     * Set whether to send to Podio or not
+     *
+     * @param boolean $sendToPodio
+     */
+    public function setSendToPodio($sendToPodio)
+    {
+        $this->_sendToPodio = $sendToPodio;
+    }
+
+    /**
+     * Get whether to send to Podio or not
+     *
+     * @return boolean
+     */
+    public function getSendToPodio()
+    {
+        return $this->_sendToPodio;
+    }
+
+    /**
+     * Set Podio App ID
+     *
+     * @param string $podioAppId
+     */
+    public function setPodioAppId($podioAppId)
+    {
+        $this->_podioAppId = $podioAppId;
+    }
+
+    /**
+     * Get Podio App ID
+     *
+     * @return string
+     */
+    public function getPodioAppId()
+    {
+        return $this->_podioAppId;
+    }
+
+    /**
+     * Set Podio App Token
+     *
+     * @param string $podioAppToken
+     */
+    public function setPodioAppToken($podioAppToken)
+    {
+        $this->_podioAppToken = $podioAppToken;
+    }
+
+    /**
+     * Get Podio App Token
+     *
+     * @return string
+     */
+    public function getPodioAppToken()
+    {
+        return $this->_podioAppToken;
     }
 
     /**

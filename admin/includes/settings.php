@@ -23,6 +23,8 @@
                 'username' => sanitize_text_field(stripslashes($_POST['smtp_username'])),
                 'password' => sanitize_text_field(stripslashes($_POST['smtp_password']))
             ));
+            update_option('iphorm_podio_client_id', sanitize_text_field(stripslashes($_POST['podio_client_id'])));
+            update_option('iphorm_podio_client_secret', sanitize_text_field(stripslashes($_POST['podio_client_secret'])));
             update_option('iphorm_disable_fancybox_output', isset($_POST['disable_fancybox_output']) && $_POST['disable_fancybox_output'] == 1);
             update_option('iphorm_disable_qtip_output', isset($_POST['disable_qtip_output']) && $_POST['disable_qtip_output'] == 1);
             update_option('iphorm_disable_infieldlabels_output', isset($_POST['disable_infieldlabels_output']) && $_POST['disable_infieldlabels_output'] == 1);
@@ -123,6 +125,22 @@
                 <th scope="row"><label for="smtp_password"><?php esc_html_e('SMTP password', 'iphorm'); ?></label></th>
                 <td>
                     <input type="text" name="smtp_password" id="smtp_password" value="<?php echo esc_attr($smtpSettings['password']); ?>" />
+                </td>
+            </tr>
+        </table>
+        <h3 class="ifb-sub-head"><span><?php esc_html_e('Podio settings', 'iphorm'); ?></span></h3>
+        <p><?php esc_html_e('In order to send your form data to Podio, you must provide your Podio authentication information.', 'iphorm'); ?></p>
+        <table class="form-table iphorm-podio-settings">
+            <tr valign="top">
+                <th scope="row"><label for="podio_client_id"><?php esc_html_e('Podio Client ID', 'iphorm'); ?></label></th>
+                <td>
+                    <input type="text" name="podio_client_id" id="podio_client_id" value="<?php echo esc_attr(get_option('iphorm_podio_client_id')); ?>" />
+                </td>
+            </tr>
+            <tr valign="top">
+                <th scope="row"><label for="podio_client_secret"><?php esc_html_e('Podio Client Secret', 'iphorm'); ?></label></th>
+                <td>
+                    <input type="text" name="podio_client_secret" id="podio_client_secret" value="<?php echo esc_attr(get_option('iphorm_podio_client_secret')); ?>" />
                 </td>
             </tr>
         </table>

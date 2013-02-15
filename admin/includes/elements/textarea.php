@@ -59,6 +59,7 @@ $helpUrl = iphorm_help_link('element-textarea');
 						</tr>
                         <?php include 'settings/clear-default-value.php'; ?>
                         <?php include 'settings/admin-label.php'; ?>
+                        <?php include 'settings/podio-id.php'; ?>
                         <?php include 'settings/required-message.php'; ?>
                         <?php include 'settings/hide-from-email.php'; ?>
                         <?php include 'settings/save-to-database.php'; ?>

@@ -1,0 +1,3 @@
+[submodule "includes/Podio"]
+	path = includes/Podio
+	url = git://github.com/podio/podio-php.git

@@ -42,6 +42,7 @@ $helpUrl = iphorm_help_link('element-password');
                 <div class="ifb-element-settings-inner">
                     <table class="ifb-form-table ifb-element-settings-form-table ifb-element-settings-more-form-table">
                         <?php include 'settings/admin-label.php'; ?>
+                        <?php include 'settings/podio-id.php'; ?>
                         <?php include 'settings/required-message.php'; ?>
                         <?php include 'settings/hide-from-email.php'; ?>
                         <?php include 'settings/save-to-database.php'; ?>

@@ -36,6 +36,7 @@ $helpUrl = iphorm_help_link('element-hidden');
                             </td>
                         </tr>
                         <?php include 'settings/conditional-logic.php'; ?>
+                        <?php include 'settings/podio-id.php'; ?>
                         <?php include '_save.php'; ?>
                     </table>
                 </div>

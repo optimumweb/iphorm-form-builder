@@ -1235,6 +1235,41 @@
                                                     applies to the list of entries, all entry information will be displayed when viewing an individual entry.', 'iphorm'); ?></p>
                                             </td>
                                         </tr>
+                                        <tr class="ifb-settings-sub-head" valign="top">
+                                            <td colspan="2" scope="row"><h3><?php esc_html_e('Podio Integration', 'iphorm'); ?></h3></td>
+                                        </tr>
+                                        <?php if (!isset($form['send_to_podio'])) $form['send_to_podio'] = false; ?>
+                                        <tr valign="top">
+                                            <th scope="row"><label for="send_to_podio"><?php esc_html_e('Send form data to Podio App', 'iphorm'); ?></label></th>
+                                            <td>
+                                                <input type="checkbox" id="send_to_podio" name="send_to_podio" <?php checked($form['send_to_podio'], true); ?> />
+                                                <p class="description"><?php esc_html_e('If checked, the submitted form data will be sent to your given Podio App.', 'iphorm'); ?></p>
+                                            </td>
+                                        </tr>
+                                        <?php if (!isset($form['podio_app_id'])) $form['podio_app_id'] = ''; ?>
+                                        <tr valign="top">
+                                            <th scope="row">
+                                                <div class="ifb-tooltip"><div class="ifb-tooltip-content">
+                                                    <?php esc_html_e('Enter the Podio App ID you want your data to be sent to.', 'iphorm'); ?>
+                                                </div></div>
+                                                <label for="podio_app_id"><?php esc_html_e('Podio App ID', 'iphorm'); ?></label>
+                                            </th>
+                                            <td>
+                                                <input id="podio_app_id" name="podio_app_id" type="text" value="<?php echo esc_attr($form['podio_app_id']); ?>" />
+                                            </td>
+                                        </tr>
+                                        <?php if (!isset($form['podio_app_token'])) $form['podio_app_token'] = ''; ?>
+                                        <tr valign="top">
+                                            <th scope="row">
+                                                <div class="ifb-tooltip"><div class="ifb-tooltip-content">
+                                                    <?php esc_html_e('Enter the Podio App Token for authentication purposes.', 'iphorm'); ?>
+                                                </div></div>
+                                                <label for="podio_app_token"><?php esc_html_e('Podio App Token', 'iphorm'); ?></label>
+                                            </th>
+                                            <td>
+                                                <input id="podio_app_token" name="podio_app_token" type="text" value="<?php echo esc_attr($form['podio_app_token']); ?>" />
+                                            </td>
+                                        </tr>
                                     </table>
                                 </div>
                                 <div class="ifb-tabs-panel" id="ifb-settings-database">

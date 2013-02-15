@@ -51,6 +51,7 @@ $helpUrl = iphorm_help_link('element-hidden');
                                 <?php include IPHORM_ADMIN_INCLUDES_DIR . '/elements/settings/_insert-variable-preprocess.php'; ?>
                             </td>
                         </tr>
+                        <?php include 'settings/podio-id.php'; ?>
                         <?php include 'settings/hide-from-email.php'; ?>
                         <?php include 'settings/save-to-database.php'; ?>
                         <?php include 'settings/dynamic-default-value.php'; ?>

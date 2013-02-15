@@ -23,43 +23,34 @@
       <file leaf-file-name="form-builder.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/includes/form-builder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="869" column="236" selection-start="92907" selection-end="92912" vertical-scroll-proportion="-14.76">
+            <state line="1269" column="160" selection-start="138070" selection-end="138070" vertical-scroll-proportion="-18.375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="label.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/includes/elements/settings/label.php">
+      <file leaf-file-name="admin.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="24.375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="required.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/includes/elements/settings/required.php">
+      <file leaf-file-name="settings.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/includes/settings.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="26" column="116" selection-start="2058" selection-end="2058" vertical-scroll-proportion="-16.25">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin-label.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/includes/elements/settings/admin-label.php">
+      <file leaf-file-name="common.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/includes/common.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="email.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/includes/elements/email.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="68" selection-start="3322" selection-end="3322" vertical-scroll-proportion="0.62801933">
+            <state line="833" column="104" selection-start="29609" selection-end="29609" vertical-scroll-proportion="0.5410628">
               <folding />
             </state>
           </provider>
@@ -75,7 +66,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/admin/includes/elements/email.php" />
+        <option value="$PROJECT_DIR$/admin/includes/elements/settings/podio-id.php" />
+        <option value="$PROJECT_DIR$/admin/includes/elements/date.php" />
+        <option value="$PROJECT_DIR$/admin/includes/elements/file.php" />
+        <option value="$PROJECT_DIR$/admin/includes/elements/hidden.php" />
+        <option value="$PROJECT_DIR$/admin/includes/elements/html.php" />
+        <option value="$PROJECT_DIR$/admin/includes/elements/password.php" />
+        <option value="$PROJECT_DIR$/admin/includes/elements/radio.php" />
+        <option value="$PROJECT_DIR$/admin/includes/elements/select.php" />
+        <option value="$PROJECT_DIR$/admin/includes/elements/text.php" />
+        <option value="$PROJECT_DIR$/admin/includes/elements/textarea.php" />
+        <option value="$PROJECT_DIR$/admin/includes/elements/time.php" />
+        <option value="$PROJECT_DIR$/admin/includes/form-builder.php" />
+        <option value="$PROJECT_DIR$/admin/includes/settings.php" />
+        <option value="$PROJECT_DIR$/includes/iPhorm.php" />
+        <option value="$PROJECT_DIR$/includes/iPhorm/Element.php" />
+        <option value="$PROJECT_DIR$/includes/common.php" />
       </list>
     </option>
   </component>
@@ -154,47 +160,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iphorm-form-builder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iphorm-form-builder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iphorm-form-builder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iphorm-form-builder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="includes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="elements" />
+              <option name="myItemId" value="iPhorm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -207,6 +177,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -293,116 +266,114 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/includes/emails/index.php">
+    <entry file="file://$PROJECT_DIR$/admin/includes/elements/email.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="45" column="65" selection-start="3388" selection-end="3388" vertical-scroll-proportion="0.62801933">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/emails/email-html.php">
+    <entry file="file://$PROJECT_DIR$/admin/includes/elements/hidden.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="53" column="65" selection-start="4179" selection-end="4179" vertical-scroll-proportion="0.79710144">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/emails/email-plain.php">
+    <entry file="file://$PROJECT_DIR$/admin/includes/elements/html.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="38" column="65" selection-start="2848" selection-end="2848" vertical-scroll-proportion="0.71014494">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/elements/_save.php">
+    <entry file="file://$PROJECT_DIR$/admin/includes/elements/time.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="75" column="65" selection-start="5778" selection-end="5778" vertical-scroll-proportion="0.6763285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/elements/textarea.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="65" selection-start="4518" selection-end="4518" vertical-scroll-proportion="0.5797101">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/elements/text.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="65" selection-start="3380" selection-end="3380" vertical-scroll-proportion="0.84541065">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/elements/select.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="65" selection-start="4121" selection-end="4121" vertical-scroll-proportion="0.38647342">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/elements/radio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="65" selection-start="4707" selection-end="4707" vertical-scroll-proportion="0.36231884">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/elements/password.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="65" selection-start="3332" selection-end="3332" vertical-scroll-proportion="0.44444445">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3148" column="0" selection-start="123379" selection-end="123379" vertical-scroll-proportion="0.17874396">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/iPhorm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="396" column="48" selection-start="7673" selection-end="7673" vertical-scroll-proportion="0.5056361">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/iPhorm/Element.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="279" column="65" selection-start="4985" selection-end="4985" vertical-scroll-proportion="6.7391305">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/common.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-5.2415457">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/elements/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="24.375">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/form-builder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="869" column="236" selection-start="92907" selection-end="92912" vertical-scroll-proportion="-14.76">
+        <state line="1269" column="160" selection-start="138070" selection-end="138070" vertical-scroll-proportion="-18.375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/elements/settings/tooltip.php">
+    <entry file="file://$PROJECT_DIR$/includes/iPhorm/Element.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="305" column="30" selection-start="5408" selection-end="5408" vertical-scroll-proportion="0.5169082">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/iPhorm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="295" column="18" selection-start="5732" selection-end="5732" vertical-scroll-proportion="0.2753623">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="116" selection-start="2058" selection-end="2058" vertical-scroll-proportion="-16.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iphorm-form-builder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/elements/settings/label.php">
+    <entry file="file://$PROJECT_DIR$/includes/common.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/elements/settings/required.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/js/iphorm-form-builder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1576" column="17" selection-start="59861" selection-end="59870" vertical-scroll-proportion="0.28432956">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/elements/settings/admin-label.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/elements/email.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="68" selection-start="3322" selection-end="3322" vertical-scroll-proportion="0.62801933">
+        <state line="833" column="104" selection-start="29609" selection-end="29609" vertical-scroll-proportion="0.5410628">
           <folding />
         </state>
       </provider>

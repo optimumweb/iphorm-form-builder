@@ -42,6 +42,12 @@ class iPhorm_Element
     protected $_adminLabel = '';
 
     /**
+     * Element Podio ID
+     * @var string
+     */
+    protected $_podioId = '';
+
+    /**
      * Element description
      * @var string
      */
@@ -278,6 +284,26 @@ class iPhorm_Element
     public function getAdminLabel()
     {
         return (strlen($this->_adminLabel)) ? $this->_adminLabel : $this->getLabel();
+    }
+
+    /**
+     * Set the Podio ID
+     *
+     * @param string $podioId
+     */
+    public function setPodioId($podioId)
+    {
+        $this->_podioId = $podioId;
+    }
+
+    /**
+     * Get the Podio Id
+     *
+     * @return string
+     */
+    public function getPodioId()
+    {
+        return $this->_podioId;
     }
 
     /**
