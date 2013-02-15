@@ -32,7 +32,7 @@
       <file leaf-file-name="iphorm-form-builder.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/js/iphorm-form-builder.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1586" column="62" selection-start="60237" selection-end="60237" vertical-scroll-proportion="0.35845897">
+            <state line="2684" column="43" selection-start="98350" selection-end="98350" vertical-scroll-proportion="0.21187802">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -343,13 +343,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/includes/common.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="793" column="20" selection-start="27884" selection-end="27884" vertical-scroll-proportion="-22.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/settings.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="116" selection-start="2058" selection-end="2058" vertical-scroll-proportion="0.62801933">
@@ -448,9 +441,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/entry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="83" selection-start="5782" selection-end="5782" vertical-scroll-proportion="0.5227882">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/js/iphorm-form-builder.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1586" column="62" selection-start="60237" selection-end="60237" vertical-scroll-proportion="0.35845897">
+        <state line="2684" column="43" selection-start="98350" selection-end="98350" vertical-scroll-proportion="0.21187802">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

@@ -926,6 +926,7 @@
 						element.reset_default_value = $('#reset_default_value_'+element.id).is(':checked');
 						element.tooltip = $('#tooltip_'+element.id).val();
 						element.admin_label = $('#admin_label_'+element.id).val();
+                        element.podio_id = $('#podio_id_'+element.id).val();
 						element.required_message = $('#required_message_'+element.id).val();
 						element.is_hidden = $('#is_hidden_'+element.id).is(':checked');
 						element.save_to_database = $('#save_to_database_'+element.id).is(':checked');
@@ -956,6 +957,7 @@
 						element.reset_default_value = $('#reset_default_value_'+element.id).is(':checked');
 						element.tooltip = $('#tooltip_'+element.id).val();
 						element.admin_label = $('#admin_label_'+element.id).val();
+                        element.podio_id = $('#podio_id_'+element.id).val();
 						element.required_message = $('#required_message_'+element.id).val();
 						element.is_hidden = $('#is_hidden_'+element.id).is(':checked');
 						element.save_to_database = $('#save_to_database_'+element.id).is(':checked');
@@ -986,6 +988,7 @@
 						element.reset_default_value = $('#reset_default_value_'+element.id).is(':checked');
 						element.tooltip = $('#tooltip_'+element.id).val();
 						element.admin_label = $('#admin_label_'+element.id).val();
+                        element.podio_id = $('#podio_id_'+element.id).val();
 						element.required_message = $('#required_message_'+element.id).val();
 						element.is_hidden = $('#is_hidden_'+element.id).is(':checked');
 						element.save_to_database = $('#save_to_database_'+element.id).is(':checked');
@@ -1012,6 +1015,7 @@
 						// More settings
 						element.tooltip = $('#tooltip_'+element.id).val();
 						element.admin_label = $('#admin_label_'+element.id).val();
+                        element.podio_id = $('#podio_id_'+element.id).val();
 						element.required_message = $('#required_message_'+element.id).val();
 						element.is_hidden = $('#is_hidden_'+element.id).is(':checked');
 						element.save_to_database = $('#save_to_database_'+element.id).is(':checked');
@@ -1039,6 +1043,7 @@
 						
 						// More settings
 						element.admin_label = $('#admin_label_'+element.id).val();
+                        element.podio_id = $('#podio_id_'+element.id).val();
 						element.required_message = $('#required_message_'+element.id).val();
 						element.is_hidden = $('#is_hidden_'+element.id).is(':checked');
 						element.save_to_database = $('#save_to_database_'+element.id).is(':checked');
@@ -1066,6 +1071,7 @@
 						
 						// More settings
 						element.admin_label = $('#admin_label_'+element.id).val();
+                        element.podio_id = $('#podio_id_'+element.id).val();
 						element.required_message = $('#required_message_'+element.id).val();
 						element.is_hidden = $('#is_hidden_'+element.id).is(':checked');
 						element.save_to_database = $('#save_to_database_'+element.id).is(':checked');
@@ -1098,6 +1104,7 @@
 						// More settings
 						element.tooltip = $('#tooltip_'+element.id).val();
 						element.admin_label = $('#admin_label_'+element.id).val();
+                        element.podio_id = $('#podio_id_'+element.id).val();
 						element.is_hidden = $('#is_hidden_'+element.id).is(':checked');
 						element.save_to_database = $('#save_to_database_'+element.id).is(':checked');
 						element.label_placement = $('#label_placement_'+element.id).val();
@@ -1161,6 +1168,7 @@
 						
 						// More settings
 						element.admin_label = $('#admin_label_'+element.id).val();
+                        element.podio_id = $('#podio_id_'+element.id).val();
 						element.required_message = $('#required_message_'+element.id).val();
 						element.label_placement = $('#label_placement_'+element.id).val();
 						element.label_width = $('#label_width_'+element.id).val();
@@ -1202,7 +1210,8 @@
 						element.year_heading = $('#year_heading_' + element.id).val();
 						element.start_year = $('#start_year_' + element.id).val();
 						element.end_year = $('#end_year_' + element.id).val();
-						element.admin_label = $('#admin_label_'+element.id).val();
+                        element.admin_label = $('#admin_label_'+element.id).val();
+                        element.podio_id = $('#podio_id_'+element.id).val();
 						element.required_message = $('#required_message_'+element.id).val();
 						element.months_as_numbers = $('#months_as_numbers_'+element.id).is(':checked');
 						element.field_order = $('#field_order_'+element.id).val();
@@ -1243,6 +1252,7 @@
 						element.am_string = $('#am_string_'+element.id).val();
 						element.pm_string = $('#pm_string_'+element.id).val();
 						element.admin_label = $('#admin_label_'+element.id).val();
+                        element.podio_id = $('#podio_id_'+element.id).val();
 						element.required_message = $('#required_message_'+element.id).val();
 						element.is_hidden = $('#is_hidden_'+element.id).is(':checked');
 						element.save_to_database = $('#save_to_database_'+element.id).is(':checked');
@@ -1277,6 +1287,7 @@
 						// More settings
 						element.tooltip = $('#tooltip_'+element.id).val();
 						element.admin_label = $('#admin_label_'+element.id).val();
+                        element.podio_id = $('#podio_id_'+element.id).val();
 						element.required_message = $('#required_message_'+element.id).val();
 						element.is_hidden = $('#is_hidden_'+element.id).is(':checked');
 						element.save_to_database = $('#save_to_database_'+element.id).is(':checked');
@@ -2680,6 +2691,10 @@
 	    	
 	    	return '';
 	    },
+
+        getPodioId: function (element) {
+            return element.podio_id;
+        },
 	    
 	    getShortenedAdminLabel: function (element) {
 	    	return iPhorm.shorten(iPhorm.getAdminLabel(element));
