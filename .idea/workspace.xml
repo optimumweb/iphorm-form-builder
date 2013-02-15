@@ -23,7 +23,7 @@
       <file leaf-file-name="form-builder.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/includes/form-builder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="8" selection-start="9113" selection-end="9113" vertical-scroll-proportion="16.291666">
+            <state line="1242" column="128" selection-start="135572" selection-end="135577" vertical-scroll-proportion="-3.96">
               <folding />
             </state>
           </provider>
@@ -32,55 +32,10 @@
       <file leaf-file-name="iphorm-form-builder.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/js/iphorm-form-builder.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2684" column="43" selection-start="98350" selection-end="98350" vertical-scroll-proportion="0.21187802">
+            <state line="909" column="63" selection-start="29170" selection-end="29170" vertical-scroll-proportion="0.86591274">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default-value.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/includes/elements/settings/default-value.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/admin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="534" column="25" selection-start="18669" selection-end="18685" vertical-scroll-proportion="-11.46">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin-label.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/includes/elements/settings/admin-label.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="130" selection-start="659" selection-end="659" vertical-scroll-proportion="-6.875">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="podio-id.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/includes/elements/settings/podio-id.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="56" selection-start="505" selection-end="505" vertical-scroll-proportion="-6.875">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="description.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/includes/elements/settings/description.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -193,7 +148,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -212,36 +167,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="elements" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iphorm-form-builder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iphorm-form-builder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="elements" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="settings" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -343,13 +268,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/includes/settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="116" selection-start="2058" selection-end="2058" vertical-scroll-proportion="0.62801933">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/elements/settings/options.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -406,30 +324,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/form-builder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="8" selection-start="9113" selection-end="9113" vertical-scroll-proportion="16.291666">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="534" column="25" selection-start="18669" selection-end="18685" vertical-scroll-proportion="-11.46">
+        <state line="534" column="25" selection-start="18669" selection-end="18685" vertical-scroll-proportion="0.9630252">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/elements/settings/admin-label.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="130" selection-start="659" selection-end="659" vertical-scroll-proportion="-6.875">
+        <state line="11" column="130" selection-start="659" selection-end="659" vertical-scroll-proportion="0.2657005">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/elements/settings/podio-id.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="56" selection-start="505" selection-end="505" vertical-scroll-proportion="-6.875">
+        <state line="11" column="56" selection-start="505" selection-end="505" vertical-scroll-proportion="0.2657005">
           <folding />
         </state>
       </provider>
@@ -448,9 +359,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="116" selection-start="2058" selection-end="2058" vertical-scroll-proportion="0.024154589">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/form-builder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1242" column="128" selection-start="135572" selection-end="135577" vertical-scroll-proportion="-3.96">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/js/iphorm-form-builder.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2684" column="43" selection-start="98350" selection-end="98350" vertical-scroll-proportion="0.21187802">
+        <state line="909" column="63" selection-start="29170" selection-end="29170" vertical-scroll-proportion="0.86591274">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

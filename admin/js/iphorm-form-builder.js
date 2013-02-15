@@ -905,6 +905,9 @@
 			form.db_password = $('#db_password').val();
 			form.db_name = $('#db_name').val();
 			form.db_table = $('#db_table').val();
+            form.send_to_podio = $('#send_to_podio').val();
+            form.podio_app_id = $('#podio_app_id').val();
+            form.podio_app_token = $('#podio_app_token').val();
 			iPhorm.updateDbFields();
 			
 			// Per element settings
