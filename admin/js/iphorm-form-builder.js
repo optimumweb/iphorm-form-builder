@@ -1582,7 +1582,12 @@
 			iPhorm.updateEntryLayoutColumnLabel(element);
 			iPhorm.updateLogicRuleLabels(element);
 		},
-		
+
+        updatePodioId: function (input, element) {
+            var id = $(input).val();
+            element.podio_id = id;
+        },
+
 		updateConditionalRecipientLabels: function (element) {
 			if (element.type == 'radio' || element.type == 'select') {
 				// Check for any conditional recipients using this element and update the label

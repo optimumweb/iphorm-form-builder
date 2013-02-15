@@ -9,5 +9,5 @@ if (!isset($element['podio_id'])) $element['podio_id'] = '';
         </div></div>
         <label for="podio_id_<?php echo $id; ?>"><?php esc_html_e('Podio ID', 'iphorm'); ?></label>
     </th>
-    <td><input type="text" id="podio_id_<?php echo $id; ?>" name="podio_id_<?php echo $id; ?>" value="<?php echo esc_attr($element['podio_id']); ?>" /></td>
+    <td><input type="text" id="podio_id_<?php echo $id; ?>" name="podio_id_<?php echo $id; ?>" value="<?php echo esc_attr($element['podio_id']); ?>" onblur="iPhorm.updatePodioId(this, iPhorm.getElementById(<?php echo $id; ?>));" /></td>
 </tr>
