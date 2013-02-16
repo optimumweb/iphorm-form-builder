@@ -834,7 +834,7 @@ function iphorm_process_form()
 
                     $podio_item = new PodioItem(array(
                         'app'    => new PodioApp($podio_app_id),
-                        'fields' => $fields
+                        'fields' => $podio_fields
                     ));
                 } catch ( PodioError $e ) {
                     wpbp_error_log( $e->body['error_description'], true );
