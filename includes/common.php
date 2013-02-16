@@ -817,29 +817,27 @@ function iphorm_process_form()
 
                 $podio_app_id = $form->getPodioAppId();
                 $podio_app_token = $form->getPodioAppToken();
-                $podio_app = array('app_id' => $podio_app_id, 'app_token' => $podio_app_token);
 
                 try {
-                    $podio = Podio::instance($podio_client_id, $podio_client_secret);
+                    Podio::setup($podio_client_id, $podio_client_secret);
 
-                    wpbp_error_log( var_export($podio, true), true );
-
-                    $podio->authenticate('app', $podio_app);
+                    if (!Podio::is_authenticated()) {
+                        Podio::authenticate('app', array('app_id' => $podio_app_id, 'app_token' => $podio_app_token));
+                    }
 
                     $podio_fields = array();
-
                     foreach ($elements as $element) {
                         if ($element->getPodioId()) {
                             $podio_fields[$element->getPodioId()] = $element->getValue();
                         }
                     }
 
-                    $podio_item = $podio->item->create($podio_app_id, array('fields' => $podio_fields));
-
-                    //wpbp_error_log( var_export($podio_item, true), true );
-
+                    $podio_item = new PodioItem(array(
+                        'app'    => new PodioApp($podio_app_id),
+                        'fields' => $fields
+                    ));
                 } catch ( PodioError $e ) {
-                    //wpbp_error_log( $e->body['error_description'], true );
+                    wpbp_error_log( $e->body['error_description'], true );
                 }
             }
 
