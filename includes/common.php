@@ -819,6 +819,8 @@ function iphorm_process_form()
                 $podio_app_token = $form->getPodioAppToken();
                 $podio_app = array('app_id' => $podio_app_id, 'app_token' => $podio_app_token);
 
+                wpbp_error_log( var_export($podio_app, true) );
+
                 Podio::setup($podio_client_id, $podio_client_secret);
 
                 if (!Podio::is_authenticated()) {
