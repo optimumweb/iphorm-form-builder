@@ -41,7 +41,7 @@
       <file leaf-file-name="common.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/common.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="828" column="63" selection-start="29355" selection-end="29355" vertical-scroll-proportion="0.38486314">
+            <state line="828" column="24" selection-start="29316" selection-end="29316" vertical-scroll-proportion="0.38486314">
               <folding />
             </state>
           </provider>
@@ -463,7 +463,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/common.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="828" column="63" selection-start="29355" selection-end="29355" vertical-scroll-proportion="0.38486314">
+        <state line="828" column="24" selection-start="29316" selection-end="29316" vertical-scroll-proportion="0.38486314">
           <folding />
         </state>
       </provider>
