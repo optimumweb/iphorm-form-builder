@@ -827,7 +827,7 @@ function iphorm_process_form()
 
                 $podio_item = new PodioItem(array(
                     'app' => array(),
-                    'fields' => $podio_fields
+                    'fields' => array()
                 ));
 
                 foreach ($elements as $element) {
