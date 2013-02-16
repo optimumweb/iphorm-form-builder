@@ -819,10 +819,11 @@ function iphorm_process_form()
                 $podio_app_token = $form->getPodioAppToken();
                 $podio_app = array('app_id' => $podio_app_id, 'app_token' => $podio_app_token);
 
-                wpbp_error_log( var_export($podio_app, true), true );
-
                 try {
                     $podio = Podio::instance($podio_client_id, $podio_client_secret);
+
+                    wpbp_error_log( var_export($podio, true), true );
+
                     $podio->authenticate('app', $podio_app);
 
                     $podio_fields = array();
