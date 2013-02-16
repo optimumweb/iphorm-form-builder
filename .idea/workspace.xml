@@ -41,7 +41,7 @@
       <file leaf-file-name="common.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/common.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="826" column="42" selection-start="29263" selection-end="29263" vertical-scroll-proportion="0.5072464">
+            <state line="831" column="53" selection-start="29394" selection-end="29394" vertical-scroll-proportion="0.6763285">
               <folding />
             </state>
           </provider>
@@ -50,7 +50,16 @@
       <file leaf-file-name="iPhorm.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/iPhorm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2731" column="36" selection-start="60937" selection-end="60937" vertical-scroll-proportion="-7.98">
+            <state line="2750" column="53" selection-start="61863" selection-end="61863" vertical-scroll-proportion="322.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Element.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/iPhorm/Element.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="295" column="35" selection-start="5262" selection-end="5262" vertical-scroll-proportion="-9.958333">
               <folding />
             </state>
           </provider>
@@ -171,6 +180,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iphorm-form-builder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iphorm-form-builder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -273,27 +300,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/includes/preview.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.5362319">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/elements/email.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.096618354">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/elements/settings/default-value.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/elements/settings/global-style.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -343,32 +349,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/js/iphorm-form-builder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="907" column="52" selection-start="29041" selection-end="29041" vertical-scroll-proportion="-14.269231">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/form-builder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1242" column="123" selection-start="135572" selection-end="135572" vertical-scroll-proportion="-15.583333">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2451" column="5" selection-start="88293" selection-end="88295" vertical-scroll-proportion="-3.96">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/iPhorm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2731" column="36" selection-start="60937" selection-end="60937" vertical-scroll-proportion="-7.98">
           <folding />
         </state>
       </provider>
@@ -380,9 +363,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/includes/emails/email-plain.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/iPhorm/Element/Hidden.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="200" selection-end="200" vertical-scroll-proportion="0.26025236">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/iPhorm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2750" column="53" selection-start="61863" selection-end="61863" vertical-scroll-proportion="322.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/js/iphorm-form-builder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="907" column="52" selection-start="29041" selection-end="29041" vertical-scroll-proportion="-14.269231">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/iPhorm/Element.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="295" column="35" selection-start="5262" selection-end="5262" vertical-scroll-proportion="-9.958333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2451" column="5" selection-start="88293" selection-end="88295" vertical-scroll-proportion="-3.96">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/includes/common.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="826" column="42" selection-start="29263" selection-end="29263" vertical-scroll-proportion="0.5072464">
+        <state line="831" column="53" selection-start="29394" selection-end="29394" vertical-scroll-proportion="0.6763285">
           <folding />
         </state>
       </provider>

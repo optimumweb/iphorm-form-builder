@@ -817,19 +817,21 @@ function iphorm_process_form()
 
                 $podio_app_id = $form->getPodioAppId();
                 $podio_app_token = $form->getPodioAppToken();
-                $podio_app = array('app_id' => $podio_app_id, 'app_token' => $podio_app_token);
 
                 Podio::setup($podio_client_id, $podio_client_secret);
 
-                Podio::authenticate('app', $podio_app);
+                Podio::authenticate('app', array('app_id' => $podio_app_id, 'app_token' => $podio_app_token));
+
+                $podio_app = new PodioApp($podio_app_id);
 
                 $podio_item = new PodioItem(array(
-                    'app' => $podio_app_id,
+                    'app' => $podio_app,
                     'fields' => array()
                 ));
 
+                wpbp_error_log( var_export( $elements, true ), true);
+
                 foreach ($elements as $element) {
-                    wpbp_error_log( var_export( $element->getPodioId(), true ), true);
                     if ($element->getPodioId()) {
                         $podio_item->field($element->getPodioId())->set_value($element->getValue());
                     }
