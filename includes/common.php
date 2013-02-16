@@ -828,14 +828,13 @@ function iphorm_process_form()
                 }
 
                 $podio_item = new PodioItem(array(
-                    'app' => array(),
+                    'app' => new PodioApp($podio_app_id),
                     'fields' => array()
                 ));
 
                 foreach ($elements as $element) {
-                    $podio_element_id = $element->getPodioId();
-                    if (isset($podio_element_id) && strlen($podio_element_id) > 0) {
-                        $podio_item->field($podio_element_id)->set_value($element->getValue());
+                    if ($element->getPodioId()) {
+                        $podio_item->field($element->getPodioId())->set_value($element->getValue());
                     }
                 }
 
