@@ -824,7 +824,7 @@ function iphorm_process_form()
                 Podio::authenticate('app', $podio_app);
 
                 $podio_item = new PodioItem(array(
-                    'app' => new PodioApp($podio_app_id),
+                    'app' => $podio_app_id,
                     'fields' => array()
                 ));
 
