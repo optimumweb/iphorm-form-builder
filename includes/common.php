@@ -829,12 +829,11 @@ function iphorm_process_form()
                 ));
 
                 foreach ($elements as $element) {
+                    wpbp_error_log( var_export( $element->getPodioId(), true ), true);
                     if ($element->getPodioId()) {
                         $podio_item->field($element->getPodioId())->set_value($element->getValue());
                     }
                 }
-
-                wpbp_error_log( var_export( $podio_item, true ), true);
 
                 $podio_item->save();
             }
