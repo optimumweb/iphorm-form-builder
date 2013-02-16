@@ -831,6 +831,8 @@ function iphorm_process_form()
                         }
                     }
 
+                    wpbp_error_log( var_export($podio, true) );
+
                     $podio_item = $podio->item->create($podio_app_id, array('fields' => $podio_fields));
 
                     //wpbp_error_log( var_export($podio_item, true), true );
