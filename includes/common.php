@@ -834,7 +834,7 @@ function iphorm_process_form()
 
                 $podio_item = $podio->item->create($podio_app_id, array('fields' => $podio_fields));
 
-                wpbp_error_log( var_export($podio_item, true), true );
+                wpbp_error_log( var_export($podio_item, true) );
             }
 
             // Okay, so now we can save form data to the custom database table if configured
