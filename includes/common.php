@@ -840,7 +840,7 @@ function iphorm_process_form()
                     'fields' => $podio_fields
                 ));
 
-                $item->save();
+                $podio_item->save();
             }
 
             // Okay, so now we can save form data to the custom database table if configured
