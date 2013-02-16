@@ -831,7 +831,7 @@ function iphorm_process_form()
                     }
                 }
 
-                PodioItem::create( $podio_app_id, $podio_fields );
+                PodioItem::create($podio_app_id, array('fields' => $podio_fields));
             }
 
             // Okay, so now we can save form data to the custom database table if configured
