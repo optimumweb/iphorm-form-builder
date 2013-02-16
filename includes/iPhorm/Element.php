@@ -1376,6 +1376,10 @@ class iPhorm_Element
             $this->setAdminLabel($config['admin_label']);
         }
 
+        if (array_key_exists('podio_id', $config)) {
+            $this->setPodioId($config['podio_id']);
+        }
+
         if (array_key_exists('description', $config)) {
             $this->setDescription($config['description']);
         }

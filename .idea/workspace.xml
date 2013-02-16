@@ -41,7 +41,7 @@
       <file leaf-file-name="common.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/common.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="828" column="68" selection-start="29360" selection-end="29360" vertical-scroll-proportion="0.4090177">
+            <state line="827" column="49" selection-start="29291" selection-end="29291" vertical-scroll-proportion="0.4090177">
               <folding />
             </state>
           </provider>
@@ -59,7 +59,7 @@
       <file leaf-file-name="Element.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/iPhorm/Element.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="295" column="35" selection-start="5262" selection-end="5262" vertical-scroll-proportion="-14.333333">
+            <state line="1379" column="19" selection-start="30386" selection-end="30386" vertical-scroll-proportion="-9.333333">
               <folding />
             </state>
           </provider>
@@ -97,10 +97,10 @@
         <option value="$PROJECT_DIR$/admin/includes/elements/time.php" />
         <option value="$PROJECT_DIR$/admin/includes/form-builder.php" />
         <option value="$PROJECT_DIR$/admin/includes/settings.php" />
-        <option value="$PROJECT_DIR$/includes/iPhorm/Element.php" />
         <option value="$PROJECT_DIR$/admin/includes/elements/settings/podio-id.php" />
         <option value="$PROJECT_DIR$/admin/js/iphorm-form-builder.js" />
         <option value="$PROJECT_DIR$/includes/iPhorm.php" />
+        <option value="$PROJECT_DIR$/includes/iPhorm/Element.php" />
         <option value="$PROJECT_DIR$/includes/common.php" />
       </list>
     </option>
@@ -440,13 +440,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/iPhorm/Element.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="295" column="35" selection-start="5262" selection-end="5262" vertical-scroll-proportion="-14.333333">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/iPhorm.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2748" column="24" selection-start="61681" selection-end="61681" vertical-scroll-proportion="-14.0">
@@ -461,9 +454,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/includes/iPhorm/Element.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1379" column="19" selection-start="30386" selection-end="30386" vertical-scroll-proportion="-9.333333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/includes/common.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="828" column="68" selection-start="29360" selection-end="29360" vertical-scroll-proportion="0.4090177">
+        <state line="827" column="49" selection-start="29291" selection-end="29291" vertical-scroll-proportion="0.4090177">
           <folding />
         </state>
       </provider>
