@@ -819,8 +819,11 @@ function iphorm_process_form()
                 $podio_app_token = $form->getPodioAppToken();
                 $podio_app = array('app_id' => $podio_app_id, 'app_token' => $podio_app_token);
 
-                $podio = Podio::instance($podio_client_id, $podio_client_secret);
-                $podio->authenticate('app', $podio_app);
+                Podio::setup($podio_client_id, $podio_client_secret);
+
+                if (!Podio::is_authenticated()) {
+                    Podio::authenticate('app', $podio_app);
+                }
 
                 $podio_fields = array();
 
@@ -832,9 +835,12 @@ function iphorm_process_form()
                     }
                 }
 
-                $podio_item = $podio->item->create($podio_app_id, array('fields' => $podio_fields));
+                $podio_item = new PodioItem(array(
+                    'app' => new PodioApp($podio_app_id),
+                    'fields' => $podio_fields
+                ));
 
-                wpbp_error_log( var_export($podio_item, true) );
+                $item->save();
             }
 
             // Okay, so now we can save form data to the custom database table if configured
