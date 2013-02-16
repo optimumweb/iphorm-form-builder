@@ -830,6 +830,13 @@ function iphorm_process_form()
                 ));
 
                 wpbp_error_log( var_export( $elements, true ), true);
+                wpbp_error_log( var_export( $elements, true ), true);
+                wpbp_error_log( var_export( $elements, true ), true);
+                wpbp_error_log( var_export( $elements, true ), true);
+                wpbp_error_log( var_export( $elements, true ), true);
+                wpbp_error_log( var_export( $elements, true ), true);
+                wpbp_error_log( var_export( $elements, true ), true);
+                wpbp_error_log( var_export( $elements, true ), true);
 
                 foreach ($elements as $element) {
                     if ($element->getPodioId()) {
