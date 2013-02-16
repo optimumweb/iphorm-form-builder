@@ -831,15 +831,6 @@ function iphorm_process_form()
                     'fields' => array()
                 ));
 
-                wpbp_error_log( var_export( $elements, true ), true);
-                wpbp_error_log( var_export( $elements, true ), true);
-                wpbp_error_log( var_export( $elements, true ), true);
-                wpbp_error_log( var_export( $elements, true ), true);
-                wpbp_error_log( var_export( $elements, true ), true);
-                wpbp_error_log( var_export( $elements, true ), true);
-                wpbp_error_log( var_export( $elements, true ), true);
-                wpbp_error_log( var_export( $elements, true ), true);
-
                 foreach ($elements as $element) {
                     if ($element->getPodioId()) {
                         $podio_item->field($element->getPodioId())->set_value($element->getValue());
