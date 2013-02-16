@@ -825,20 +825,17 @@ function iphorm_process_form()
                     Podio::authenticate('app', $podio_app);
                 }
 
-                $podio_fields = array();
+                $podio_item = new PodioItem(array(
+                    'app' => array(),
+                    'fields' => $podio_fields
+                ));
 
                 foreach ($elements as $element) {
                     $podio_element_id = $element->getPodioId();
-
                     if (isset($podio_element_id) && strlen($podio_element_id) > 0) {
-                        $podio_fields[$podio_element_id] = esc_attr($element->getValue());
+                        $item->field($podio_element_id)->set_value($element->getValue());
                     }
                 }
-
-                $podio_item = new PodioItem(array(
-                    'app' => new PodioApp($podio_app_id),
-                    'fields' => $podio_fields
-                ));
 
                 $podio_item->save();
             }
