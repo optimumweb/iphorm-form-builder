@@ -826,7 +826,7 @@ function iphorm_process_form()
 
                 $podio_fields = array();
                 foreach ($elements as $element) {
-                    wpbp_error_log(var_export($element, true));
+                    wpbp_error_log(var_export($element->getPodioId(), true));
                     if ($element->getPodioId()) {
                         $podio_fields[$element->getPodioId()] = $element->getValue();
                     }
