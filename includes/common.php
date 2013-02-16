@@ -824,20 +824,14 @@ function iphorm_process_form()
                     Podio::authenticate('app', array('app_id' => $podio_app_id, 'app_token' => $podio_app_token));
                 }
 
-                $podio_app = new PodioApp($podio_app_id);
-
-                $podio_item = new PodioItem(array(
-                    'app' => $podio_app,
-                    'fields' => array()
-                ));
-
+                $podio_fields = array();
                 foreach ($elements as $element) {
                     if ($element->getPodioId()) {
-                        $podio_item->field($element->getPodioId())->set_value($element->getValue());
+                        $podio_fields[$element->getPodioId()] = $element->getValue();
                     }
                 }
 
-                $podio_item->save();
+                PodioItem::create( $podio_app_id, $podio_fields );
             }
 
             // Okay, so now we can save form data to the custom database table if configured
