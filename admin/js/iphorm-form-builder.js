@@ -1276,6 +1276,7 @@
 						// Settings
 						element.default_value = $('#default_value_'+element.id).val();
 						element.label = $('#label_'+element.id).val();
+                        element.podio_id = $('#podio_id_'+element.id).val();
 						element.is_hidden = $('#is_hidden_'+element.id).is(':checked');
 						element.save_to_database = $('#save_to_database_'+element.id).is(':checked');
 						element.dynamic_default_value = $('#dynamic_default_value_'+element.id).is(':checked');
