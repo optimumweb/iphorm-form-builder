@@ -23,7 +23,7 @@
       <file leaf-file-name="form-builder.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/includes/form-builder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1242" column="123" selection-start="135572" selection-end="135572" vertical-scroll-proportion="-15.583333">
+            <state line="1242" column="123" selection-start="135572" selection-end="135572" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -32,16 +32,16 @@
       <file leaf-file-name="admin.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2451" column="5" selection-start="88293" selection-end="88295" vertical-scroll-proportion="-3.96">
+            <state line="2451" column="5" selection-start="88293" selection-end="88295" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="common.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/common.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="827" column="49" selection-start="29291" selection-end="29291" vertical-scroll-proportion="0.4090177">
+            <state line="827" column="49" selection-start="29291" selection-end="29291" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
           </provider>
@@ -50,7 +50,7 @@
       <file leaf-file-name="iPhorm.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/iPhorm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2748" column="24" selection-start="61681" selection-end="61681" vertical-scroll-proportion="-14.0">
+            <state line="2748" column="24" selection-start="61681" selection-end="61681" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -59,19 +59,17 @@
       <file leaf-file-name="Element.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/iPhorm/Element.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1379" column="19" selection-start="30386" selection-end="30386" vertical-scroll-proportion="-9.333333">
+            <state line="1379" column="19" selection-start="30386" selection-end="30386" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="iphorm-form-builder.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="iphorm-form-builder.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/js/iphorm-form-builder.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="907" column="52" selection-start="29041" selection-end="29041" vertical-scroll-proportion="-14.269231">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="1600" column="25" selection-start="61256" selection-end="61256" vertical-scroll-proportion="0.38294575">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,10 +96,10 @@
         <option value="$PROJECT_DIR$/admin/includes/form-builder.php" />
         <option value="$PROJECT_DIR$/admin/includes/settings.php" />
         <option value="$PROJECT_DIR$/admin/includes/elements/settings/podio-id.php" />
-        <option value="$PROJECT_DIR$/admin/js/iphorm-form-builder.js" />
         <option value="$PROJECT_DIR$/includes/iPhorm.php" />
         <option value="$PROJECT_DIR$/includes/iPhorm/Element.php" />
         <option value="$PROJECT_DIR$/includes/common.php" />
+        <option value="$PROJECT_DIR$/admin/js/iphorm-form-builder.js" />
       </list>
     </option>
   </component>
@@ -137,7 +135,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -153,6 +150,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="iphorm-form-builder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iphorm-form-builder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iphorm-form-builder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -252,12 +263,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -273,6 +285,7 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="c8588b8d-6df5-4a8c-99f5-ef551a2bb59e" name="Default" comment="" />
       <created>1360939377008</created>
       <updated>1360939377008</updated>
     </task>
@@ -282,23 +295,23 @@
     <frame x="0" y="22" width="1440" height="806" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329927" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.670073" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25322813" sideWeight="0.670073" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329927" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -356,21 +369,17 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/admin/includes/entry.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="83" selection-start="5782" selection-end="5782" vertical-scroll-proportion="0.5227882">
-          <folding />
-        </state>
+        <state line="88" column="83" selection-start="5782" selection-end="5782" vertical-scroll-proportion="0.5227882" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/settings.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="116" selection-start="2058" selection-end="2058" vertical-scroll-proportion="0.024154589">
-          <folding />
-        </state>
+        <state line="26" column="116" selection-start="2058" selection-end="2058" vertical-scroll-proportion="0.024154589" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/form-builder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1242" column="123" selection-start="135572" selection-end="135572" vertical-scroll-proportion="-15.583333">
+        <state line="1242" column="123" selection-start="135572" selection-end="135572" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -391,23 +400,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/iPhorm/Element/Hidden.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="200" selection-end="200" vertical-scroll-proportion="0.26025236">
-          <folding />
-        </state>
+        <state line="11" column="13" selection-start="200" selection-end="200" vertical-scroll-proportion="0.26025236" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/js/iphorm-form-builder.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="907" column="52" selection-start="29041" selection-end="29041" vertical-scroll-proportion="-14.269231">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="1600" column="25" selection-start="61256" selection-end="61256" vertical-scroll-proportion="0.38294575">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2451" column="5" selection-start="88293" selection-end="88295" vertical-scroll-proportion="-3.96">
+        <state line="2451" column="5" selection-start="88293" selection-end="88295" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -421,28 +426,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/elements/settings/label-placement.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/elements/time.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/elements/hidden.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/iPhorm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2748" column="24" selection-start="61681" selection-end="61681" vertical-scroll-proportion="-14.0">
+        <state line="2748" column="24" selection-start="61681" selection-end="61681" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -456,14 +455,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/iPhorm/Element.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1379" column="19" selection-start="30386" selection-end="30386" vertical-scroll-proportion="-9.333333">
+        <state line="1379" column="19" selection-start="30386" selection-end="30386" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/common.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="827" column="49" selection-start="29291" selection-end="29291" vertical-scroll-proportion="0.4090177">
+        <state line="827" column="49" selection-start="29291" selection-end="29291" vertical-scroll-proportion="-0.625">
           <folding />
         </state>
       </provider>

@@ -1598,7 +1598,7 @@
 		},
 
         updatePodioId: function (input, element) {
-            $('#ifb_element_'+element.id).val($(input).val());
+            // do nothing
         },
 
 		updateConditionalRecipientLabels: function (element) {
