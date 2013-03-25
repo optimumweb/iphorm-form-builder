@@ -826,7 +826,7 @@ function iphorm_process_form()
 
                 $podio_fields = array();
                 foreach ($elements as $element) {
-                    if ($element->getPodioId()) {
+                    if ($element->getPodioId() && strlen($element->getValue()) > 0) {
                         $podio_fields[$element->getPodioId()] = $element->getValue();
                     }
                 }
