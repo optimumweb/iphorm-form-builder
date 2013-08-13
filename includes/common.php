@@ -675,11 +675,11 @@ function iphorm_process_form()
                                 $mailer->AddAddress($recipient);
                             }
                         }
-                    } else {
-                        // Set the recipients
-                        foreach ($form->getRecipients() as $recipient) {
-                            $mailer->AddAddress($recipient);
-                        }
+                    }
+
+                    // Set the default recipients
+                    foreach ($form->getRecipients() as $recipient) {
+                        $mailer->AddAddress($recipient);
                     }
 
                     // Set the message content
