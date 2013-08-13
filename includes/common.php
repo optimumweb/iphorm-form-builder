@@ -655,11 +655,11 @@ function iphorm_process_form()
                                 && ($rElement = $form->getElementById($rule['element'])) instanceof iPhorm_Element_Multi) {
                                 if ($rule['operator'] == 'eq') {
                                     if ($rElement->getValue() == $rule['value'] && $emailValidator->isValid($rule['recipient'])) {
-                                        $recipients[] = $rule['recipient'];
+                                        $recipients = array_merge($recipients, explode(", ", $rule['recipient']));
                                     }
                                 } else {
                                     if ($rElement->getValue() != $rule['value'] && $emailValidator->isValid($rule['recipient'])) {
-                                        $recipients[] = $rule['recipient'];
+                                        $recipients = array_merge($recipients, explode(", ", $rule['recipient']));
                                     }
                                 }
                             }
