@@ -669,11 +669,6 @@ function iphorm_process_form()
                             foreach ($recipients as $recipient) {
                                 $mailer->AddAddress($recipient);
                             }
-                        } else {
-                            // No conditional recipient rules were matched, use default recipients
-                            foreach ($form->getRecipients() as $recipient) {
-                                $mailer->AddAddress($recipient);
-                            }
                         }
                     }
 
