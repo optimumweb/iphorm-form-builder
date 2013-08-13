@@ -654,11 +654,11 @@ function iphorm_process_form()
                             if (isset($rule['element'], $rule['value'], $rule['operator'], $rule['recipient'])
                                 && ($rElement = $form->getElementById($rule['element'])) instanceof iPhorm_Element_Multi) {
                                 if ($rule['operator'] == 'eq') {
-                                    if ($rElement->getValue() == $rule['value'] && $emailValidator->isValid($rule['recipient'])) {
+                                    if ($rElement->getValue() == $rule['value']) {
                                         $recipients = array_merge($recipients, explode(", ", $rule['recipient']));
                                     }
                                 } else {
-                                    if ($rElement->getValue() != $rule['value'] && $emailValidator->isValid($rule['recipient'])) {
+                                    if ($rElement->getValue() != $rule['value']) {
                                         $recipients = array_merge($recipients, explode(", ", $rule['recipient']));
                                     }
                                 }
@@ -667,7 +667,9 @@ function iphorm_process_form()
 
                         if (count($recipients)) {
                             foreach ($recipients as $recipient) {
-                                $mailer->AddAddress($recipient);
+                                if ( $emailValidator->isValid($recipient) ) {
+                                    $mailer->AddAddress($recipient);
+                                }
                             }
                         }
                     }
