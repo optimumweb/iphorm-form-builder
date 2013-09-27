@@ -908,6 +908,9 @@
             form.send_to_podio = $('#send_to_podio').is(':checked');
             form.podio_app_id = $('#podio_app_id').val();
             form.podio_app_token = $('#podio_app_token').val();
+            form.alert_with_twilio = $('#alert_with_twilio').is(':checked');
+            form.twilio_alert_number = $('#twilio_alert_number').val();
+            form.twilio_alert_msg = $('#twilio_alert_msg').val();
 			iPhorm.updateDbFields();
 			
 			// Per element settings
