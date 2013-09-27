@@ -810,45 +810,49 @@ function iphorm_process_form()
 
             // Send the entry to Podio
             if ($form->getSendToPodio()) {
-                $podio_client_id = get_option('iphorm_podio_client_id');
-                $podio_client_secret = get_option('iphorm_podio_client_secret');
+                try {
+                    $podio_client_id = get_option('iphorm_podio_client_id');
+                    $podio_client_secret = get_option('iphorm_podio_client_secret');
 
-                $podio_app_id = $form->getPodioAppId();
-                $podio_app_token = $form->getPodioAppToken();
+                    $podio_app_id = $form->getPodioAppId();
+                    $podio_app_token = $form->getPodioAppToken();
 
-                Podio::setup($podio_client_id, $podio_client_secret, array());
+                    Podio::setup($podio_client_id, $podio_client_secret, array());
 
-                if (!Podio::is_authenticated()) {
-                    Podio::authenticate('app', array('app_id' => $podio_app_id, 'app_token' => $podio_app_token));
-                }
-
-                $podio_fields = array();
-                foreach ($elements as $element) {
-                    if ($element->getPodioId() && strlen($element->getValue()) > 0) {
-                        $podio_fields[$element->getPodioId()] = (string)(int)$element->getValue() == $element->getValue() ? intval($element->getValue()) : $element->getValue();
+                    if (!Podio::is_authenticated()) {
+                        Podio::authenticate('app', array('app_id' => $podio_app_id, 'app_token' => $podio_app_token));
                     }
-                }
 
-                PodioItem::create($podio_app_id, array('fields' => $podio_fields));
+                    $podio_fields = array();
+                    foreach ($elements as $element) {
+                        if ($element->getPodioId() && strlen($element->getValue()) > 0) {
+                            $podio_fields[$element->getPodioId()] = (string)(int)$element->getValue() == $element->getValue() ? intval($element->getValue()) : $element->getValue();
+                        }
+                    }
+
+                    PodioItem::create($podio_app_id, array('fields' => $podio_fields));
+                } catch (Exception $e) {}
             }
 
             // Alert with Twilio
             if ($form->getAlertWithTwilio()) {
-                $twilio_sid = get_option('iphorm_twilio_sid');
-                $twilio_token = get_option('iphorm_twilio_token');
+                try {
+                    $twilio_sid = get_option('iphorm_twilio_sid');
+                    $twilio_token = get_option('iphorm_twilio_token');
 
-                $twilio_number = $form->getTwilioAlertNumber();
-                $twilio_msg = $form->getTwilioAlertMsg();
+                    $twilio_number = $form->getTwilioAlertNumber();
+                    $twilio_msg = $form->getTwilioAlertMsg();
 
-                if ($twilio_sid && $twilio_token) {
-                    $twilio = new Services_Twilio($twilio_sid, $twilio_token);
+                    if ($twilio_sid && $twilio_token) {
+                        $twilio = new Services_Twilio($twilio_sid, $twilio_token);
 
-                    if ( $twilio ) {
-                        $twiml = urlencode("<Response><Say>" . $twilio_msg . "</Say></Response>");
-                        $response = "http://twimlets.com/echo?Twiml=" . $twiml;
-                        return $twilio->account->calls->create($twilio_number, $twilio_number, $response);
+                        if ( $twilio ) {
+                            $twiml = urlencode("<Response><Say>" . $twilio_msg . "</Say></Response>");
+                            $response = "http://twimlets.com/echo?Twiml=" . $twiml;
+                            return $twilio->account->calls->create($twilio_number, $twilio_number, $response);
+                        }
                     }
-                }
+                } catch (Exception $e) {}
             }
 
             // Okay, so now we can save form data to the custom database table if configured
