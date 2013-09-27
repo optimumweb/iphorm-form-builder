@@ -848,7 +848,7 @@ function iphorm_process_form()
                         $twilio = new Services_Twilio($twilio_sid, $twilio_token);
 
                         if ( $twilio ) {
-                            $twiml = urlencode("<Response><Say>" . $twilio_msg . "</Say></Response>");
+                            $twiml = urlencode("<Response><Say>" . $twilio_alert_msg . "</Say></Response>");
                             $response = "http://twimlets.com/echo?Twiml=" . $twiml;
                             return $twilio->account->calls->create($twilio_number, $twilio_alert_number, $response);
                         }
