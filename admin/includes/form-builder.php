@@ -226,6 +226,7 @@
                                     <li><a title="<?php esc_attr_e('What the form will look like', 'iphorm'); ?>" href="#ifb-settings-style"><?php esc_html_e('Style', 'iphorm'); ?></a></li>
                                     <li><a title="<?php esc_attr_e("Where the data is sent and how it's displayed", 'iphorm'); ?>" href="#ifb-settings-email"><?php esc_html_e('Email', 'iphorm'); ?></a></li>
                                     <li><a title="<?php esc_attr_e('Set up saving submitted form entries', 'iphorm'); ?>" href="#ifb-settings-entries"><?php echo esc_html_x('Entries', 'saved submitted form entries', 'iphorm'); ?></a></li>
+                                    <li><a title="<?php esc_attr_e('Configure intergrations over APIs', 'iphorm'); ?>" href="#ifb-settings-integrations"><?php echo esc_html_x('Integrations', 'iphorm'); ?></a></li>
                                     <li><a title="<?php esc_attr_e('Save form data to a custom database', 'iphorm'); ?>" href="#ifb-settings-database"><?php esc_html_e('Database', 'iphorm'); ?></a></li>
                                 </ul>
                                 <div class="ifb-tabs-panel" id="ifb-settings-general">
@@ -1235,6 +1236,10 @@
                                                     applies to the list of entries, all entry information will be displayed when viewing an individual entry.', 'iphorm'); ?></p>
                                             </td>
                                         </tr>
+                                    </table>
+                                </div>
+                                <div class="ifb-tabs-panel" id="ifb-settings-integrations">
+                                    <table class="ifb-form-table ifb-settings-form-table ifb-settings-database-form-table">
                                         <tr class="ifb-settings-sub-head" valign="top">
                                             <td colspan="2" scope="row"><h3><?php esc_html_e('Podio Integration', 'iphorm'); ?></h3></td>
                                         </tr>
@@ -1268,6 +1273,41 @@
                                             </th>
                                             <td>
                                                 <input id="podio_app_token" name="podio_app_token" type="text" value="<?php echo esc_attr($form['podio_app_token']); ?>" />
+                                            </td>
+                                        </tr>
+                                        <tr class="ifb-settings-sub-head" valign="top">
+                                            <td colspan="2" scope="row"><h3><?php esc_html_e('Twilio Integration', 'iphorm'); ?></h3></td>
+                                        </tr>
+                                        <?php if (!isset($form['alert_with_twilio'])) $form['alert_with_twilio'] = false; ?>
+                                        <tr valign="top">
+                                            <th scope="row"><label for="alert_with_twilio"><?php esc_html_e('Alert with Twilio', 'iphorm'); ?></label></th>
+                                            <td>
+                                                <input type="checkbox" id="alert_with_twilio" name="alert_with_twilio" <?php checked($form['alert_with_twilio'], true); ?> />
+                                                <p class="description"><?php esc_html_e('If checked, a phone call with be automatically placed with Twilio.', 'iphorm'); ?></p>
+                                            </td>
+                                        </tr>
+                                        <?php if (!isset($form['twilio_alert_number'])) $form['twilio_alert_number'] = ''; ?>
+                                        <tr valign="top">
+                                            <th scope="row">
+                                                <div class="ifb-tooltip"><div class="ifb-tooltip-content">
+                                                    <?php esc_html_e('Enter the phone number to be called when the form is submitted.', 'iphorm'); ?>
+                                                </div></div>
+                                                <label for="twilio_alert_number"><?php esc_html_e('Twilio Alert Number', 'iphorm'); ?></label>
+                                            </th>
+                                            <td>
+                                                <input id="twilio_alert_number" name="twilio_alert_number" type="text" value="<?php echo esc_attr($form['twilio_alert_number']); ?>" />
+                                            </td>
+                                        </tr>
+                                        <?php if (!isset($form['twilio_alert_msg'])) $form['twilio_alert_msg'] = ''; ?>
+                                        <tr valign="top">
+                                            <th scope="row">
+                                                <div class="ifb-tooltip"><div class="ifb-tooltip-content">
+                                                    <?php esc_html_e('Enter the message to be said on the phone call.', 'iphorm'); ?>
+                                                </div></div>
+                                                <label for="twilio_alert_msg"><?php esc_html_e('Twilio Alert Message', 'iphorm'); ?></label>
+                                            </th>
+                                            <td>
+                                                <input id="twilio_alert_msg" name="twilio_alert_msg" type="text" value="<?php echo esc_attr($form['twilio_alert_msg']); ?>" />
                                             </td>
                                         </tr>
                                     </table>

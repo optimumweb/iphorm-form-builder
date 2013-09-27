@@ -809,30 +809,26 @@ function iphorm_process_form()
 
             // Send the entry to Podio
             if ($form->getSendToPodio()) {
-                try {
-                    $podio_client_id = get_option('iphorm_podio_client_id');
-                    $podio_client_secret = get_option('iphorm_podio_client_secret');
+                $podio_client_id = get_option('iphorm_podio_client_id');
+                $podio_client_secret = get_option('iphorm_podio_client_secret');
 
-                    $podio_app_id = $form->getPodioAppId();
-                    $podio_app_token = $form->getPodioAppToken();
+                $podio_app_id = $form->getPodioAppId();
+                $podio_app_token = $form->getPodioAppToken();
 
-                    Podio::setup($podio_client_id, $podio_client_secret);
+                Podio::setup($podio_client_id, $podio_client_secret, array());
 
-                    if (!Podio::is_authenticated()) {
-                        Podio::authenticate('app', array('app_id' => $podio_app_id, 'app_token' => $podio_app_token));
-                    }
-
-                    $podio_fields = array();
-                    foreach ($elements as $element) {
-                        if ($element->getPodioId() && strlen($element->getValue()) > 0) {
-                            $podio_fields[$element->getPodioId()] = (string)(int)$element->getValue() == $element->getValue() ? intval($element->getValue()) : $element->getValue();
-                        }
-                    }
-
-                    PodioItem::create($podio_app_id, array('fields' => $podio_fields));
-                } catch (Exception $e) {
-                    // do nothing, for now :(
+                if (!Podio::is_authenticated()) {
+                    Podio::authenticate('app', array('app_id' => $podio_app_id, 'app_token' => $podio_app_token));
                 }
+
+                $podio_fields = array();
+                foreach ($elements as $element) {
+                    if ($element->getPodioId() && strlen($element->getValue()) > 0) {
+                        $podio_fields[$element->getPodioId()] = (string)(int)$element->getValue() == $element->getValue() ? intval($element->getValue()) : $element->getValue();
+                    }
+                }
+
+                PodioItem::create($podio_app_id, array('fields' => $podio_fields));
             }
 
             // Okay, so now we can save form data to the custom database table if configured

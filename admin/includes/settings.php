@@ -25,6 +25,8 @@
             ));
             update_option('iphorm_podio_client_id', sanitize_text_field(stripslashes($_POST['podio_client_id'])));
             update_option('iphorm_podio_client_secret', sanitize_text_field(stripslashes($_POST['podio_client_secret'])));
+            update_option('iphorm_twilio_sid', sanitize_text_field(stripslashes($_POST['twilio_sid'])));
+            update_option('iphorm_twilio_token', sanitize_text_field(stripslashes($_POST['twilio_token'])));
             update_option('iphorm_disable_fancybox_output', isset($_POST['disable_fancybox_output']) && $_POST['disable_fancybox_output'] == 1);
             update_option('iphorm_disable_qtip_output', isset($_POST['disable_qtip_output']) && $_POST['disable_qtip_output'] == 1);
             update_option('iphorm_disable_infieldlabels_output', isset($_POST['disable_infieldlabels_output']) && $_POST['disable_infieldlabels_output'] == 1);
@@ -141,6 +143,22 @@
                 <th scope="row"><label for="podio_client_secret"><?php esc_html_e('Podio Client Secret', 'iphorm'); ?></label></th>
                 <td>
                     <input type="text" name="podio_client_secret" id="podio_client_secret" value="<?php echo esc_attr(get_option('iphorm_podio_client_secret')); ?>" />
+                </td>
+            </tr>
+        </table>
+        <h3 class="ifb-sub-head"><span><?php esc_html_e('Twilio settings', 'iphorm'); ?></span></h3>
+        <p><?php esc_html_e('In order to use the Twilio API, you must provide your Twilio authentication information.', 'iphorm'); ?></p>
+        <table class="form-table iphorm-twilio-settings">
+            <tr valign="top">
+                <th scope="row"><label for="twilio_sid"><?php esc_html_e('Twilio Account SID', 'iphorm'); ?></label></th>
+                <td>
+                    <input type="text" name="twilio_sid" id="twilio_sid" value="<?php echo esc_attr(get_option('iphorm_twilio_sid')); ?>" />
+                </td>
+            </tr>
+            <tr valign="top">
+                <th scope="row"><label for="twilio_token"><?php esc_html_e('Twilio Auth Token', 'iphorm'); ?></label></th>
+                <td>
+                    <input type="text" name="twilio_token" id="twilio_token" value="<?php echo esc_attr(get_option('iphorm_twilio_token')); ?>" />
                 </td>
             </tr>
         </table>
