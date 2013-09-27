@@ -837,8 +837,8 @@ function iphorm_process_form()
                 $twilio_sid = get_option('iphorm_twilio_sid');
                 $twilio_token = get_option('iphorm_twilio_token');
 
-                $twilio_number = get_option('iphorm_twilio_number');
-                $twilio_msg = get_option('iphorm_twilio_msg');
+                $twilio_number = $form->getTwilioAlertNumber();
+                $twilio_msg = $form->getTwilioAlertMsg();
 
                 if ($twilio_sid && $twilio_token) {
                     $twilio = new Services_Twilio($twilio_sid, $twilio_token);
