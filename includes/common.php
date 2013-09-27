@@ -839,9 +839,10 @@ function iphorm_process_form()
                 try {
                     $twilio_sid = get_option('iphorm_twilio_sid');
                     $twilio_token = get_option('iphorm_twilio_token');
+                    $twilio_number = get_option('iphorm_twilio_number');
 
-                    $twilio_number = $form->getTwilioAlertNumber();
-                    $twilio_msg = $form->getTwilioAlertMsg();
+                    $twilio_alert_number = $form->getTwilioAlertNumber();
+                    $twilio_alert_msg = $form->getTwilioAlertMsg();
 
                     if ($twilio_sid && $twilio_token) {
                         $twilio = new Services_Twilio($twilio_sid, $twilio_token);
@@ -849,7 +850,7 @@ function iphorm_process_form()
                         if ( $twilio ) {
                             $twiml = urlencode("<Response><Say>" . $twilio_msg . "</Say></Response>");
                             $response = "http://twimlets.com/echo?Twiml=" . $twiml;
-                            return $twilio->account->calls->create($twilio_number, $twilio_number, $response);
+                            return $twilio->account->calls->create($twilio_number, $twilio_alert_number, $response);
                         }
                     }
                 } catch (Exception $e) {}

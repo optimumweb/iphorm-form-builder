@@ -27,6 +27,7 @@
             update_option('iphorm_podio_client_secret', sanitize_text_field(stripslashes($_POST['podio_client_secret'])));
             update_option('iphorm_twilio_sid', sanitize_text_field(stripslashes($_POST['twilio_sid'])));
             update_option('iphorm_twilio_token', sanitize_text_field(stripslashes($_POST['twilio_token'])));
+            update_option('iphorm_twilio_number', sanitize_text_field(stripslashes($_POST['twilio_number'])));
             update_option('iphorm_disable_fancybox_output', isset($_POST['disable_fancybox_output']) && $_POST['disable_fancybox_output'] == 1);
             update_option('iphorm_disable_qtip_output', isset($_POST['disable_qtip_output']) && $_POST['disable_qtip_output'] == 1);
             update_option('iphorm_disable_infieldlabels_output', isset($_POST['disable_infieldlabels_output']) && $_POST['disable_infieldlabels_output'] == 1);
@@ -159,6 +160,12 @@
                 <th scope="row"><label for="twilio_token"><?php esc_html_e('Twilio Auth Token', 'iphorm'); ?></label></th>
                 <td>
                     <input type="text" name="twilio_token" id="twilio_token" value="<?php echo esc_attr(get_option('iphorm_twilio_token')); ?>" />
+                </td>
+            </tr>
+            <tr valign="top">
+                <th scope="row"><label for="twilio_number"><?php esc_html_e('Twilio Account Number', 'iphorm'); ?></label></th>
+                <td>
+                    <input type="text" name="twilio_number" id="twilio_number" value="<?php echo esc_attr(get_option('iphorm_twilio_number')); ?>" />
                 </td>
             </tr>
         </table>
