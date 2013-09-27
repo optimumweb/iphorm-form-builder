@@ -454,6 +454,24 @@ class iPhorm
     protected $_podioAppToken = null;
 
     /**
+     * Alert with Twilio?
+     * @var boolean
+     */
+    protected $_alertWithTwilio = false;
+
+    /**
+     * Twilio Alert Number
+     * @var string
+     */
+    protected $_twilioAlertNumber = null;
+
+    /**
+     * Twilio Alert Message
+     * @var string
+     */
+    protected $_twilioAlertMsg = null;
+
+    /**
      * Has the form been successfully sumitted?
      * @var boolean
      */
@@ -2130,6 +2148,66 @@ class iPhorm
     }
 
     /**
+     * Set whether to alert with Twilio or not
+     *
+     * @param boolean $alertWithTwilio
+     */
+    public function setAlertWithTwilio($alertWithTwilio)
+    {
+        $this->_alertWithTwilio = $alertWithTwilio;
+    }
+
+    /**
+     * Get whether to alert with Twilio or not
+     *
+     * @return boolean
+     */
+    public function getAlertWithTwilio()
+    {
+        return $this->_alertWithTwilio;
+    }
+
+    /**
+     * Set Twilio Alert Number
+     *
+     * @param string $twilioNumber
+     */
+    public function setTwilioAlertNumber($twilioAlertNumber)
+    {
+        $this->_twilioAlertNumber = $twilioAlertNumber;
+    }
+
+    /**
+     * Get Twilio Alert Number
+     *
+     * @return string
+     */
+    public function getTwilioAlertNumber()
+    {
+        return $this->_twilioAlertNumber;
+    }
+
+    /**
+     * Set Twilio Alert Message
+     *
+     * @param string $twilioAlertMsg
+     */
+    public function setTwilioAlertMsg($twilioAlertMsg)
+    {
+        $this->_twilioAlertMsg = $twilioAlertMsg;
+    }
+
+    /**
+     * Get Twilio Alert Message
+     *
+     * @return string
+     */
+    public function getTwilioAlertMsg()
+    {
+        return $this->_twilioAlertMsg;
+    }
+
+    /**
      * Get the JavaScript configuration for the iPhorm plugin
      *
      * @return string
@@ -2730,6 +2808,18 @@ class iPhorm
 
         if (array_key_exists('podio_app_token', $config)) {
             $this->setPodioAppToken($config['podio_app_token']);
+        }
+
+        if (array_key_exists('alert_with_twilio', $config)) {
+            $this->setAlertWithTwilio($config['alert_with_twilio']);
+        }
+
+        if (array_key_exists('twilio_alert_number', $config)) {
+            $this->setTwilioAlertNumber($config['twilio_alert_number']);
+        }
+
+        if (array_key_exists('twilio_alert_msg', $config)) {
+            $this->setTwilioAlertMsg($config['twilio_alert_msg']);
         }
 
         if (array_key_exists('dynamic_values', $config)) {

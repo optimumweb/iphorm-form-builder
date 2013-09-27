@@ -5,6 +5,7 @@ if (!defined('IPHORM_VERSION')) exit;
 require_once IPHORM_INCLUDES_DIR . '/widget.php';
 require_once IPHORM_INCLUDES_DIR . '/CSSParser/CSSParser.php';
 require_once IPHORM_INCLUDES_DIR . '/Podio/PodioAPI.php';
+require_once IPHORM_INCLUDES_DIR . '/Twilio/Services/Twilio.php';
 require_once IPHORM_INCLUDES_DIR . '/iPhorm.php';
 require_once ABSPATH . WPINC . '/class-phpmailer.php';
 
@@ -829,6 +830,25 @@ function iphorm_process_form()
                 }
 
                 PodioItem::create($podio_app_id, array('fields' => $podio_fields));
+            }
+
+            // Alert with Twilio
+            if ($form->getAlertWithTwilio()) {
+                $twilio_sid = get_option('iphorm_twilio_sid');
+                $twilio_token = get_option('iphorm_twilio_token');
+
+                $twilio_number = get_option('iphorm_twilio_number');
+                $twilio_msg = get_option('iphorm_twilio_msg');
+
+                if ($twilio_sid && $twilio_token) {
+                    $twilio = new Services_Twilio($twilio_sid, $twilio_token);
+
+                    if ( $twilio ) {
+                        $twiml = urlencode("<Response><Say>" . $twilio_msg . "</Say></Response>");
+                        $response = "http://twimlets.com/echo?Twiml=" . $twiml;
+                        return $twilio->account->calls->create($twilio_number, $twilio_number, $response);
+                    }
+                }
             }
 
             // Okay, so now we can save form data to the custom database table if configured
