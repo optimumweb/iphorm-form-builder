@@ -831,7 +831,9 @@ function iphorm_process_form()
                     }
 
                     PodioItem::create($podio_app_id, array('fields' => $podio_fields));
-                } catch (Exception $e) {}
+                } catch (Exception $e) {
+                    wpbp_error_log("Podio Error - " . $e->getMessage(), true);
+                }
             }
 
             // Alert with Twilio
@@ -853,7 +855,9 @@ function iphorm_process_form()
                             return $twilio->account->calls->create($twilio_number, $twilio_alert_number, $response);
                         }
                     }
-                } catch (Exception $e) {}
+                } catch (Exception $e) {
+                    wpbp_error_log("Twilio Error - " . $e->getMessage(), true);
+                }
             }
 
             // Okay, so now we can save form data to the custom database table if configured
