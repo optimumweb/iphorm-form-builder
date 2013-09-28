@@ -826,14 +826,12 @@ function iphorm_process_form()
                     $podio_fields = array();
                     foreach ($elements as $element) {
                         if ($element->getPodioId() && strlen($element->getValue()) > 0) {
-                            wpbp_error_log($element->getPodioId() . ": " . $element->getPodioDataType(), true);
                             if ($element->getPodioDataType() == 'int') {
                                 $podio_fields[$element->getPodioId()] = (int)$element->getValue();
                             }
                             else {
                                 $podio_fields[$element->getPodioId()] = (string)$element->getValue();
                             }
-                            wpbp_error_log($element->getPodioId() . ": " . var_export($podio_fields[$element->getPodioId()],true), true);
                         }
                     }
 
