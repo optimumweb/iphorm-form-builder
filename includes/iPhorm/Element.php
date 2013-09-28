@@ -48,6 +48,12 @@ class iPhorm_Element
     protected $_podioId = '';
 
     /**
+     * Element Podio Data Type
+     * @var string
+     */
+    protected $_podioDataType = '';
+
+    /**
      * Element description
      * @var string
      */
@@ -304,6 +310,26 @@ class iPhorm_Element
     public function getPodioId()
     {
         return $this->_podioId;
+    }
+
+    /**
+     * Set the Podio Data Type
+     *
+     * @param string $podioDataType
+     */
+    public function setPodioDataType($podioDataType)
+    {
+        $this->_podioDataType = $podioDataType;
+    }
+
+    /**
+     * Get the Podio Data Type
+     *
+     * @return string
+     */
+    public function getPodioDataType()
+    {
+        return $this->_podioDataType;
     }
 
     /**
@@ -1378,6 +1404,10 @@ class iPhorm_Element
 
         if (array_key_exists('podio_id', $config)) {
             $this->setPodioId($config['podio_id']);
+        }
+
+        if (array_key_exists('podio_data_type', $config)) {
+            $this->setPodioDataType($config['podio_data_type']);
         }
 
         if (array_key_exists('description', $config)) {

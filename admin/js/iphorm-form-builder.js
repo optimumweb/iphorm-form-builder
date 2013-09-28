@@ -1605,6 +1605,10 @@
             // do nothing
         },
 
+        updatePodioDataType: function (input, element) {
+            // do nothing
+        },
+
 		updateConditionalRecipientLabels: function (element) {
 			if (element.type == 'radio' || element.type == 'select') {
 				// Check for any conditional recipients using this element and update the label
