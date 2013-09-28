@@ -20,10 +20,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="common.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="common.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/common.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="858" column="36" selection-start="30821" selection-end="30821" vertical-scroll-proportion="-32.75">
+            <state line="832" column="72" selection-start="29587" selection-end="29587" vertical-scroll-proportion="0.52970296">
               <folding />
             </state>
           </provider>
@@ -92,10 +92,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="iphorm-form-builder.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="iphorm-form-builder.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/js/iphorm-form-builder.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="934" column="32" selection-start="30389" selection-end="30389" vertical-scroll-proportion="0.36031747">
+            <state line="934" column="32" selection-start="30389" selection-end="30389" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -125,10 +125,10 @@
         <option value="$PROJECT_DIR$/admin/includes/form-builder.php" />
         <option value="$PROJECT_DIR$/admin/includes/settings.php" />
         <option value="$PROJECT_DIR$/includes/iPhorm.php" />
-        <option value="$PROJECT_DIR$/includes/common.php" />
         <option value="$PROJECT_DIR$/includes/iPhorm/Element.php" />
         <option value="$PROJECT_DIR$/admin/includes/elements/settings/podio-id.php" />
         <option value="$PROJECT_DIR$/admin/js/iphorm-form-builder.js" />
+        <option value="$PROJECT_DIR$/includes/common.php" />
       </list>
     </option>
   </component>
@@ -460,13 +460,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/common.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="858" column="36" selection-start="30821" selection-end="30821" vertical-scroll-proportion="-32.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/elements/email.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="53" selection-start="3371" selection-end="3376" vertical-scroll-proportion="0.33275864">
@@ -532,10 +525,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/js/iphorm-form-builder.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="934" column="32" selection-start="30389" selection-end="30389" vertical-scroll-proportion="0.36031747">
+        <state line="934" column="32" selection-start="30389" selection-end="30389" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="832" column="72" selection-start="29587" selection-end="29587" vertical-scroll-proportion="0.52970296">
+          <folding />
         </state>
       </provider>
     </entry>
