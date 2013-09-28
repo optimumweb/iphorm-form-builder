@@ -833,6 +833,7 @@ function iphorm_process_form()
                             else {
                                 $podio_fields[$element->getPodioId()] = (string)$element->getValue();
                             }
+                            wpbp_error_log($element->getPodioId() . ": " . var_export($podio_fields[$element->getPodioId()],true), true);
                         }
                     }
 
