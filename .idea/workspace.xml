@@ -23,7 +23,7 @@
       <file leaf-file-name="common.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/common.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="828" column="60" selection-start="29337" selection-end="29337" vertical-scroll-proportion="0.43069306">
+            <state line="829" column="97" selection-start="29447" selection-end="29447" vertical-scroll-proportion="0.43069306">
               <folding />
             </state>
           </provider>
@@ -32,7 +32,7 @@
       <file leaf-file-name="Element.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/iPhorm/Element.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="35" selection-start="834" selection-end="834" vertical-scroll-proportion="-6.25">
+            <state line="319" column="20" selection-start="5630" selection-end="5630" vertical-scroll-proportion="-9.291667">
               <folding />
             </state>
           </provider>
@@ -516,13 +516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/iPhorm/Element.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="35" selection-start="834" selection-end="834" vertical-scroll-proportion="-6.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/js/iphorm-form-builder.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="934" column="32" selection-start="30389" selection-end="30389" vertical-scroll-proportion="0.0">
@@ -532,9 +525,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/includes/iPhorm/Element.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="319" column="20" selection-start="5630" selection-end="5630" vertical-scroll-proportion="-9.291667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/includes/common.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="828" column="60" selection-start="29337" selection-end="29337" vertical-scroll-proportion="0.43069306">
+        <state line="829" column="97" selection-start="29447" selection-end="29447" vertical-scroll-proportion="0.43069306">
           <folding />
         </state>
       </provider>
