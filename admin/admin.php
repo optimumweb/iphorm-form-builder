@@ -2102,7 +2102,8 @@ function iphorm_get_all_entry_count($unread = null)
         $sql .= " WHERE unread = " . absint($unread);
     }
 
-    return $wpdb->get_var($wpdb->prepare($sql));
+    //return $wpdb->get_var($wpdb->prepare($sql));
+    return $wpdb->get_var($sql);
 }
 
 /**
