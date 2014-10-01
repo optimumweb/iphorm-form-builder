@@ -1,6 +1,6 @@
 [submodule "includes/Podio"]
 	path = includes/Podio
-	url = git@github.com:podio/podio-php.git
+	url = https://github.com/podio/podio-php.git
 [submodule "includes/Twilio"]
 	path = includes/Twilio
 	url = https://github.com/twilio/twilio-php.git
