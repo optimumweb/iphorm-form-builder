@@ -827,7 +827,8 @@ function iphorm_process_form()
                     foreach ($elements as $element) {
                         if ($element->getPodioId() && strlen($element->getValue()) > 0) {
                             if ($element->getPodioDataType() == 'int') {
-                                $podio_fields[$element->getPodioId()] = (int)$element->getValue();
+                                //$podio_fields[$element->getPodioId()] = (int)$element->getValue();
+                                $podio_fields[$element->getPodioId()] = intval($element->getValue());
                             }
                             else {
                                 $podio_fields[$element->getPodioId()] = (string)$element->getValue();
