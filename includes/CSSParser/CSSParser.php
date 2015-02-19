@@ -156,7 +156,7 @@ class CSSParser {
 				return $this->consume(1);
 			}
 			$sUnicode = $this->consumeExpression('/^[0-9a-fA-F]{1,6}/u');
-			if(mb_strlen($sUnicode, $this->sCharset) < 6) {
+			if( ( function_exists('mb_strlen') && mb_strlen($sUnicode, $this->sCharset) < 6 ) || ( strlen($sUnicode) < 6 ) ) {
 				//Consume whitespace after incomplete unicode escape
 				if(preg_match('/\\s/isSu', $this->peek())) {
 					if($this->comes('\r\n')) {
@@ -308,7 +308,7 @@ class CSSParser {
 		if($this->comes('#')) {
 			$this->consume('#');
 			$sValue = $this->parseIdentifier(false);
-			if(mb_strlen($sValue, $this->sCharset) === 3) {
+			if((function_exists('mb_strlen') && mb_strlen($sValue, $this->sCharset) === 3) || (strlen($sValue) === 3)) {
 				$sValue = $sValue[0].$sValue[0].$sValue[1].$sValue[1].$sValue[2].$sValue[2];
 			}
 			$aColor = array('r' => new CSSSize(intval($sValue[0].$sValue[1], 16)), 'g' => new CSSSize(intval($sValue[2].$sValue[3], 16)), 'b' => new CSSSize(intval($sValue[4].$sValue[5], 16)));
@@ -316,7 +316,7 @@ class CSSParser {
 			$sColorMode = $this->parseIdentifier(false);
 			$this->consumeWhiteSpace();
 			$this->consume('(');
-			$iLength = mb_strlen($sColorMode, $this->sCharset);
+			$iLength = function_exists('mb_strlen') ? mb_strlen($sColorMode, $this->sCharset) : strlen($sColorMode);
 			for($i=0;$i<$iLength;$i++) {
 				$this->consumeWhiteSpace();
 				$aColor[$sColorMode[$i]] = $this->parseNumericValue();
@@ -358,27 +358,27 @@ class CSSParser {
 			return '';
 		}
 		if(is_string($iLength)) {
-			$iLength = mb_strlen($iLength, $this->sCharset);
+			$iLength = function_exists('mb_strlen') ? mb_strlen($iLength, $this->sCharset) : strlen($iLength);
 		}
 		if(is_string($iOffset)) {
-			$iOffset = mb_strlen($iOffset, $this->sCharset);
+			$iOffset = function_exists('mb_strlen') ? mb_strlen($iOffset, $this->sCharset) : strlen($iOffset);
 		}
 		return mb_substr($this->sText, $this->iCurrentPosition+$iOffset, $iLength, $this->sCharset);
 	}
 	
 	private function consume($mValue = 1) {
 		if(is_string($mValue)) {
-			$iLength = mb_strlen($mValue, $this->sCharset);
+			$iLength = function_exists('mb_strlen') ? mb_strlen($mValue, $this->sCharset) : strlen($mValue);
 			if(mb_substr($this->sText, $this->iCurrentPosition, $iLength, $this->sCharset) !== $mValue) {
 				throw new Exception("Expected $mValue, got ".$this->peek(5));
 			}
-			$this->iCurrentPosition += mb_strlen($mValue, $this->sCharset);
+			$this->iCurrentPosition += function_exists('mb_strlen') ? mb_strlen($mValue, $this->sCharset) : strlen($mValue);
 			return $mValue;
 		} else {
 			if($this->iCurrentPosition+$mValue > $this->iLength) {
 				throw new Exception("Tried to consume $mValue chars, exceeded file end");
 			}
-			$sResult = mb_substr($this->sText, $this->iCurrentPosition, $mValue, $this->sCharset);
+			$sResult = function_exists('mb_substr') ? mb_substr($this->sText, $this->iCurrentPosition, $mValue, $this->sCharset) : substr($this->sText, $this->iCurrentPosition, $mValue);
 			$this->iCurrentPosition += $mValue;
 			return $sResult;
 		}
@@ -422,7 +422,7 @@ class CSSParser {
 	}
 	
 	private function inputLeft() {
-		return mb_substr($this->sText, $this->iCurrentPosition, -1, $this->sCharset);
+		return function_exists('mb_substr') ? mb_substr($this->sText, $this->iCurrentPosition, -1, $this->sCharset) : substr($this->sText, $this->iCurrentPosition, -1);
 	}
 }
 
