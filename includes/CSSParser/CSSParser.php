@@ -22,7 +22,7 @@ class CSSParser {
 	
 	public function setCharset($sCharset) {
 		$this->sCharset = $sCharset;
-		$this->iLength = mb_strlen($this->sText, $this->sCharset);
+		$this->iLength = function_exists('mb_strlen') ? mb_strlen($this->sText, $this->sCharset) : strlen($this->sText);
 	}
 
 	public function getCharset() {
