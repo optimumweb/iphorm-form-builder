@@ -414,7 +414,7 @@ class CSSParser {
 	}
 	
 	private function consumeUntil($sEnd) {
-		$iEndPos = mb_strpos($this->sText, $sEnd, $this->iCurrentPosition, $this->sCharset);
+		$iEndPos = function_exists('mb_strpos') ? mb_strpos($this->sText, $sEnd, $this->iCurrentPosition, $this->sCharset) : strpos($this->sText, $sEnd, $this->iCurrentPosition);
 		if($iEndPos === false) {
 			throw new Exception("Required $sEnd not found, got {$this->peek(5)}");
 		}
