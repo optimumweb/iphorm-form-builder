@@ -54,6 +54,12 @@ class iPhorm_Element
     protected $_podioDataType = '';
 
     /**
+     * Element Input Mask
+     * @var string
+     */
+    protected $_inputMask = '';
+
+    /**
      * Element description
      * @var string
      */
@@ -330,6 +336,26 @@ class iPhorm_Element
     public function getPodioDataType()
     {
         return $this->_podioDataType;
+    }
+
+    /**
+     * Set the input mask
+     *
+     * @param string $inputMask
+     */
+    public function setInputMask($inputMask)
+    {
+        $this->_inputMask = $inputMask;
+    }
+
+    /**
+     * Get the input mask
+     *
+     * @return string
+     */
+    public function getInputMask()
+    {
+        return $this->_inputMask;
     }
 
     /**
@@ -1408,6 +1434,10 @@ class iPhorm_Element
 
         if (array_key_exists('podio_data_type', $config)) {
             $this->setPodioDataType($config['podio_data_type']);
+        }
+
+        if (array_key_exists('input_mask', $config)) {
+            $this->setInputMask($config['input_mask']);
         }
 
         if (array_key_exists('description', $config)) {
