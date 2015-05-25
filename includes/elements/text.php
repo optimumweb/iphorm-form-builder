@@ -11,6 +11,13 @@
         <?php endif; ?>
         <div class="iphorm-input-wrap iphorm-input-wrap-text <?php echo $name; ?>-input-wrap" <?php echo $element->getCss('inner', $leftMarginCss); ?>>
             <input class="iphorm-element-text <?php echo $tooltipInputClass; ?> <?php echo $name; ?> <?php echo $element->getInputMask() ? 'input-mask' : ''; ?>" id="<?php echo $uniqueId; ?>" type="text" name="<?php echo $name; ?>" <?php echo $tooltipTitle; ?> value="<?php echo esc_attr($element->getValue()); ?>" data-mask="<?php echo esc_attr($element->getInputMask()); ?>" <?php echo $element->getCss('input'); ?> />
+            <script type="text/javascript">
+                <!--
+                jQuery(document).ready(function ($) {
+                    iPhorm.instance.addInputMask();
+                });
+                //-->
+            </script>
             <?php include IPHORM_INCLUDES_DIR . '/elements/_description.php'; ?>
         </div>
         <?php include IPHORM_INCLUDES_DIR . '/elements/_errors.php'; ?>

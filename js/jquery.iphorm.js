@@ -636,7 +636,7 @@
          */
         _this.addInputMask = function () {
             if ( $(this).data('mask') ) {
-                $(this).mask($(this).data('mask').toString(), { placeholder: $(this).attr('placeholder') });
+                $(this).mask($(this).data('mask').toString(), { placeholder: $(this).attr('placeholder') }).addClass('input-masked');
             }
         };
         
