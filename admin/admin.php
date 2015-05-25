@@ -319,7 +319,6 @@ function iphorm_form_builder_enqueue_scripts()
     wp_enqueue_script('jquery-colorpicker', IPHORM_ADMIN_URL . '/js/colorpicker/js/colorpicker.js', array('jquery'), '23.05.2009', true);
     wp_enqueue_script('qtip', IPHORM_ADMIN_URL . '/js/qtip2/jquery.qtip.min.js', array('jquery'), 'nightly', true);
     wp_enqueue_script('jquery-tools-tabs', IPHORM_ADMIN_URL . '/js/jquery.tools.tabs.min.js', array('jquery'), '1.2.6', true);
-    wp_enqueue_script('jquery-input-mask', IPHORM_ADMIN_URL . '/js/jquery.inputmask.min.js', array('jquery'), '1.4.0', true);
     wp_enqueue_script('iphorm-form-builder', IPHORM_ADMIN_URL . '/js/iphorm-form-builder.js', array('jquery', 'jquery-ui-sortable', 'jquery-ui-draggable', 'jquery-color', 'json2', 'thickbox'), IPHORM_VERSION, true);
 
     wp_localize_script('iphorm-form-builder', 'iphormL10n', iphorm_admin_l10n());

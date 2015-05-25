@@ -1476,6 +1476,8 @@ function iphorm_enqueue_scripts()
         wp_enqueue_script('infield-label', IPHORM_PLUGIN_URL . '/js/jquery.infieldlabel.min.js', array('jquery'), '0.1', true);
     }
 
+    wp_enqueue_script('jquery-input-mask', IPHORM_PLUGIN_URL . '/js/jquery.inputmask.min.js', array('jquery'), '1.4.0', true);
+
     $activeDatepickers = maybe_unserialize(get_option('iphorm_active_datepickers'));
     if (!get_option('iphorm_disable_jqueryui_output') && (is_array($activeDatepickers) && count($activeDatepickers))) {
         wp_enqueue_script('iphorm-jquery-ui-core', IPHORM_PLUGIN_URL . '/js/jqueryui/jquery.ui.core.min.js', array('jquery'), '1.8.16', true);
