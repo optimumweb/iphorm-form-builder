@@ -44,6 +44,7 @@ $helpUrl = iphorm_help_link('element-text');
                         <?php include 'settings/default-value.php'; ?>
                         <?php include 'settings/admin-label.php'; ?>
                         <?php include 'settings/podio-id.php'; ?>
+                        <?php include 'settings/input-mask.php'; ?>
                         <?php include 'settings/required-message.php'; ?>
                         <?php include 'settings/hide-from-email.php'; ?>
                         <?php include 'settings/save-to-database.php'; ?>
