@@ -630,6 +630,15 @@
 				});
 			}
         };
+
+        /**
+         * Applies the input masks
+         */
+        _this.addInputMask = function () {
+            if ( $(this).data('mask') ) {
+                $(this).mask($(this).data('mask').toString(), { placeholder: $(this).attr('placeholder') });
+            }
+        };
         
         /**
          * Center the fancybox inside the viewport
