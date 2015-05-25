@@ -630,15 +630,6 @@
 				});
 			}
         };
-
-        /**
-         * Applies the input masks
-         */
-        _this.addInputMask = function () {
-            if ( $(this).data('mask') ) {
-                $(this).mask($(this).data('mask').toString(), { placeholder: $(this).attr('placeholder') }).addClass('input-masked');
-            }
-        };
         
         /**
          * Center the fancybox inside the viewport
@@ -783,4 +774,10 @@
 	    'error.png',
 	    'success.png'
 	], iphormL10n.plugin_url + '/images/');
+
+    $('.input-mask').each(function() {
+        if ( $(this).data('mask') ) {
+            $(this).mask($(this).data('mask').toString(), { placeholder: $(this).attr('placeholder') }).addClass('input-masked');
+        }
+    });
 })(jQuery); // End jQuery wrapper
