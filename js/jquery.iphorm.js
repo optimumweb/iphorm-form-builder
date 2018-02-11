@@ -12,7 +12,7 @@
 		uploaders = [],
 		uploadQueue = [],
 		swfUploadError = false,
-		supportsSwfUpload = swfobject && swfobject.hasFlashPlayerVersion('9.0.28'),
+		supportsSwfUpload = typeof swfobject !== 'undefined' && swfobject.hasFlashPlayerVersion('9.0.28'),
 		$successMessage = $('.iphorm-success-message', $form),
 		$loadingSpinner = $('.iphorm-loading-wrap', $form);
 		
