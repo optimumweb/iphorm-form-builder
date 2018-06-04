@@ -172,7 +172,7 @@ $requiredText = $form->getRequiredText();
                         'event' => $form->getTooltipEvent()
                     ));
 
-                    foreach ($elemens as $key => $element) {
+                    foreach ($elements as $key => $element) {
                         $elementClass = get_class($element);
 
                         // Label data
