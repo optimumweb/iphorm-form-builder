@@ -1391,7 +1391,7 @@
 		showSettings: function (id) {
 			var $elementWrap = $('#ifb-element-wrap-'+id);
 			
-			if ($elementWrap.size()) {
+			if ($elementWrap.length) {
 				$elementWrap.find('.ifb-element-settings-inner').show();
 				$elementWrap.find('.ifb-element-settings').fadeIn(500);
 				$elementWrap.find('.ifb-settings-link').hide();
@@ -1403,7 +1403,7 @@
 		hideSettings: function (id) {
 			var $elementWrap = $('#ifb-element-wrap-'+id);
 			
-			if ($elementWrap.size()) {
+			if ($elementWrap.length) {
 				$elementWrap.find('.ifb-element-settings-inner').eq($('#ifb-element-settings-tabs-'+id).data('tabs').getIndex()).slideUp(400, function () {
 					$elementWrap.find('.ifb-element-settings').hide();
 					$elementWrap.find('.ifb-close-link').hide();
@@ -1573,7 +1573,7 @@
 		},
 		
 		removeOption: function (button, element) {
-			if ($('li', $(button).parent().parent()).size() > 1) {
+			if ($('li', $(button).parent().parent()).length > 1) {
 				$(button).parent().remove();
 			} else {
 				iPhorm.addMessage(iphormL10n.at_least_one_option, 'error', 3);
@@ -1803,7 +1803,7 @@
 		showFilterSettings: function (elementId, filterId) {
 			var $filterWrap = $('#ifb-filter-wrap-'+elementId+'-'+filterId);
 			
-			if ($filterWrap.size()) {
+			if ($filterWrap.length) {
 				$filterWrap.find('.ifb-filter-settings').slideDown();
 				$filterWrap.find('.ifb-filter-settings-link').hide();
 				$filterWrap.find('.ifb-filter-close-link').show();
@@ -1814,7 +1814,7 @@
 		hideFilterSettings: function (elementId, filterId) {
 			var $filterWrap = $('#ifb-filter-wrap-'+elementId+'-'+filterId);
 			
-			if ($filterWrap.size()) {
+			if ($filterWrap.length) {
 				$filterWrap.find('.ifb-filter-settings').slideUp();
 				$filterWrap.find('.ifb-filter-close-link').hide();
 				$filterWrap.find('.ifb-filter-settings-link').show();
@@ -1916,7 +1916,7 @@
 		showValidatorSettings: function (elementId, validatorId) {
 			var $validatorWrap = $('#ifb-validator-wrap-'+elementId+'-'+validatorId);
 			
-			if ($validatorWrap.size()) {
+			if ($validatorWrap.length) {
 				$validatorWrap.find('.ifb-validator-settings').slideDown();
 				$validatorWrap.find('.ifb-validator-settings-link').hide();
 				$validatorWrap.find('.ifb-validator-close-link').show();
@@ -1927,7 +1927,7 @@
 		hideValidatorSettings: function (elementId, validatorId) {
 			var $validatorWrap = $('#ifb-validator-wrap-'+elementId+'-'+validatorId);
 			
-			if ($validatorWrap.size()) {
+			if ($validatorWrap.length) {
 				$validatorWrap.find('.ifb-validator-settings').slideUp();
 				$validatorWrap.find('.ifb-validator-close-link').hide();
 				$validatorWrap.find('.ifb-validator-settings-link').show();
@@ -2048,7 +2048,7 @@
 		showStyleSettings: function (elementId, styleId) {
 			var $styleWrap = $('#ifb-style-wrap-'+elementId+'-'+styleId);
 			
-			if ($styleWrap.size()) {
+			if ($styleWrap.length) {
 				$styleWrap.find('.ifb-style-settings').slideDown();
 				$styleWrap.find('.ifb-style-settings-link').hide();
 				$styleWrap.find('.ifb-style-close-link').show();
@@ -2059,7 +2059,7 @@
 		hideStyleSettings: function (elementId, styleId) {
 			var $styleWrap = $('#ifb-style-wrap-'+elementId+'-'+styleId);
 			
-			if ($styleWrap.size()) {
+			if ($styleWrap.length) {
 				$styleWrap.find('.ifb-style-settings').slideUp();
 				$styleWrap.find('.ifb-style-close-link').hide();
 				$styleWrap.find('.ifb-style-settings-link').show();
@@ -2159,7 +2159,7 @@
 		showGlobalStyleSettings: function (styleId) {
 			var $styleWrap = $('#ifb-global-style-wrap-' + styleId);
 			
-			if ($styleWrap.size()) {
+			if ($styleWrap.length) {
 				$styleWrap.find('.ifb-style-settings').slideDown();
 				$styleWrap.find('.ifb-style-settings-link').hide();
 				$styleWrap.find('.ifb-style-close-link').show();
@@ -2170,7 +2170,7 @@
 		hideGlobalStyleSettings: function (styleId) {
 			var $styleWrap = $('#ifb-global-style-wrap-' + styleId);
 			
-			if ($styleWrap.size()) {
+			if ($styleWrap.length) {
 				$styleWrap.find('.ifb-style-settings').slideUp();
 				$styleWrap.find('.ifb-style-close-link').hide();
 				$styleWrap.find('.ifb-style-settings-link').show();
@@ -2236,7 +2236,7 @@
 		
 		removeRecipientField: function (element) {
 			var $recipientList = $(element).parent().parent();
-			if ($recipientList.children().size() > 1) { 
+			if ($recipientList.children().length > 1) {
 				$(element).parent().remove();
 			}
 		},
@@ -2377,7 +2377,7 @@
 	    		$selects.append($timeOpts);
 	    	}
 	    	
-	    	if (!($autoreplyRecipient.children('option').size() > 0)) {
+	    	if (!($autoreplyRecipient.children('option').length > 0)) {
 	    		$('.ifb-show-if-email-element').hide();
 	    		$('.ifb-show-if-no-email-element').show();
 	    	} else {
