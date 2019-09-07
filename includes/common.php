@@ -838,7 +838,7 @@ function iphorm_process_form()
 
                     PodioItem::create($podio_app_id, array('fields' => $podio_fields));
                 } catch (Exception $e) {
-                    wpbp_error_log("Podio Error - " . $e->getMessage(), true);
+                    error_log("Podio Error - " . $e->getMessage());
                 }
             }
 
@@ -862,7 +862,7 @@ function iphorm_process_form()
                         }
                     }
                 } catch (Exception $e) {
-                    wpbp_error_log("Twilio Error - " . $e->getMessage(), true);
+                    error_log("Twilio Error - " . $e->getMessage());
                 }
             }
 
