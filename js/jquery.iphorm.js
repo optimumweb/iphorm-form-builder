@@ -381,7 +381,7 @@
 							$('.iphorm-errors-wrap', $form).fadeIn(1000).show();
 							
 							// Scroll to the first error
-							if ($errors.size()) {
+							if ($errors.length) {
 								var $targetError = $errors.get(0);
 								if (!isScrolledIntoView($targetError) && $.isFunction($.smoothScroll)) {
 									$.smoothScroll({
