@@ -767,13 +767,15 @@
 	}; // End $.fn.iPhorm
 
 	// Preload the images in the base theme
-	window.iPhorm.preload([
-	    'file-upload-tick.png',
-	    'captcha-refresh-icon.png',
-	    'default-loading.gif',
-	    'error.png',
-	    'success.png'
-	], iphormL10n.plugin_url + '/images/');
+	if (typeof window.iPhorm === 'object') {
+		window.iPhorm.preload([
+			'file-upload-tick.png',
+			'captcha-refresh-icon.png',
+			'default-loading.gif',
+			'error.png',
+			'success.png'
+		], iphormL10n.plugin_url + '/images/');
+	}
 
     $(document).ready(function() {
         $('.input-mask').each(function() {
